@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zaied-bayati.github.io/ballot-atlas/sitemap.xml
+Sitemap: https://ballotatlas.org/sitemap.xml
