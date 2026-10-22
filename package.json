@@ -1,0 +1,14 @@
+{
+  "name": "ballot-atlas",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "research": "node agent/research.mjs",
+    "research:dry": "node agent/research.mjs --dry-run",
+    "test": "node --test agent/validate.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.131.0"
+  }
+}

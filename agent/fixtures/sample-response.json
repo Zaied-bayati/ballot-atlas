@@ -1,0 +1,29 @@
+{
+  "_comment": "Saved shape of one agent response, used by --dry-run and the tests. Not real research output.",
+  "usage": { "input_tokens": 0, "output_tokens": 0 },
+  "blocks": [
+    { "type": "server_tool_use", "name": "web_search", "input": { "query": "Ken Paxton Senate 2026 positions" } },
+    { "type": "web_search_tool_result", "content": [
+      { "type": "web_search_result", "title": "Texas U.S. Senate 2026: Paxton, Talarico and Brown on the issues", "url": "https://www.texastribune.org/2026/10/13/talarico-paxton-texas-us-senate-2026-election-q-and-a/", "page_age": "2026-10-13", "encrypted_content": "" },
+      { "type": "web_search_result", "title": "Ken Paxton says he would debate James Talarico", "url": "https://www.washingtontimes.com/news/2026/oct/22/ken-paxton-says-would-debate-james-talarico-texas-senate-race-terms/?utm_source=x", "page_age": "2026-10-22", "encrypted_content": "" }
+    ] }
+  ],
+  "output": {
+    "found_profile": true,
+    "occupation": "Texas Attorney General",
+    "summary": "Attorney general since 2015 after serving in the Texas House and Texas Senate. Won the May 26 Republican runoff for U.S. Senate.",
+    "positions": [
+      { "topic": "Gas tax", "stance": "Supports permanently repealing the federal gas tax.", "source_url": "https://www.texastribune.org/2026/10/13/talarico-paxton-texas-us-senate-2026-election-q-and-a/" },
+      { "topic": "Tariffs", "stance": "Backed tariffs as a way to pressure other nations.", "source_url": "https://example.com/never-searched" }
+    ],
+    "history": ["Texas Attorney General, 2015–present"],
+    "news": [
+      { "date": "2026-10-22", "outlet": "Washington Times", "headline": "Ken Paxton says he would debate James Talarico in Texas Senate race 'if the terms were right'", "url": "https://www.washingtontimes.com/news/2026/oct/22/ken-paxton-says-would-debate-james-talarico-texas-senate-race-terms/" },
+      { "date": "2026-05-26", "outlet": "Texas Tribune", "headline": "Ken Paxton defeats John Cornyn in Texas U.S. Senate GOP runoff", "url": "https://www.texastribune.org/2026/05/26/texas-john-cornyn-ken-paxton-us-senate-republican-primary-runoff/" }
+    ],
+    "sources": [
+      { "label": "Texas Tribune: Paxton, Talarico and Brown on the issues", "url": "https://www.texastribune.org/2026/10/13/talarico-paxton-texas-us-senate-2026-election-q-and-a/" }
+    ],
+    "notes_for_reviewer": ""
+  }
+}

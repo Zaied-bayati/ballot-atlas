@@ -1,0 +1,3 @@
+node_modules/
+data/*.preview.json
+data/runs/*-dry.json

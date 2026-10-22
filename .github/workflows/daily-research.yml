@@ -1,0 +1,51 @@
+name: Daily candidate research
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 6 a.m. Central every day
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Most candidates to research this run"
+        default: "20"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Research candidates
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEARCH_MAX: ${{ github.event.inputs.max || '20' }}
+        run: node agent/research.mjs
+      - run: node build.js
+      - name: Save updates
+        run: |
+          git config user.name "ballot-atlas-research"
+          git config user.email "ballot-atlas-research@users.noreply.github.com"
+          git add data dist
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily research $(date -u +%F)"
+          git push
+
+  # Pushes made with the workflow's own token don't trigger other workflows, so publish here.
+  publish:
+    needs: research
+    uses: ./.github/workflows/deploy-site.yml
