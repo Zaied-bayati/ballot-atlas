@@ -61,3 +61,11 @@ test("never-profiled candidates are researched first", () => {
   assert.equal(jobs.length, 5);
   for (const j of jobs) assert.equal(data.candidates[j.id].summary, "");
 });
+
+test("profiles researched in the last week are skipped", () => {
+  const data = JSON.parse(fs.readFileSync(new URL("../data/ballot.json", import.meta.url)));
+  const ids = Object.keys(data.candidates);
+  for (const id of ids) data.candidates[id].lastResearched = "2026-10-20";
+  assert.equal(pickCandidates(data, "48", 1e6, "2026-10-26").length, 0);
+  assert.ok(pickCandidates(data, "48", 1e6, "2026-10-27").length > 0);
+});

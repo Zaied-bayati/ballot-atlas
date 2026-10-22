@@ -1,6 +1,6 @@
 # Research agent
 
-Runs once a day and keeps candidate profiles current. It never changes who is on the ballot; it only updates each candidate's background, stances, news and sources.
+Runs once a day and keeps candidate profiles current. It never changes who is on the ballot; it only updates each candidate's background, stances, news and sources. Each profile is refreshed at most once a week, so after the first pass a daily run only picks up candidates whose profile is 7 or more days old.
 
 ## What one run does
 

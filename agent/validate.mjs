@@ -108,6 +108,7 @@ export function mergeProfile(candidate, profile, today) {
 
 // Picks which candidates to research this run: never-profiled first, then the most stale, weighted by race.
 const RACE_WEIGHT = { federal: 3, state: 2, county: 2, courts: 1 };
+export const REFRESH_DAYS = 7; // a profile is refreshed at most once a week
 export function pickCandidates(data, stateId, max, today) {
   const st = data.states[stateId];
   const races = [...st.races.map(r => ({ r, place: st.name })),
@@ -118,7 +119,7 @@ export function pickCandidates(data, stateId, max, today) {
     if (seen.has(id)) continue; seen.add(id);
     const c = data.candidates[id];
     const stale = c.lastResearched ? daysBetween(c.lastResearched, today) : 999;
-    if (stale < 1) continue;
+    if (stale < REFRESH_DAYS) continue;
     const unprofiled = !c.summary && !c.positions.length;
     jobs.push({ id, race: r, place, score: (unprofiled ? 1000 : 0) + stale * (RACE_WEIGHT[r.level] || 1) });
   }
