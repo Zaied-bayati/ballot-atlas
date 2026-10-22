@@ -24,7 +24,8 @@ const opt = (name, dflt) => { const i = args.indexOf(name); return i >= 0 ? args
 const DRY = flag("--dry-run");
 const MAX = Number(opt("--max", process.env.RESEARCH_MAX || 20));
 const ONLY = opt("--only", null);
-const EFFORT = process.env.RESEARCH_EFFORT || "medium";
+const EFFORT = process.env.RESEARCH_EFFORT || "low";
+const SEARCHES = 8, FETCHES = 5, PAGE_TOKENS = 6000;
 const today = opt("--today", new Date().toISOString().slice(0, 10));
 
 const readJson = (p, dflt) => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return dflt; } };
@@ -46,11 +47,12 @@ async function askClaude(client, prompt) {
       max_tokens: 32000,
       betas: ["server-side-fallback-2026-07-01"],
       fallbacks: "default",
+      cache_control: { type: "ephemeral" },
       system: SYSTEM_PROMPT,
       output_config: { effort: EFFORT, format: { type: "json_schema", schema: PROFILE_SCHEMA } },
       tools: [
-        { type: "web_search_20260209", name: "web_search", max_uses: 8 },
-        { type: "web_fetch_20260209", name: "web_fetch", max_uses: 6 }
+        { type: "web_search_20260209", name: "web_search", max_uses: SEARCHES },
+        { type: "web_fetch_20260209", name: "web_fetch", max_uses: FETCHES, max_content_tokens: PAGE_TOKENS }
       ],
       messages
     }).finalMessage();
@@ -68,6 +70,17 @@ async function askClaude(client, prompt) {
   return { error: "Too many paused turns", blocks: all, usage };
 }
 
+// What the agent actually did: tool calls, tool errors and continuations, for the run log.
+function activity(blocks) {
+  const a = { searches: 0, fetches: 0, toolErrors: [] };
+  for (const b of blocks) {
+    if (b.type === "server_tool_use" && b.name === "web_search") a.searches++;
+    if (b.type === "server_tool_use" && b.name === "web_fetch") a.fetches++;
+    if (/_tool_result$/.test(b.type) && b.content && !Array.isArray(b.content) && b.content.error_code) a.toolErrors.push(`${b.type.replace("_tool_result", "")}: ${b.content.error_code}`);
+  }
+  return a;
+}
+
 async function main() {
   const data = readJson(DATA);
   const queue = readJson(QUEUE, []);
@@ -83,19 +96,20 @@ async function main() {
     client = new Anthropic();
   }
 
-  const log = { date: today, model: MODEL, effort: EFFORT, dryRun: DRY, results: [], costUSD: 0 };
+  const log = { date: today, model: MODEL, effort: EFFORT, limits: { searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS }, dryRun: DRY, results: [], costUSD: 0 };
   for (const job of jobs) {
     const c = data.candidates[job.id];
     const opponents = job.race.candidates.filter(x => x !== job.id).map(x => data.candidates[x]);
-    const prompt = userPrompt({ candidate: c, race: job.race, place: job.place, opponents, today });
+    const prompt = userPrompt({ candidate: c, race: job.race, place: job.place, opponents, today, searches: SEARCHES, fetches: FETCHES });
 
     const res = DRY ? readJson(path.join(here, "fixtures", "sample-response.json")) : await askClaude(client, prompt);
     const spent = res.usage ? cost(res.usage) : 0;
     log.costUSD += spent;
+    const detail = { costUSD: +spent.toFixed(3), usage: res.usage, ...activity(res.blocks || []) };
 
     if (res.error) {
       queue.push({ date: today, candidate: job.id, name: c.name, reason: res.error });
-      log.results.push({ id: job.id, status: "error", reason: res.error });
+      log.results.push({ id: job.id, status: "error", reason: res.error, ...detail });
       console.log(`✗ ${c.name}: ${res.error}`);
       continue;
     }
@@ -110,13 +124,15 @@ async function main() {
     if (!check.ok || check.problems.length || check.notes) {
       queue.push({ date: today, candidate: job.id, name: c.name, applied: check.ok, held: check.held, problems: check.problems, notes: check.notes, proposed: check.ok ? undefined : check.profile });
     }
-    log.results.push({ id: job.id, status: check.ok ? "updated" : "held", problems: check.problems.length, costUSD: +spent.toFixed(3) });
+    log.results.push({ id: job.id, status: check.ok ? "updated" : "held", problems: check.problems.length, stances: check.profile.positions.length, news: check.profile.news.length, sources: check.profile.sources.length, ...detail });
   }
 
   data.meta.lastResearchRun = new Date().toISOString();
   writeJson(DRY ? path.join(root, "data", "ballot.preview.json") : DATA, data);
   writeJson(DRY ? path.join(root, "data", "review-queue.preview.json") : QUEUE, queue);
-  writeJson(path.join(root, "data", "runs", `${today}${DRY ? "-dry" : ""}.json`), { ...log, costUSD: +log.costUSD.toFixed(2) });
+  let runFile = path.join(root, "data", "runs", `${today}${DRY ? "-dry" : ""}.json`);
+  for (let n = 2; !DRY && fs.existsSync(runFile); n++) runFile = path.join(root, "data", "runs", `${today}-${n}.json`);
+  writeJson(runFile, { ...log, costUSD: +log.costUSD.toFixed(2) });
   console.log(`Done: ${log.results.filter(r => r.status === "updated").length} updated, ${log.results.filter(r => r.status !== "updated").length} held or failed, about $${log.costUSD.toFixed(2)}.`);
 }
 

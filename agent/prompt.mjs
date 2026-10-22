@@ -63,7 +63,7 @@ export const PROFILE_SCHEMA = {
   }
 };
 
-export function userPrompt({ candidate, race, place, opponents, today }) {
+export function userPrompt({ candidate, race, place, opponents, today, searches = 8, fetches = 5 }) {
   const current = {
     occupation: candidate.occupation, summary: candidate.summary,
     positions: candidate.positions, history: candidate.history
@@ -75,6 +75,7 @@ export function userPrompt({ candidate, race, place, opponents, today }) {
     opponents.length ? `Other candidates in this race: ${opponents.map(o => `${o.name} (${o.party})`).join("; ")}.` : "",
     opponents.some(o => o.positions.length)
       ? `Topics already covered for other candidates: ${[...new Set(opponents.flatMap(o => o.positions.map(p => p.topic)))].join("; ")}.` : "",
+    `Tool budget for this request: up to ${searches} web searches and ${fetches} page fetches. Plan for it: start with one broad search for the candidate's own issues page or questionnaire answers, fetch the one or two most useful pages, then search for recent news.`,
     `Our current profile (update it; keep facts that are still accurate, correct anything outdated):`,
     JSON.stringify(current, null, 2)
   ].filter(Boolean).join("\n\n");

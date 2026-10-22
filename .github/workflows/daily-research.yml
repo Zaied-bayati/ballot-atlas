@@ -7,7 +7,10 @@ on:
     inputs:
       max:
         description: "Most candidates to research this run"
-        default: "20"
+        default: "3"
+      effort:
+        description: "Research effort: low, medium or high"
+        default: "low"
 
 permissions:
   contents: write
@@ -34,6 +37,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEARCH_MAX: ${{ github.event.inputs.max || '3' }}
+          RESEARCH_EFFORT: ${{ github.event.inputs.effort || 'low' }}
         run: node agent/research.mjs
       - run: node build.js
       - name: Save updates
