@@ -4,7 +4,7 @@ Runs once a day and keeps candidate profiles current. It never changes who is on
 
 ## What one run does
 
-1. Picks up to `RESEARCH_MAX` candidates (3 while costs are being tuned): never-profiled candidates first, then the ones researched longest ago, with federal races weighted highest.
+1. Picks up to `RESEARCH_MAX` candidates (20 by default): never-profiled candidates first, then the ones researched longest ago, with federal races weighted highest.
 2. For each one, asks Claude (`claude-opus-5-5`) to search the web and return a profile in a fixed JSON format. The instructions are in `prompt.mjs`.
 3. Checks the result in code (`validate.mjs`) before anything reaches the site:
    - Every stance, news link and source must be a page Claude actually saw in this run. Anything else is dropped.
@@ -28,7 +28,7 @@ The daily schedule is `.github/workflows/daily-research.yml`. It needs a reposit
 
 ## Cost
 
-Each run's estimated cost is logged in `data/runs/<date>.json`. The first live run (medium effort, no page-length cap) cost about $1 per candidate. Runs now default to low effort, cap each fetched page at 6,000 tokens, cache the instructions, and log searches, fetches, tool errors and token usage per candidate so the cost can be traced. Raise `RESEARCH_EFFORT` if profiles come back thin.
+Each run's estimated cost is logged in `data/runs/<date>.json`. The first live run (medium effort, no page-length cap) cost about $1 per candidate. Runs now default to low effort, cap each fetched page at 6,000 tokens, cache the instructions, and log searches, fetches, tool errors and token usage per candidate so the cost can be traced. With these settings a test run cost about $0.41 per candidate. Raise `RESEARCH_EFFORT` if profiles come back thin.
 
 ## Reviewing held updates
 
