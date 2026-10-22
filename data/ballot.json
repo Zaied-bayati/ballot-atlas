@@ -1,10 +1,433 @@
 {
   "meta": {
     "sample": false,
-    "lastResearchRun": "2026-10-22T19:59:04.707Z",
+    "lastResearchRun": "2026-10-22T21:23:34.274Z",
     "pilotStateFips": "48"
   },
   "states": {
+    "12": {
+      "name": "Florida",
+      "officialSite": {
+        "label": "vote.gov",
+        "url": "https://vote.gov"
+      },
+      "dates": [
+        {
+          "id": "reg",
+          "label": "Voter registration deadline",
+          "start": "2026-10-05",
+          "note": "Last day to register to vote for the November 3, 2026 general election."
+        },
+        {
+          "id": "mail",
+          "label": "Last day to request a mail ballot",
+          "start": "2026-10-22",
+          "note": "Requests to have a ballot mailed are due by 5 p.m. Mail ballots must be received by 7 p.m. on Election Day."
+        },
+        {
+          "id": "early",
+          "label": "Early voting (mandatory statewide period)",
+          "start": "2026-10-24",
+          "end": "2026-10-31",
+          "note": "Counties may add optional early voting days. Some counties, such as Pinellas and Palm Beach, hold early voting from October 19 to November 1. Check with your county Supervisor of Elections for sites and hours."
+        },
+        {
+          "id": "election",
+          "label": "Election Day",
+          "start": "2026-11-03",
+          "note": "Polls are open 7 a.m. to 7 p.m. local time. Voters must vote at their assigned precinct."
+        }
+      ],
+      "datesSource": {
+        "label": "Florida Division of Elections – Election Dates",
+        "url": "https://dos.fl.gov/elections/for-voters/election-dates/"
+      },
+      "races": [
+        {
+          "id": "fl-united-states-senator",
+          "level": "federal",
+          "office": "United States Senator",
+          "seats": 1,
+          "about": "This is a special election to fill the rest of the term that Marco Rubio won in 2022, which ends in January 2029. Ashley Moody was appointed to the seat in January 2025 and is running to keep it.",
+          "candidates": [
+            "fl-united-states-senator-ashley-moody",
+            "fl-united-states-senator-angie-nixon",
+            "fl-united-states-senator-neil-j-gillespie"
+          ],
+          "verify": "Names and party codes come from the Division of Elections qualified-candidate list. The exact party wording printed on county ballots was not checked against a sample ballot.",
+          "source": {
+            "label": "dos.elections.myflorida.com",
+            "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN"
+          }
+        },
+        {
+          "id": "fl-governor-and-lieutenant-governor",
+          "level": "state",
+          "office": "Governor and Lieutenant Governor",
+          "seats": 1,
+          "about": "This is an open seat for a four-year term because Governor Ron DeSantis is term-limited. Candidates run on joint tickets. The running mates are: Donalds–Bryan Avila, Jolly–Gwen Graham, Jewett–Nicole Skelly, Abrams–Joe Van Vactor, Burkett–Ruben A. Coto, Datto–Juan Santana, Dimanche–Benjiman Rojas, and Russo–Rachel Rodriguez.",
+          "candidates": [
+            "fl-governor-and-lieutenant-governor-byron-donalds",
+            "fl-governor-and-lieutenant-governor-david-jolly",
+            "fl-governor-and-lieutenant-governor-scott-eckhard-jewett",
+            "fl-governor-and-lieutenant-governor-dean-ocean-abrams",
+            "fl-governor-and-lieutenant-governor-charles-burkett",
+            "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto",
+            "fl-governor-and-lieutenant-governor-moliere-moe-dimanche",
+            "fl-governor-and-lieutenant-governor-frank-j-russo"
+          ],
+          "verify": "Two write-in tickets were left out, following our write-in rule: Kathy Anderson/Daniel Nokovich and Erik Morris/LeRoy Alaways. One third-party site (flvotersguide.org) lists a Desmond Meade among the candidates, but he does not appear on the official Division of Elections list, so he was not included. Burkett appears as 'Charles' in state records and as 'Charles W. Burkett' elsewhere. Confirm the printed name and the order on the ballot against a county sample ballot.",
+          "source": {
+            "label": "dos.elections.myflorida.com",
+            "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN&OfficeCode=GOV"
+          }
+        }
+      ],
+      "racesSource": {
+        "label": "Florida Division of Elections – Candidate Listing for 2026 General Election",
+        "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?elecid=20261103-GEN"
+      },
+      "measures": [],
+      "measuresNote": "",
+      "counties": {},
+      "abbr": "FL",
+      "coverageNote": "Only the U.S. Senate and governor races are loaded so far. Other statewide offices, ballot measures, U.S. House and local races aren't loaded yet. Check your sample ballot for the full list."
+    },
+    "13": {
+      "name": "Georgia",
+      "officialSite": {
+        "label": "Georgia Secretary of State – Elections Division",
+        "url": "https://sos.ga.gov/november-3-2026-general-election"
+      },
+      "dates": [
+        {
+          "id": "reg",
+          "label": "Voter registration deadline",
+          "start": "2026-10-05",
+          "note": "Last day to register or update your registration for the November 3 general election."
+        },
+        {
+          "id": "early",
+          "label": "In-person early (advance) voting",
+          "start": "2026-10-13",
+          "end": "2026-10-30",
+          "note": "Early voting includes two Saturdays. Counties may also offer Sunday voting. You can vote at any early voting site in your county."
+        },
+        {
+          "id": "mail",
+          "label": "Last day to request an absentee-by-mail ballot",
+          "start": "2026-10-23",
+          "note": "Requests opened August 17."
+        },
+        {
+          "id": "election",
+          "label": "Election Day",
+          "start": "2026-11-03",
+          "note": "Polls in Georgia are normally open 7 a.m. to 7 p.m. local time, but no page checked for this request stated the hours. If no candidate gets a majority, there is a runoff on December 1, 2026."
+        }
+      ],
+      "datesSource": {
+        "label": "Georgia Secretary of State – November 3, 2026 General Election",
+        "url": "https://sos.ga.gov/november-3-2026-general-election"
+      },
+      "races": [
+        {
+          "id": "ga-united-states-senate",
+          "level": "federal",
+          "office": "United States Senate",
+          "seats": 1,
+          "about": "One seat with a six-year term. Democratic incumbent Jon Ossoff is running for a second term, and a runoff is held on December 1 if no candidate wins a majority.",
+          "candidates": [
+            "ga-united-states-senate-jon-ossoff",
+            "ga-united-states-senate-mike-collins",
+            "ga-united-states-senate-allen-buckley"
+          ],
+          "verify": "These names did not come from an official certified list. BallotReady lists the Republican as Michael \"Mike\" A. Collins Jr., so check how his name is printed on the official sample ballot. A local news report (albanyherald.com) and BallotReady both list Libertarian Allen Buckley, but WABE lists only the Democratic and Republican candidates. One market site named several independents, but at least two of them (Elbert Bartell, Christina Clement) are on the state's write-in list, so they were left out. Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "ballotready.org",
+            "url": "https://www.ballotready.org/elections/georgia-general-election-e3320b65-8ec9-4bc8-bbd6-75e652ff2980"
+          }
+        },
+        {
+          "id": "ga-governor",
+          "level": "state",
+          "office": "Governor",
+          "seats": 1,
+          "about": "Open seat with a four-year term, because Republican Governor Brian Kemp cannot run for a third term in a row. The lieutenant governor is elected separately, not on a joint ticket.",
+          "candidates": [
+            "ga-governor-keisha-lance-bottoms",
+            "ga-governor-rick-jackson"
+          ],
+          "verify": "Ballotpedia, WABE and BallotReady all list only these two candidates. Ballotpedia lists Libertarian Chase Oliver as withdrawn or disqualified. Check the official sample ballot to confirm. Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "ballotpedia.org",
+            "url": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026"
+          }
+        }
+      ],
+      "racesSource": {
+        "label": "Ballotpedia and BallotReady – Georgia 2026 general election",
+        "url": "https://ballotpedia.org/Georgia_gubernatorial_election,_2026"
+      },
+      "measures": [],
+      "measuresNote": "",
+      "counties": {},
+      "abbr": "GA",
+      "coverageNote": "Only the U.S. Senate and governor races are loaded so far. Other statewide offices, ballot measures, U.S. House and local races aren't loaded yet. Check your sample ballot for the full list."
+    },
+    "17": {
+      "name": "Illinois",
+      "officialSite": {
+        "label": "vote.gov",
+        "url": "https://vote.gov"
+      },
+      "dates": [
+        {
+          "id": "early",
+          "label": "Early voting",
+          "start": "2026-09-24",
+          "end": "2026-11-02",
+          "note": "Early voting begins statewide on September 24. Hours and locations are set by each county or city election authority."
+        },
+        {
+          "id": "reg",
+          "label": "Voter registration deadline",
+          "start": "2026-10-06",
+          "note": "October 6 is the last day for regular registration and the postmark deadline for mail registration. Online registration closes 2026-10-18. Grace-period registration, including same-day registration, is open from 2026-10-07 through Election Day at designated sites. You need two forms of ID to register in person."
+        },
+        {
+          "id": "mail",
+          "label": "Last day to request a mail ballot",
+          "start": "2026-10-29",
+          "note": "Mail and online applications must be received by October 29. You can apply in person at your election authority through 2026-11-02. Ballots must be postmarked by 2026-11-03 and received by 2026-11-17."
+        },
+        {
+          "id": "election",
+          "label": "Election Day",
+          "start": "2026-11-03",
+          "note": "Polls are open 6:00 a.m. to 7:00 p.m."
+        }
+      ],
+      "datesSource": {
+        "label": "Illinois Policy Institute, 'How do I vote in Illinois?' 2026 dates and deadlines (checked against VOTE411 Illinois)",
+        "url": "https://www.illinoispolicy.org/how-to-vote-illinois-2026/"
+      },
+      "races": [
+        {
+          "id": "il-united-states-senator",
+          "level": "federal",
+          "office": "United States Senator",
+          "seats": 1,
+          "about": "This is an open seat for a six-year term because incumbent Democrat Dick Durbin is not running again.",
+          "candidates": [
+            "il-united-states-senator-juliana-stratton",
+            "il-united-states-senator-don-tracy",
+            "il-united-states-senator-whitfield-harrington-jr"
+          ],
+          "verify": "The official certified list was not checked. CBS Chicago, ABC7 Chicago and BallotReady list three candidates: Stratton, Tracy and Harrington. ABC7 and a Yahoo voter guide give Harrington's label as American Center Party; FEC records list him as Independent. Check the exact party label printed on the ballot. A Ballotpedia list page instead named Tyrone Muhammad and Anthony Smith (Independent) and did not name Harrington. That page appears out of date or may list write-ins; confirm that neither is printed on the ballot. Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "cbsnews.com",
+            "url": "https://www.cbsnews.com/chicago/news/who-is-running-us-senate-illinois-general-election-2026/"
+          }
+        },
+        {
+          "id": "il-governor-and-lieutenant-governor",
+          "level": "state",
+          "office": "Governor and Lieutenant Governor",
+          "seats": 1,
+          "about": "Governor and lieutenant governor are elected together on a joint ticket for a four-year term. Incumbent Governor JB Pritzker is running for a third term. Running mates: Christian Mitchell (Pritzker), Aaron Del Mar (Bailey) and Carolyn Schofield (Corbett).",
+          "candidates": [
+            "il-governor-and-lieutenant-governor-jb-pritzker",
+            "il-governor-and-lieutenant-governor-darren-bailey",
+            "il-governor-and-lieutenant-governor-collin-corbett"
+          ],
+          "verify": "The official certified list was not checked. Ballotpedia lists Gary Pierce (Independence Party) as withdrawn or disqualified, and lists the Mike Vick and Gary Pierce ticket (American Solidarity Party) as write-ins, so both are left out. Corbett's exact ballot label (Independent) is not confirmed against the official ballot. Ballotpedia lists Mitchell as 'Christian L. Mitchell'. Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "ballotpedia.org",
+            "url": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+          }
+        }
+      ],
+      "racesSource": {
+        "label": "Ballotpedia, Illinois gubernatorial election 2026, with CBS News Chicago voter guides",
+        "url": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+      },
+      "measures": [],
+      "measuresNote": "",
+      "counties": {},
+      "abbr": "IL",
+      "coverageNote": "Only the U.S. Senate and governor races are loaded so far. Other statewide offices, ballot measures, U.S. House and local races aren't loaded yet. Check your sample ballot for the full list."
+    },
+    "26": {
+      "name": "Michigan",
+      "officialSite": {
+        "label": "Michigan Department of State – Elections",
+        "url": "https://www.michigan.gov/sos/elections"
+      },
+      "dates": [
+        {
+          "id": "reg",
+          "label": "Last day to register online or by mail",
+          "start": "2026-10-19",
+          "note": "From October 20 through Election Day you can still register in person at your city or township clerk's office if you bring proof of residency. Same-day registration closes at 8 p.m. on Election Day."
+        },
+        {
+          "id": "early",
+          "label": "Statewide early in-person voting",
+          "start": "2026-10-24",
+          "end": "2026-11-01",
+          "note": "Every community must offer at least these nine days. Some communities may start as early as October 5. You can also vote in person with an absentee ballot at your clerk's office from September 24 until 4 p.m. on November 2."
+        },
+        {
+          "id": "mail",
+          "label": "Last day to request an absentee ballot by mail or online",
+          "start": "2026-10-30",
+          "note": "Requests are due by 5 p.m. You can still request and fill out an absentee ballot in person at your clerk's office until 4 p.m. on November 2. Absentee ballots must arrive by 8 p.m. on Election Day, and postmarks do not count."
+        },
+        {
+          "id": "election",
+          "label": "Election Day",
+          "start": "2026-11-03",
+          "note": "Polls are open from 7 a.m. to 8 p.m."
+        }
+      ],
+      "datesSource": {
+        "label": "Michigan Voting key dates for the November 2026 General Election, checked against Votebeat and Vote411",
+        "url": "https://www.michiganvoting.org/november-2026"
+      },
+      "races": [
+        {
+          "id": "mi-governor-lt-governor",
+          "level": "state",
+          "office": "Governor / Lt. Governor",
+          "seats": 1,
+          "about": "This is a four-year term and an open seat, because Governor Gretchen Whitmer cannot run again due to term limits. Governor and lieutenant governor are elected together on one ticket. The running mates are Winnie Brinks (with Benson), Jay DeBoyer (with James), Beau Parmenter (with Hudson), Robert Donald Cowper II (with Brandenburg) and Bobbie Clay (with Campbell).",
+          "candidates": [
+            "mi-governor-lt-governor-jocelyn-benson",
+            "mi-governor-lt-governor-john-james",
+            "mi-governor-lt-governor-anthony-hudson",
+            "mi-governor-lt-governor-donna-brandenburg",
+            "mi-governor-lt-governor-douglas-campbell"
+          ],
+          "source": {
+            "label": "mi-boe.entellitrak.com",
+            "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026"
+          }
+        },
+        {
+          "id": "mi-u-s-senate",
+          "level": "federal",
+          "office": "U.S. Senate",
+          "seats": 1,
+          "about": "This is a six-year term and an open seat, because Senator Gary Peters (D) is not running for re-election.",
+          "candidates": [
+            "mi-u-s-senate-abdul-el-sayed",
+            "mi-u-s-senate-mike-rogers",
+            "mi-u-s-senate-lydia-christensen",
+            "mi-u-s-senate-tim-long",
+            "mi-u-s-senate-douglas-p-marsh",
+            "mi-u-s-senate-walter-p-kristy"
+          ],
+          "source": {
+            "label": "mi-boe.entellitrak.com",
+            "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026"
+          }
+        }
+      ],
+      "racesSource": {
+        "label": "Michigan Department of State, Official Candidate Listing – All State and Judicial Offices, General Election November 3, 2026",
+        "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026"
+      },
+      "measures": [],
+      "measuresNote": "",
+      "counties": {},
+      "abbr": "MI",
+      "coverageNote": "Only the U.S. Senate and governor races are loaded so far. Other statewide offices, ballot measures, U.S. House and local races aren't loaded yet. Check your sample ballot for the full list."
+    },
+    "39": {
+      "name": "Ohio",
+      "officialSite": {
+        "label": "vote.gov",
+        "url": "https://vote.gov"
+      },
+      "dates": [
+        {
+          "id": "reg",
+          "label": "Voter registration deadline",
+          "start": "2026-10-05",
+          "note": "County boards of elections and the Secretary of State's office stay open until 9 p.m. This deadline has passed."
+        },
+        {
+          "id": "early",
+          "label": "Early in-person voting",
+          "start": "2026-10-06",
+          "end": "2026-11-01",
+          "note": "Remaining hours: Oct 23, 8 a.m.–5 p.m.; Oct 24, 8 a.m.–4 p.m.; Oct 26, 7:30 a.m.–7:30 p.m.; Oct 27, 7:30 a.m.–8:30 p.m.; Oct 28–30, 7:30 a.m.–7:30 p.m.; Oct 31, 8 a.m.–4 p.m.; Nov 1, 1–5 p.m. There is no early voting on Monday, Nov 2."
+        },
+        {
+          "id": "mail",
+          "label": "Last day to request an absentee (mail) ballot",
+          "start": "2026-10-27",
+          "note": "Your county board of elections must receive the application by 8:30 p.m. Completed ballots must reach the board by 7:30 p.m. on Election Day (Nov 3). Military and overseas ballots can arrive by mail as late as Nov 7."
+        },
+        {
+          "id": "election",
+          "label": "Election Day",
+          "start": "2026-11-03",
+          "note": "Polls are open 6:30 a.m. to 7:30 p.m."
+        }
+      ],
+      "datesSource": {
+        "label": "Ohio Secretary of State – 2026 Voting Schedule",
+        "url": "https://www.ohiosos.gov/elections/voting-schedule-text-only"
+      },
+      "races": [
+        {
+          "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029",
+          "level": "federal",
+          "office": "United States Senate (Unexpired Term Ending 01/03/2029)",
+          "seats": 1,
+          "about": "This special election fills the rest of the Senate term that ends January 3, 2029. Jon Husted, who was appointed to the seat in 2025, is running.",
+          "candidates": [
+            "oh-united-states-senate-unexpired-term-ending-01-03-2029-sherrod-brown",
+            "oh-united-states-senate-unexpired-term-ending-01-03-2029-jon-husted",
+            "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath",
+            "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy"
+          ],
+          "verify": "Greg Levy's party label is unclear. The Wood County and Erie County board of elections lists say 'Other-party candidate', but NBC4 reports he appears on the ballot as an independent. Check a sample ballot to see the exact printed label. Redpath goes by 'Bill', but the certified list prints 'William B. Redpath'. Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "boe.woodcountyohio.gov",
+            "url": "https://boe.woodcountyohio.gov/DocumentCenter/View/1006/Candidate-List"
+          }
+        },
+        {
+          "id": "oh-governor-and-lieutenant-governor",
+          "level": "state",
+          "office": "Governor and Lieutenant Governor",
+          "seats": 1,
+          "about": "This is a four-year term starting January 11, 2027. It is an open seat because Governor Mike DeWine (R) is term-limited. Governor and lieutenant governor are elected together on one ticket. The running mates are David Pepper (with Amy Acton), Robert A. McColley (with Vivek Ramaswamy), and James L. Mills (with Don Kissick).",
+          "candidates": [
+            "oh-governor-and-lieutenant-governor-amy-acton",
+            "oh-governor-and-lieutenant-governor-vivek-ramaswamy",
+            "oh-governor-and-lieutenant-governor-don-kissick"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot.",
+          "source": {
+            "label": "boe.woodcountyohio.gov",
+            "url": "https://boe.woodcountyohio.gov/DocumentCenter/View/1006/Candidate-List"
+          }
+        }
+      ],
+      "racesSource": {
+        "label": "Wood County (Ohio) Board of Elections – certified candidate list for the Nov 3, 2026 general election (certified as of 08/26/2026)",
+        "url": "https://boe.woodcountyohio.gov/DocumentCenter/View/1006/Candidate-List"
+      },
+      "measures": [],
+      "measuresNote": "",
+      "counties": {},
+      "abbr": "OH",
+      "coverageNote": "Only the U.S. Senate and governor races are loaded so far. Other statewide offices, ballot measures, U.S. House and local races aren't loaded yet. Check your sample ballot for the full list."
+    },
     "48": {
       "name": "Texas",
       "officialSite": {
@@ -3421,6 +3844,2507 @@
           "url": "https://whatdistrictamiin.com/2026-elections-texas/"
         }
       ]
+    },
+    "oh-united-states-senate-unexpired-term-ending-01-03-2029-sherrod-brown": {
+      "name": "Sherrod Brown",
+      "party": "Democratic",
+      "status": "Challenger",
+      "occupation": "Former U.S. Senator; candidate for U.S. Senate",
+      "summary": "Sherrod Brown is the Democratic nominee for the U.S. Senate seat from Ohio whose term ends January 3, 2029. Jon Husted, a Republican, holds the seat now. Brown has held elected office in Ohio for many years.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Cost of living",
+          "stance": "Says life is too expensive and that the system is rigged. His campaign says it is working to fix that."
+        },
+        {
+          "topic": "Prescription drug costs",
+          "stance": "Lists lowering prescription drug costs as one of his top priorities."
+        },
+        {
+          "topic": "Data centers",
+          "stance": "Would require data centers to pay the full cost of their utilities. Has criticized Husted's support for tax breaks for data center developers."
+        },
+        {
+          "topic": "Crime and policing",
+          "stance": "Has said he supports giving police officers the resources, training and support they need. Has sponsored bills on de-escalation training and on banning chokeholds and no-knock warrants."
+        }
+      ],
+      "history": [
+        "Democratic nominee, 2026 U.S. Senate special election, Ohio"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "10TV: Ohio US Senate race 2026: Where Jon Husted, Sherrod Brown stand on key issues",
+          "url": "https://www.10tv.com/article/news/politics/elections/ohio-us-senate-race-2026-jon-husted-sherrod-brown/530-2bf46b68-a2a3-425d-9c44-2a655c74bd60"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "oh-united-states-senate-unexpired-term-ending-01-03-2029-jon-husted": {
+      "name": "Jon Husted",
+      "party": "Republican",
+      "status": "Incumbent",
+      "occupation": "U.S. Senator from Ohio (appointed incumbent)",
+      "summary": "Jon Husted is a Republican who has represented Ohio in the U.S. Senate since January 2025, when Governor Mike DeWine appointed him to the seat JD Vance left after becoming Vice President. He served earlier as Ohio Lieutenant Governor, Secretary of State, and Speaker of the Ohio House. He is running in the November 3, 2026 special election for the rest of the term, which ends January 3, 2029.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Prescription drug costs",
+          "stance": "Says Americans are \"getting ripped off by the drug companies\" because Congress won't hold them accountable, and pledges to hold drug companies accountable."
+        },
+        {
+          "topic": "Data centers and utility rates",
+          "stance": "Introduced the Ratepayer Protection Act, which would require states to consider setting standards on how data center electricity costs affect other ratepayers."
+        },
+        {
+          "topic": "Cost of living / energy",
+          "stance": "Says rolling back energy regulations will lower costs for everyday Americans."
+        },
+        {
+          "topic": "Taxes and business costs",
+          "stance": "Points to his record as Ohio House Speaker, when he helped pass a budget with what was then the state's largest income tax cut, and to his work as Secretary of State lowering business costs."
+        }
+      ],
+      "history": [
+        "U.S. Senator from Ohio, appointed January 2025–present",
+        "Lieutenant Governor of Ohio, 2019–2025",
+        "Ohio Secretary of State, 2011–2019",
+        "Ohio State Senator, 2009–2010",
+        "Speaker of the Ohio House of Representatives, 2005–2008; Ohio House member from 2001",
+        "Education: University of Dayton (B.A., M.A.)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-09",
+          "outlet": "The Daily Signal",
+          "headline": "Jon Husted, AFP Action Make Final Push Weeks Before Special Election",
+          "url": "https://www.dailysignal.com/2026/10/09/afp-action-jon-husted-ad-campaign/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "10TV: Ohio US Senate race 2026: Where Jon Husted, Sherrod Brown stand on key issues",
+          "url": "https://www.10tv.com/article/news/politics/elections/ohio-us-senate-race-2026-jon-husted-sherrod-brown/530-2bf46b68-a2a3-425d-9c44-2a655c74bd60"
+        },
+        {
+          "label": "The Daily Signal: Husted, AFP Action final push",
+          "url": "https://www.dailysignal.com/2026/10/09/afp-action-jon-husted-ad-campaign/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath": {
+      "name": "William B. Redpath",
+      "party": "Libertarian",
+      "status": "Challenger",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy": {
+      "name": "Greg Levy",
+      "party": "Other-party candidate",
+      "status": "Challenger",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "oh-governor-and-lieutenant-governor-amy-acton": {
+      "name": "Amy Acton",
+      "party": "Democratic",
+      "status": "Open seat",
+      "occupation": "Physician; former Director of the Ohio Department of Health",
+      "summary": "Amy Acton is a physician and former Director of the Ohio Department of Health. She is the Democratic nominee for Governor of Ohio in the November 3, 2026 general election, running against Republican Vivek Ramaswamy and Libertarian Don Kissick.",
+      "objectives": [],
+      "positions": [],
+      "history": [
+        "Director, Ohio Department of Health (former)",
+        "Physician",
+        "Democratic nominee for Governor of Ohio, 2026"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "ABC News: Amy Acton campaign slams Ramaswamy over controversial ad featuring estranged mother",
+          "url": "https://abcnews.com/Politics/amy-acton-campaign-slams-ramaswamy-controversial-ad-featuring/story?id=137421475"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "oh-governor-and-lieutenant-governor-vivek-ramaswamy": {
+      "name": "Vivek Ramaswamy",
+      "party": "Republican",
+      "status": "Open seat",
+      "occupation": "Entrepreneur; founder of Roivant Sciences and co-founder of Strive Asset Management",
+      "summary": "Vivek Ramaswamy is a Republican businessman and 2024 presidential candidate running for governor of Ohio in the November 3, 2026 general election. He founded the biotech company Roivant Sciences before entering politics.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Property taxes",
+          "stance": "Proposes lowering property taxes. His campaign says new construction will not be affected, existing debt obligations will be honored, and local governments will keep operating \"with greater discipline.\""
+        },
+        {
+          "topic": "Energy costs",
+          "stance": "Says he will work to lower Ohioans' electric bills and bring low-cost, dependable industries to the state."
+        },
+        {
+          "topic": "Education",
+          "stance": "Proposes raising academic standards and says he wants to \"put parents back in the driver's seat in education.\""
+        }
+      ],
+      "history": [
+        "Founder of Roivant Sciences (2014)",
+        "Co-founder of Strive Asset Management (2022)",
+        "Candidate for the 2024 Republican presidential nomination (2023–2024)",
+        "Education: A.B. in biology, Harvard University; J.D., Yale Law School"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "WFMJ 21 News – Decision 2026, OH Governor: Vivek Ramaswamy",
+          "url": "https://www.wfmj.com/news/political/decision-2026-oh-governor-vivek-ramaswamy/article_eb6e9c3d-83a4-41fc-87f4-18bf33aa38ce.html"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "oh-governor-and-lieutenant-governor-don-kissick": {
+      "name": "Don Kissick",
+      "party": "Libertarian",
+      "status": "Open seat",
+      "occupation": "U.S. Navy veteran; chair of the Libertarian Party of Ohio",
+      "summary": "Don Kissick is the Libertarian Party of Ohio's nominee for governor in 2026. His running mate for lieutenant governor is business owner James Mills. Kissick lives in Ottawa, Ohio, has chaired the Libertarian Party of Ohio since 2018, and ran before for U.S. Senate in 2024 and for U.S. House (OH-5) in 2018.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Data centers",
+          "stance": "Calls for an immediate moratorium on all new data center construction, which he says a governor can impose by halting tax breaks. Says he would then work with lawmakers on rules for cooling, power use and impact on farmland."
+        },
+        {
+          "topic": "Data centers (oversight)",
+          "stance": "Says he would appoint people to state boards who would fully scrutinize data center projects against environmental and construction standards."
+        },
+        {
+          "topic": "License plate reader cameras (Flock)",
+          "stance": "Opposes automatic license plate recognition cameras, such as Flock cameras, and lists this as one of his three main issues."
+        },
+        {
+          "topic": "Property taxes",
+          "stance": "Supports ending property taxes in Ohio."
+        },
+        {
+          "topic": "Small business licensing",
+          "stance": "Supports simplifying licensing for small businesses."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Says he believes in medical freedom. Supports repealing laws that require health care providers to get government approval before they expand services."
+        },
+        {
+          "topic": "Debates",
+          "stance": "Has asked to debate Vivek Ramaswamy and Amy Acton, either one or both, and has contacted the Ramaswamy campaign to set up a debate."
+        }
+      ],
+      "history": [
+        "Libertarian nominee for Governor of Ohio, 2026",
+        "Chair, Libertarian Party of Ohio Central Committee, 2018–present",
+        "Member, Libertarian Party of Ohio Central Committee (District 5), 2015–2017 and 2018–present",
+        "Libertarian candidate for U.S. Senate, Ohio, 2024",
+        "Libertarian candidate for U.S. House, Ohio District 5, 2018",
+        "U.S. Navy, six years, including Desert Shield and Desert Storm deployments",
+        "Attended Ferris State University (technical communication), 1995–1998",
+        "Born in Royal Oak, Michigan; moved to Ohio in 2007; lives in Ottawa, Ohio"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "NBC4 (WCMH)",
+          "headline": "What to know about Ohio’s 2026 governor’s race",
+          "url": "https://www.nbc4i.com/news/your-local-election-hq/what-to-know-about-ohios-2026-governors-race/"
+        },
+        {
+          "date": "2026-10-21",
+          "outlet": "WLIO / Hometown Stations",
+          "headline": "Libertarian candidate for Ohio governor calls on Ramaswamy to drop out over attack ad",
+          "url": "https://www.hometownstations.com/2026/10/21/libertarian-candidate-ohio-governor-calls-ramaswamy-drop-out-over-attack-ad/"
+        },
+        {
+          "date": "2026-10-07",
+          "outlet": "Spectrum News 1",
+          "headline": "Where Ohio’s libertarian Gubernatorial candidate stands on important issues",
+          "url": "https://spectrumnews1.com/oh/columbus/Capital-This-Week/2026/10/07/where-ohio-s-libertarian-gubernatorial-candidate-stands-on-important-issues"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vote Smart biography",
+          "url": "https://justfacts.votesmart.org/candidate/biography/120642/don-kissick"
+        },
+        {
+          "label": "Statehouse News Bureau, Sept. 15, 2026",
+          "url": "https://www.statenews.org/government-politics/2026-09-16/libertarian-candidate-for-ohio-governor-wants-to-a-place-in-debate-conversation"
+        },
+        {
+          "label": "Dayton Daily News governor's race overview",
+          "url": "https://www.daytondailynews.com/tncms/asset/editorial/88984bf3-c31d-51e7-a697-bb5873716408"
+        },
+        {
+          "label": "NBC4 What to know about Ohio's 2026 governor's race",
+          "url": "https://www.nbc4i.com/news/your-local-election-hq/what-to-know-about-ohios-2026-governors-race/"
+        },
+        {
+          "label": "WLIO, Oct. 21, 2026",
+          "url": "https://www.hometownstations.com/2026/10/21/libertarian-candidate-ohio-governor-calls-ramaswamy-drop-out-over-attack-ad/"
+        },
+        {
+          "label": "Ohio Capital Journal on data center proposals",
+          "url": "https://ohiocapitaljournal.com/2026/08/10/all-candidates-for-ohio-governor-have-now-called-for-restrictions-on-data-center-boom/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-united-states-senator-juliana-stratton": {
+      "name": "Juliana Stratton",
+      "party": "Democratic",
+      "status": "Open seat",
+      "occupation": "Lieutenant Governor of Illinois",
+      "summary": "Juliana Stratton is the Democratic nominee for the open U.S. Senate seat in Illinois. Incumbent Democrat Dick Durbin is retiring. She has been Illinois' lieutenant governor under Gov. JB Pritzker since 2019, and she won the Democratic nomination in the 2026 primary.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Tariffs and trade",
+          "stance": "Opposes President Trump's tariffs and calls for ending them. She says they caused a trade war with U.S. allies and raised prices, and calls the trade policy illegal."
+        },
+        {
+          "topic": "Oversight of the president",
+          "stance": "Says she will \"be a check on this president\" and hold President Trump accountable if elected."
+        },
+        {
+          "topic": "Presidential nominees",
+          "stance": "Pledged not to vote to confirm any of President Trump's nominees."
+        },
+        {
+          "topic": "War in Iran",
+          "stance": "Says she will not vote for any bill that provides supplemental funding for the war in Iran. She blames President Trump for starting the war."
+        },
+        {
+          "topic": "Cost of living",
+          "stance": "Says President Trump's tariffs and the war in Iran have pushed up the cost of living, including gas prices."
+        }
+      ],
+      "history": [
+        "Lieutenant Governor of Illinois (48th), 2019–present",
+        "Illinois State Representative, 5th District, 2017–2018 (per Daily Herald questionnaire)",
+        "Kenwood Academy Local School Council member, 2012–2015",
+        "2026 Democratic nominee for U.S. Senate, Illinois",
+        "Lives in Chicago; age 61 (per Daily Herald, October 2026)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-21",
+          "outlet": "Capitol News Illinois",
+          "headline": "Stratton, Tracy clash over Trump, affordability in lone U.S. Senate forum",
+          "url": "https://capitolnewsillinois.com/news/stratton-tracy-clash-over-trump-affordability-in-lone-u-s-senate-forum/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "Daily Herald",
+          "headline": "Juliana Stratton: 2026 candidate for the U.S. Senate",
+          "url": "https://www.dailyherald.com/20261016/us-congress-politics/juliana-stratton-2026-candidate-for-the-u-s-senate/"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "Chicago Sun-Times",
+          "headline": "Democrat Juliana Stratton faces Don Tracy, former GOP chair, in Senate battle for Dick Durbin's seat",
+          "url": "https://chicago.suntimes.com/elections/2026/10/14/democrat-juliana-stratton-republican-don-tracy-us-senate-race-dick-durbin-seat"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Capitol News Illinois – WTTW forum coverage (2026-10-21)",
+          "url": "https://capitolnewsillinois.com/news/stratton-tracy-clash-over-trump-affordability-in-lone-u-s-senate-forum/"
+        },
+        {
+          "label": "Daily Herald candidate questionnaire (2026-10-16)",
+          "url": "https://www.dailyherald.com/20261016/us-congress-politics/juliana-stratton-2026-candidate-for-the-u-s-senate/"
+        },
+        {
+          "label": "The Daily Illini – debate coverage",
+          "url": "https://dailyillini.com/news-stories/world-news/national-news/us-government/national-elections/2026/10/21/illinois-us-senate-candidates-juliana-stratton-and-don-tracy-debate-2-weeks-out-from-midterms/"
+        },
+        {
+          "label": "Chicago Sun-Times race overview",
+          "url": "https://chicago.suntimes.com/elections/2026/10/14/democrat-juliana-stratton-republican-don-tracy-us-senate-race-dick-durbin-seat"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-united-states-senator-don-tracy": {
+      "name": "Don Tracy",
+      "party": "Republican",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "Don Tracy is the Republican nominee for Illinois's open U.S. Senate seat in the November 3, 2026 general election. He ran in the March 17, 2026 Republican primary. On October 20, 2026, he debated Democratic nominee Juliana Stratton at an event hosted by WTTW in Chicago.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Cost of living",
+          "stance": "Says his top priority in the U.S. Senate would be lowering the cost of living and making life more affordable, and that he wants communities to be safer."
+        },
+        {
+          "topic": "Energy and climate",
+          "stance": "Says carbon emissions should be reduced, including by supporting wind and solar \"to a reasonable extent.\" Says nuclear energy and fossil fuels are an essential part of U.S. energy production."
+        },
+        {
+          "topic": "Russia and Ukraine",
+          "stance": "Says he would not vote for a U.S.-Russia deal to end the war in Ukraine if it removed sanctions on Russia. Says war should always be a last resort for settling international disputes."
+        }
+      ],
+      "history": [
+        "Ran for U.S. Senate in the March 17, 2026 Illinois Republican primary",
+        "2026 Republican nominee for U.S. Senate, Illinois"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "The Daily Illini",
+          "headline": "Illinois US Senate candidates Juliana Stratton and Don Tracy debate 2 weeks out from midterms",
+          "url": "https://dailyillini.com/news-stories/world-news/national-news/us-government/national-elections/2026/10/21/illinois-us-senate-candidates-juliana-stratton-and-don-tracy-debate-2-weeks-out-from-midterms/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTTW Voter Guide (2026 primary): Don Tracy candidate Q&A",
+          "url": "https://news.wttw.com/elections/voters-guide/2026-primary/don-tracy"
+        },
+        {
+          "label": "The Daily Illini: Stratton–Tracy debate coverage",
+          "url": "https://dailyillini.com/news-stories/world-news/national-news/us-government/national-elections/2026/10/21/illinois-us-senate-candidates-juliana-stratton-and-don-tracy-debate-2-weeks-out-from-midterms/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-united-states-senator-whitfield-harrington-jr": {
+      "name": "Whitfield Harrington Jr.",
+      "party": "American Center Party",
+      "status": "Open seat",
+      "occupation": "Pastor in Chicago; formerly worked in banking and insurance and ran his own insurance practice",
+      "summary": "Whitfield Harrington Jr. is a Chicago pastor who grew up in Belzoni, Mississippi, and now lives in Schaumburg. He founded the American Center Party as a state party and filed with the Illinois State Board of Elections on May 26, 2026, as its U.S. Senate candidate. He is running for the open seat held by retiring Sen. Dick Durbin, against Democrat Juliana Stratton and Republican Don Tracy.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Cost of living",
+          "stance": "Says his first bill would be a Family Affordability Act. It would require small-dollar mortgages for homes under $100,000, ban excessive speculation in energy markets, end tariffs on food and make the first year of community college free, without raising taxes on working families."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Supports Direct Primary Care, where patients pay a doctor a monthly fee for unlimited visits with no insurance middleman. He says he has used it himself."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Supports securing the border with manpower, technology and physical barriers where they work, and deporting criminals. Supports ending family separations and making legal immigration easier than illegal entry."
+        },
+        {
+          "topic": "Immigration enforcement (ICE)",
+          "stance": "Supports immigration enforcement, but says ICE must be reined in when its conduct is excessive."
+        },
+        {
+          "topic": "Federal spending",
+          "stance": "Proposes moving 10–20% of the defense budget, on a two-year cycle, into U.S. infrastructure. Also proposes a Cabinet-level anti-fraud department to recover money he says is lost to fraud each year."
+        },
+        {
+          "topic": "National security",
+          "stance": "Says no American troops should deploy without a clear mission, cost and exit plan voted on by Congress."
+        },
+        {
+          "topic": "Abortion",
+          "stance": "Supports abortion rights."
+        },
+        {
+          "topic": "Guns",
+          "stance": "Supports background checks for gun purchases."
+        },
+        {
+          "topic": "Education",
+          "stance": "Supports school choice and making the first year of community college free."
+        },
+        {
+          "topic": "Two-party system",
+          "stance": "Says Washington is broken and both parties helped break it. He is running outside both major parties to build a center-focused party that draws people from the left and the right."
+        }
+      ],
+      "history": [
+        "Pastor in Chicago (current)",
+        "Ran his own insurance practice; earlier worked at banks and insurance companies",
+        "Has never held public office (elected Governor of Mississippi Boys State in 1997)",
+        "B.A. in political science, Delta State University (Mississippi)",
+        "Founder of the American Center Party (Illinois state party)",
+        "Born and raised in Belzoni, Mississippi"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "IPM Newsroom",
+          "headline": "Whitfield Harrington Jr. seeks to bring Illinoisans back to the center as third party candidate for U.S. Senate",
+          "url": "https://ipmnewsroom.org/whitfield-harrington-jr-seeks-to-bring-illinoisans-back-to-the-center-as-third-party-candidate-for-u-s-senate/"
+        },
+        {
+          "date": "2026-10-11",
+          "outlet": "ABC7 Chicago",
+          "headline": "Our Chicago: Race for U.S. Senate in Illinois",
+          "url": "https://abc7chicago.com/post/chicago-race-us-senate-includes-candidates-juliana-stratton-don-tracy-whitfield-harrington-jr/19929749/"
+        },
+        {
+          "date": "2026-10-08",
+          "outlet": "North Shore Weekly",
+          "headline": "Harrington seeks Illinois U.S. Senate seat as independent",
+          "url": "https://northshoreweekly.com/articles/harrington-seeks-illinois-u-s-senate-seat-as-independent-muzoery7"
+        },
+        {
+          "date": "2026-09-28",
+          "outlet": "CBS News Chicago",
+          "headline": "Who is running for U.S. Senate in Illinois in the 2026 general election?",
+          "url": "https://www.cbsnews.com/chicago/news/who-is-running-us-senate-illinois-general-election-2026/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "North Shore Weekly candidate questionnaire profile",
+          "url": "https://northshoreweekly.com/articles/harrington-seeks-illinois-u-s-senate-seat-as-independent-muzoery7"
+        },
+        {
+          "label": "CBS News Chicago Senate race guide",
+          "url": "https://www.cbsnews.com/chicago/news/who-is-running-us-senate-illinois-general-election-2026/"
+        },
+        {
+          "label": "ABC7 Chicago interview",
+          "url": "https://abc7chicago.com/post/chicago-race-us-senate-includes-candidates-juliana-stratton-don-tracy-whitfield-harrington-jr/19929749/"
+        },
+        {
+          "label": "WILL 21st Show interview",
+          "url": "https://will.illinois.edu/21stshow/story/senate-candidate-whitfield-harrington-jr-wants-illinois-to-move-beyond-two-party-system"
+        },
+        {
+          "label": "IPM Newsroom",
+          "url": "https://ipmnewsroom.org/whitfield-harrington-jr-seeks-to-bring-illinoisans-back-to-the-center-as-third-party-candidate-for-u-s-senate/"
+        },
+        {
+          "label": "Campaign website",
+          "url": "https://whit4ilsenate.com/"
+        },
+        {
+          "label": "CandidateAlerts (cites ISBE filing record)",
+          "url": "https://candidatealerts.com/politicians/p_p2sks36tt"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-governor-and-lieutenant-governor-jb-pritzker": {
+      "name": "JB Pritzker",
+      "party": "Democratic",
+      "status": "Incumbent",
+      "occupation": "Governor of Illinois",
+      "summary": "JB Pritzker is the Democratic incumbent Governor of Illinois and is running for a third term in the November 3, 2026 general election. His running mate for Lieutenant Governor is Christian Mitchell. His opponents are Republican Darren Bailey, whose running mate is Aaron Del Mar, and Independent Collin Corbett.",
+      "objectives": [],
+      "positions": [],
+      "history": [
+        "Governor of Illinois, 2019–present",
+        "2026 Democratic nominee for Governor, with Christian Mitchell as running mate for Lieutenant Governor"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Illinois gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-governor-and-lieutenant-governor-darren-bailey": {
+      "name": "Darren Bailey",
+      "party": "Republican",
+      "status": "Challenger",
+      "occupation": "Farmer (self-employed)",
+      "summary": "Darren Bailey is a farmer from southern Illinois and a former Illinois state representative and state senator. He was the Republican nominee for governor in 2022 and lost to JB Pritzker. He won the 2026 Republican primary and faces Pritzker again in the November 3, 2026 general election.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Property taxes",
+          "stance": "Says property taxes are his first priority and proposes capping property tax increases at 1 percent."
+        },
+        {
+          "topic": "State spending and budget",
+          "stance": "Says Illinois has a spending problem, not a taxing problem. Proposes auditing state grants to non-governmental organizations and giving lawmakers more time to review budgets before they vote."
+        },
+        {
+          "topic": "Energy and utility costs",
+          "stance": "Supports repealing the Climate and Equitable Jobs Act (CEJA). Favors an all-of-the-above energy approach that includes coal, nuclear and renewables, and says Illinois should export energy."
+        },
+        {
+          "topic": "Chicago Bears stadium",
+          "stance": "Proposes his 'I-Formation' plan: the Bears pay for the stadium privately, the state backs up to $800 million in infrastructure revenue bonds repaid from a stadium tourism district, and the team commits to stay in Illinois for 40 years."
+        },
+        {
+          "topic": "Data centers",
+          "stance": "Supports letting local governments decide how to handle data centers, and says data center companies should make concessions to communities on water and electricity use."
+        },
+        {
+          "topic": "Business tax incentives",
+          "stance": "Prefers lowering taxes for all businesses over targeted breaks, but says he is open to incentives if the companies receiving them commit to staying in Illinois."
+        },
+        {
+          "topic": "Education funding",
+          "stance": "Says education funding should be a high priority, but wants more accountability for how schools spend money and less reliance on property taxes to fund schools."
+        }
+      ],
+      "history": [
+        "Illinois State Senator (former)",
+        "Illinois State Representative (former)",
+        "School board member and school board president (former)",
+        "2022 Republican nominee for Illinois governor",
+        "Farmer (self-employed)",
+        "Education: North Clay High School; Associate of Science in agricultural production, Lake Land College"
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "outlet": "Shaw Local",
+          "headline": "2026 Election Questionnaire: Darren Bailey, Illinois Governor",
+          "url": "https://www.shawlocal.com/news/2026/10/19/2026-election-questionnaire-darren-bailey-illinois-governor/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "Chicago Sun-Times",
+          "headline": "Gov. JB Pritzker outspending Darren Bailey's campaign 25-to-1 in Illinois governor race",
+          "url": "https://chicago.suntimes.com/elections/2026/10/16/jb-pritzker-darren-bailey-illinois-governor-race-campaign-cash-spending"
+        },
+        {
+          "date": "2026-10-13",
+          "outlet": "WTTW News",
+          "headline": "Pritzker, Bailey Square Off in Contentious Discussion Over Taxes, Trump and Bears",
+          "url": "https://news.wttw.com/2026/10/13/pritzker-bailey-square-contentious-discussion-over-taxes-trump-and-bears"
+        },
+        {
+          "date": "2026-10-07",
+          "outlet": "Capitol News Illinois",
+          "headline": "Bailey trying to stay on message as attacks from Pritzker mount",
+          "url": "https://capitolnewsillinois.com/news/bailey-trying-to-stay-on-message-as-attacks-from-pritzker-mount/"
+        },
+        {
+          "date": "2026-10-03",
+          "outlet": "Northern Public Radio (WNIJ)",
+          "headline": "GOP gubernatorial hopeful Darren Bailey meets with supporters during DeKalb visit",
+          "url": "https://www.northernpublicradio.org/wnij-news/2026-10-03/supporters-meet-with-darren-bailey-during-dekalb-visit"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Shaw Local candidate questionnaire (Oct. 19, 2026)",
+          "url": "https://www.shawlocal.com/news/2026/10/19/2026-election-questionnaire-darren-bailey-illinois-governor/"
+        },
+        {
+          "label": "WTTW: Bailey gears up for second race against Pritzker (Mar. 2026)",
+          "url": "https://news.wttw.com/2026/03/19/darren-bailey-gears-face-pritzker-second-consecutive-governor-s-race"
+        },
+        {
+          "label": "WTTW debate coverage (Oct. 13, 2026)",
+          "url": "https://news.wttw.com/2026/10/13/pritzker-bailey-square-contentious-discussion-over-taxes-trump-and-bears"
+        },
+        {
+          "label": "Capitol News Illinois interview article",
+          "url": "https://capitolnewsillinois.com/news/bailey-trying-to-stay-on-message-as-attacks-from-pritzker-mount/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "il-governor-and-lieutenant-governor-collin-corbett": {
+      "name": "Collin Corbett",
+      "party": "Independent",
+      "status": "Challenger",
+      "occupation": "Political strategist (former Republican strategist); small business owner",
+      "summary": "Collin Corbett is a political strategist from Palatine who worked for Republicans before leaving the party, and he is running for Illinois governor as an independent. He filed his nominating petitions with the Illinois State Board of Elections on May 26, 2026, with former McHenry County Board member Carolyn Schofield as his running mate for lieutenant governor. An objection to his petitions, filed by Republican lieutenant governor nominee Aaron Del Mar, was withdrawn in June 2026, so Corbett stays on the November 3 ballot.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Political approach",
+          "stance": "Calls himself a fiscal conservative and social moderate. Says the two parties have become polarized and that Illinois voters are ready for a choice outside them."
+        },
+        {
+          "topic": "Economy",
+          "stance": "Argues that since JB Pritzker took office, Illinois ranks 46th among states in GDP growth, 45th in job growth and 39th in income growth."
+        },
+        {
+          "topic": "Taxes and school funding",
+          "stance": "Supports cutting taxes and changing how local schools are funded. Says he wants to lower property taxes and the cost of living."
+        },
+        {
+          "topic": "Housing",
+          "stance": "Says he wants housing to be affordable and good quality while keeping the value of existing homes stable."
+        }
+      ],
+      "history": [
+        "Political strategist who worked for Republicans for about 20 years, then left the Republican Party",
+        "Small business owner; lives in Palatine, Illinois",
+        "Filed nominating petitions as an independent candidate for governor on May 26, 2026, reported as about 37,000 signatures",
+        "Reported to have put $500,000 of his own money into the campaign"
+      ],
+      "news": [
+        {
+          "date": "2026-10-15",
+          "outlet": "WTTW News",
+          "headline": "Collin Corbett on His Independent Campaign for Illinois Governor, Cutting Taxes and School Funding",
+          "url": "https://news.wttw.com/2026/10/15/collin-corbett-his-independent-campaign-illinois-governor-cutting-taxes-and-school"
+        },
+        {
+          "date": "2026-10-13",
+          "outlet": "Chicago Sun-Times",
+          "headline": "JB Pritzker, Darren Bailey, Collin Corbett: Illinois governor election",
+          "url": "https://chicago.suntimes.com/elections/2026/10/13/jb-pritzker-darren-bailey-collin-corbett-illinois-governor-election-november-midterm"
+        },
+        {
+          "date": "2026-10-05",
+          "outlet": "Wheaton Sentinel",
+          "headline": "Independent Collin Corbett runs for Illinois governor",
+          "url": "https://wheatonsentinel.com/articles/independent-collin-corbett-runs-for-illinois-governor-muvmorno"
+        },
+        {
+          "date": "2026-10-01",
+          "outlet": "WBEZ",
+          "headline": "What to know about the race for Illinois governor",
+          "url": "https://www.wbez.org/government-politics/elections/2026/10/01/what-to-know-llinois-governor-race-jb-pritzker-darren-bailey-collin-corbett"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Capitol News Illinois: Corbett files to run for governor as an independent",
+          "url": "https://capitolnewsillinois.com/news/former-republican-strategist-collin-corbett-files-to-run-for-governor-as-independent/"
+        },
+        {
+          "label": "Capitol News Illinois: Corbett stays on the ballot after the objection is withdrawn",
+          "url": "https://capitolnewsillinois.com/news/independent-collin-corbett-to-remain-on-ballot-after-bailey-camp-withdraws-objection/"
+        },
+        {
+          "label": "WTTW interview with Corbett",
+          "url": "https://news.wttw.com/2026/10/15/collin-corbett-his-independent-campaign-illinois-governor-cutting-taxes-and-school"
+        },
+        {
+          "label": "Chicago Sun-Times race coverage",
+          "url": "https://chicago.suntimes.com/elections/2026/10/13/jb-pritzker-darren-bailey-collin-corbett-illinois-governor-election-november-midterm"
+        },
+        {
+          "label": "Wheaton Sentinel candidate profile",
+          "url": "https://wheatonsentinel.com/articles/independent-collin-corbett-runs-for-illinois-governor-muvmorno"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-united-states-senator-ashley-moody": {
+      "name": "Ashley Moody",
+      "party": "Republican (REP)",
+      "status": "Incumbent",
+      "occupation": "U.S. Senator from Florida (incumbent, appointed 2025); attorney",
+      "summary": "Ashley Moody is a Republican and Florida's junior U.S. senator. Gov. Ron DeSantis appointed her in January 2025 to fill the seat Marco Rubio vacated, and before that she was Florida's attorney general from 2019 to 2025. She is running in the November 3, 2026 special election for the rest of the term against Democrat Angie Nixon and Neil J. Gillespie (NPA).",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Immigration and border security",
+          "stance": "Supports stricter immigration enforcement, including finishing the border wall, ending sanctuary cities, and fighting human trafficking and drug smuggling."
+        },
+        {
+          "topic": "Deportation of immigrants convicted of crimes",
+          "stance": "Supports expanding expedited removal for some immigrants convicted of crimes."
+        },
+        {
+          "topic": "Public safety and criminal justice",
+          "stance": "Supports law enforcement and tougher criminal penalties, pointing to her record as a judge, federal prosecutor and state attorney general."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Voted for the One Big Beautiful Bill Act, which included changes to Medicaid. Voted against extending the health care subsidies tied to the Affordable Care Act."
+        },
+        {
+          "topic": "Medicaid / program fraud",
+          "stance": "Sponsored the HCBS Anti-Fraud Reporting Act of 2026 (S.5609), introduced September 30, 2026, which deals with fraud reporting in home- and community-based services."
+        },
+        {
+          "topic": "Campaign platform",
+          "stance": "Is running on an 'America First' agenda focused on immigration and border security, crime and law enforcement, and the economy."
+        }
+      ],
+      "history": [
+        "U.S. Senator from Florida, 2025–present (appointed by Gov. Ron DeSantis; took office January 21, 2025)",
+        "38th Attorney General of Florida, 2019–2025",
+        "Judge, Thirteenth Judicial Circuit Court of Florida (Hillsborough County), 2007–2017",
+        "Former Assistant U.S. Attorney, Middle District of Florida; earlier worked in civil litigation",
+        "Education: University of Florida (BS, MS, JD); Stetson University (LLM)",
+        "Born March 28, 1975, in Plant City, Florida"
+      ],
+      "news": [
+        {
+          "date": "2026-10-20",
+          "outlet": "WMNF 88.5 FM",
+          "headline": "Ashley Moody says she's not avoiding the press, then walks away during Flock camera question",
+          "url": "https://www.wmnf.org/ashley-moody-says-shes-not-avoiding-the-press-then-walks-away-during-flock-camera-question/"
+        },
+        {
+          "date": "2026-10-19",
+          "outlet": "Prism",
+          "headline": "Florida Senate race pits Angie Nixon's grassroots organizing against Ashley Moody's GOP coalition",
+          "url": "https://prismreports.org/2026/10/19/florida-senate-angie-nixon-ashley-moody/"
+        },
+        {
+          "date": "2026-10-04",
+          "outlet": "Fox News",
+          "headline": "Senator Moody warns opponent's platform undermines 'safety' in Florida Senate race",
+          "url": "https://www.foxnews.com/video/6406217906112"
+        },
+        {
+          "date": "2026-10-01",
+          "outlet": "WUSF",
+          "headline": "Democrats slam Ashley Moody amid a heated U.S. Senate race",
+          "url": "https://www.wusf.org/politics-issues/2026-10-01/democrats-slam-ashley-moody-amid-heated-us-senate-race"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia – Ashley Moody",
+          "url": "https://en.wikipedia.org/wiki/Ashley_Moody"
+        },
+        {
+          "label": "Congress.gov – Sen. Ashley Moody legislation",
+          "url": "https://www.congress.gov/member/ashley-moody/M001244"
+        },
+        {
+          "label": "WGCU – Immigration, crime and economy shape Ashley Moody's Senate campaign",
+          "url": "https://www.wgcu.org/government-politics/2026-09-07/immigration-crime-and-economy-shape-ashley-moodys-senate-campaign"
+        },
+        {
+          "label": "Prism – Florida Senate race overview",
+          "url": "https://prismreports.org/2026/10/19/florida-senate-angie-nixon-ashley-moody/"
+        },
+        {
+          "label": "Smarter.Vote – Ashley B. Moody positions",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/ashley-b-moody/"
+        },
+        {
+          "label": "Smarter.Vote – Compare Florida Senate candidates",
+          "url": "https://smarter.vote/races/fl-senate-2026-special/compare/"
+        },
+        {
+          "label": "Wikipedia – 2026 U.S. Senate special election in Florida",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-united-states-senator-angie-nixon": {
+      "name": "Angie Nixon",
+      "party": "Democratic (DEM)",
+      "status": "Challenger",
+      "occupation": "Florida state representative (House District 13); bookstore owner; former community and union organizer",
+      "summary": "Angie Nixon is a Jacksonville Democrat who has been in the Florida House of Representatives since 2020. She won the Democratic nomination for U.S. Senate in the August 18, 2026 primary, defeating Alex Vindman. In the November 3, 2026 special election she faces Republican U.S. Sen. Ashley Moody, who holds the seat by appointment.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Health care",
+          "stance": "Supports Medicare for All and favors moving to it in steps. Says people should not go bankrupt because they go to the doctor."
+        },
+        {
+          "topic": "Housing",
+          "stance": "Supports rent stabilization, including a national rent stabilization standard, to address housing costs."
+        },
+        {
+          "topic": "Minimum wage",
+          "stance": "Supports raising the federal minimum wage. Says she helped lead the coalition work behind Florida's $15-an-hour minimum wage increase."
+        },
+        {
+          "topic": "Taxes",
+          "stance": "Her platform calls for a 5% annual wealth tax on billionaires."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Her platform calls for abolishing ICE. Says she would work to stop the Trump administration's deportation and detention policies."
+        },
+        {
+          "topic": "Policing",
+          "stance": "Says she supports continued police funding and rejects the claim that she wants to defund the police."
+        },
+        {
+          "topic": "Ethics and government accountability",
+          "stance": "Says Sen. Moody gained from stock trading while on health committees. Calls for a Justice Department investigation of the Hope Florida funds; Moody denies wrongdoing."
+        },
+        {
+          "topic": "Foreign policy / Cuba",
+          "stance": "Says she is open to lifting the U.S. trade embargo on Cuba. Supports shifting foreign policy toward diplomacy."
+        },
+        {
+          "topic": "Technology / Section 230",
+          "stance": "Argues online platforms should lose their federal liability protections and that social media executives should be held legally accountable for disinformation."
+        },
+        {
+          "topic": "Education",
+          "stance": "Says she supports fully funded public schools."
+        }
+      ],
+      "history": [
+        "Member, Florida House of Representatives, 2020–present (District 14, 2020–2022; District 13, 2022–present)",
+        "Democratic nominee for U.S. Senate, Florida, 2026 (won Aug. 18, 2026 primary)",
+        "Bookstore owner; former community and union organizer; background in higher education",
+        "Education: B.A., University of Florida",
+        "Born February 27, 1984, in Jacksonville, Florida",
+        "Member of the Working Families Party; joined Democratic Socialists of America in June 2026"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "WSVN 7News",
+          "headline": "Angie Nixon wants to be Florida's first Democratic US senator in 8 years",
+          "url": "https://wsvn.com/news/politics/nixon-challenges-moody-midterm-election/"
+        },
+        {
+          "date": "2026-10-21",
+          "outlet": "WUSF",
+          "headline": "Angie Nixon makes her case for a U.S. Senate seat, and remembering the late Joe Redner",
+          "url": "https://www.wusf.org/podcast/florida-matters/2026-10-21/angie-nixon-makes-her-case-for-us-senate-seat-remembering-late-joe-redner"
+        },
+        {
+          "date": "2026-10-19",
+          "outlet": "Essence",
+          "headline": "Angie Nixon Is Betting On Black Women And Working Families In Her U.S. Senate Bid",
+          "url": "https://www.essence.com/news/politics/angie-nixon-florida-senate-campaign/"
+        },
+        {
+          "date": "2026-10-18",
+          "outlet": "CBS News",
+          "headline": "Transcript: Florida Democratic Senate candidate Angie Nixon on \"Face the Nation with Margaret Brennan,\" Oct. 18, 2026",
+          "url": "https://www.cbsnews.com/news/angie-nixon-florida-democratic-senate-candiate-face-the-nation-transcript-10-18-2026/"
+        },
+        {
+          "date": "2026-10-17",
+          "outlet": "Tampa Bay Times",
+          "headline": "Angie Nixon outraises Ashley Moody in third quarter, still has less cash",
+          "url": "https://www.tampabay.com/news/florida-politics/elections/2026/10/17/nixon-moody-senate-campaign-donors/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CBS News – Face the Nation transcript, Oct. 18, 2026",
+          "url": "https://www.cbsnews.com/news/angie-nixon-florida-democratic-senate-candiate-face-the-nation-transcript-10-18-2026/"
+        },
+        {
+          "label": "FOX 13 – One-on-One interview with Angie Nixon (2026-07-08)",
+          "url": "https://www.fox13news.com/news/one-on-one-senate-candidate-angie-nixon-outlines-positions-housing-healthcare-foreign-policy"
+        },
+        {
+          "label": "South Florida Caribbean News – Why Angie Nixon for U.S. Senate",
+          "url": "https://sflcn.com/why-angie-nixon-for-u-s-senate/"
+        },
+        {
+          "label": "Wikipedia – Angie Nixon",
+          "url": "https://en.wikipedia.org/wiki/Angie_Nixon"
+        },
+        {
+          "label": "Wikipedia – 2026 U.S. Senate special election in Florida",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-united-states-senator-neil-j-gillespie": {
+      "name": "Neil J. Gillespie",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Challenger",
+      "occupation": "Blogger and founder of Justice Network, which he describes as an advocacy group; retired",
+      "summary": "Neil J. Gillespie lives in Ocala, Florida. He runs a blog and founded Justice Network, which he describes as advocacy, education and news-gathering to help people fight injustice. He filed for the 2026 U.S. Senate special election in March 2026 and paid the no-party-affiliation qualifying fee in June 2026. As an NPA candidate, he went straight to the November 3 general election ballot without a primary.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Two-party system",
+          "stance": "Says he is running as an independent voice against the two-party system. He cites George Washington's Farewell Address, which urged Americans to put the nation ahead of party loyalty."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Supports secure borders, vetting of immigrants and lawful removal of people who enter the U.S. illegally. Also supports a path to citizenship for immigrants who follow the rules, and says immigrants are essential to the economy."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Proposes national health coverage that people can opt out of. He cites his own past denial of coverage for a preexisting condition."
+        },
+        {
+          "topic": "Courts and legal system",
+          "stance": "Calls for Congress to abolish PACER fees for federal court records. Says nonlawyers who represent themselves (pro se) in court need a 'People's union' to support them."
+        }
+      ],
+      "history": [
+        "Candidate, U.S. Senate (Florida special election), NPA, 2026",
+        "Previously ran for mayor of Ocala",
+        "Filed federal committees for president, including a declared 2028 candidacy",
+        "Founder of Justice Network (advocacy and news-gathering blog)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-21",
+          "outlet": "Folio Weekly",
+          "headline": "Three candidates, Three Visions: Florida's US Senate Race Comes Home to Northeast Florida",
+          "url": "https://folioweekly.com/2026/10/21/three-candidates-three-visions-floridas-us-senate-race-comes-home-to-northeast-florida/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "WKMG ClickOrlando",
+          "headline": "2026 Voter's Guide - Florida's US Senate race",
+          "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-floridas-us-senate-race/"
+        },
+        {
+          "date": "2026-10-06",
+          "outlet": "Political Wire",
+          "headline": "Ashley Moody Comfortably Leads in Florida Senate Race",
+          "url": "https://politicalwire.com/2026/10/06/moody-leads-nixon-in-florida-senate-race-3/"
+        },
+        {
+          "date": "2026-09-25",
+          "outlet": "PantherNOW",
+          "headline": "What to Know About Florida's 2026 Senate Race",
+          "url": "https://panthernow.com/2026/09/25/what-to-know-about-floridas-2026-senate-race/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign website (blog)",
+          "url": "https://neilgillespie4senate.blogspot.com/"
+        },
+        {
+          "label": "Florida Voters Guide 2026 candidate profile",
+          "url": "https://flvotersguide.org/candidates/neil-j-gillespie/"
+        },
+        {
+          "label": "Ballotpedia: Neil Gillespie",
+          "url": "https://ballotpedia.org/Neil_Gillespie"
+        },
+        {
+          "label": "Florida Phoenix voter guide: U.S. Senate",
+          "url": "https://floridaphoenix.com/voter-guides/contests/2026-general-u-s-senate/"
+        },
+        {
+          "label": "PantherNOW: What to Know About Florida's 2026 Senate Race",
+          "url": "https://panthernow.com/2026/09/25/what-to-know-about-floridas-2026-senate-race/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-governor-and-lieutenant-governor-byron-donalds": {
+      "name": "Byron Donalds",
+      "party": "Republican (REP)",
+      "status": "Open seat",
+      "occupation": "U.S. Representative for Florida's 19th Congressional District",
+      "summary": "Byron Donalds is a Republican who has represented Florida's 19th Congressional District in the U.S. House since January 2021, and before that he served in the Florida House from 2016 to 2020. President Trump endorsed him for governor in February 2025, and he won the 2026 Republican primary. In August 2026 he picked state Sen. Bryan Avila of Miami as his running mate for lieutenant governor.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Property taxes",
+          "stance": "Says that if he is elected governor he will push to eliminate all property taxes. He also pledged to bring back homestead-exemption property tax cuts if the November amendment fails."
+        },
+        {
+          "topic": "Property tax structure",
+          "stance": "Says Florida should move away from a 'one size fits all' property tax system and has been discussing tax reform ideas while campaigning."
+        },
+        {
+          "topic": "Property insurance",
+          "stance": "Proposes lowering property insurance rates through tort reform and by expanding home-hardening programs for homes built before 1992."
+        },
+        {
+          "topic": "Education / school choice",
+          "stance": "Defends Florida's school choice policies when challenged by opponent David Jolly."
+        },
+        {
+          "topic": "Campaign priorities",
+          "stance": "His campaign website lists affordability, health care, the economy and education among his priority issues."
+        }
+      ],
+      "history": [
+        "U.S. Representative, Florida's 19th District, 2021–present",
+        "Florida House of Representatives, District 80, 2016–2020",
+        "Endorsed for governor by President Trump, February 2025",
+        "2026 Republican nominee for Governor of Florida; running mate state Sen. Bryan Avila"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "Tampa Free Press",
+          "headline": "More Than 150 Local Florida Officials Throw Support Behind Byron Donalds For Governor",
+          "url": "https://tampafp.com/more-than-150-local-florida-officials-throw-support-behind-byron-donalds-for-governor"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "Florida Politics",
+          "headline": "Byron Donalds wants to move beyond 'one size fits all' property tax system",
+          "url": "https://floridapolitics.com/archives/824935-donalds-one-size-fits-all/"
+        },
+        {
+          "date": "2026-09-24",
+          "outlet": "CBS Miami",
+          "headline": "Byron Donalds, David Jolly outline differences on property taxes, insurance at Fort Lauderdale summit",
+          "url": "https://www.cbsnews.com/miami/news/florida-governor-byron-donalds-david-jolly-fort-lauderdale-summit/"
+        },
+        {
+          "date": "2026-09-22",
+          "outlet": "CNN",
+          "headline": "Another GOP candidate tries to distance himself from Trump",
+          "url": "https://www.cnn.com/2026/09/22/politics/byron-donalds-trump-florida-governor"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Byron Donalds",
+          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
+        },
+        {
+          "label": "Wikipedia: 2026 Florida gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election"
+        },
+        {
+          "label": "Fox 35: Donalds picks Bryan Avila as running mate",
+          "url": "https://www.fox35orlando.com/news/byron-donalds-picks-state-sen-bryan-avila-running-mate-florida-governors-race"
+        },
+        {
+          "label": "First Coast News race guide",
+          "url": "https://www.firstcoastnews.com/article/news/politics/elections/florida-governor-candidates-2026-donalds-jolly/77-af05ebf1-1174-452e-936c-d989ae1e2099"
+        },
+        {
+          "label": "WLRN: economic plans",
+          "url": "https://www.wlrn.org/government-politics/2026-08-21/byron-donalds-promotes-his-economic-plans-for-florida-defends-trumps-record"
+        },
+        {
+          "label": "wlrn.org",
+          "url": "https://www.wlrn.org/government-politics/2026-09-01/byron-donalds-doubles-down-on-cutting-or-even-eliminating-property-taxes-if-elected"
+        },
+        {
+          "label": "floridapolitics.com",
+          "url": "https://floridapolitics.com/archives/824935-donalds-one-size-fits-all/"
+        },
+        {
+          "label": "wsvn.com",
+          "url": "https://wsvn.com/news/politics/byron-donalds-florida-campaign/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-governor-and-lieutenant-governor-david-jolly": {
+      "name": "David Jolly",
+      "party": "Democratic (DEM)",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "fl-governor-and-lieutenant-governor-scott-eckhard-jewett": {
+      "name": "Scott Eckhard Jewett",
+      "party": "Libertarian Party of Florida (LPF)",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "fl-governor-and-lieutenant-governor-dean-ocean-abrams": {
+      "name": "Dean Ocean Abrams",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "fl-governor-and-lieutenant-governor-charles-burkett": {
+      "name": "Charles Burkett",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Open seat",
+      "occupation": "Former Mayor of Surfside, Florida",
+      "summary": "Charles Burkett is a former four-term mayor of the Town of Surfside, Florida. He announced his candidacy for governor on May 19, 2026, running as a No Party Affiliation candidate.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Affordability / cost of living",
+          "stance": "Says his campaign will focus on putting \"Florida residents first,\" with keeping Florida affordable as a main goal."
+        }
+      ],
+      "history": [
+        "Mayor of Surfside, Florida (four terms)",
+        "Announced NPA candidacy for Florida governor, May 2026"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "WLRN: Former Surfside mayor Charles Burkett enters Florida Governors' race (2026-05-19)",
+          "url": "https://www.wlrn.org/light/government-politics/2026-05-19/former-surfside-mayor-charles-burkett-florida-governors-race"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto": {
+      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Open seat",
+      "occupation": "Neuroscientist; describes himself as a patient and civil rights advocate and a \"Pro Se AI Litigator\"",
+      "summary": "Jeffrey Peter \"Dr. Jeff\" Datto is a Hialeah resident who describes himself as a neuroscientist and a Catholic father of two. He filed as a No Party Affiliation candidate for governor on 2025-12-05, with Juan Santana as his running mate. He qualified by paying the qualifying fee on 2026-06-12.",
+      "objectives": [],
+      "positions": [],
+      "history": [
+        "Filed for Governor (NPA) on 2025-12-05; qualified on 2026-06-12 by paying the fee; running mate Juan Santana",
+        "Former spinal cord injury research associate, Miami VA Healthcare System (per his Facebook profile)",
+        "Former spinal cord injury research associate, University of Miami (per his Facebook profile)",
+        "Previously worked at Duke University (per his Facebook profile)",
+        "Described as founder of dattoai.com (per flvotersguide.org)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "WUSF",
+          "headline": "Donalds and Jolly aren't the only candidates for Florida governor. Here's the rest of the field",
+          "url": "https://wusf.org/text/politics-issues/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Florida Division of Elections candidate tracking: Jeffrey Peter \"Dr. Jeff\" Datto",
+          "url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89630"
+        },
+        {
+          "label": "WUSF: rest of the Florida governor field (2026-10-22)",
+          "url": "https://wusf.org/text/politics-issues/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        },
+        {
+          "label": "Florida Phoenix Voter Guide: Governor",
+          "url": "https://floridaphoenix.com/voter-guides/contests/2026-general-governor/"
+        },
+        {
+          "label": "Florida Voters Guide: Governor & Lieutenant Governor",
+          "url": "https://flvotersguide.org/races/governor-lieutenant-governor/"
+        },
+        {
+          "label": "Dr Jeff Datto on X",
+          "url": "https://x.com/DrJeffDatto"
+        },
+        {
+          "label": "Jeff Datto on Facebook",
+          "url": "https://www.facebook.com/DrJeffDatto/"
+        },
+        {
+          "label": "Dr. Jeff Datto on YouTube Shorts",
+          "url": "https://www.youtube.com/shorts/ForC90qnBeQ"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-governor-and-lieutenant-governor-moliere-moe-dimanche": {
+      "name": "Moliere \"Moe\" Dimanche",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Open seat",
+      "occupation": "Artist, author, and prison reform activist",
+      "summary": "Moliere \"Moe\" Dimanche is an Orlando-born artist, author, and prison reform activist running for Governor of Florida with no party affiliation. His running mate is Benjiman Rojas. The Florida Division of Elections lists him as qualified for the 2026 general election: he filed on June 26, 2024, and qualified by paying the fee on June 10, 2026.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Criminal justice / prison reform",
+          "stance": "Advocates for prison reform. He has written about what he describes as systemic problems in the U.S. prison system, including in his book \"It Takes a Criminal to Know One.\""
+        }
+      ],
+      "history": [
+        "Candidate for Mayor of Orlando, 2023 (Ballotpedia lists him as disqualified)",
+        "Sought appointment as interim Orlando city commissioner after Gov. Ron DeSantis suspended Commissioner Regina Hill, 2023",
+        "Served 8.5 years of a 10-year prison sentence for theft, imposed in 2007",
+        "Plaintiff in Dimanche v. Brown, a civil rights case under Section 1983 in the U.S. Court of Appeals for the Eleventh Circuit",
+        "Occupation: artist and author; work in broadcasting (per Ballotpedia)",
+        "Education: West Orange High School; St. Johns River State College (Florida School of the Arts, studio art; Wikipedia lists an AA)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "WLRN",
+          "headline": "Donalds and Jolly aren't the only candidates for Florida governor. Here's the rest of the field",
+          "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Florida Division of Elections – Candidate Tracking System",
+          "url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88529"
+        },
+        {
+          "label": "Ballotpedia – Moliere Dimanche",
+          "url": "https://ballotpedia.org/Moliere_Dimanche"
+        },
+        {
+          "label": "Wikipedia – Moliere Dimanche",
+          "url": "https://en.wikipedia.org/wiki/Moliere_Dimanche"
+        },
+        {
+          "label": "WLRN – rest of the governor field",
+          "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "fl-governor-and-lieutenant-governor-frank-j-russo": {
+      "name": "Frank J. Russo",
+      "party": "No Party Affiliation (NPA)",
+      "status": "Open seat",
+      "occupation": "Entrepreneur, developer and insurance executive (New Smyrna Beach)",
+      "summary": "Frank J. Russo is an entrepreneur, developer and insurance executive from New Smyrna Beach. He announced his campaign for governor as an independent (NPA) candidate on April 14, 2026. He appears on the November 3, 2026 general election ballot as No Party Affiliation.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Affordability / cost of living",
+          "stance": "Says Floridians are struggling with rising housing and insurance costs. His 'People First — Humanity Over the Dollar' campaign proposes restoring affordability, stabilizing insurance and expanding workforce opportunities."
+        },
+        {
+          "topic": "Housing",
+          "stance": "Proposes a housing push for working families in all 67 counties, paid for with private capital and private builders and no new government dollars. He asked President Trump to bring builders to the table."
+        },
+        {
+          "topic": "Education / teacher pay",
+          "stance": "Supports raising the average teacher salary to $75,000."
+        },
+        {
+          "topic": "Property insurance",
+          "stance": "Says he wants to guarantee Floridians affordable coverage, and lists stabilizing insurance as a key campaign initiative."
+        }
+      ],
+      "history": [
+        "Occupation: entrepreneur, developer and insurance executive",
+        "Based in New Smyrna Beach, Florida",
+        "Changed party registration from Republican to Independent in 2022",
+        "Announced NPA candidacy for governor April 14, 2026",
+        "Raised more than $860,000 (per WLRN, Oct. 2026)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "WLRN",
+          "headline": "Donalds and Jolly aren't the only candidates for Florida governor. Here's the rest of the field",
+          "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        },
+        {
+          "date": "2026-10-01",
+          "outlet": "PR Newswire (campaign press release)",
+          "headline": "Florida Governor Candidate Frank Russo Issues Open Letter to President Trump: \"Help Me Build Homes for Working Families in All 67 Counties\"",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261001ph61962/florida-governor-candidate-frank-russo-issues-open-letter-to-president-trump-help-me-build-homes-for-working-families-in-all-67-counties"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign announcement (PR Newswire)",
+          "url": "https://www.prnewswire.com/news-releases/frank-russo-announces-run-for-governor-of-florida-302741761.html"
+        },
+        {
+          "label": "WLRN: rest of the governor field",
+          "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+        },
+        {
+          "label": "Open letter to President Trump (PR Newswire via Morningstar)",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261001ph61962/florida-governor-candidate-frank-russo-issues-open-letter-to-president-trump-help-me-build-homes-for-working-families-in-all-67-counties"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "ga-united-states-senate-jon-ossoff": {
+      "name": "Jon Ossoff",
+      "party": "Democrat",
+      "status": "Incumbent",
+      "occupation": "U.S. Senator from Georgia (incumbent); former CEO of an investigative documentary production company",
+      "summary": "Jon Ossoff is an Atlanta Democrat who was elected to the U.S. Senate in early 2021, alongside Sen. Raphael Warnock. He once interned for Congressman John Lewis and later ran an investigative media production company. He is running for a second term in the November 3, 2026 general election against Republican U.S. Rep. Mike Collins and Libertarian Allen Buckley.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Economy/Affordability",
+          "stance": "Says high costs come from corruption in government and money in politics. Argues that the Iran war, Trump's import tariffs and letting Affordable Care Act subsidies expire have raised costs for Georgians."
+        },
+        {
+          "topic": "Tariffs",
+          "stance": "Has questioned Collins in debates over Collins's support for President Trump's tariffs, which Ossoff has made a main focus of his campaign."
+        },
+        {
+          "topic": "Healthcare",
+          "stance": "Sponsored a bill to extend Affordable Care Act tax credits and voted against Medicaid funding cuts. Proposed an amendment to stop insurers from denying or delaying needed care."
+        },
+        {
+          "topic": "Prescription drug costs",
+          "stance": "Points to his role in passing the 2022 Inflation Reduction Act provision that capped insulin at $35 a month for people on Medicare."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Voted for the Laken Riley Act and says he supports a more humane approach to border security. Calls for reform and oversight of ICE tactics, and cosponsored a bill requiring local approval before ICE detention facilities are built or expanded."
+        },
+        {
+          "topic": "ICE detention oversight",
+          "stance": "His office investigated conditions in ICE detention. He says it found more than 1,000 credible allegations of abuse, including inadequate nutrition and sexual abuse."
+        },
+        {
+          "topic": "Iran war",
+          "stance": "Opposes the U.S. war in Iran, saying it was launched without evidence of an imminent threat, without clear objectives and before diplomacy was exhausted. His campaign cites six votes he cast for war powers resolutions."
+        },
+        {
+          "topic": "Abortion",
+          "stance": "Says Georgia's six-week abortion ban takes away women's autonomy and puts their health at risk. Sponsored a bill to prohibit government restrictions on abortion."
+        },
+        {
+          "topic": "Minimum wage",
+          "stance": "In 2021, sponsored a bill to raise the federal minimum wage to $15 over five years."
+        },
+        {
+          "topic": "Israel/Gaza",
+          "stance": "Says Israeli forces violated the law of armed conflict and international humanitarian law in Gaza. Says whether genocide occurred is for the International Criminal Court to decide."
+        }
+      ],
+      "history": [
+        "U.S. Senator from Georgia, 2021–present",
+        "Former CEO of an investigative documentary production company",
+        "Former intern for U.S. Rep. John Lewis",
+        "Pledged during an October 2026 debate to serve a full term and not run for president in 2028"
+      ],
+      "news": [
+        {
+          "date": "2026-10-21",
+          "outlet": "Yahoo News",
+          "headline": "Obama to campaign in Georgia with Ossoff, Bottoms",
+          "url": "https://yahoo.com/news/politics/articles/obama-campaign-georgia-ossoff-bottoms-174902009.html"
+        },
+        {
+          "date": "2026-10-20",
+          "outlet": "PolitiFact",
+          "headline": "How accurate are Democrats’ attacks on GOP opponents about opposing Iran war’s end?",
+          "url": "https://politifact.com/article/2026/oct/20/iran-war-votes-midterms-ohio-iowa-maine-georgia/"
+        },
+        {
+          "date": "2026-10-15",
+          "outlet": "Georgia Recorder",
+          "headline": "Ossoff reports raising another $33 million for homestretch of U.S. Senate reelection bid",
+          "url": "https://georgiarecorder.com/2026/10/15/ossoff-reports-raising-another-33-million-for-homestretch-of-u-s-senate-reelection-bid/"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "NBC News",
+          "headline": "In heated Georgia Senate debate, Jon Ossoff says he won’t run for president in 2028",
+          "url": "https://www.nbcnews.com/politics/2026-election/heated-georgia-senate-debate-jon-ossoff-says-wont-run-president-2028-rcna603300"
+        },
+        {
+          "date": "2026-10-12",
+          "outlet": "FOX 5 Atlanta",
+          "headline": "Georgia U.S. senate candidate: Sen. Jon Ossoff",
+          "url": "https://www.fox5atlanta.com/news/sen-jon-ossoff-georgia-u-s-senate-candidate"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Georgia Recorder voter guide (republished by The Current GA)",
+          "url": "https://thecurrentga.org/2026/10/16/u-s-senator-jon-ossoff-mike-collins/"
+        },
+        {
+          "label": "Georgia Recorder voter guide: U.S. Senate",
+          "url": "https://georgiarecorder.com/voter-guides/contests/2026senate/"
+        },
+        {
+          "label": "Guides.vote 2026 Georgia U.S. Senate voters guide",
+          "url": "https://guides.vote/guide/2026-georgia-us-senate-voters-guide/"
+        },
+        {
+          "label": "Sen. Ossoff statement on Iran (Senate office)",
+          "url": "https://www.ossoff.senate.gov/press-releases/sen-ossoff-statement-on-iran"
+        },
+        {
+          "label": "Congress.gov member page",
+          "url": "https://www.congress.gov/member/jon-ossoff/O000174"
+        },
+        {
+          "label": "Jerusalem Post interview coverage",
+          "url": "https://www.jpost.com/international/article-911135"
+        },
+        {
+          "label": "nbcnews.com",
+          "url": "https://www.nbcnews.com/politics/2026-election/heated-georgia-senate-debate-jon-ossoff-says-wont-run-president-2028-rcna603300"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "ga-united-states-senate-mike-collins": {
+      "name": "Mike Collins",
+      "party": "Republican",
+      "status": "Challenger",
+      "occupation": "U.S. Representative for Georgia's 10th Congressional District; co-founder of a trucking company",
+      "summary": "Mike Collins is a Republican from Jackson, Georgia, who has represented Georgia's 10th Congressional District in the U.S. House since 2023. He finished first in the May 19, 2026 Republican Senate primary and won the June 16 runoff against Derek Dooley. He faces Democratic Sen. Jon Ossoff and Libertarian Allen Buckley in the November 3, 2026 general election.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Economy and affordability",
+          "stance": "Argues that President Trump's tax cuts, deregulation and energy policies will lower prices, bring manufacturing back to the U.S., expand domestic energy production and reduce permitting requirements. Says Biden-era spending helped drive inflation."
+        },
+        {
+          "topic": "Taxes",
+          "stance": "Voted for the 2025 tax-and-spending law, which extended the 2017 tax cuts and added tax breaks on tips, overtime and for older Americans. He has made that vote a central part of his campaign."
+        },
+        {
+          "topic": "Healthcare",
+          "stance": "Says he wants to repeal the Affordable Care Act and supports more price transparency and expanded health savings accounts. Describes the 2025 law's Medicaid changes as an effort to root out fraud and abuse, and highlights its $50 billion rural health fund."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Supports President Trump's mass deportation campaign and has made immigration enforcement a central issue. Argues that illegal immigration puts pressure on housing and public services."
+        },
+        {
+          "topic": "Housing and regulation",
+          "stance": "Says he would reduce housing costs by cutting federal regulations on builders and opposing costly environmental requirements for construction. Introduced a House-passed bill he says would speed up building approvals and road and bridge projects."
+        },
+        {
+          "topic": "Foreign policy",
+          "stance": "His campaign emphasizes an \"America First\" foreign policy."
+        }
+      ],
+      "history": [
+        "U.S. Representative, Georgia's 10th Congressional District, 2023–present (elected 2022, re-elected 2024)",
+        "Co-founded a trucking company with his wife, Leigh Ann, in the early 1990s",
+        "Former board chairman of a Georgia credit union; former president of his local chamber of commerce",
+        "B.A. in business administration, Georgia State University, 1990",
+        "Graduated from Piedmont Academy, Monticello, Georgia, 1985",
+        "Won the 2026 Republican U.S. Senate primary runoff on June 16, 2026"
+      ],
+      "news": [
+        {
+          "date": "2026-10-13",
+          "outlet": "Georgia Recorder",
+          "headline": "Collins, Ossoff clash in a second heated debate as early voting begins in Georgia",
+          "url": "https://georgiarecorder.com/2026/10/13/collins-ossoff-clash-in-a-second-heated-debate-as-early-voting-begins-in-georgia/"
+        },
+        {
+          "date": "2026-10-12",
+          "outlet": "FOX 5 Atlanta",
+          "headline": "Georgia U.S. Senate candidate: Rep. Mike Collins",
+          "url": "https://www.fox5atlanta.com/news/rep-mike-collins-georgia-u-s-senate-candidate"
+        },
+        {
+          "date": "2026-10-08",
+          "outlet": "NBC News",
+          "headline": "First Georgia Senate debate spotlights fight over Trump- and Biden-era policies",
+          "url": "https://www.nbcnews.com/politics/2026-election/georgia-senate-debate-ossoff-collins-fight-trump-biden-era-policies-rcna602279"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AJC: Mike Collins vs. Jon Ossoff: The key issues dividing Georgia's Senate race (Sept 4, 2026)",
+          "url": "https://www.ajc.com/politics/2026/09/mike-collins-vs-jon-ossoff-key-issues-dividing-georgias-senate-race/"
+        },
+        {
+          "label": "FOX 5 Atlanta candidate profile (Oct 12, 2026)",
+          "url": "https://www.fox5atlanta.com/news/rep-mike-collins-georgia-u-s-senate-candidate"
+        },
+        {
+          "label": "AJC: Where Mike Collins stands on the issues (Apr 20, 2026)",
+          "url": "https://www.ajc.com/politics/2026/04/mike-collins-a-look-at-the-ajcs-coverage/"
+        },
+        {
+          "label": "NBC News: Collins wins GOP runoff (June 16, 2026)",
+          "url": "https://www.nbcnews.com/politics/2026-election/georgia-senate-midterms-primary-winner-collins-rcna350028"
+        },
+        {
+          "label": "Wikipedia: Mike Collins (politician)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Collins_(politician)"
+        },
+        {
+          "label": "Wikipedia: 2026 U.S. Senate election in Georgia",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "ga-united-states-senate-allen-buckley": {
+      "name": "Allen Buckley",
+      "party": "Libertarian",
+      "status": "Challenger",
+      "occupation": "Attorney and certified public accountant (CPA)",
+      "summary": "Allen Buckley is an Atlanta-area attorney and CPA who has practiced for about forty years. The Libertarian Party of Georgia nominated him for U.S. Senate at its January 2026 state convention, and he qualified with the Secretary of State as the party's candidate. He has run for the U.S. Senate in Georgia several times before, including as the Libertarian nominee in 2004, 2008 and 2016 and as an independent in the 2020 special election.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "National debt and federal spending",
+          "stance": "Proposes reducing the national debt and says he has model legislation drafted and ready to introduce if elected."
+        },
+        {
+          "topic": "Executive power",
+          "stance": "Supports limiting what his platform calls Executive branch abuses of power."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Supports immigration reform as part of his platform."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Proposes opening up a competitive free market in health care and generally favors private-sector solutions."
+        }
+      ],
+      "history": [
+        "Libertarian nominee for U.S. Senate, Georgia, 2026",
+        "Independent candidate in Georgia's 2020 U.S. Senate special election",
+        "Libertarian nominee for U.S. Senate, Georgia, 2016",
+        "Libertarian nominee for U.S. Senate, Georgia, 2008",
+        "Libertarian nominee for U.S. Senate, Georgia, 2004",
+        "Attorney and CPA for about 40 years"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Libertarian Party of Georgia – 2026 candidates",
+          "url": "https://lpgeorgia.com/candidates/"
+        },
+        {
+          "label": "Libertarian Party of Georgia – press release on qualifying candidates",
+          "url": "https://lpgeorgia.com/press-release-libertarian-party-of-georgia-qualifies-state-and-federal-candidates/"
+        },
+        {
+          "label": "BallotReady – Georgia general election, Nov. 3, 2026 (lists Buckley, Ossoff, Collins)",
+          "url": "https://www.ballotready.org/elections/georgia-general-election-e3320b65-8ec9-4bc8-bbd6-75e652ff2980"
+        },
+        {
+          "label": "Wikipedia – 2008 U.S. Senate election in Georgia",
+          "url": "https://en.wikipedia.org/wiki/2008_United_States_Senate_election_in_Georgia"
+        },
+        {
+          "label": "PolitiFact – 2016 fact-check mentioning his 2004 and 2008 runs",
+          "url": "https://www.politifact.com/factchecks/2016/aug/10/allen-buckley/libertarian-buckley-target-about-gops-isakson-and-/"
+        },
+        {
+          "label": "AllOnGeorgia – 2020 independent campaign",
+          "url": "https://allongeorgia.com/georgia-state-politics/u-s-senate-candidate-buckley-says-the-three-major-candidates-in-u-s-senate-race-would-vote-to-cause-the-national-debt-to-explode/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "ga-governor-keisha-lance-bottoms": {
+      "name": "Keisha Lance Bottoms",
+      "party": "Democrat",
+      "status": "Open seat",
+      "occupation": "Former Mayor of Atlanta; former White House senior adviser",
+      "summary": "Keisha Lance Bottoms is a Democrat who served one term as mayor of Atlanta and later worked in the Biden administration. She launched her campaign for governor in summer 2025 and won the Democratic nomination outright in the May 2026 primary. She faces Republican Rick Jackson in the November 3, 2026 general election for the open seat held by term-limited Gov. Brian Kemp.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Taxes",
+          "stance": "Proposes exempting teachers from state income taxes. She says this would help keep teachers in their jobs and let them afford homes in their communities."
+        },
+        {
+          "topic": "Affordability and cost of living",
+          "stance": "Says she would lower costs for Georgians through tax cuts for teachers, investments in housing, and free community college."
+        },
+        {
+          "topic": "Housing",
+          "stance": "Proposes state investments in housing aimed at lower-income and first-time homebuyers."
+        },
+        {
+          "topic": "Education and workforce",
+          "stance": "Proposes free community college for people training for jobs such as coders, plumbers, mechanics and utility workers."
+        }
+      ],
+      "history": [
+        "Mayor of Atlanta (one term, 2018–2022)",
+        "Served in the Biden administration (White House senior adviser)",
+        "Won the 2026 Democratic primary for Georgia governor outright (May 2026)",
+        "Endorsed by former Presidents Joe Biden and Barack Obama"
+      ],
+      "news": [
+        {
+          "date": "2026-10-20",
+          "outlet": "Rough Draft Atlanta",
+          "headline": "New poll shows Bottoms, Jackson in dead heat for Georgia governor",
+          "url": "https://roughdraftatlanta.com/2026/10/20/georgia-governor-poll-deadlock/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "Georgia Recorder (via The Current)",
+          "headline": "Georgia governor: Keisha Lance Bottoms, Rick Jackson",
+          "url": "https://thecurrentga.org/2026/10/16/georgia-governor-keisha-lance-bottoms-rick-jackson/"
+        },
+        {
+          "date": "2026-10-06",
+          "outlet": "NBC News",
+          "headline": "Georgia governor candidates spar over the economy and Trump in lone debate",
+          "url": "https://www.nbcnews.com/politics/2026-election/georgia-governor-candidates-spar-economy-trump-lone-debate-rcna601124"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AJC: Keisha Lance Bottoms – Where the candidate for Georgia governor stands on the issues",
+          "url": "https://www.ajc.com/politics/2026/04/keisha-lance-bottoms-a-look-at-the-ajcs-coverage/"
+        },
+        {
+          "label": "The Current / Georgia Recorder: Georgia governor race overview",
+          "url": "https://thecurrentga.org/2026/10/16/georgia-governor-keisha-lance-bottoms-rick-jackson/"
+        },
+        {
+          "label": "NBC News: Georgia governor debate coverage",
+          "url": "https://www.nbcnews.com/politics/2026-election/georgia-governor-candidates-spar-economy-trump-lone-debate-rcna601124"
+        },
+        {
+          "label": "Wikipedia: 2026 Georgia gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "ga-governor-rick-jackson": {
+      "name": "Rick Jackson",
+      "party": "Republican",
+      "status": "Open seat",
+      "occupation": "Founder of Jackson Healthcare, a health care staffing company",
+      "summary": "Rick Jackson is an Atlanta native and the founder of Jackson Healthcare, an Alpharetta-based health care staffing company. He has never held elected office. He announced his campaign for governor in February 2026, beat Lt. Gov. Burt Jones in the June 16 Republican primary runoff, and now faces Democrat Keisha Lance Bottoms on November 3, 2026, in the race to succeed term-limited Gov. Brian Kemp.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Income tax",
+          "stance": "Proposes cutting Georgia's state income tax in half within four years and working toward eliminating it within eight. He has pledged not to run for reelection if he fails to deliver the cut. He says growth and lower government costs would offset the lost revenue."
+        },
+        {
+          "topic": "Property tax",
+          "stance": "Supports freezing increases in the home valuations that drive property tax bills. Proposes requiring developers to pay the infrastructure costs tied to their projects."
+        },
+        {
+          "topic": "Gas tax and energy costs",
+          "stance": "Proposes automatically suspending the state gas tax for 60 days when prices spike sharply, set off by a rise of at least 35 cents in 7 days or 75 cents in 30 days. Supports ending state taxes on home electricity and natural gas."
+        },
+        {
+          "topic": "Taxes on tips",
+          "stance": "Supports ending state income taxes on tips."
+        },
+        {
+          "topic": "Education",
+          "stance": "Campaigns on early literacy and has pledged to raise teacher pay and push for more career education programs."
+        },
+        {
+          "topic": "Public safety",
+          "stance": "Proposes more support for law enforcement."
+        },
+        {
+          "topic": "Foster care",
+          "stance": "Backed a 2022 Georgia law that gives tax credits for donations supporting young people leaving foster care. As of July 2026, his campaign had not said whether he would revive an earlier proposal to partly privatize the child welfare system."
+        }
+      ],
+      "history": [
+        "Founder of Jackson Healthcare, Alpharetta, Ga.; in 1976 bought the secretarial staffing company where he worked",
+        "No prior elected office; 2026 is his first run",
+        "Won the 2026 Republican nomination for governor in the June 16 primary runoff",
+        "Attended David Lipscomb College (now Lipscomb University) but did not finish; later took a small-business course at Georgia State University",
+        "Grew up in Atlanta, including time in five foster homes",
+        "Philanthropy includes foster care causes and Giving Films",
+        "Lives in Cumming, Ga."
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "41NBC",
+          "headline": "Rick Jackson campaigns across Middle Georgia; Jackson campaign continues to dodge 41NBC's interview request",
+          "url": "https://www.41nbc.com/rick-jackson-campaigns-across-middle-georgia-jackson-campaign-continues-to-dodge-41nbcs-interview-request/"
+        },
+        {
+          "date": "2026-10-21",
+          "outlet": "WABE",
+          "headline": "Bottoms, Jackson enter homestretch of Georgia governor's race",
+          "url": "https://www.wabe.org/bottoms-jackson-enter-homestretch-of-georgia-governors-race/"
+        },
+        {
+          "date": "2026-10-20",
+          "outlet": "WTOC",
+          "headline": "Jackson outlines vision for Georgia in bid for governor",
+          "url": "https://www.wtoc.com/2026/10/20/jackson-outlines-vision-georgia-bid-governor/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "The Current",
+          "headline": "Georgia governor: Keisha Lance Bottoms, Rick Jackson",
+          "url": "https://thecurrentga.org/2026/10/16/georgia-governor-keisha-lance-bottoms-rick-jackson/"
+        },
+        {
+          "date": "2026-10-12",
+          "outlet": "FOX 5 Atlanta",
+          "headline": "Georgia governor candidate profile: Rick Jackson",
+          "url": "https://www.fox5atlanta.com/news/rick-jackson-georgia-governor-candidate-profile"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FOX 5 Atlanta candidate profile",
+          "url": "https://www.fox5atlanta.com/news/rick-jackson-georgia-governor-candidate-profile"
+        },
+        {
+          "label": "The Current GA race overview",
+          "url": "https://thecurrentga.org/2026/10/16/georgia-governor-keisha-lance-bottoms-rick-jackson/"
+        },
+        {
+          "label": "WABE homestretch coverage",
+          "url": "https://www.wabe.org/bottoms-jackson-enter-homestretch-of-georgia-governors-race/"
+        },
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+        },
+        {
+          "label": "WTOC",
+          "url": "https://www.wtoc.com/2026/10/20/jackson-outlines-vision-georgia-bid-governor/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-governor-lt-governor-jocelyn-benson": {
+      "name": "Jocelyn Benson",
+      "party": "Democratic Party",
+      "status": "Open seat",
+      "occupation": "Michigan Secretary of State",
+      "summary": "Jocelyn Benson is a Democrat who has been Michigan's Secretary of State since 2019. She is the Democratic nominee for governor in the November 3, 2026 general election. Her running mate for lieutenant governor is state Senate Majority Leader Winnie Brinks of Grand Rapids.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Health care costs",
+          "stance": "Proposes creating a prescription drug affordability board and streamlining the Michigan Department of Health and Human Services. She says outdated infrastructure slows the department down."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Describes her health platform as centered on access, affordability and fairness, and says fixing outdated MDHHS infrastructure is the centerpiece of her plan."
+        },
+        {
+          "topic": "Gas prices",
+          "stance": "Said at the October 6 debate that she is open to a state gas tax holiday."
+        }
+      ],
+      "history": [
+        "Michigan Secretary of State, 2019–present",
+        "Democratic nominee for Governor of Michigan, 2026",
+        "Running mate: Senate Majority Leader Winnie Brinks (announced Aug. 19, 2026)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "WDIV ClickOnDetroit",
+          "headline": "Michigan students are falling behind -- here’s what governor candidates plan to do about it",
+          "url": "https://clickondetroit.com/news/local/2026/10/22/michigan-students-are-falling-behind-heres-what-governor-candidates-plan-to-do-about-it"
+        },
+        {
+          "date": "2026-10-21",
+          "outlet": "WDIV ClickOnDetroit",
+          "headline": "What Michigan governor candidates said they'd do to lower costs for Michiganders",
+          "url": "https://www.clickondetroit.com/news/local/2026/10/20/what-michigan-governor-candidates-said-theyd-do-to-lower-costs-for-michiganders/"
+        },
+        {
+          "date": "2026-10-16",
+          "outlet": "WDET",
+          "headline": "MichMash: Jocelyn Benson makes her case to be Michigan's next governor",
+          "url": "https://wdet.org/2026/10/16/michmash-jocelyn-benson-makes-her-case-to-be-michigans-next-governor/"
+        },
+        {
+          "date": "2026-10-06",
+          "outlet": "Michigan Advance",
+          "headline": "Benson, James tackle affordability, federal relations at first gubernatorial debate",
+          "url": "https://michiganadvance.com/2026/10/06/benson-james-tackle-affordability-federal-relations-at-first-gubernatorial-debate/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Michigan Public: Benson health policy agenda",
+          "url": "https://www.michiganpublic.org/politics-government/2026-01-08/defining-issue-jocelyn-benson-outlines-health-policy-agenda-in-campaign-for-governor"
+        },
+        {
+          "label": "WLNS: Debate takeaways",
+          "url": "https://www.wlns.com/your-local-election-hq/benson-james-michigan-debate-takeaways/"
+        },
+        {
+          "label": "Bridge Michigan: Benson picks Winnie Brinks",
+          "url": "https://bridgemi.com/michigan-government/jocelyn-benson-picks-winnie-brinks-as-running-mate-in-michigan-governor-race/"
+        },
+        {
+          "label": "Campaign newsroom",
+          "url": "https://www.jocelynbenson.com/news"
+        },
+        {
+          "label": "Detroit News: Second debate",
+          "url": "https://www.detroitnews.com/story/news/politics/2026/10/15/michigan-governor-debate-john-james-jocelyn-benson-detroit-wdiv--live/92217675007/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-governor-lt-governor-john-james": {
+      "name": "John James",
+      "party": "Republican Party",
+      "status": "Open seat",
+      "occupation": "U.S. Representative for Michigan's 10th Congressional District; Army veteran and businessman",
+      "summary": "John James is a Republican U.S. Representative for Michigan's 10th Congressional District and a former Army aviation officer. President Trump endorsed him, and he won the August 4, 2026 Republican primary for governor, defeating businessman Perry Johnson and former Attorney General Mike Cox. His running mate for lieutenant governor is Jay DeBoyer, and he faces Democrat Jocelyn Benson and minor-party candidates in the November 3, 2026 general election.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Education",
+          "stance": "Says Michigan's low reading scores and school performance are the top education problem. Wants the governor to have more control over the state's education system so schools can be held accountable."
+        },
+        {
+          "topic": "Parental rights and school sports",
+          "stance": "Supports parental rights in schools and says girls' school sports should be protected. Campaigned with a parent who is suing a school district over classroom displays."
+        },
+        {
+          "topic": "Taxes and school choice",
+          "stance": "Campaigned on an Education Freedom Tax Credit and on repealing the state income tax."
+        },
+        {
+          "topic": "Economy and cost of living",
+          "stance": "Says his campaign focuses on the economy, education, infrastructure and public safety. Argues that families face high costs, including energy prices, and that Michigan needs a change in direction."
+        },
+        {
+          "topic": "Tariffs and trade",
+          "stance": "Says he disagrees with President Trump on tariff policy and has pushed back on the administration's tariffs against Canada."
+        },
+        {
+          "topic": "Data centers",
+          "stance": "Talked about data center development and wants communities to have a stronger voice in decisions that affect them."
+        }
+      ],
+      "history": [
+        "U.S. Representative, Michigan's 10th Congressional District (2023–present)",
+        "Republican nominee for U.S. Senate in Michigan, 2018 and 2020",
+        "U.S. Army aviation officer, Ranger-qualified; combat veteran",
+        "Businessman",
+        "Won the 2026 Republican primary for governor (August 4, 2026)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-16",
+          "outlet": "WDIV ClickOnDetroit",
+          "headline": "Benson, James clash over health care, Trump, Lansing record in final Michigan governor debate",
+          "url": "https://www.clickondetroit.com/news/local/2026/10/16/benson-and-james-clash-over-health-care-trump-and-lansing-record-in-final-michigan-governor-debate/"
+        },
+        {
+          "date": "2026-10-12",
+          "outlet": "Michigan Public",
+          "headline": "GOP governor candidate John James calls for accountability in Michigan's education system",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-12/gop-governor-candidate-john-james-calls-for-accountability-in-michigans-education-system"
+        },
+        {
+          "date": "2026-10-10",
+          "outlet": "WOOD TV8",
+          "headline": "Republican gubernatorial candidate John James campaigns in Holland",
+          "url": "https://www.woodtv.com/news/ottawa-county/republican-gubernatorial-candidate-john-james-campaigns-in-holland/"
+        },
+        {
+          "date": "2026-10-07",
+          "outlet": "NBC News",
+          "headline": "Republican John James seeks some distance from Trump in Michigan governor debate",
+          "url": "https://www.nbcnews.com/politics/2026-election/republican-john-james-distance-trump-michigan-governor-debate-rcna601820"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Michigan Public – James education event (Oct 12, 2026)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-12/gop-governor-candidate-john-james-calls-for-accountability-in-michigans-education-system"
+        },
+        {
+          "label": "FOX 2 Detroit – Grosse Pointe campaign stop",
+          "url": "https://www.fox2detroit.com/news/michigan-governor-candidate-john-james-campaigns-grosse-pointe"
+        },
+        {
+          "label": "WWMT – James wins GOP nomination",
+          "url": "https://wwmt.com/news/michigan-politics/john-james-primary-election-perry-johnson-michigans-republican-primary-governor-michigan-race-politics-education-tax-credit-"
+        },
+        {
+          "label": "ClickOnDetroit – James accepts nomination",
+          "url": "https://www.clickondetroit.com/news/local/2026/08/05/john-james-accepts-republican-nomination-for-michigan-governor-shifts-focus-to-november-election/"
+        },
+        {
+          "label": "NBC News – first debate",
+          "url": "https://www.nbcnews.com/politics/2026-election/republican-john-james-distance-trump-michigan-governor-debate-rcna601820"
+        },
+        {
+          "label": "Spectrum News – James on key issues",
+          "url": "https://spectrumlocalnews.com/mi/michigan/news/2026/06/09/gov-candidate-johnjames-keyissues"
+        },
+        {
+          "label": "Bridge Michigan – primary results",
+          "url": "https://bridgemi.com/michigan-government/michigan-republican-governor-primary-results-john-james-perry-johnson/"
+        },
+        {
+          "label": "Wikipedia – 2026 Michigan gubernatorial election (running mate)",
+          "url": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-governor-lt-governor-anthony-hudson": {
+      "name": "Anthony Hudson",
+      "party": "Libertarian Party",
+      "status": "Open seat",
+      "occupation": "Truck driver (Genesee County)",
+      "summary": "Anthony Hudson is a truck driver from Genesee County who first ran for the Republican nomination for Michigan governor. In February 2026 he switched to the Libertarian Party and said the GOP had pushed him out. The Libertarian Party nominated him for governor on June 28, 2026, and he will be on the November 2026 general election ballot.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Size and accountability of government",
+          "stance": "Says Lansing politicians have expanded government while taxpayers face rising costs and excessive regulations. Says he is running so that government is transparent and accountable and answers to citizens."
+        },
+        {
+          "topic": "Constitutional freedoms",
+          "stance": "Says he is running to put the people of Michigan first and protect constitutional freedoms."
+        }
+      ],
+      "history": [
+        "Truck driver, Genesee County",
+        "Ran for the 2026 Republican nomination for Michigan governor, then left the race",
+        "Switched to the Libertarian Party in February 2026",
+        "Nominated as the Libertarian candidate for Michigan governor on June 28, 2026"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "The Mining Journal: Anthony Hudson launches campaign for governor as Libertarian nominee (2026-07-06)",
+          "url": "https://www.miningjournal.net/news/front-page-news/2026/07/anthony-hudson-launches-campaign-for-governor-as-libertarian-nominee/"
+        },
+        {
+          "label": "Michigan Advance: Anthony Hudson switches to Libertarian Party in bid for governor (2026-02-20)",
+          "url": "https://michiganadvance.com/2026/02/20/anthony-hudson-switches-to-libertarian-party-in-bid-for-governor-says-he-was-pushed-out-by-gop/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-governor-lt-governor-donna-brandenburg": {
+      "name": "Donna Brandenburg",
+      "party": "U.S. Taxpayers Party",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    },
+    "mi-governor-lt-governor-douglas-campbell": {
+      "name": "Douglas Campbell",
+      "party": "Green Party",
+      "status": "Open seat",
+      "occupation": "Retired registered professional engineer; substitute high school teacher",
+      "summary": "Douglas Campbell, of Ferndale, is the Green Party of Michigan's nominee for governor in the November 3, 2026 general election, with Bobbie Clay of Benton Harbor as his running mate for lieutenant governor. The Green Party nominated him at its July 2026 convention. He was also the Green Party's nominee for governor in 2002 and 2006 and has run for U.S. House several times.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Priorities",
+          "stance": "Names affordability, energy and education as his top three priorities for Michigan."
+        },
+        {
+          "topic": "Education / school funding",
+          "stance": "Proposes ending the charter school system and funding schools through a statewide budget instead of local property taxes. He argues the property-tax system keeps children in poor areas in poor schools."
+        },
+        {
+          "topic": "Education / students",
+          "stance": "Proposes better school buildings to reduce crowding, and a fund to help blue-collar and low-income high school students study abroad."
+        },
+        {
+          "topic": "Economy / jobs and wages",
+          "stance": "Says government job-creation incentives turn into corporate welfare. Supports direct public hiring in the style of a Green New Deal, plus a Universal Basic Income."
+        },
+        {
+          "topic": "Minimum wage",
+          "stance": "In a speech at a Green Party event, recommended tying the hourly federal minimum wage to one ten-thousandth of the total pay of the highest-paid member of Congress."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Supports creating a not-for-profit national health system, starting at the state level by taking over hospitals that are about to close, one at a time."
+        },
+        {
+          "topic": "Energy / utilities",
+          "stance": "Supports turning electric and gas utilities from for-profit private companies into municipal agencies. Also supports adding an energy code to the building code and helping owners upgrade existing buildings."
+        },
+        {
+          "topic": "Environment / Line 5",
+          "stance": "Supports closing the Line 5 pipeline, saying it threatens the Great Lakes."
+        },
+        {
+          "topic": "Renewable energy / EVs",
+          "stance": "Supports covering flat roofs and parking lots with solar panels, paid on a net-metering basis, and encouraging electric vehicles."
+        },
+        {
+          "topic": "Immigration / civil rights",
+          "stance": "Says residents need protection from the federal government and supports Bill of Rights protections for all residents. Argues low wages come from late-stage capitalism, not immigration."
+        }
+      ],
+      "history": [
+        "Green Party nominee for Michigan governor, 2026 (nominated at the July 2026 state convention)",
+        "Green Party nominee for Michigan governor, 2002 and 2006",
+        "Green Party candidate for U.S. House in 2008, 2010, 2012 (MI-14) and 2024 (MI-11)",
+        "Regional campaign coordinator for Ralph Nader's 2000 presidential campaign",
+        "Registered professional engineer (retired); substitute high school teacher",
+        "Resides in Ferndale, Oakland County"
+      ],
+      "news": [
+        {
+          "date": "2026-10-13",
+          "outlet": "CBS Detroit",
+          "headline": "Who is running for Michigan governor? Meet the candidates running for the state's top job",
+          "url": "https://www.cbsnews.com/detroit/news/who-is-running-for-michigan-governor/"
+        },
+        {
+          "date": "2026-10-07",
+          "outlet": "Lansing Letter",
+          "headline": "Green Party's Douglas Campbell runs for Michigan governor",
+          "url": "https://lansingletter.com/articles/green-party-s-douglas-campbell-runs-for-michigan-governor-muxb1v7d"
+        }
+      ],
+      "sources": [
+        {
+          "label": "VOTE411 (League of Women Voters) Michigan Governor voter guide – Campbell responses",
+          "url": "https://onyourballot.vote411.org/m/race-detail.do?id=25687753"
+        },
+        {
+          "label": "Green Party of Michigan – 2026 executive office candidates",
+          "url": "https://migreenparty.org/candidates-for-michigan-executive-office-2026/"
+        },
+        {
+          "label": "CBS Detroit – Michigan governor candidates",
+          "url": "https://www.cbsnews.com/detroit/news/who-is-running-for-michigan-governor/"
+        },
+        {
+          "label": "Lansing Letter – Campbell profile",
+          "url": "https://lansingletter.com/articles/green-party-s-douglas-campbell-runs-for-michigan-governor-muxb1v7d"
+        },
+        {
+          "label": "Michigan Advance voter guide – Governor",
+          "url": "https://michiganadvance.com/voter-guides/contests/governor/"
+        },
+        {
+          "label": "Michigan Women's blog – 2026 governor candidates",
+          "url": "https://michwomen.com/blog/2026-candidates-for-michigan-governor"
+        },
+        {
+          "label": "Wikipedia – 2002 Michigan gubernatorial election",
+          "url": "https://en.wikipedia.org/wiki/2002_Michigan_gubernatorial_election"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-abdul-el-sayed": {
+      "name": "Abdul El-Sayed",
+      "party": "Democratic Party",
+      "status": "Open seat",
+      "occupation": "Physician and epidemiologist; former public health official",
+      "summary": "Abdul El-Sayed is a physician and former Detroit and Wayne County public health official. He won Michigan's August 2026 Democratic primary for U.S. Senate, defeating U.S. Rep. Haley Stevens. He is the Democratic nominee for the open seat in the November 3, 2026 general election.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Health care",
+          "stance": "Supports Medicare for All and calls it his signature plan. Says he would expand Medicare to cover vision, dental and hearing care and extend it to everyone."
+        },
+        {
+          "topic": "Cost of living / economy",
+          "stance": "Says he would work to lower the cost of living for Americans."
+        },
+        {
+          "topic": "Israel / foreign aid",
+          "stance": "Campaigns on ending U.S. military aid to Israel."
+        },
+        {
+          "topic": "Campaign finance",
+          "stance": "Campaigns on getting corporate money out of politics."
+        },
+        {
+          "topic": "Iran",
+          "stance": "Said Iran has posed a threat to U.S. national security. Argues that the 2015 nuclear deal helped contain Iran through diplomacy."
+        }
+      ],
+      "history": [
+        "Democratic nominee for U.S. Senate, Michigan (won the August 2026 primary)",
+        "Former public health official for Detroit and Wayne County",
+        "Candidate in the 2018 Democratic primary for Michigan governor",
+        "Physician and epidemiologist"
+      ],
+      "news": [
+        {
+          "date": "2026-10-21",
+          "outlet": "WDIV ClickOnDetroit",
+          "headline": "Michigan US Senate debate: Abdul El-Sayed, Mike Rogers clash over taxes, healthcare, immigration",
+          "url": "https://www.clickondetroit.com/news/local/2026/10/21/abdul-el-sayed-mike-rogers-face-off-in-michigan-us-senate-debate/"
+        },
+        {
+          "date": "2026-10-20",
+          "outlet": "Michigan Public",
+          "headline": "El-Sayed, Rogers drill down on issues at Detroit Economic Club forum",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-20/el-sayed-rogers-drill-down-on-issues-at-detroit-economic-club-forum"
+        },
+        {
+          "date": "2026-10-09",
+          "outlet": "WLNS",
+          "headline": "6 takeaways from the Michigan Senate debate between Abdul El-Sayed and Mike Rogers",
+          "url": "https://www.wlns.com/your-local-election-hq/el-sayed-rogers-michigan-senate-debate/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fox News: 2026 primary results (El-Sayed wins Michigan Democratic Senate primary)",
+          "url": "https://www.foxnews.com/live-news/2026-primary-election-results-michigan-virginia-kansas-missouri-washington"
+        },
+        {
+          "label": "NBC News: Michigan Senate primary results 2026",
+          "url": "https://www.nbcnews.com/politics/2026-primary-elections/michigan-senate-results"
+        },
+        {
+          "label": "WDIV: Oct. 21 debate coverage",
+          "url": "https://www.clickondetroit.com/news/local/2026/10/21/abdul-el-sayed-mike-rogers-face-off-in-michigan-us-senate-debate/"
+        },
+        {
+          "label": "Michigan Public: Detroit Economic Club forum",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-20/el-sayed-rogers-drill-down-on-issues-at-detroit-economic-club-forum"
+        },
+        {
+          "label": "Al Jazeera: debate takeaways",
+          "url": "https://www.aljazeera.com/news/2026/10/22/michigan-senate-debate-key-takeaways-from-el-sayed-rogers-clash"
+        },
+        {
+          "label": "Democracy Now: segment on the Michigan Senate race",
+          "url": "https://www.democracynow.org/2026/10/22/el_sayed_omar"
+        },
+        {
+          "label": "WLNS: Oct. 8 debate takeaways",
+          "url": "https://www.wlns.com/your-local-election-hq/el-sayed-rogers-michigan-senate-debate/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-mike-rogers": {
+      "name": "Mike Rogers",
+      "party": "Republican Party",
+      "status": "Open seat",
+      "occupation": "Former U.S. Representative and former FBI agent; has worked in cybersecurity and national security",
+      "summary": "Mike Rogers is a former FBI agent and a seven-term former Republican U.S. Representative from Michigan who lives in White Lake Township. He is the Republican nominee for the U.S. Senate seat being vacated by Democratic Sen. Gary Peters, who is not seeking a third term. President Donald Trump has endorsed his candidacy.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Trade and tariffs",
+          "stance": "Calls for an immediate end to the tariff war with Canada, saying 'Canada is not our enemy.' Says some tariffs are working to bring jobs back from Mexico and China."
+        },
+        {
+          "topic": "Immigration and border security",
+          "stance": "Supports continuing current ICE enforcement. Says it has targeted violent criminals, drug dealers and human traffickers and has had a large impact on crime."
+        },
+        {
+          "topic": "Social Security",
+          "stance": "Proposes rooting out fraud to address Social Security's projected insolvency. Says fraud prevention could be worth about $500 billion."
+        },
+        {
+          "topic": "Foreign policy / Iran",
+          "stance": "Says the U.S. war with Iran needs to 'end quickly.'"
+        },
+        {
+          "topic": "Economy and cost of living",
+          "stance": "Says Michiganders are 'hurting' from job losses and high utility bills. Argues that Democratic control of Congress would bring higher taxes and costs, including for gasoline, and says lowering prices is his top priority."
+        }
+      ],
+      "history": [
+        "FBI special agent (former)",
+        "U.S. Representative from Michigan, seven terms",
+        "Has worked in cybersecurity for about a decade since leaving Congress",
+        "Resident of White Lake Township, Michigan",
+        "2026 Republican nominee for U.S. Senate in Michigan"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "Michigan Public",
+          "headline": "Final Michigan US Senate debate puts Rogers, El-Sayed against each other on the issues",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-22/final-michigan-us-senate-debate-puts-rogers-el-sayed-against-each-other-on-the-issues"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "CNBC",
+          "headline": "Mike Rogers breaks with Trump in Michigan Senate race on tariffs, Iran",
+          "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html"
+        },
+        {
+          "date": "2026-10-07",
+          "outlet": "CNN",
+          "headline": "Michigan Republican Senate candidate Mike Rogers breaks with Trump on tariffs",
+          "url": "https://www.cnn.com/2026/10/07/politics/michigan-mike-rogers-trump-tariffs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Michigan Public – final Senate debate coverage",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-22/final-michigan-us-senate-debate-puts-rogers-el-sayed-against-each-other-on-the-issues"
+        },
+        {
+          "label": "CNN – Rogers breaks with Trump on tariffs",
+          "url": "https://www.cnn.com/2026/10/07/politics/michigan-mike-rogers-trump-tariffs"
+        },
+        {
+          "label": "CNN – Midterm live updates, Michigan debate",
+          "url": "https://www.cnn.com/2026/10/21/politics/live-news/midterm-election-congress"
+        },
+        {
+          "label": "CNBC – Rogers on tariffs and Iran",
+          "url": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html"
+        },
+        {
+          "label": "Detroit News – final debate live coverage",
+          "url": "https://www.detroitnews.com/story/news/politics/2026/10/21/michigan-senate-debate-live--live/92369423007/"
+        },
+        {
+          "label": "Wikipedia – 2026 U.S. Senate election in Michigan",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-lydia-christensen": {
+      "name": "Lydia Christensen",
+      "party": "Libertarian Party",
+      "status": "Open seat",
+      "occupation": "Computer scientist and technology founder (Iron Fortress LLC)",
+      "summary": "Lydia Christensen is a computer scientist and technology founder from Ironwood, in Michigan's Upper Peninsula, who says she grew up in the foster care system. The Libertarian Party of Michigan nominated her for U.S. Senate at its June 28, 2026 convention, and the party certified her nomination for the November 3, 2026 general election. She is running for the open seat held by Sen. Gary Peters, who is not seeking reelection, under the campaign name \"Unchaining Michigan.\"",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Civil liberties / digital privacy",
+          "stance": "Says her top Senate priority would be protecting digital privacy and civil liberties through a comprehensive Digital Bill of Rights."
+        },
+        {
+          "topic": "Campaign finance",
+          "stance": "Says she takes no corporate PAC money. She also says she is \"disgusted\" by a PAC with ties to the El-Sayed campaign that sent texts promoting her candidacy."
+        },
+        {
+          "topic": "Immigration",
+          "stance": "Says due process applies to everyone on American soil, citizen or not, and opposes detaining anyone without it."
+        },
+        {
+          "topic": "Surveillance",
+          "stance": "Opposes warrantless surveillance and facial recognition dragnets, including the warrantless tracing of cars and the monitoring of protesters."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Supports \"Medicaid for All,\" which she describes as comprehensive coverage with $0 deductibles. A Libertarian Party profile describes her plan as opt-in rather than mandatory."
+        },
+        {
+          "topic": "Taxes",
+          "stance": "Supports ending the federal income tax on earnings under $150,000, according to the Washington Free Beacon."
+        },
+        {
+          "topic": "Press freedom",
+          "stance": "Calls for White House press access to be restored for CNN, MS NOW and Politico. Proposes stronger protections for journalists who cover the federal government."
+        },
+        {
+          "topic": "Campaign priorities",
+          "stance": "Says her plan focuses on Great Lakes protection, housing, tribal sovereignty, civil liberties and economic opportunity."
+        }
+      ],
+      "history": [
+        "Libertarian Party of Michigan nominee for U.S. Senate, nominated June 28, 2026",
+        "No prior elected office found",
+        "Founder of Iron Fortress LLC, a technology company focused on Bitcoin mining, AI compute, manufacturing and connectivity",
+        "Education: says she earned the equivalent of two degrees in computer science and computer programming; graduated from Appleton West High School (per Votebook)",
+        "Raised in the foster care system; lives in Ironwood, Michigan; describes herself as a member of the Kiowa-Sioux Nation"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "Washington Free Beacon",
+          "headline": "Abdul El-Sayed's Treasurer Behind Super PAC Pushing Third-Party Libertarian as 'True Conservative' in Michigan Senate Race",
+          "url": "https://freebeacon.com/democrats/abdul-el-sayeds-treasurer-behind-super-pac-pushing-third-party-libertarian-as-true-conservative-in-michigan-senate-race/"
+        },
+        {
+          "date": "2026-10-15",
+          "outlet": "Lowell's First Look",
+          "headline": "Candidate Profile: Lydia Christensen for U.S. Senate",
+          "url": "https://lowellsfirstlook.com/candidate-profile-lydia-christensen-for-u-s-senate/"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "The Royal Oak Record",
+          "headline": "Libertarian Lydia Christensen seeks Michigan U.S. Senate seat",
+          "url": "https://theroyaloakrecord.com/articles/libertarian-lydia-christensen-seeks-michigan-u-s-senate-seat-muzzs8gp"
+        },
+        {
+          "date": "2026-09-26",
+          "outlet": "The Eastern Echo",
+          "headline": "Meet Michigan's United States Senate candidates",
+          "url": "https://www.easternecho.com/article/2026/09/meet-michigans-united-states-senate-candidates"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Campaign website",
+          "url": "https://www.lydialynnchristensen.com/"
+        },
+        {
+          "label": "Campaign website – About",
+          "url": "https://www.lydialynnchristensen.com/about"
+        },
+        {
+          "label": "Libertarian Party candidate page",
+          "url": "https://lp.org/candidate/lydia-christensen/"
+        },
+        {
+          "label": "The Royal Oak Record candidate questionnaire article",
+          "url": "https://theroyaloakrecord.com/articles/libertarian-lydia-christensen-seeks-michigan-u-s-senate-seat-muzzs8gp"
+        },
+        {
+          "label": "CBS Detroit candidate overview",
+          "url": "https://www.cbsnews.com/detroit/news/who-is-running-for-u-s-senate-in-michigan/"
+        },
+        {
+          "label": "Votebook profile",
+          "url": "https://www.getvotebook.com/us/mi/lydia-christensen"
+        },
+        {
+          "label": "Smarter.vote profile",
+          "url": "https://smarter.vote/races/mi-senate-2026/lydia-christensen/"
+        },
+        {
+          "label": "Washington Free Beacon",
+          "url": "https://freebeacon.com/democrats/abdul-el-sayeds-treasurer-behind-super-pac-pushing-third-party-libertarian-as-true-conservative-in-michigan-senate-race/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-tim-long": {
+      "name": "Tim Long",
+      "party": "U.S. Taxpayers Party",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "Timothy (Tim) Long is the U.S. Taxpayers Party nominee for U.S. Senate in Michigan. He is running for the open seat that Democratic Sen. Gary Peters is leaving, and he will be on the November 3, 2026 general election ballot.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Abortion",
+          "stance": "Says on his Facebook page that he supports the right to life."
+        },
+        {
+          "topic": "Foreign aid and federal debt",
+          "stance": "Opposes giving U.S. money to other countries while the U.S. is in debt, according to his Facebook page."
+        },
+        {
+          "topic": "Two-party system",
+          "stance": "Says the two-party system is broken."
+        }
+      ],
+      "history": [
+        "U.S. Taxpayers Party nominee for U.S. Senate, Michigan (2026)"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "CBS Detroit: Who is running for U.S. Senate in Michigan?",
+          "url": "https://www.cbsnews.com/detroit/news/who-is-running-for-u-s-senate-in-michigan/"
+        },
+        {
+          "label": "Eastern Echo: Meet Michigan's United States Senate candidates",
+          "url": "https://www.easternecho.com/article/2026/09/meet-michigans-united-states-senate-candidates"
+        },
+        {
+          "label": "Ballotpedia News: Michigan U.S. Senate general election candidates",
+          "url": "https://news.ballotpedia.org/2026/08/31/u-s-senate-race-in-michigan-between-el-sayed-d-and-rogers-r-to-help-determine-control-of-the-chamber/"
+        },
+        {
+          "label": "Michigan Advance voter guide: U.S. Senate",
+          "url": "https://michiganadvance.com/voter-guides/contests/u-s-senate/"
+        },
+        {
+          "label": "Independent Political Report: U.S. Taxpayers Party of Michigan candidate meet-and-greet",
+          "url": "https://independentpoliticalreport.com/2026/07/u-s-taxpayers-party-of-michigan-to-host-candidate-meet-and-greet-in-taylor/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-douglas-p-marsh": {
+      "name": "Douglas P. Marsh",
+      "party": "Green Party",
+      "status": "Open seat",
+      "occupation": "Journalist",
+      "summary": "Douglas P. Marsh is the Green Party nominee for U.S. Senate in Michigan in the November 3, 2026 general election, running for the open seat left by Sen. Gary Peters (D), who is not seeking re-election. He was also the Green Party's U.S. Senate nominee in Michigan in 2024. He finished third of six candidates that year with 53,978 votes (0.97%). He was born in Traverse City and describes himself as a community journalist.",
+      "objectives": [],
+      "positions": [
+        {
+          "topic": "Foreign policy / Iran",
+          "stance": "Opposes more spending on wars abroad and on weapons. Argues the money could go to domestic programs instead. Lists a ceasefire among his priorities."
+        },
+        {
+          "topic": "Economy and cost of living",
+          "stance": "Lists affordability and changes to the housing market among his campaign priorities."
+        },
+        {
+          "topic": "Health care",
+          "stance": "Supports universal health care, which he lists as one of his priorities."
+        },
+        {
+          "topic": "Environment / water",
+          "stance": "Lists clean water among his campaign priorities."
+        }
+      ],
+      "history": [
+        "Green Party nominee, U.S. Senate, Michigan, 2026",
+        "Green Party nominee, U.S. Senate, Michigan, 2024 (lost; 0.97%)",
+        "Occupation: journalist; past jobs include educator, firefighter, landscaper, ski patroller and coal passer",
+        "Education: B.A. in philosophy, University of Michigan, 2006",
+        "Graduated from Elk Rapids High School; born in Traverse City, Michigan"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia: Douglas P. Marsh",
+          "url": "https://ballotpedia.org/Douglas_P._Marsh"
+        },
+        {
+          "label": "CBS Detroit: Who is running for U.S. Senate in Michigan?",
+          "url": "https://www.cbsnews.com/detroit/news/who-is-running-for-u-s-senate-in-michigan/"
+        },
+        {
+          "label": "Eastern Echo: Meet Michigan's United States Senate candidates (Sept. 2026)",
+          "url": "https://www.easternecho.com/article/2026/09/meet-michigans-united-states-senate-candidates"
+        },
+        {
+          "label": "Branch.vote candidate page",
+          "url": "https://www.branch.vote/races/2026-michigan-general-election-mi-state-u.s.-senator-mi-state/candidates/douglas-p-marsh"
+        },
+        {
+          "label": "Green Party elections database: 2024 result",
+          "url": "https://www.gpelections.org/races/douglas-marsh-runs-for-u-s-senate-2024/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
+    },
+    "mi-u-s-senate-walter-p-kristy": {
+      "name": "Walter P. Kristy",
+      "party": "Natural Law Party",
+      "status": "Open seat",
+      "occupation": "",
+      "summary": "Walter P. Kristy is the Natural Law Party candidate for U.S. Senate in Michigan in the November 3, 2026 general election. He is registered with the Federal Election Commission as a Natural Law Party Senate candidate for Michigan (FEC ID S6MI00590).",
+      "objectives": [],
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": [
+        {
+          "label": "FEC candidate overview: KRISTY, WALTER P. (S6MI00590)",
+          "url": "https://www.fec.gov/data/candidate/S6MI00590/"
+        },
+        {
+          "label": "VotingMonitor: Walter P. Kristy, Michigan U.S. Senate race 2026",
+          "url": "https://votingmonitor.org/candidates/kristy/"
+        }
+      ],
+      "lastResearched": "2026-10-22"
     }
   }
 }

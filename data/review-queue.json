@@ -65,5 +65,480 @@
       "Dropped news item not seen in this run: https://www.tpr.org/podcast/the-source/2026-10-07/padilla-stout-emphasizes-family-costs-over-gun-rights-in-race-for-cd-35"
     ],
     "notes": "Candidacy confirmed: multiple outlets from October 2026 describe her as the Democratic nominee in the Nov. 3 TX-23 race against Brandon Herrera (R) and Ben Mendoza (I). There are no signs she withdrew. Things to check: (1) Veterans was left out. I found no stated position from her, and San Antonio Report says her campaign platform has no veterans section. (2) The Second Amendment stance comes from GunsAmerica's debate recap, a gun-focused outlet. TPR and El Paso Matters coverage of her gun positions was cut off in what I could see, so please confirm it against the debate video or her campaign site. (3) The fetches of the TPR and SA Current pages returned only the site menus, not the article text, so I relied on search-result excerpts. (4) The San Antonio Report profile date (2026-10-18) is approximate, based on '4 days ago' in the search results. The TPR podcast headline comes from link text, and its URL says 'cd-35' even though the episode is about TX-23. (5) BOLD PAC says she co-founded a family law firm with her father in Carrizo Springs. No other source confirmed this, so I left it out. (6) I did not find her campaign website. (7) The request labels the office 'Bexar County,' but the district covers about 27 counties. (8) In the debate she said Herrera had filmed a shooting video at Robb Elementary School, then apologized and corrected that it was filmed elsewhere in Uvalde County. This is noted here only and kept out of the neutral profile."
+  },
+  {
+    "date": "2026-10-22",
+    "state": "OH",
+    "applied": true,
+    "problems": [],
+    "notes": "I did not find a statewide certified candidate list or sample ballot from the Ohio Secretary of State, so found_official_list is false. The candidate names and party labels come from Wood County Board of Elections' certified list (a PDF I fetched and read). They match the Erie County BOE filing list and the Hamilton County BOE certified list, which I saw in search results. Write-in candidates are left out: Faris, Holliman and Telymonde for Senate; the Grady/Neutzling, Turner/Turner, Ula/Lehnerd and Hill/Manley tickets for governor. One Carroll County BOE search snippet appeared to list Colleen O'Donnell under U.S. Senator. That looks like a text-extraction mix-up, since O'Donnell is a Supreme Court candidate on other lists, so I ignored it. The exact office titles on the ballot may be worded slightly differently from the certified list (for example, the Erie list uses 'U.S. Senator. Unexpired term ending 1-3-2029'). Ballotpedia, the Ohio Capital Journal and Wikipedia confirm McColley as Ramaswamy's running mate. Today is 2026-10-22, so the registration deadline has passed and early voting is underway."
+  },
+  {
+    "date": "2026-10-22",
+    "state": "IL",
+    "applied": true,
+    "problems": [],
+    "notes": "I could not reach the official Illinois State Board of Elections candidate list or sample ballot. The fetch tool would not open elections.il.gov because that link had not come up in any search result, so found_official_list is false. The official site URL was not fetched in this request. Candidate names and parties are checked against at least two news or reference sources each, and the lineups agree on the main candidates. The remaining questions are noted in each race's verify field. All dates come from secondary sources. The illinoispolicy.org dates page is published by a policy advocacy group, so the dates should be checked against elections.il.gov or a county election authority before publishing. Election Day polling hours of 6:00 a.m. to 7:00 p.m. come from the same page. VOTE411 confirms the registration deadlines (October 6 by mail, October 18 online). The Champaign-Urbana Daily Illini reports a nonbinding statewide advisory question about an Illinois law that penalizes companies for boycotting Israel. It is outside the scope of this request, so it is not included."
+  },
+  {
+    "date": "2026-10-22",
+    "state": "FL",
+    "applied": true,
+    "problems": [],
+    "notes": "Both races come from the Florida Division of Elections' official qualified-candidate list for the 2026 general election, which I saw directly in this request. I fetched the governor page and the full listing. Candidates marked Defeated/Eliminated in the August 18 primary and write-in candidates were left out. The list does not show the exact party wording printed on ballots, so party labels use the state's codes (REP/DEM/LPF/NPA) with the full party name. Ballot order was not confirmed. A third-party site citing a September Sumter County sample ballot reports eight governor tickets in this order: Donalds, Jolly, Jewett, Burkett, Russo, Dimanche, and then two more cut off in the text I saw. That matches the eight non-write-in tickets on the official list. Dates come from the Florida Department of State election dates page, with early voting and polling-hour details from county and news sources. The mail ballot request deadline (October 22, 5 p.m.) is today, so it may need an update or removal once it passes."
+  },
+  {
+    "date": "2026-10-22",
+    "state": "GA",
+    "applied": true,
+    "problems": [],
+    "notes": "I did not see the official certified candidate list or a sample ballot. The SOS election page I fetched did not link to one, and the only official candidate document I found was the certified write-in list (sos.ga.gov), which I used only to leave out write-in candidates. The dates come from the search snippet of the SOS November 3 election page. The fetched copy of that page did not show the dates section or polling hours, so the 7 a.m.–7 p.m. hours are from general knowledge and should be checked. My fetch of the Ballotpedia U.S. Senate page did not return the candidate list. Party labels are written as Georgia ballots usually print them (Democrat, Republican, Libertarian), but sources gave only D, R and L abbreviations, so confirm against the sample ballot. Ballotpedia spells the Democratic governor nominee 'Keisha Bottoms' in its general election box, while other sources use 'Keisha Lance Bottoms'."
+  },
+  {
+    "date": "2026-10-22",
+    "state": "MI",
+    "applied": true,
+    "problems": [],
+    "notes": "1. Candidates and order: taken from the Michigan Department of State's official candidate listing for the November 3, 2026 general election, which I fetched today. Candidates are in the same order as that listing. The listing writes names as 'Last, First'. I turned them into 'First Last' and kept the spelling, middle initials and suffixes exactly as given.\n\n2. Party labels: copied from the listing (for example 'Democratic Party'). The ballot itself may print shorter versions such as 'Democratic'. A sample ballot would confirm the exact wording.\n\n3. Withdrawn and unconfirmed candidates: neither race has an independent or no-party candidate on the official list. Mike Duggan, who ran for governor as an independent, ended his campaign on May 21, 2026, and is not on the list. One site (election2026.net) named Joe Hunt and Evan Space as independent or other candidates for governor. Neither appears on the official list, so I left them out.\n\n4. Dates: there is no official Secretary of State page behind the dates. They come from michiganvoting.org, and Votebeat, Vote411, US Vote Foundation and a city clerk's page all give the same dates. The Bridge Michigan guide shows absentee request deadlines of July 31 and Aug. 3. Those appear to be the August primary dates, so I did not use them.\n\n5. Running mates: the lieutenant governor candidates are named in the governor race's 'about' field, as requested."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-united-states-senator-neil-j-gillespie",
+    "name": "Neil J. Gillespie",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status: PantherNOW (2026-09-25) says the Florida Division of Elections lists Gillespie as a qualified general-election candidate. Florida Phoenix also lists him on the ballot. I did not open the Division of Elections site myself. Positions: the immigration, health care and courts stances come from the third-party Florida Voters Guide, which says it based them on a Ballotpedia survey. But the same page also says he has not completed that survey, and the Ballotpedia page I opened did not show any survey answers. Please check these against the original source before publishing. The two-party stance is confirmed by his own campaign site. News: none of the items are mainly about Gillespie's own actions. The Political Wire item is a poll story that shows him at 2%, and the September 25 PantherNOW item is older than 45 days. Drop both if needed. I ran out of tool calls before I could open the ClickOrlando and Folio Weekly articles, so their content is unconfirmed; only the headlines and dates come from search results. His recent blog posts are mostly about personal consumer disputes (for example, a complaint against T-Mobile), not campaign issues. Ballotpedia also says he declared a 2028 presidential run and earlier filed for Florida governor. Age is unclear: Florida Voters Guide says 68, but notes that his own blog says 70. I found no stated positions on taxes, abortion, guns, the economy or other topics."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-united-states-senator-angie-nixon",
+    "name": "Angie Nixon",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed she is on the ballot only through news coverage and Wikipedia, which say she won the Aug. 18, 2026 primary over Alex Vindman. I did not check the Florida Division of Elections candidate list. The 'Essence' news date is estimated: the search result said the article was 3 days old, but I did not open the page to see the exact date. 'Taxes', 'Immigration' and 'Housing (national standard)' come from how the CBS host described her platform; Nixon did not dispute that description in the interview, but it would help to check these against angienixon.com. The FOX 13 page cut off partway through the Section 230 section, so I kept that stance to what I could read. I did not find a VOTE411 or newspaper questionnaire for her, and I used no information about the other candidates."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "ga-united-states-senate-jon-ossoff",
+    "name": "Jon Ossoff",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ossoff's candidacy is confirmed by the Georgia Recorder voter guide (Oct. 16, 2026) and by coverage of the Atlanta Press Club debate on Oct. 13. I found nothing suggesting he has withdrawn. Education is left out because I didn't find a source for it during this search; Ballotpedia or his Senate bio could confirm it. I couldn't open the Georgia Recorder voter guide directly, so I used the identical copy republished by The Current GA, but that page cut off before the healthcare and Iran sections finished. The Iran stance therefore relies on the undated Senate press release seen in search results, plus PolitiFact's description of his war powers votes. News dates are worked out from 'X days ago' labels in search results for NBC (about Oct. 14). The PolitiFact date comes from its URL, and the FOX 5, Georgia Recorder and Yahoo dates come from the pages themselves. The Yahoo/Obama item looks like a syndicated story, likely from The Hill. I didn't include a Mediaite story about the Republican mayor of Valdosta endorsing Ossoff, because it is about a third party's action rather than Ossoff's own. The Israel/Gaza stance comes from Jerusalem Post coverage seen only in a search snippet; consider confirming it against the full article."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-united-states-senator-ashley-moody",
+    "name": "Ashley Moody",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I hit the tool limit before I could open Moody's campaign issues page or an official Florida Division of Elections candidate list, so please check ballot status and positions against those. Wikipedia and several October 2026 news reports confirm she is the Republican nominee in the special election. Only the Wikipedia bio opened in full. The WGCU article opened but its body text didn't come through, so the platform stance relies on WGCU's published article description. Most other stances come from search-result snippets: Prism, Smarter.Vote (an aggregator) and Congress.gov. The health-care stance needs extra checking because both votes come only from Smarter.Vote snippets: the OBBBA vote from its compare page and the subsidy vote from a news headline listed there. Please confirm them on Senate.gov roll-call records. I left out the Hope Florida Foundation matter and Moody's decision not to debate Nixon as position stances. They appear only in the WUSF news item, which is mostly Democratic leaders' criticism and is listed only as news. I couldn't confirm the 352today article's publication date, so I left it out. I made no searches about abortion, the economy, taxes or other topics, so those are not covered, not absent from her record."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "ga-united-states-senate-allen-buckley",
+    "name": "Allen Buckley",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Research ran out of tool calls before I could open his campaign site (allenbuckleyforsenate.com), so the stances are short summaries from the Libertarian Party of Georgia's candidate page. That page describes his platform but is not his own statement. It would be worth checking the campaign site or a VOTE411/AJC questionnaire for more detailed stances and direct wording. I found no news about Buckley from the last 45 days. Coverage of the Oct. 8 and Oct. 13, 2026 debates included only Ossoff and Collins, so I could not match stances to debate topics. His ballot status comes from BallotReady's Nov. 3, 2026 ballot and the LP Georgia qualifying press release; I did not check it against the Georgia Secretary of State site. I left out his older stances from 2004–2020, such as on the balanced budget, tax reform and entitlements, because they may be out of date. A June 2026 Substack video by Jacob Hornberger criticizes his campaign from within the party; I left it out because it is an opponent's characterization. The 2016 and 2020 runs come from search results; I did not confirm that he was the Libertarian nominee in 2016 against a primary source."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-united-states-senator-don-tracy",
+    "name": "Don Tracy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is incomplete. My tool calls ran out before I could read the full text of either fetched page, so everything here comes from search-result snippets and page metadata. Occupation, education and earlier offices are left blank because no source I opened confirmed them. Please confirm these before publishing; from memory, possibly Illinois Republican Party chair and an attorney. I found nothing showing Tracy has withdrawn, and the Daily Illini (October 22, 2026) describes him as the Republican candidate for the open seat. Topics I could not source for Tracy: housing, immigration/ICE conduct and agriculture. The debate covered all three, so a follow-up pass on the full Daily Illini article or WTTW's general-election guide should add them and fill in his background. I found no coverage of Whitfield Harrington Jr. alongside Tracy. The news section has only one item; more searches are needed to find other recent coverage."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "ga-united-states-senate-mike-collins",
+    "name": "Mike Collins",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Collins is the Republican nominee from NBC News coverage of the June 16 runoff and from reports on the Oct 8 and Oct 13 debates, and I found no sign that he has withdrawn. I did not check the Georgia Secretary of State's site, and the reported vote shares (55.5% to 44.5%) were not included in the profile. I ran out of tool calls partway through, so several things are incomplete. I only read the AJC side-by-side up to its healthcare section, so its abortion, Iran and foreign-policy sections were not checked. The foreign-policy stance is thin: it rests only on FOX 5's 'America First' summary. I did not open the campaign issues page (mikecollinsga.com/issues/). I also did not search Allen Buckley's positions, so topics were matched to the Collins–Ossoff comparison. Background facts on the credit union, chamber of commerce and Piedmont Academy come from Wikipedia search snippets and should be checked against an official bio. Some coverage was left out of the news list on purpose: the AJC poll story (horse-race), the AJC Sept 4 explainer (more than 45 days old) and the AJC debate recap (same event as the NBC item). An AJC item about Collins promoting the Laken Riley Act at a GOP convention appeared only as a headline, with no URL or date, so it is not included."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-united-states-senator-juliana-stratton",
+    "name": "Juliana Stratton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I used up the tool budget early. Three fetches went to pages whose readable text came back cut off after headers and menus, so I couldn't run the follow-up searches. As a result, the topics are limited to what the Capitol News Illinois forum story covers: tariffs, Trump oversight, nominees, Iran war funding, and cost of living. Topics discussed at the forum but not captured here include immigration/ICE, health care, housing, energy/climate and agriculture. Of these, health care is in the CNI story but beyond the part I could read. The others came from article summaries in search results and were never confirmed. Please add Stratton's actual positions on these topics in a follow-up pass. Her campaign issues page and the Capitol News Illinois U.S. Senate questionnaire (capitolnewsillinois.com/news/candidates-for-u-s-senate-in-illinois-respond-to-questionnaire/) are the next sources to check. I saw that questionnaire link but didn't open it. I only read the first sentences of the Daily Herald questionnaire answers (on tariffs). The election-office website wasn't checked. Her ballot status comes from several news outlets dated 2026-10-14 to 2026-10-21, which describe her as the Democratic nominee and show her taking part in the October 20 WTTW forum. I found no reports that she withdrew. Her education and pre-office career aren't in history because I couldn't verify them. Note that the CNI article's own summary calls her \"Gov.\" by mistake; she is Lieutenant Governor. I left out a Ballotpedia snippet listing Medicare for All because it looked like it came from an older campaign."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-united-states-senator-whitfield-harrington-jr",
+    "name": "Whitfield Harrington Jr.",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Ballot status was not checked on the Illinois State Board of Elections site itself. The May 26, 2026 filing (American Center Party, status Active, no objection pending) comes from a third-party aggregator, CandidateAlerts, that cites the ISBE list. Several news outlets also confirm he is on the ballot.\n\n2. Party label varies. Some outlets (CBS, North Shore Weekly) call him an 'independent', and he describes himself that way while 'helping to form' the American Center Party. The ballot listing is American Center Party. WILL says this is a state party he founded, separate from any other party with the same name.\n\n3. News dates are estimated from the search tool's relative page ages, not read from the articles. Only North Shore Weekly (Oct 8) was confirmed from the article itself. Please check the others: IPM (about Oct 22), ABC7 (about Oct 11), CBS (about Sept 28).\n\n4. The abortion, guns, school choice and ICE stances come from CBS's summary in a search snippet, not his own words. I tried to fetch the full CBS page, but the content I got back was only page code (metadata and menus), so the article text was not checked.\n\n5. I left out the WILL 21st Show interview (about Oct 20) from the news list because it covers the same interview as the IPM story.\n\n6. He was not invited to the only televised debate, held at WTTW. That is noted here for context only; it is not in the summary."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-mike-rogers",
+    "name": "Mike Rogers",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I ran out of tool calls early because of code errors, so I couldn't open any full pages. Every stance comes from search-result excerpts of the pages cited. I never reached the campaign site, Ballotpedia, or the Michigan Secretary of State. Several news sources confirm Rogers is the Republican nominee, and I saw no sign he withdrew, but no official election office source confirmed it. The Background list leaves out dates and details I couldn't verify, including his years in Congress, his district, his House Intelligence Committee chairmanship, his 2024 Senate run and his education; please add them from an official source. I left out several topics because I couldn't find sourced stances: abortion, health care, education, and voter ID/the SAVE Act. The Detroit News live blog lists education and voter ID/SAVE Act as debate subjects, but I couldn't read what he said. The smarter.vote summary mentions a health care plan that would expand TrumpRx, but I couldn't confirm it from a primary source. I didn't include campaign characterizations from either side. One example: Michigan Public calls Rogers' claims about El-Sayed false."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-tim-long",
+    "name": "Tim Long",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia News, the Michigan Advance voter guide, Axios and the Eastern Echo all list Long as on the ballot. I found no sign that he withdrew. There is very little public information about him. I found no campaign website or questionnaire answers, and no occupation or education. The Eastern Echo profile gives only his party. All three stances come from CBS Detroit's summary of his Facebook page, which I did not open directly. News is empty for two reasons. Most recent coverage only mentions him in passing, including a Rasmussen poll (horse-race coverage, so I left it out). The CBS Detroit article I saw in search results was listed only as '7 days ago', with no exact publication date. Possible name confusion: an Aug 7, 2026 post on X by Samantha Shriber says a 'Timothy Long' was the U.S. Taxpayers Party's endorsed candidate for the Michigan Supreme Court and disrupted a speech at a Democratic rally. I could not confirm whether this is the same person. Please check before adding it. Ballot listings use 'Timothy Long'. Wikipedia uses 'Tim Long'. I did not search news separately because the broad searches turned up no coverage about him specifically."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-abdul-el-sayed",
+    "name": "Abdul El-Sayed",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy check: Fox News and NBC News both report that El-Sayed won the August 2026 Democratic primary over Haley Stevens and faces Republican Mike Rogers. I found nothing suggesting he withdrew. I could not check the Michigan Secretary of State candidate listing because I ran out of tool calls; please confirm against the official ballot.\n\nPages not fully read:\n- I fetched the WDIV debate story in full, but it was a short pre-debate version with no detailed positions.\n- The Michigan Public page loaded without its article text, so the health care stance comes from that article's published summary.\n- The fetch of the AP story (via US News) failed.\n- I did not fetch the Al Jazeera or Democracy Now pages. The Iran, Israel-aid and campaign-finance stances come only from search-result text, and the Israel-aid and campaign-finance items are Democracy Now's description of his platform. Please verify all three before publishing.\n- The wording about vision, dental and hearing comes from a quote of El-Sayed in a Washington Examiner opinion piece (seen in search results, not opened), not from the Michigan Public article it is cited to. Please confirm or trim it.\n\nOther gaps:\n- I did not reach his campaign issues page or a VOTE411 or Ballotpedia questionnaire. There are no positions yet on immigration, tariffs/manufacturing, abortion or Social Security; these came up in the debates but I could not confirm his statements.\n- The background items on his 2018 run for governor and his medical career were not confirmed by a source opened during this request. I left out his education and specific years in office because I could not verify them. Please check these against Ballotpedia.\n- The WLNS publication date is inferred from 'published 13 days ago' and an Oct. 8 debate, so it may be 2026-10-08 or 2026-10-09.\n- Other coverage I saw included claims by opponents (for example, about his 2011 health care comments and his citizenship). I left these out as opponent characterizations.\n- A spelling to check: one Fox News snippet spells the primary opponent's first name 'Hayley'; the correct spelling is Haley Stevens."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-lydia-christensen",
+    "name": "Lydia Christensen",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't check the Michigan Secretary of State candidate list. Her candidacy is confirmed by the Libertarian Party, her campaign site and several news outlets. I found no sign that she withdrew. Please check these before publishing: (1) The campaign homepage fetch returned only metadata, so the press-freedom stance comes from text in the search snippet. (2) The tax stance and a line saying she backs abolishing ICE and Medicare for All come from the Free Beacon's own description of her. I used the tax stance with attribution and left out the ICE claim. (3) Smarter.vote and Votebook are aggregator sites, not primary sources. (4) The Eastern Echo date is estimated from the search result's age (\"26 days ago\"); I didn't confirm it on the page. (5) The quote in the campaign-finance stance comes from the Free Beacon, not the Royal Oak Record page that stance cites. (6) The \"Kiowa-Sioux Nation\" detail comes only from Smarter.vote. (7) Appleton West High School is in Wisconsin, which may not fit her Ironwood background; it should be verified. (8) Lowell's First Look and the Royal Oak Record pages were only partly read because I ran out of tool calls. I found no stances that line up directly with listed topics for the other candidates, since none were provided."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-walter-p-kristy",
+    "name": "Walter P. Kristy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "x"
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-douglas-p-marsh",
+    "name": "Douglas P. Marsh",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and CBS Detroit both confirm Marsh is on the Nov. 3, 2026 ballot as the Green nominee. I found nothing suggesting he withdrew or was removed. The current profile was empty, so everything here is new. Gaps: (1) I found no news items from the last 45 days about Marsh himself. Recent race coverage mentions him only in passing, such as a Suffolk poll on Sept. 22 that grouped him with other minor candidates at a combined 1%. I ran out of research tool calls before a dedicated news search could run, so the news list is empty, and a manual news check is recommended. (2) Marsh filled out Ballotpedia's Candidate Connection survey in 2026, but the copy of the page I fetched was cut off before his answers. Those answers could fill in trade, immigration and Social Security, which I left out because I could not confirm a stance. (3) I filed his ceasefire priority under Foreign policy / Iran because it sits with his war-spending stance. Sources do not say which conflict the ceasefire refers to, so it should not be read as an Iran-specific position. (4) iVoterGuide has a questionnaire page for him that I did not open. (5) Branch.vote said as of Sept. 4, 2026 he had no campaign website."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-sherrod-brown",
+    "name": "Sherrod Brown",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is incomplete because research stopped early. A coding mistake used up my tool calls after only one successful search, and I fetched no pages. Everything here comes from one 10TV search result, which describes Brown's campaign policy page and cites On The Issues and Ohio Capital Journal. That article showed no publication date. I couldn't check the Ohio Secretary of State's candidate list, so his place on the ballot rests on that article alone. I left out his past offices and their years (U.S. House, U.S. Senate 2007-2025, Ohio Secretary of State), his education, and his exact current occupation because no source I opened this time confirmed them. I found no news from the last 45 days. The positions don't yet cover the topics for Husted, Redpath or Levy. Please check his campaign site, Ballotpedia and the Secretary of State's list, and add recent news, before publishing."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy",
+    "name": "Greg Levy",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I couldn't do any research for this profile. My only search (\"Greg Levy Ohio U.S. Senate 2026 candidate\") was refused with an error saying no more tool calls were allowed, so no searches or page fetches ran. Because of that, I could not confirm that Greg Levy is on the November 3, 2026 Ohio ballot for the U.S. Senate unexpired term, or check whether he withdrew or was removed. I left every field empty instead of filling it from memory: positions must cite pages actually opened during this request. found_profile is false because his candidacy is unconfirmed, not because I found evidence that he withdrew. Please re-run once tools work, and start with the Ohio Secretary of State's certified candidate list and Ballotpedia. Then look for his campaign site or questionnaire answers on the topics covered for Brown, Husted and Redpath, and for news from the last 45 days.",
+      "No verified sources."
+    ],
+    "notes": "I couldn't do any research for this profile. My only search (\"Greg Levy Ohio U.S. Senate 2026 candidate\") was refused with an error saying no more tool calls were allowed, so no searches or page fetches ran. Because of that, I could not confirm that Greg Levy is on the November 3, 2026 Ohio ballot for the U.S. Senate unexpired term, or check whether he withdrew or was removed. I left every field empty instead of filling it from memory: positions must cite pages actually opened during this request. found_profile is false because his candidacy is unconfirmed, not because I found evidence that he withdrew. Please re-run once tools work, and start with the Ohio Secretary of State's certified candidate list and Ballotpedia. Then look for his campaign site or questionnaire answers on the topics covered for Brown, Husted and Redpath, and for news from the last 45 days.",
+    "proposed": {
+      "occupation": "",
+      "summary": "",
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath",
+    "name": "William B. Redpath",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: This research is incomplete because the code tool ran out after a single search. Only the Ballotpedia result was found. It confirms Redpath ran in the May 5, 2026 special Libertarian primary, but the page it showed had not yet been updated with general-election candidates. I could not confirm that he won the primary or is on the November 3 general ballot. I also could not find any stances, recent news (last 45 days), his campaign site, or questionnaire answers, so I left positions and news empty. The job description in the summary is a guess based on his professional affiliations; please verify it. Before publishing, check his ballot status with the Ohio Secretary of State's certified candidate list. Also find his issues page or a VOTE411 questionnaire so his stances can be compared with Brown, Husted and Levy."
+    ],
+    "notes": "This research is incomplete because the code tool ran out after a single search. Only the Ballotpedia result was found. It confirms Redpath ran in the May 5, 2026 special Libertarian primary, but the page it showed had not yet been updated with general-election candidates. I could not confirm that he won the primary or is on the November 3 general ballot. I also could not find any stances, recent news (last 45 days), his campaign site, or questionnaire answers, so I left positions and news empty. The job description in the summary is a guess based on his professional affiliations; please verify it. Before publishing, check his ballot status with the Ohio Secretary of State's certified candidate list. Also find his issues page or a VOTE411 questionnaire so his stances can be compared with Brown, Husted and Levy.",
+    "proposed": {
+      "occupation": "Certified public accountant and financial analyst (per Ballotpedia)",
+      "summary": "Bill Redpath is a Libertarian Party candidate in Ohio's 2026 special election for the U.S. Senate seat with the unexpired term ending January 3, 2029. Ballotpedia lists him on the ballot for the special Libertarian primary on May 5, 2026, and his last listed election was November 8, 2022.",
+      "positions": [],
+      "history": [
+        "Auditor, Arthur Andersen, Cincinnati, Ohio (1980–1982)",
+        "Assistant financial manager, WISH-TV, Indianapolis, Indiana (1982–1983)",
+        "Worked in New York, New York (1983–1984)",
+        "Affiliations: American Institute of Certified Public Accountants, CFA Institute, American Society of Appraisers, Libertarian Party",
+        "Previous candidate in the November 8, 2022 election (per Ballotpedia)"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia – Bill Redpath",
+          "url": "https://ballotpedia.org/Bill_Redpath"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-jon-husted",
+    "name": "Jon Husted",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't finish the research: a coding error used up my tool calls after only a few searches, and I couldn't open any pages in full. All four stances come from search-result text of one 10TV issues article. Please check them against the full article and Husted's campaign site before publishing. The background dates and education are from memory, not from sources I checked during this request, so please confirm them with Ballotpedia or the Senate biography. The Ohio Secretary of State's site doesn't confirm Husted is on the ballot. The 10TV and Daily Signal coverage shows him as the active Republican candidate. There's only one news item, and it comes from an outlet with a political leaning. Please add mainstream coverage from the last 45 days, such as debates or campaign events. Husted's positions on topics Brown discusses (for example, Brown's plan to make data centers pay their full utility costs) weren't covered beyond what's above."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-scott-eckhard-jewett",
+    "name": "Scott Eckhard Jewett",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I couldn't verify anything about Scott Eckhard Jewett, so this profile is empty and needs a manual check. My first web search returned results in a format I didn't expect, and the tool session ended before I could read them or run any more searches or fetches. I did not open any pages, so I couldn't confirm that he is on the November 3, 2026 ballot as the Libertarian Party of Florida's candidate for Governor, or check for a withdrawal or removal. I also couldn't find his running mate, his stances or any recent news, and I left every field blank rather than guess or cite anything from memory. Suggested next steps: check the Florida Division of Elections candidate list (dos.fl.gov/elections), his Ballotpedia page, any Libertarian Party of Florida announcement, and questionnaires from VOTE411 or local papers. The stance topics should match the other candidates' profiles in this race.",
+      "No verified sources."
+    ],
+    "notes": "I couldn't verify anything about Scott Eckhard Jewett, so this profile is empty and needs a manual check. My first web search returned results in a format I didn't expect, and the tool session ended before I could read them or run any more searches or fetches. I did not open any pages, so I couldn't confirm that he is on the November 3, 2026 ballot as the Libertarian Party of Florida's candidate for Governor, or check for a withdrawal or removal. I also couldn't find his running mate, his stances or any recent news, and I left every field blank rather than guess or cite anything from memory. Suggested next steps: check the Florida Division of Elections candidate list (dos.fl.gov/elections), his Ballotpedia page, any Libertarian Party of Florida announcement, and questionnaires from VOTE411 or local papers. The stance topics should match the other candidates' profiles in this race.",
+    "proposed": {
+      "occupation": "",
+      "summary": "",
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-david-jolly",
+    "name": "David Jolly",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I couldn't verify this profile, so I've left every field empty. My first search script crashed before printing any results because of a coding error in how I read the output. After that, the tool budget ran out and I couldn't make any more calls. As a result, I saw no search results or fetched pages during this request. I can't confirm that David Jolly is the certified Democratic nominee for Florida Governor on the November 3, 2026 ballot. I also can't cite any URL for his stances, background, running mate or recent news. To avoid listing positions or facts without a source, I've set found_profile to false. Please run this request again with a fresh tool budget. Start with the Florida Division of Elections candidate list (dos.elections.myflorida.com) to confirm his candidacy and running mate. Then check his campaign site, Ballotpedia and VOTE411 for positions, and look for news from the last 45 days.",
+      "No verified sources."
+    ],
+    "notes": "I couldn't verify this profile, so I've left every field empty. My first search script crashed before printing any results because of a coding error in how I read the output. After that, the tool budget ran out and I couldn't make any more calls. As a result, I saw no search results or fetched pages during this request. I can't confirm that David Jolly is the certified Democratic nominee for Florida Governor on the November 3, 2026 ballot. I also can't cite any URL for his stances, background, running mate or recent news. To avoid listing positions or facts without a source, I've set found_profile to false. Please run this request again with a fresh tool budget. Start with the Florida Division of Elections candidate list (dos.elections.myflorida.com) to confirm his candidacy and running mate. Then check his campaign site, Ballotpedia and VOTE411 for positions, and look for news from the last 45 days.",
+    "proposed": {
+      "occupation": "",
+      "summary": "",
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-dean-ocean-abrams",
+    "name": "Dean Ocean Abrams",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I couldn't verify anything about Dean Ocean Abrams (NPA, Florida Governor/Lt. Governor, Nov. 3, 2026). I ran one web search, but a mistake in my own code meant I never saw any results, and I hit the tool limit before I could try again. So I didn't confirm that he's on the ballot, find a campaign site or questionnaire answers, or collect any news. I didn't find anything showing he withdrew or was removed either; I just didn't get any information. I left out all positions, background and news rather than guess or work from memory. found_profile is false only because nothing was verified, not because I found he isn't a candidate. Suggested next steps: check the Florida Division of Elections candidate list for the 2026 general, his Ballotpedia page, and any VOTE411 or local newspaper questionnaires. For the other candidates in the race, topics could include property insurance, housing costs, property taxes and education.",
+      "No verified sources."
+    ],
+    "notes": "I couldn't verify anything about Dean Ocean Abrams (NPA, Florida Governor/Lt. Governor, Nov. 3, 2026). I ran one web search, but a mistake in my own code meant I never saw any results, and I hit the tool limit before I could try again. So I didn't confirm that he's on the ballot, find a campaign site or questionnaire answers, or collect any news. I didn't find anything showing he withdrew or was removed either; I just didn't get any information. I left out all positions, background and news rather than guess or work from memory. found_profile is false only because nothing was verified, not because I found he isn't a candidate. Suggested next steps: check the Florida Division of Elections candidate list for the 2026 general, his Ballotpedia page, and any VOTE411 or local newspaper questionnaires. For the other candidates in the race, topics could include property insurance, housing costs, property taxes and education.",
+    "proposed": {
+      "occupation": "",
+      "summary": "",
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-charles-burkett",
+    "name": "Charles Burkett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is incomplete. My code tool cut me off after one search, so I couldn't check the rest. What's confirmed: WLRN and WUWF (May 19–20, 2026) report that former Surfside mayor Charles Burkett announced an NPA run for governor. Not checked: whether he qualified for the November 3 ballot, including against the Florida Division of Elections candidate list, and whether he has withdrawn. His running mate, the years of his mayoral terms, and his education are also unchecked. No news from the last 45 days was retrieved, so the news list is empty. The only position is the affordability focus from his announcement. I couldn't look for his stances on the topics used for the other candidates. found_profile is true only because the announcement is confirmed; ballot qualification still needs to be checked. The WUWF URL in sources looked cut off in the raw search output, so please check that it opens."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-byron-donalds",
+    "name": "Byron Donalds",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item outside the last 45 days: Byron Donalds doubles down on cutting — or even eliminating — property taxes if elected"
+    ],
+    "notes": "Every item here comes from search-result snippets. My page fetches failed because of a tool error, so I could not open the campaign site or any questionnaire directly, and nothing was confirmed against the Florida Division of Elections. Education and earlier career are not included because I couldn't verify them. Some news dates are estimated from each result's relative age and need checking: Florida Politics (8 days, given as 2026-10-14) and CBS Miami (28 days, given as 2026-09-24). The CNN date (2026-09-22) is printed on the page itself. A WLRN article on running-mate selection from 2026-08-25 falls outside the 45-day news window. I left out a data-center stance. One secondary site said a candidate promised a moratorium on large data centers on day one, but a separate Florida Politics headline says Donalds 'holds firm on data centers'. It's unclear which candidate the moratorium claim refers to. I also skipped health care stances because they came only from a secondary site. Coverage notes that he removed some Trump references from his campaign website."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto",
+    "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The Florida Division of Elections lists him as Qualified, so his candidacy is confirmed. I found no policy positions to cite. WUSF (2026-10-22) reports that he has no campaign website and did not fill out the Florida Public Media voter guide. His social media posts only give general themes, such as \"fairness and families first,\" \"accountability,\" and \"Fathers matter,\" so I left positions empty instead of guessing. One conflict: flvotersguide.org's page summary says he has a campaign page, which doesn't match WUSF. WUSF also reports that he hasn't voted in Florida since 2020 and that all of his roughly $5,500 raised came from himself. I left these details out of the profile; please decide whether they belong. I didn't open the source pages because search results were enough, and I used 2 searches. Separately, flvotersguide.org lists Desmond Meade (NPA) as a candidate, but he isn't on your list of other candidates. Please check the race roster."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-frank-j-russo",
+    "name": "Frank J. Russo",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I used one web search and no page fetches, so I had little to work from. WLRN (2026-10-22) confirms Russo is on the ballot as NPA. I did not check the Florida Division of Elections site, and I didn't find his running mate for lieutenant governor or any education history, so those are left out. The 2022 party switch and the $860K fundraising figure come only from WLRN. WLRN also says he names child protections as a core issue, but gave no details, so I didn't list it as a stance. The October 1 news item is a campaign press release, not independent reporting. Media copies of it add a promotional line saying he is 'the only candidate on this ballot qualified to fix what's broken,' which I left out. Before publishing, it would help to check his issues page at Russo2026.com and the Florida Public Media voter guide."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-moliere-moe-dimanche",
+    "name": "Moliere \"Moe\" Dimanche",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The Florida Division of Elections confirms he is qualified (NPA, running mate Benjiman Rojas). I found no sign he has withdrawn. I hit my tool-call limit after about 2 searches and 3 fetches, so the profile has only one stance and it is thin. The Ballotpedia page cut off before its Campaign themes section and his 2024 Candidate Connection survey answers. That survey is the best place to find stances on economy, housing, insurance, education, and so on. The WLRN article from 2026-10-22 profiles all the minor candidates and probably includes his positions, but I couldn't pull text about him from it. The headline and date come from the URL and search snippet. Please review both sources and add positions. The prison sentence comes from Wikipedia, which is a lower-priority source; it is stated as fact only. The incarceration items should be checked against the Ballotpedia biography and a news source before publishing. I left out his campaign website because I didn't see its URL."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "ga-governor-keisha-lance-bottoms",
+    "name": "Keisha Lance Bottoms",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Research stopped early because the tool-call limit was hit after 2 searches and 0 page fetches. Everything here comes from search-result snippets; no full page was opened. Several sources confirm her nomination and candidacy for November 3, 2026, and nothing suggests she withdrew. The AJC issues page lists healthcare and immigration as topics, but I could not see her stances on them, so I left them out. Data centers also came up at the debate, but I found no stance from her. A human should fill those gaps and check the campaign site. The mayoral term years (2018–2022) and the 'White House senior adviser' title come from my general knowledge, not from a source opened in this request, so please verify them. I did not see an official campaign site. The NBC debate story is dated Oct 6 (updated Oct 8), which is within the 45-day window. I left out a RedState opinion piece because it is commentary, and a WSB-TV poll story because it covers the same AJC/UGA poll as Rough Draft. I did not open or check any sources on Rick Jackson for topic matching."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-governor-and-lieutenant-governor-jb-pritzker",
+    "name": "JB Pritzker",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is incomplete. My research tool stopped working after the first search, so I only used 1 of the 8 allowed searches and none of the 5 page fetches. The only source I saw was the Wikipedia page for the 2026 Illinois governor's race. That page lists Pritzker as the Democratic nominee with Christian Mitchell as his running mate, and Bailey as the Republican nominee with Aaron Del Mar as his. I did not see anything there about Collin Corbett, so his place on the ballot still needs checking. I left positions and news empty because I didn't open any page with his statements or recent coverage. Positions, news and the list of offices also need to be checked against official sources. In particular, check the Illinois State Board of Elections candidate list and Pritzker's campaign site. Also, the 2019–present term comes from my general knowledge, not from a source I opened in this request. He also had a business career, but I couldn't check it, so I left it out. Please run this request again to fill in positions on the same topics as Bailey and Corbett, plus news from the last 45 days."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "ga-governor-rick-jackson",
+    "name": "Rick Jackson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I ran out of tool calls before I could open the campaign site or search for his stances on health care/Medicaid, abortion or immigration, so those topics are left out. The FOX 5 page cut off partway through the platform section. Publication dates for FOX 5 (2026-10-12) and 41NBC (2026-10-22) are estimates based on how old the search results said the pages were ('10 days ago', '0 days ago'); please check them. The 41NBC headline uses the outlet's wording 'dodge', so swap it out if that framing is a concern. I skipped an AJC opinion column ('A dispatch from Rick Jackson's $200 million campaign') because it is commentary. Wikipedia lists his birth date as March 16, 1954, which would make him 72, but WABE said 71, so I left age out. None of the coverage I found suggests he has withdrawn."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-governor-and-lieutenant-governor-collin-corbett",
+    "name": "Collin Corbett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I used 1 web search and 2 fetches. Both fetches came back but I couldn't read their contents because of tool errors, so this profile rests only on search-result snippets. Please check these before publishing: (1) The Sun-Times headline is reconstructed from its URL, not taken from the page, so confirm the real title. (2) The WBEZ headline was taken from the page title in the snippet. (3) The Wheaton Sentinel and Lake Forest Journal look like questionnaire-style local sites I couldn't confirm are established outlets. The economy and housing stances come only from the Wheaton Sentinel snippet. (4) The snippets mention a data-center stance (via smarter.vote, a secondary aggregator), but I left it out because I couldn't confirm Corbett's actual position. (5) I didn't find Corbett's own campaign website or questionnaire answers from VOTE411, Ballotpedia or the State Board of Elections. (6) The positions don't line up topic by topic with Pritzker and Bailey because I had no topic list for them. (7) The 'about 20 years' as a Republican strategist and 'small business owner' come from smarter.vote. The '37,000 signatures' and '$500,000' come from the Sun-Times snippet. I found no sign that he has withdrawn or been removed from the ballot."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-governor-and-lieutenant-governor-darren-bailey",
+    "name": "Darren Bailey",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Recent coverage (WTTW, Capitol News Illinois, ABC7, Sun-Times) confirms Bailey is the Republican nominee. I found no sign he has withdrawn. Gaps to fill: (1) The Lieutenant Governor running mate is not named because I didn't find it in any source I checked. Please confirm with the Illinois State Board of Elections. (2) The questionnaire lists his past offices but not the years, so I left years out rather than add them from memory. Please verify the years of his House and Senate terms. (3) His positions on public safety, the SAFE-T Act and guns came up in the debate, but the sources I opened only showed Pritzker's description of them, not Bailey's own words. I left those topics out. (4) I found no stances for Collin Corbett to compare against. (5) The Alton Telegraph published a news item, 'Darren Bailey shows up, supports striking Alton union workers' (about 2026-10-08), that I didn't include because of the five-item limit. (6) The questionnaire lists his city as Chicago, IL. Please check his current residence."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-donna-brandenburg",
+    "name": "Donna Brandenburg",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: The research tools weren't available for this request (code execution limit reached before any search ran), so nothing could be checked. I couldn't confirm that Donna Brandenburg is the U.S. Taxpayers Party nominee for Michigan Governor on the November 3, 2026 ballot, and I couldn't check whether she withdrew or was replaced. From memory only (not sourced, not for publication): a Donna Brandenburg ran in the 2022 Republican primary for Michigan governor as a write-in candidate. Please run this request again when the tools are available, or check the Michigan Secretary of State's candidate listing directly. I left all positions, background and news empty rather than guess.",
+      "No verified sources."
+    ],
+    "notes": "The research tools weren't available for this request (code execution limit reached before any search ran), so nothing could be checked. I couldn't confirm that Donna Brandenburg is the U.S. Taxpayers Party nominee for Michigan Governor on the November 3, 2026 ballot, and I couldn't check whether she withdrew or was replaced. From memory only (not sourced, not for publication): a Donna Brandenburg ran in the 2022 Republican primary for Michigan governor as a write-in candidate. Please run this request again when the tools are available, or check the Michigan Secretary of State's candidate listing directly. I left all positions, background and news empty rather than guess.",
+    "proposed": {
+      "occupation": "",
+      "summary": "",
+      "positions": [],
+      "history": [],
+      "news": [],
+      "sources": []
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-anthony-hudson",
+    "name": "Anthony Hudson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This research is incomplete because a tool error ended the session after one search. I opened no pages, so everything here comes from search-result snippets. The Mining Journal piece from July 2026 says Hudson is the Libertarian nominee and will be on the November ballot. I could not confirm that against the Michigan Secretary of State's candidate list, and I could not check for a withdrawal or removal since then. I found no news from the last 45 days, his campaign issues page, or questionnaire answers, so the positions are limited to general campaign statements. Before publishing, please: (1) confirm his ballot status and running mate on the SOS site; (2) look for VOTE411 or other questionnaire answers on the topics covered for the other candidates; (3) add recent news. The Michigan Advance article mentions a statement from the Oakland County Republican Party questioning his use of the title 'Governor.' That comes from opponents, so I left it out of the profile."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-jocelyn-benson",
+    "name": "Jocelyn Benson",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://www.detroitnews.com/story/news/politics/2026/10/10/michigan-governor-race-jocelyn-benson-john-james/92170915007/"
+    ],
+    "notes": "Nothing was fetched. A tooling problem used up my script calls before any page fetch ran, so every stance and fact here comes only from search-result snippets. Please open the cited pages to confirm them before publishing. Only 3 positions are included. Topics not covered: education, data centers (snippets said Benson and James disagreed on local control but did not give her view), taxes and property tax relief, tariffs, abortion and elections. The WDIV pages on education (Oct 22) and costs (Oct 21) and the Bridge Michigan debate fact-check are good sources to fill these in. History is missing education and earlier career because I could not confirm them in this session. Benson's status as nominee and Brinks as running mate are confirmed by several outlets (Crain's, Bridge, WOOD, WWMT). The Michigan Advance item is dated Oct 6; it is within the 45-day window. The WDIV costs headline shows a URL date of Oct 20 but says it was published Oct 21, so I used Oct 21."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-john-james",
+    "name": "John James",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Nomination confirmed by several outlets (AP call reported by Bridge Michigan and NBC). The running mate, Jay DeBoyer, comes only from Wikipedia, so it should be checked against the Michigan Secretary of State candidate listing. I didn't get to read any full articles: one page fetch returned content my code couldn't parse, and I ran out of tool calls. All stances and news items are based only on search-result snippets. The 2018 and 2020 Senate runs are confirmed by Fox News. The 2023 start date in Congress is my own background knowledge and wasn't confirmed by any source in this request. I didn't find the campaign's own issues page or a VOTE411 questionnaire. I also didn't find stated positions on health care or election security that I could cite, even though the debate and Spectrum articles mention them. The October 7 date for the NBC debate article is estimated from the search result's age ('15 days ago'), so please verify it. The Spectrum article from June 9 is older than 45 days, so it's cited for a stance only, not as a news item. Its data center stance is a paraphrase of the snippet's summary, so please check it against the article."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-governor-and-lieutenant-governor-amy-acton",
+    "name": "Amy Acton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is incomplete. My tool session ended after only one search returned results, so I couldn't open Acton's campaign issues page, a questionnaire, or a debate transcript. Do not publish until another pass is done. What I found: one ABC News article calls Acton the Democratic gubernatorial candidate and former Ohio Department of Health director, running against Vivek Ramaswamy. I didn't see anything saying she withdrew. Positions are empty on purpose: the only issue-related item I saw was a photo caption saying she spoke on affordability on April 6, 2026, and that isn't a specific stance. News is also empty. The ABC article is about Acton's campaign criticizing a Ramaswamy ad that features her estranged mother, but the search result didn't show its publication date, so I couldn't confirm it falls in the last 45 days. If the date checks out, it may be worth adding, though the story is mainly about the opponent's ad. The background items are general. I couldn't confirm the years she led the Health Department (I believe 2019–2020, but that's from memory) or her education. For the next pass: fetch Acton's campaign issues page, the Ballotpedia and VOTE411 pages, and coverage of any October 2026 debate. Then cover the topics most likely to allow comparison with Ramaswamy and Kissick: property taxes and cost of living, education, abortion and reproductive rights, public health, and the economy."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-governor-and-lieutenant-governor-vivek-ramaswamy",
+    "name": "Vivek Ramaswamy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This research is incomplete. Because of a scripting error, I only got results back from one search, and then my tool access ran out. I opened no pages and found no news from the last 45 days, so the news section is empty. All three stances come from one source: a WFMJ candidate profile seen in search results. The background items (education, companies, 2024 presidential run) come from general knowledge, not sources I checked during this request, so please verify them. I also could not confirm several things from sources: that he won the May 2026 primary, who his lieutenant governor running mate is (possibly Sen. Rob McColley), any state election office listing, or his time in 2024–25 as co-lead of the federal Department of Government Efficiency (DOGE) effort. I found no stances on other topics where he could be compared with Amy Acton or Don Kissick. I set found_profile to true because the WFMJ piece describes him as a candidate in the general election, but please check that against the Ohio Secretary of State's candidate list."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-douglas-campbell",
+    "name": "Douglas Campbell",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Campbell/Clay are on the November ballot per Votebeat, Michigan Advance, the Green Party of Michigan and Lansing Letter. Lansing Letter says they appear on the Department of State's official candidate list, but I did not open that list myself. I found no sign he has withdrawn. His campaign website on WGVU is a Facebook page, and his VOTE411 website is the state party site. I did not find a separate campaign issues page. Most stances come from his VOTE411 answers. The pardon stance paraphrases his own wording ('roving gangs of armed, masked federal stormtroopers') in neutral terms. CBS Detroit also says he names affordability, energy, civil rights and public safety as focus areas, which differs a little from the VOTE411 list. Politics1 labels him 'Ex-St Clair County Clerk', but I could not confirm this and no other source says it, so I left it out. For the news section, I found only two items from the last 45 days that mention him. The CBS piece covers all candidates, not just him. Some sources spell his name 'Douglass'."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-governor-and-lieutenant-governor-don-kissick",
+    "name": "Don Kissick",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Kissick is on the ballot: NBC4 (Oct. 22) says he is the only candidate besides the two major-party nominees whose name appears on ballots in all 88 counties. I found nothing suggesting he has withdrawn, but I did not check the Secretary of State's site. I ran out of page fetches, so several items come from search-result text rather than full articles: the NBC4 and Dayton Daily News positions, the WLIO story, and the Vote Smart biography. The Dayton Daily News link is a tncms asset URL. The NBC4 date of 2026-10-22 comes from the search result's age ('0 days ago') and should be confirmed. The Spectrum News page is mostly a video, so I did not take stances from it. Not used: the 4% figure in the BGSU poll (horse-race) and the Statehouse News item (Sept. 15, 37 days ago), which I left out of news in favor of more recent stories. I did not reach the campaign site (donkissick.com) or a VOTE411 questionnaire. Please add those if available, along with topics where the other candidates have positions, such as abortion, education and taxes beyond property tax."
   }
 ]

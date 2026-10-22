@@ -1,0 +1,922 @@
+{
+  "date": "2026-10-22",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 4,
+  "limits": {
+    "searches": 8,
+    "fetches": 5,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "fl-united-states-senator-neil-j-gillespie",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.233,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3603,
+        "cache_creation_input_tokens": 23412,
+        "cache_read_input_tokens": 118559,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 5,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "fl-united-states-senator-angie-nixon",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.246,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4178,
+        "cache_creation_input_tokens": 24093,
+        "cache_read_input_tokens": 110807,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "ga-united-states-senate-jon-ossoff",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.286,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4239,
+        "cache_creation_input_tokens": 24587,
+        "cache_read_input_tokens": 139493,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "fl-united-states-senator-ashley-moody",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.328,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4316,
+        "cache_creation_input_tokens": 25776,
+        "cache_read_input_tokens": 161443,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ga-united-states-senate-allen-buckley",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.244,
+      "usage": {
+        "input_tokens": 10448,
+        "output_tokens": 2650,
+        "cache_creation_input_tokens": 17660,
+        "cache_read_input_tokens": 53944,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "il-united-states-senator-don-tracy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 1,
+      "sources": 2,
+      "costUSD": 0.188,
+      "usage": {
+        "input_tokens": 7639,
+        "output_tokens": 2399,
+        "cache_creation_input_tokens": 14575,
+        "cache_read_input_tokens": 32016,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "ga-united-states-senate-mike-collins",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.367,
+      "usage": {
+        "input_tokens": 17057,
+        "output_tokens": 3916,
+        "cache_creation_input_tokens": 24295,
+        "cache_read_input_tokens": 94759,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 2,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "il-united-states-senator-juliana-stratton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.378,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4283,
+        "cache_creation_input_tokens": 36727,
+        "cache_read_input_tokens": 145158,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "il-united-states-senator-whitfield-harrington-jr",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.208,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4010,
+        "cache_creation_input_tokens": 19883,
+        "cache_read_input_tokens": 90557,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "mi-u-s-senate-mike-rogers",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.194,
+      "usage": {
+        "input_tokens": 7609,
+        "output_tokens": 3093,
+        "cache_creation_input_tokens": 14677,
+        "cache_read_input_tokens": 42112,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-u-s-senate-tim-long",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.144,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2021,
+        "cache_creation_input_tokens": 13291,
+        "cache_read_input_tokens": 35063,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "mi-u-s-senate-abdul-el-sayed",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.415,
+      "usage": {
+        "input_tokens": 20288,
+        "output_tokens": 5548,
+        "cache_creation_input_tokens": 27451,
+        "cache_read_input_tokens": 178808,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 5,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-u-s-senate-lydia-christensen",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.262,
+      "usage": {
+        "input_tokens": 12905,
+        "output_tokens": 3781,
+        "cache_creation_input_tokens": 20238,
+        "cache_read_input_tokens": 69410,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-u-s-senate-walter-p-kristy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 2,
+      "costUSD": 0.122,
+      "usage": {
+        "input_tokens": 2448,
+        "output_tokens": 829,
+        "cache_creation_input_tokens": 9858,
+        "cache_read_input_tokens": 32818,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-u-s-senate-douglas-p-marsh",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.312,
+      "usage": {
+        "input_tokens": 15876,
+        "output_tokens": 3393,
+        "cache_creation_input_tokens": 23108,
+        "cache_read_input_tokens": 176400,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-sherrod-brown",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.136,
+      "usage": {
+        "input_tokens": 1425,
+        "output_tokens": 1618,
+        "cache_creation_input_tokens": 8672,
+        "cache_read_input_tokens": 22878,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy",
+      "status": "held",
+      "problems": 2,
+      "stances": 0,
+      "news": 0,
+      "sources": 0,
+      "costUSD": 0.059,
+      "usage": {
+        "input_tokens": 167,
+        "output_tokens": 481,
+        "cache_creation_input_tokens": 7433,
+        "cache_read_input_tokens": 7433,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath",
+      "status": "held",
+      "problems": 1,
+      "stances": 0,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.097,
+      "usage": {
+        "input_tokens": 2063,
+        "output_tokens": 1309,
+        "cache_creation_input_tokens": 9224,
+        "cache_read_input_tokens": 31473,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-jon-husted",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 1,
+      "sources": 2,
+      "costUSD": 0.178,
+      "usage": {
+        "input_tokens": 1837,
+        "output_tokens": 2341,
+        "cache_creation_input_tokens": 9087,
+        "cache_read_input_tokens": 40395,
+        "server_tool_use": {
+          "web_search_requests": 7
+        }
+      },
+      "searches": 7,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-scott-eckhard-jewett",
+      "status": "held",
+      "problems": 2,
+      "stances": 0,
+      "news": 0,
+      "sources": 0,
+      "costUSD": 0.067,
+      "usage": {
+        "input_tokens": 628,
+        "output_tokens": 563,
+        "cache_creation_input_tokens": 8098,
+        "cache_read_input_tokens": 15130,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-david-jolly",
+      "status": "held",
+      "problems": 2,
+      "stances": 0,
+      "news": 0,
+      "sources": 0,
+      "costUSD": 0.079,
+      "usage": {
+        "input_tokens": 676,
+        "output_tokens": 625,
+        "cache_creation_input_tokens": 8130,
+        "cache_read_input_tokens": 15130,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-dean-ocean-abrams",
+      "status": "held",
+      "problems": 2,
+      "stances": 0,
+      "news": 0,
+      "sources": 0,
+      "costUSD": 0.066,
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 533,
+        "cache_creation_input_tokens": 8061,
+        "cache_read_input_tokens": 15130,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-charles-burkett",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.087,
+      "usage": {
+        "input_tokens": 1415,
+        "output_tokens": 1167,
+        "cache_creation_input_tokens": 8732,
+        "cache_read_input_tokens": 23204,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-byron-donalds",
+      "status": "updated",
+      "problems": 1,
+      "stances": 5,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.258,
+      "usage": {
+        "input_tokens": 9082,
+        "output_tokens": 2964,
+        "cache_creation_input_tokens": 16547,
+        "cache_read_input_tokens": 47884,
+        "server_tool_use": {
+          "web_search_requests": 7
+        }
+      },
+      "searches": 7,
+      "fetches": 1,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 1,
+      "sources": 7,
+      "costUSD": 0.117,
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 1718,
+        "cache_creation_input_tokens": 11566,
+        "cache_read_input_tokens": 25125,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-frank-j-russo",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 3,
+      "costUSD": 0.122,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2136,
+        "cache_creation_input_tokens": 12056,
+        "cache_read_input_tokens": 45232,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-moliere-moe-dimanche",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.184,
+      "usage": {
+        "input_tokens": 7975,
+        "output_tokens": 2616,
+        "cache_creation_input_tokens": 15241,
+        "cache_read_input_tokens": 68466,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 5,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "ga-governor-keisha-lance-bottoms",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.161,
+      "usage": {
+        "input_tokens": 4937,
+        "output_tokens": 2619,
+        "cache_creation_input_tokens": 12025,
+        "cache_read_input_tokens": 42110,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "il-governor-and-lieutenant-governor-jb-pritzker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.094,
+      "usage": {
+        "input_tokens": 1086,
+        "output_tokens": 1176,
+        "cache_creation_input_tokens": 8260,
+        "cache_read_input_tokens": 22775,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "ga-governor-rick-jackson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.239,
+      "usage": {
+        "input_tokens": 10280,
+        "output_tokens": 3381,
+        "cache_creation_input_tokens": 17398,
+        "cache_read_input_tokens": 64922,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "il-governor-and-lieutenant-governor-collin-corbett",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.167,
+      "usage": {
+        "input_tokens": 5531,
+        "output_tokens": 3111,
+        "cache_creation_input_tokens": 12823,
+        "cache_read_input_tokens": 43981,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible",
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "il-governor-and-lieutenant-governor-darren-bailey",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 4,
+      "costUSD": 0.213,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3408,
+        "cache_creation_input_tokens": 18796,
+        "cache_read_input_tokens": 53505,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "mi-governor-lt-governor-donna-brandenburg",
+      "status": "held",
+      "problems": 2,
+      "stances": 0,
+      "news": 0,
+      "sources": 0,
+      "costUSD": 0.059,
+      "usage": {
+        "input_tokens": 219,
+        "output_tokens": 456,
+        "cache_creation_input_tokens": 7446,
+        "cache_read_input_tokens": 7446,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-governor-lt-governor-anthony-hudson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 2,
+      "costUSD": 0.1,
+      "usage": {
+        "input_tokens": 1991,
+        "output_tokens": 1569,
+        "cache_creation_input_tokens": 9212,
+        "cache_read_input_tokens": 22854,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-governor-lt-governor-jocelyn-benson",
+      "status": "updated",
+      "problems": 1,
+      "stances": 3,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.275,
+      "usage": {
+        "input_tokens": 9849,
+        "output_tokens": 3033,
+        "cache_creation_input_tokens": 16886,
+        "cache_read_input_tokens": 50615,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-governor-lt-governor-john-james",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.261,
+      "usage": {
+        "input_tokens": 10807,
+        "output_tokens": 3383,
+        "cache_creation_input_tokens": 18147,
+        "cache_read_input_tokens": 48976,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-governor-and-lieutenant-governor-amy-acton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.124,
+      "usage": {
+        "input_tokens": 1503,
+        "output_tokens": 1513,
+        "cache_creation_input_tokens": 8666,
+        "cache_read_input_tokens": 22798,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "oh-governor-and-lieutenant-governor-vivek-ramaswamy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 0,
+      "sources": 1,
+      "costUSD": 0.108,
+      "usage": {
+        "input_tokens": 1493,
+        "output_tokens": 1705,
+        "cache_creation_input_tokens": 8675,
+        "cache_read_input_tokens": 22812,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": [
+        "code_execution: too_many_requests"
+      ]
+    },
+    {
+      "id": "mi-governor-lt-governor-douglas-campbell",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 2,
+      "sources": 7,
+      "costUSD": 0.25,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3849,
+        "cache_creation_input_tokens": 25295,
+        "cache_read_input_tokens": 84497,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "id": "oh-governor-and-lieutenant-governor-don-kissick",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.21,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3797,
+        "cache_creation_input_tokens": 20206,
+        "cache_read_input_tokens": 66608,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 5,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    }
+  ],
+  "costUSD": 7.64
+}

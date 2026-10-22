@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-22",
+  "kind": "ballot",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "scope": "top",
+  "limits": {
+    "searches": 6,
+    "fetches": 4,
+    "pageTokens": 10000
+  },
+  "results": [
+    {
+      "state": "OH",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senate (Unexpired Term Ending 01/03/2029)",
+          "candidates": [
+            "Sherrod Brown (Democratic)",
+            "Jon Husted (Republican)",
+            "William B. Redpath (Libertarian)",
+            "Greg Levy (Other-party candidate)"
+          ],
+          "verify": "Greg Levy's party label is unclear. The Wood County and Erie County board of elections lists say 'Other-party candidate', but NBC4 reports he appears on the ballot as an independent. Check a sample ballot to see the exact printed label. Redpath goes by 'Bill', but the certified list prints 'William B. Redpath'. Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Amy Acton (Democratic)",
+            "Vivek Ramaswamy (Republican)",
+            "Don Kissick (Libertarian)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.315,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4121,
+        "cache_creation_input_tokens": 31272,
+        "cache_read_input_tokens": 132266,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "IL",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Juliana Stratton (Democratic)",
+            "Don Tracy (Republican)",
+            "Whitfield Harrington Jr. (American Center Party)"
+          ],
+          "verify": "The official certified list was not checked. CBS Chicago, ABC7 Chicago and BallotReady list three candidates: Stratton, Tracy and Harrington. ABC7 and a Yahoo voter guide give Harrington's label as American Center Party; FEC records list him as Independent. Check the exact party label printed on the ballot. A Ballotpedia list page instead named Tyrone Muhammad and Anthony Smith (Independent) and did not name Harrington. That page appears out of date or may list write-ins; confirm that neither is printed on the ballot. Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "JB Pritzker (Democratic)",
+            "Darren Bailey (Republican)",
+            "Collin Corbett (Independent)"
+          ],
+          "verify": "The official certified list was not checked. Ballotpedia lists Gary Pierce (Independence Party) as withdrawn or disqualified, and lists the Mike Vick and Gary Pierce ticket (American Solidarity Party) as write-ins, so both are left out. Corbett's exact ballot label (Independent) is not confirmed against the official ballot. Ballotpedia lists Mitchell as 'Christian L. Mitchell'. Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.376,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 5007,
+        "cache_creation_input_tokens": 32945,
+        "cache_read_input_tokens": 257121,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "state": "FL",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Ashley Moody (Republican (REP))",
+            "Angie Nixon (Democratic (DEM))",
+            "Neil J. Gillespie (No Party Affiliation (NPA))"
+          ],
+          "verify": "Names and party codes come from the Division of Elections qualified-candidate list. The exact party wording printed on county ballots was not checked against a sample ballot."
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Byron Donalds (Republican (REP))",
+            "David Jolly (Democratic (DEM))",
+            "Scott Eckhard Jewett (Libertarian Party of Florida (LPF))",
+            "Dean Ocean Abrams (No Party Affiliation (NPA))",
+            "Charles Burkett (No Party Affiliation (NPA))",
+            "Jeffrey Peter \"Dr. Jeff\" Datto (No Party Affiliation (NPA))",
+            "Moliere \"Moe\" Dimanche (No Party Affiliation (NPA))",
+            "Frank J. Russo (No Party Affiliation (NPA))"
+          ],
+          "verify": "Two write-in tickets were left out, following our write-in rule: Kathy Anderson/Daniel Nokovich and Erik Morris/LeRoy Alaways. One third-party site (flvotersguide.org) lists a Desmond Meade among the candidates, but he does not appear on the official Division of Elections list, so he was not included. Burkett appears as 'Charles' in state records and as 'Charles W. Burkett' elsewhere. Confirm the printed name and the order on the ballot against a county sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.367,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4847,
+        "cache_creation_input_tokens": 35897,
+        "cache_read_input_tokens": 203995,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "GA",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senate",
+          "candidates": [
+            "Jon Ossoff (Democrat)",
+            "Mike Collins (Republican)",
+            "Allen Buckley (Libertarian)"
+          ],
+          "verify": "These names did not come from an official certified list. BallotReady lists the Republican as Michael \"Mike\" A. Collins Jr., so check how his name is printed on the official sample ballot. A local news report (albanyherald.com) and BallotReady both list Libertarian Allen Buckley, but WABE lists only the Democratic and Republican candidates. One market site named several independents, but at least two of them (Elbert Bartell, Christina Clement) are on the state's write-in list, so they were left out. Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Keisha Lance Bottoms (Democrat)",
+            "Rick Jackson (Republican)"
+          ],
+          "verify": "Ballotpedia, WABE and BallotReady all list only these two candidates. Ballotpedia lists Libertarian Chase Oliver as withdrawn or disqualified. Check the official sample ballot to confirm. Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.35,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 4750,
+        "cache_creation_input_tokens": 29184,
+        "cache_read_input_tokens": 245050,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "MI",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Governor / Lt. Governor",
+          "candidates": [
+            "Jocelyn Benson (Democratic Party)",
+            "John James (Republican Party)",
+            "Anthony Hudson (Libertarian Party)",
+            "Donna Brandenburg (U.S. Taxpayers Party)",
+            "Douglas Campbell (Green Party)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "U.S. Senate",
+          "candidates": [
+            "Abdul El-Sayed (Democratic Party)",
+            "Mike Rogers (Republican Party)",
+            "Lydia Christensen (Libertarian Party)",
+            "Tim Long (U.S. Taxpayers Party)",
+            "Douglas P. Marsh (Green Party)",
+            "Walter P. Kristy (Natural Law Party)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.44,
+      "usage": {
+        "input_tokens": 36,
+        "output_tokens": 5711,
+        "cache_creation_input_tokens": 40481,
+        "cache_read_input_tokens": 367726,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    }
+  ],
+  "costUSD": 1.85
+}
