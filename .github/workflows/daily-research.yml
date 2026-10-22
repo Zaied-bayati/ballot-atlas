@@ -33,7 +33,7 @@ jobs:
       - name: Research candidates
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESEARCH_MAX: ${{ github.event.inputs.max || '20' }}
+          RESEARCH_MAX: ${{ github.event.inputs.max || '3' }}
         run: node agent/research.mjs
       - run: node build.js
       - name: Save updates
