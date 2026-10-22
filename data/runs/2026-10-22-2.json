@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-22",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "limits": {
+    "searches": 8,
+    "fetches": 5,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "h21-kristin-hook",
+      "status": "updated",
+      "problems": 3,
+      "stances": 6,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.409,
+      "usage": {
+        "input_tokens": 34,
+        "output_tokens": 5720,
+        "cache_creation_input_tokens": 36110,
+        "cache_read_input_tokens": 269515,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "h23-brandon-herrera",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 4,
+      "costUSD": 0.296,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4489,
+        "cache_creation_input_tokens": 24969,
+        "cache_read_input_tokens": 157284,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "h23-katy-padilla-stout",
+      "status": "updated",
+      "problems": 2,
+      "stances": 6,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.518,
+      "usage": {
+        "input_tokens": 36,
+        "output_tokens": 5896,
+        "cache_creation_input_tokens": 51290,
+        "cache_read_input_tokens": 367478,
+        "server_tool_use": {
+          "web_search_requests": 7
+        }
+      },
+      "searches": 7,
+      "fetches": 3,
+      "toolErrors": []
+    }
+  ],
+  "costUSD": 1.22
+}

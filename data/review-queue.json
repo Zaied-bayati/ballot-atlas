@@ -31,5 +31,39 @@
     "held": [],
     "problems": [],
     "notes": "Research was cut short. The search tool hit its usage limit after only two queries, so this profile is based on search-result snippets. I could not open any page in full, including the campaign site and the Texas Secretary of State candidate list. His candidacy is confirmed by KUT (primary win), Ballotpedia (general election listing), TPR (October 2026 coverage), the Statesman endorsement and the FEC committee. I found no sign that he withdrew. Please check these points: (1) The spending/DOGE and energy stances cite The Conservative Ledger, and the health care stance cites smarter.vote. Both are third-party aggregators that quote his campaign site ('Issues | Mark \"Tex\" Teixeira for Congress'). If possible, replace those citations with the campaign site itself. (2) The taxes stance comes from the Statesman editorial board's description of his position, not his own words. (3) The Statesman editorial's date (2026-10-05) is estimated from the search result's '17 days ago' label. That item is an opinion piece/endorsement, not news reporting, so you may want to drop it from news. (4) I found only two items from the last 45 days. (5) The FEC page shows a statement of organization filed 08/06/2026, which is probably an amended filing. (6) Topics for Hook weren't provided. I chose topics that line up with the contrasts TPR describes: affordability/health care, immigration, abortion and federal spending. (7) Ballotpedia says he has not completed its Candidate Connection survey. (8) The background lines on the 2016 retirement and the ESPN 2017–2020 years come from secondary snippets (smarter.vote and The Conservative Ledger's summary of Houston Chronicle reporting). In his San Antonio Report answers he describes his career as 15 years of professional baseball."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "h21-kristin-hook",
+    "name": "Kristin Hook",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped stance on \"Immigration and border security\": too long.",
+      "Dropped stance on \"Federal spending and deficit\": too long.",
+      "Dropped stance on \"Health care\": too long."
+    ],
+    "notes": "Hook's candidacy is confirmed: Ballotpedia lists her as the Democratic nominee on the November 3, 2026 ballot against Mark Teixeira (R). Ballotpedia lists independent Dan McQueen as withdrawn or disqualified, although an older search snippet still showed him as a candidate. Primary results: the Ballotpedia page I opened gives the certified figures (60.1%, 39,779 votes); an older search snippet showed 60.4% and 35,413 votes. I used the certified figures. In her San Antonio Report questionnaire, Hook says she moved from San Antonio to San Marcos last year. Members of Congress are not required to live in their district, but this may matter if the profile is framed as Bexar County. The district lines also changed under the new Texas map. Sourcing limits: the Ballotpedia survey answers were cut off when I fetched the page, and the issue sections on her campaign site did not expand, so the stances come mainly from the San Antonio Report questionnaire. The abortion stance comes from a 2026election.com search-result snippet; that page was not fetched. I found no stated positions on gun rights, term limits, or marriage and gender issues, so those topics are left out. Her 'Energy' stance is about AI data centers' water and electricity use, not broader energy policy. News: the San Antonio Report article date (2026-10-14) is estimated from the search result's '8 days ago' and should be checked. That page's HTML title is 'How Kristin Hook is pitching herself to Hill Country voters', but the H1 headline I used differs. The TPR item is a radio interview, dated from its URL. The current profile was empty, so there were no earlier facts to correct."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "h23-brandon-herrera",
+    "name": "Brandon Herrera",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia lists Herrera (R), Padilla Stout (D) and Mendoza (I) on the Nov. 3, 2026 general election ballot. I did not confirm with an official Texas Secretary of State source. I could not confirm how the May 26 runoff was resolved after Gonzales ended his campaign. My fetch budget ran out before I could open the campaign's full issues page, so the campaign-site stances come from homepage summaries. The Texan's publication date (2026-10-16) is estimated from the search result's '6 days ago' label, and the CNN item is exactly 43 days old, near the 45-day limit. Several outlets (CNN, TPR, Yahoo, San Antonio Current) covered past online comments by Herrera. I included two of these items under news because they are about his own statements; please review for balance. During the debate, Padilla Stout accused Herrera of visiting Robb Elementary after the 2022 shooting, and Herrera denied it. I left this out of the stances. His campaign says it outraised Padilla Stout 3 to 1 in Q3 and raised $1,261,794. These are campaign press releases and were not independently verified, so I left them out of the profile. Ben Mendoza's topics were not provided."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "h23-katy-padilla-stout",
+    "name": "Katy Padilla Stout",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped stance on \"Border wall in Big Bend\": too long.",
+      "Dropped news item not seen in this run: https://www.tpr.org/podcast/the-source/2026-10-07/padilla-stout-emphasizes-family-costs-over-gun-rights-in-race-for-cd-35"
+    ],
+    "notes": "Candidacy confirmed: multiple outlets from October 2026 describe her as the Democratic nominee in the Nov. 3 TX-23 race against Brandon Herrera (R) and Ben Mendoza (I). There are no signs she withdrew. Things to check: (1) Veterans was left out. I found no stated position from her, and San Antonio Report says her campaign platform has no veterans section. (2) The Second Amendment stance comes from GunsAmerica's debate recap, a gun-focused outlet. TPR and El Paso Matters coverage of her gun positions was cut off in what I could see, so please confirm it against the debate video or her campaign site. (3) The fetches of the TPR and SA Current pages returned only the site menus, not the article text, so I relied on search-result excerpts. (4) The San Antonio Report profile date (2026-10-18) is approximate, based on '4 days ago' in the search results. The TPR podcast headline comes from link text, and its URL says 'cd-35' even though the episode is about TX-23. (5) BOLD PAC says she co-founded a family law firm with her father in Carrizo Springs. No other source confirmed this, so I left it out. (6) I did not find her campaign website. (7) The request labels the office 'Bexar County,' but the district covers about 27 counties. (8) In the debate she said Herrera had filmed a shooting video at Robb Elementary School, then apologized and corrected that it was filmed elsewhere in Uvalde County. This is noted here only and kept out of the neutral profile."
   }
 ]
