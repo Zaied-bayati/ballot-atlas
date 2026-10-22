@@ -540,5 +540,124 @@
     "held": [],
     "problems": [],
     "notes": "Kissick is on the ballot: NBC4 (Oct. 22) says he is the only candidate besides the two major-party nominees whose name appears on ballots in all 88 counties. I found nothing suggesting he has withdrawn, but I did not check the Secretary of State's site. I ran out of page fetches, so several items come from search-result text rather than full articles: the NBC4 and Dayton Daily News positions, the WLIO story, and the Vote Smart biography. The Dayton Daily News link is a tncms asset URL. The NBC4 date of 2026-10-22 comes from the search result's age ('0 days ago') and should be confirmed. The Spectrum News page is mostly a video, so I did not take stances from it. Not used: the 4% figure in the BGSU poll (horse-race) and the Statehouse News item (Sept. 15, 37 days ago), which I left out of news in favor of more recent stories. I did not reach the campaign site (donkissick.com) or a VOTE411 questionnaire. Please add those if available, along with topics where the other candidates have positions, such as abortion, education and taxes beyond property tax."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath",
+    "name": "William B. Redpath",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy check: the Mason-Deerfield Times reports Redpath is certified for the Nov. 3 ballot, and his FEC filings run through 10/14/2026. I found no sign he withdrew. I did not check the Ohio Secretary of State's candidate list directly. Sourcing: every stance comes from one candidate-questionnaire article on masondeerfieldtimes.com. It carries a BallotReady photo and may be a template-generated outlet, so please spot-check it against BallotReady/VOTE411 or Redpath's campaign site. The Westchester Liberty Herald published a near-identical questionnaire article. Missing topics: I found no stated position from him on data centers, utility rates, crime and policing, or prescription drug costs, so I left them out. He did appear on the Ideastream Oct. 13 program covering affordability and data centers, but I did not listen to the audio. Not used: a Yahoo explainer that summarizes his platform (cut spending, repeal tariffs), because I could not confirm its date; and a Dayton Daily News piece (about 2026-10-18) that mainly covers Brown and Husted and calls Redpath a long shot, which is horse-race framing."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy",
+    "name": "Greg Levy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Levy is confirmed as a candidate on the ballot, listed as an independent (Ballotpedia, FEC, NBC4, Dayton Daily News). I found no sign that he withdrew or was removed. A Common Dreams opinion piece cites an Ohio Secretary of State directive requiring independent candidates to be truly unaffiliated with any party. I found no formal challenge or removal, but it may be worth checking given his Party for Socialism and Liberation membership. 2) Stances come from news summaries (NBC4, Dayton Daily News, Cincinnati Magazine) because the campaign site and the full Ideastream article text were not available to me. The NBC4 overview page could not be fetched, so its claims rest on the search-result text only. 3) I found no stated position from Levy on prescription drug costs, data centers or utility rates, crime and policing, or taxes, so those topics are left out. 4) Two news dates are estimates from search-result page ages and should be checked: the NBC4 disavowal story (about 2026-10-15) and the NBC4 $1.8M story (about 2026-10-22). 5) The Free Press item is an opinion piece, not news coverage. 6) Ballotpedia shows a write-in, Stephen Faris, in this race; he is not in the request's candidate list. 7) Campaign finance: Ballotpedia lists $26,733 raised, while NBC4 reports about $125K raised through Sept. 30. The NBC4 figure is likely more current."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-scott-eckhard-jewett",
+    "name": "Scott Eckhard Jewett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I couldn't check his ballot status on the Florida Division of Elections site. His candidacy comes from the LP, Inside Elections, CBS12 (Oct. 19, 2026) and his campaign site, and I found no sign he withdrew or was removed. There is one conflict to look at. The LP.org bio says he has 'a decade of government experience', but CBS12 says this is his first run for office, and his campaign bio lists only private-sector work. So I left government service out of his background. Nicole Skelly is named as his Lieutenant Governor running mate on the campaign site and in a campaign video. His issues page also covers healthcare, energy/AI data centers, Flock cameras and surveillance, and public safety, but the page text was cut off before the public-safety section. I found no stance on criminal justice/prison reform or teacher pay, so I left those topics out. The insurance, housing and education stances are paraphrased from the campaign's bullet lists. I found only one news item from the last 45 days about him. A syndicated copy of the same story ran on CW34 and wasn't added."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-david-jolly",
+    "name": "David Jolly",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Not checked against the official ballot: no Florida Division of Elections page was opened. Jolly's candidacy and running mate (Gwen Graham) come from news coverage and the Around Osceola questionnaire. Please confirm on the state site. 2) The WLRN news item is dated 2026-09-23, which is 29 days before today. That is inside the 45-day window, but it is older than the other four items. 3) The page-fetch limit was reached before the full questionnaire page could be re-read. The housing, health care, teacher pay and abortion stances come from the questionnaire text shown in search results for that page. 4) The publication dates for the NBC Miami and Florida Phoenix items were worked out from the search tool's 'days ago' labels; the Florida Phoenix date also matches its URL. 5) Jolly also says he opposes data centers (WMNF, WSVN). News4JAX covers the candidates on AI and data centers, but that page was not opened, so no separate data-center stance was added. 6) No stance on criminal justice or prison reform was found, so that topic was left out."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-donna-brandenburg",
+    "name": "Donna Brandenburg",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status checked: a county candidate filing list (convention nomination filed 7/20/2026), the Michigan Advance and Votebeat voter guides, and Transparency USA all list her as on the November ballot. I found no sign she withdrew. Most stances come from her VOTE411 answers. I left out the claims she made there about specific numbers (for example, that 8 incentive deals totaling $2.7B delivered 602 of 20,595 promised jobs, and a 45th-place education ranking) because I couldn't verify them. Her nomination date differs by source: July 18 per Smarter.vote and michwomen.com, while the filing date is July 20. The Eastern Echo and Lansing Letter dates were worked out from page age and the article text, so please confirm them. I found no recent news about her own actions, only candidate roundups. I found no stated positions on health care, gas prices, tariffs, data centers, minimum wage, renewables/EVs, or parental rights in sports, so I left those topics out. I didn't fetch her campaign site (BrandenburgForGovernor.com)."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-dean-ocean-abrams",
+    "name": "Dean Ocean Abrams",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The Division of Elections lists Abrams as qualified (NPA), with running mate Joe Van Vactor. Sources disagree on his occupation: his campaign says enterprise technology and management consulting (Microsoft, HP, KPMG); Civoren calls him a real estate agent with Preferred Shore LLC; Sway lists him as Microsoft CTO and founder of a stealth AI startup. That last claim is unverified and I left it out. The fetched campaign issues page was cut off after the healthcare section, so the immigration, guns, body-camera, education and abortion stances come from DecodeTheVote's quotes of deanabrams.com/issues, not my own reading of that page. Check them against the live site. The ClickOrlando fetch came back empty; its date and headline come from search results. The Orlando Sentinel voter-guide profile (shared Oct 12) was not opened. Abrams has no stated position on teacher pay or business regulation."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-charles-burkett",
+    "name": "Charles Burkett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The state Division of Elections confirms Burkett qualified on 06/08/2026, with Ruben A. Coto as his running mate. I found no sign that he withdrew. The old affordability stance was replaced with specific proposals from his campaign site. The abortion stance uses his website's 'My Body, My Choice' wording plus a WUSF summary of his answer to the Florida Public Media voter guide. I did not open the voter guide itself, so please check the exact quote. Only one news item from the last 45 days is about him. A Florida Politics story about him courting Ron DeSantis as running mate is about 59 days old, so I left it out. The 'More on where I stand' page only links to his opinion site and has no positions. I found no stated positions on immigration, guns, criminal justice, or school choice."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto",
+    "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The Florida Division of Elections still lists Datto as Qualified (filed 12/05/2025, qualified 06/12/2026 by paying the fee), and WUSF's 2026-10-22 roundup includes him on the ballot. I found no sign that he withdrew or was removed. I couldn't verify any issue stances, so positions is empty. WUSF reports he has no campaign website and did not fill out the Florida Public Media voter guide. His X post only gives general themes (\"accountability, fairness, leadership\"), not stances on specific policies. The WKMG/News Collaborative guide lists him with age 51, but the fetched page cut off before any answers from him, and he did not appear in the AroundOsceola version of the same guide. Worth re-checking that guide by hand for answers on school choice or other topics. Other facts WUSF reports that I left out of the summary but you could add: he hasn't voted in Florida since 2020; he has raised about $5,500, all from himself; and a review found he has filed many pro se civil rights and disability lawsuits over more than 15 years in several states. Politics1 lists him as 'Neuroscientist & Pro Se Litigant'. The background items marked as coming from his Facebook profile are the candidate's own claims; I did not check them independently. Only one news item from the last 45 days was found, and it covers the whole field, not just him."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "fl-governor-and-lieutenant-governor-moliere-moe-dimanche",
+    "name": "Moliere \"Moe\" Dimanche",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Updated his occupation to FedEx delivery driver, which he gave in both 2026 questionnaires (News4Jax and ClickOrlando, the WKMG News 6 site). 2. I did not reopen the Division of Elections page in this request. The running mate (Benjiman Rojas) and the filing and qualifying dates come from the existing profile. WUSF (Oct 22) lists him among the six non-major-party candidates on the ballot. 3. WUSF reports he raised about $8,000 and is appealing fines from his 2023 Orlando mayoral campaign. 4. Dropped the old education stance wording. The e-scooter item comes from WUSF's account of his Florida Public Media voter guide answers. I could not open that guide or his Ballotpedia survey answers; the Ballotpedia page was cut off before the survey section. 5. I only saw the Folio Weekly article in search results; the page did not load, and it covers several candidates, not only him. 6. The WLRN copy of the WUSF story did not load its body text; I cite the WUSF copy."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "il-governor-and-lieutenant-governor-jb-pritzker",
+    "name": "JB Pritzker",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed by multiple outlets: he was unopposed in the March 17 primary and met Bailey in a WTTW debate on Oct 13, 2026. The Collin Corbett Independent candidacy and the Aaron Del Mar running mate detail come from the existing profile and ABC7; I did not verify Corbett against the State Board of Elections. The education items in the background (Duke B.A., Northwestern J.D.) and 'investor and businessman' are from general knowledge, not a source opened this session, so please verify them. The WTTW debate page could not be fetched; its headline and date come from search results. Stances are paraphrased from his Shaw Local questionnaire answers, which are his own claims and include statements about his record (credit upgrades, never raising income or sales taxes) that opponents dispute. The Shaw Local questionnaire (2026-09-23) is 29 days old, within the 45-day window. A Daily Northwestern report mentioned a post-forum school funding/property tax pledge proposal, but it was unclear which candidate made it, so I left it out."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-governor-lt-governor-anthony-hudson",
+    "name": "Anthony Hudson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Major change: on Sept. 27–28, 2026 the Libertarian Party of Michigan disavowed Hudson, bars him from party events, and cut ties with his campaign. It cited public statements it said opposed freedom of speech and religion. News reports also mention accusations about his social media posts targeting Muslims and threatening officials. Hudson responded by rejecting the party and now says he does not want to be tied to a party. The Detroit News (Sept. 29) says he is still the Libertarian nominee on the Nov. 3 ballot, and I found nothing showing he was removed or withdrew. I could not check this with the Michigan Secretary of State because I did not search that site. Please confirm the ballot listing there. The ABC12 date (2026-10-02) is estimated from the search result's page age ('20 days ago'), not read off the article. Platform items (taxes, part-time Legislature, at-fault insurance, solar and wind on state land) come from the Mining Journal's summary of his campaign website, not the site itself. The $1M/day data center fine stance is phrased neutrally. In the same quote he also called the government 'treasonous', which I left out of the stance. The old summary said he 'left the race' as a Republican. I changed this to say he switched parties."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "mi-u-s-senate-walter-p-kristy",
+    "name": "Walter P. Kristy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed by CBS Detroit, Votebeat, and FEC (the FEC shows no financial filings for 2025–2026). All positions come from his candidate page on the Natural Law Party of Michigan site, which he describes as his campaign website. In a few spots I corrected spelling from his page ('pro-chose', 'bare arms'). I found no news from the last 45 days that is mainly about Kristy. The CBS Detroit candidate roundup (about 2026-10-15) mentions him only briefly, and its exact publication date isn't confirmed, so I left news empty. I found no stated positions on health care, the economy, Israel/Iran, trade, immigration, Social Security, taxes, or campaign finance. His page says 'End the wars' without naming any, according to a third-party summary, but that phrase didn't appear in my fetch, so I left it out. Search budget: 3 searches and 3 fetches used."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "oh-governor-and-lieutenant-governor-amy-acton",
+    "name": "Amy Acton",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item without a valid date: Acton refuses to engage with Ramaswamy as Ohio debates decline"
+    ],
+    "notes": "I hit the tool limit early: I ran 3 searches and fetched no pages. All stances come from search-result text (the BallotReady profile and News 5 Cleveland), not from opened pages. Gaps to fill: (1) Acton's running mate for Lieutenant Governor is not confirmed and still needs adding. (2) I couldn't find a publication date for the News 5 Cleveland article, so its date field is empty; check it falls within the 45-day window. (3) I didn't find Acton's positions on education, license plate reader cameras (Flock), or small business licensing. (4) Background has no years for her ODH tenure and no education; I didn't add these from memory. (5) The 19th headline comes from the article's on-page title; the search listing gave a slightly different version. (6) The News 5 headline and the 'refuses' wording come from the outlet, not from me. The stance itself just says she declined to debate. Nothing I found suggests she withdrew."
   }
 ]

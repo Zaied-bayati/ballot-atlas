@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-22",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 2,
+  "limits": {
+    "searches": 8,
+    "fetches": 5,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-william-b-redpath",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.231,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3467,
+        "cache_creation_input_tokens": 24185,
+        "cache_read_input_tokens": 102534,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "oh-united-states-senate-unexpired-term-ending-01-03-2029-greg-levy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.276,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3978,
+        "cache_creation_input_tokens": 24979,
+        "cache_read_input_tokens": 106545,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-scott-eckhard-jewett",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.243,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3300,
+        "cache_creation_input_tokens": 26289,
+        "cache_read_input_tokens": 126279,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-david-jolly",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.264,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4362,
+        "cache_creation_input_tokens": 20689,
+        "cache_read_input_tokens": 117609,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "mi-governor-lt-governor-donna-brandenburg",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.204,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3046,
+        "cache_creation_input_tokens": 19702,
+        "cache_read_input_tokens": 70228,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-dean-ocean-abrams",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.341,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 4690,
+        "cache_creation_input_tokens": 30181,
+        "cache_read_input_tokens": 229255,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-charles-burkett",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.283,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 3951,
+        "cache_creation_input_tokens": 22449,
+        "cache_read_input_tokens": 157782,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "retried": false,
+      "searches": 6,
+      "fetches": 5,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-jeffrey-peter-dr-jeff-datto",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.308,
+      "usage": {
+        "input_tokens": 40,
+        "output_tokens": 4071,
+        "cache_creation_input_tokens": 26942,
+        "cache_read_input_tokens": 310893,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "id": "fl-governor-and-lieutenant-governor-moliere-moe-dimanche",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.354,
+      "usage": {
+        "input_tokens": 38,
+        "output_tokens": 5215,
+        "cache_creation_input_tokens": 31173,
+        "cache_read_input_tokens": 269441,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 5,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "il-governor-and-lieutenant-governor-jb-pritzker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.444,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 8536,
+        "cache_creation_input_tokens": 33683,
+        "cache_read_input_tokens": 174718,
+        "server_tool_use": {
+          "web_search_requests": 7
+        }
+      },
+      "retried": false,
+      "searches": 7,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "mi-governor-lt-governor-anthony-hudson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.253,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4232,
+        "cache_creation_input_tokens": 23921,
+        "cache_read_input_tokens": 91625,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "mi-u-s-senate-walter-p-kristy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.194,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2648,
+        "cache_creation_input_tokens": 17392,
+        "cache_read_input_tokens": 68851,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "oh-governor-and-lieutenant-governor-amy-acton",
+      "status": "updated",
+      "problems": 1,
+      "stances": 7,
+      "news": 1,
+      "sources": 3,
+      "costUSD": 0.186,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2204,
+        "cache_creation_input_tokens": 10548,
+        "cache_read_input_tokens": 44037,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "retried": false,
+      "searches": 8,
+      "fetches": 0,
+      "toolErrors": []
+    }
+  ],
+  "costUSD": 3.58
+}
