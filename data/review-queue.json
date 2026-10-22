@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-10-22",
+    "candidate": "h20-edgardo-rafael-baez",
+    "name": "Edgardo Rafael Baez",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped stance on \"Economy and poverty\": too long."
+    ],
+    "notes": "1) Ballot status: He is confirmed on the ballot as 'EDGARDO RAFAEL BAEZ (Republican)' for U.S. Rep. District 20, per the Texas Secretary of State results page and the Click2Houston ballot guide (both seen in search results, not opened). I found no sign he withdrew. Ballotpedia's Castro page also lists an 'Anthony Tristan', but the SOS listing shows only Baez and Castro, so Tristan may be a write-in. 2) Fetch limit: The tool-use limit ran out before I could open the campaign website (drbaezforcongress.com) or the Ballotpedia page. Ballotpedia details (education years, Army 1989–2002, birthplace) come from the search-result snippet. The campaign site is listed only as a source, and no stance cites it. 3) Discrepancies: The San Antonio Report profile says he served 14 years in the Army, while Ballotpedia gives 1989–2002 (about 13 years). An older San Antonio Report GOP voter guide snippet calls him a 'retired physician', but his own questionnaire and other coverage say he was a nurse, so I did not use 'physician'. 4) Residency: The San Antonio Report says he lives in District 23, not District 20. U.S. House candidates are not required to live in their district. His questionnaire says only that he lives in San Antonio. I left this out of the profile. 5) Law license: The San Antonio Report (2026-10-15) says he was sanctioned by the State Bar of Texas for five years, was sued by a former law partner, and once filed for bankruptcy, and it links to State Bar records. I left these out of the history section pending editorial review of how Ballot Atlas handles disciplinary records. 6) Fundraising figures differ by date: the Paisano reported $48,535 raised; the San Antonio Report reported about $66,000 raised, including a $40,000 loan from himself. Both cite FEC ID H6TX20113. 7) The Paisano item is mainly about Castro but includes Baez's positions, so I kept it in the news list. Only three news items from the last 45 days could be verified."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "h20-joaquin-castro",
+    "name": "Joaquin Castro",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped stance on \"Immigration detention\": too long.",
+      "Dropped stance on \"Immigration\": its source was not in this run's search results (https://castro.house.gov/media-center/press-releases/castrocasarlead60democratsdemandinganswers-onsecuringlegalrepresentationforunaccompanied-children).",
+      "Dropped stance on \"War powers and executive authority\": its source was not in this run's search results (https://castro.house.gov/media-center/press-releases/castro-demands-transparency-on-venezuela-oil-fundforces-vote-to-subpoena-trump-administration)."
+    ],
+    "notes": "Candidacy confirmed: Ballotpedia lists Castro (D, incumbent) and Edgardo Baez (R) for the November 3, 2026 TX-20 general election and shows his certified March 3 primary win. Three independents (Jonasz, Tristan, Villalobos) are listed as withdrawn or disqualified. The search tool hit its usage limit after the first query, so this profile rests on one Ballotpedia page, Castro's official House press-release index, two full press releases, and his campaign homepage, which has no issue content. News is empty: I couldn't search news outlets for real headlines in the last 45 days. His own October 2026 press releases cover the Dilley detention center, the ICE warehouse field hearing, and the Venezuela oil fund, but they aren't outlet coverage, so I left them out. Before publishing, please add up to 5 outlet items (San Antonio Express-News, Texas Public Radio, Texas Tribune). Five stances (287(g), unaccompanied children, Venezuela oil fund, Hispanic-Serving Institutions, Stop the Settlements Act) come only from press release titles, and each one says so. The 287(g) item cites the press-release index page because I didn't capture that release's own URL. There's also an unopened release titled 'Castro Statement on One-Year Anniversary of Boat Strikes' that likely bears on war powers; I left it out because I couldn't read it. I didn't find his stated positions on Social Security/Medicare, health care, public safety, veterans, or the deficit and inflation as such, so those topics are missing apart from his recorded votes on H.R. 1 and the budget bills. All 2025 votes come from Ballotpedia's key-votes table. The Ballotpedia profile doesn't give the number of his Texas House district, so I left it out. The prior profile was empty, so nothing needed correcting."
+  },
+  {
+    "date": "2026-10-22",
+    "candidate": "h21-mark-teixeira",
+    "name": "Mark Teixeira",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Research was cut short. The search tool hit its usage limit after only two queries, so this profile is based on search-result snippets. I could not open any page in full, including the campaign site and the Texas Secretary of State candidate list. His candidacy is confirmed by KUT (primary win), Ballotpedia (general election listing), TPR (October 2026 coverage), the Statesman endorsement and the FEC committee. I found no sign that he withdrew. Please check these points: (1) The spending/DOGE and energy stances cite The Conservative Ledger, and the health care stance cites smarter.vote. Both are third-party aggregators that quote his campaign site ('Issues | Mark \"Tex\" Teixeira for Congress'). If possible, replace those citations with the campaign site itself. (2) The taxes stance comes from the Statesman editorial board's description of his position, not his own words. (3) The Statesman editorial's date (2026-10-05) is estimated from the search result's '17 days ago' label. That item is an opinion piece/endorsement, not news reporting, so you may want to drop it from news. (4) I found only two items from the last 45 days. (5) The FEC page shows a statement of organization filed 08/06/2026, which is probably an amended filing. (6) Topics for Hook weren't provided. I chose topics that line up with the contrasts TPR describes: affordability/health care, immigration, abortion and federal spending. (7) Ballotpedia says he has not completed its Candidate Connection survey. (8) The background lines on the 2016 retirement and the ESPN 2017–2020 years come from secondary snippets (smarter.vote and The Conservative Ledger's summary of Houston Chronicle reporting). In his San Antonio Report answers he describes his career as 15 years of professional baseball."
+  }
+]
