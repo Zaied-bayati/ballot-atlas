@@ -109,10 +109,9 @@ export function mergeProfile(candidate, profile, today) {
 // Picks which candidates to research this run: never-profiled first, then the most stale, weighted by race.
 const RACE_WEIGHT = { federal: 3, state: 2, county: 2, courts: 1 };
 export const REFRESH_DAYS = 7; // a profile is refreshed at most once a week
-export function pickCandidates(data, stateId, max, today) {
-  const st = data.states[stateId];
-  const races = [...st.races.map(r => ({ r, place: st.name })),
-    ...Object.values(st.counties).flatMap(c => c.races.map(r => ({ r, place: `${c.name} County, ${st.name}` })))];
+export function pickCandidates(data, max, today, onlyStates = null) {
+  const races = Object.entries(data.states).filter(([fips]) => !onlyStates || onlyStates.includes(fips)).flatMap(([, st]) => [...st.races.map(r => ({ r, place: st.name })),
+    ...Object.values(st.counties || {}).flatMap(c => c.races.map(r => ({ r, place: `${c.name} County, ${st.name}` })))]);
   const seen = new Set();
   const jobs = [];
   for (const { r, place } of races) for (const id of r.candidates) {
@@ -124,4 +123,75 @@ export function pickCandidates(data, stateId, max, today) {
     jobs.push({ id, race: r, place, score: (unprofiled ? 1000 : 0) + stale * (RACE_WEIGHT[r.level] || 1) });
   }
   return jobs.sort((a, b) => b.score - a.score).slice(0, max);
+}
+
+export const slug = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+// Checks a state ballot from the ballot agent and turns it into the site's shape.
+// Returns { ok, state, candidates, problems }. Races whose source wasn't seen this run
+// are kept but flagged for voters to verify; a ballot with no confirmed races isn't used.
+export function checkBallot(raw, { seen, abbr, name, electionDate = "2026-11-03" }) {
+  const problems = [];
+  const cited = u => seen.has(normalizeUrl(u));
+  const iso = d => /^\d{4}-\d{2}-\d{2}$/.test(d);
+  if (!raw || typeof raw !== "object") return { ok: false, problems: ["No usable output."] };
+
+  const dates = [];
+  for (const d of raw.dates || []) {
+    if (!iso(d.start) || (d.end && !iso(d.end))) { problems.push(`Dropped date with a bad format: ${d.label}`); continue; }
+    if (d.id === "election" && d.start !== electionDate) { problems.push(`Election Day given as ${d.start}; replaced with ${electionDate}.`); d.start = electionDate; }
+    dates.push({ id: d.id, label: d.label.trim(), start: d.start, ...(d.end ? { end: d.end } : {}), note: d.note.trim() });
+  }
+  if (!dates.some(d => d.id === "election")) dates.push({ id: "election", label: "General Election Day", start: electionDate, note: "Check your state election office for polling hours." });
+  dates.sort((a, b) => a.start.localeCompare(b.start));
+
+  const races = [];
+  const candidates = {};
+  const generalFlag = raw.found_official_list ? "" : "Not yet checked against the state's official candidate list. Confirm on your sample ballot.";
+  for (const r of raw.races || []) {
+    const names = (r.candidates || []).filter(c => c.name && c.name.trim());
+    if (!names.length) { problems.push(`Dropped "${r.office}": no candidates.`); continue; }
+    const hits = loadedWords(r.about);
+    if (hits.length) problems.push(`Loaded language in "${r.office}" description: ${hits.join(", ")}`);
+    let id = `${abbr}-${slug(r.office)}`;
+    while (races.some(x => x.id === id)) id += "-2";
+    const sourced = cited(r.source_url);
+    if (!sourced) problems.push(`"${r.office}": source not seen this run (${r.source_url}); flagged for voters to verify.`);
+    const verify = [r.verify && r.verify.trim(), !sourced && "We couldn't confirm this race against a source.", generalFlag].filter(Boolean).join(" ");
+    const anyIncumbent = names.some(c => c.incumbent);
+    const ids = names.map(c => {
+      let cid = `${id}-${slug(c.name)}`;
+      while (candidates[cid]) cid += "-2";
+      candidates[cid] = {
+        name: c.name.trim(), party: c.party.trim(), status: c.incumbent ? "Incumbent" : anyIncumbent ? "Challenger" : "Open seat",
+        occupation: "", summary: "", objectives: [], positions: [], history: [], news: [], sources: []
+      };
+      return cid;
+    });
+    races.push({ id, level: r.level, office: r.office.trim(), seats: r.seats || 1, about: r.about.trim(), candidates: ids, ...(verify ? { verify } : {}), ...(sourced ? { source: { label: new URL(r.source_url).host.replace(/^www\./, ""), url: r.source_url } } : {}) });
+  }
+
+  const measures = (raw.measures || []).filter(m => cited(m.source_url)).map(m => ({
+    title: m.title.trim(), summary: m.summary.trim(), forMeans: m.for_means.trim(), againstMeans: m.against_means.trim(),
+    source: { label: new URL(m.source_url).host.replace(/^www\./, ""), url: m.source_url }
+  }));
+  const keepSource = s => s && s.url && cited(s.url) ? { label: s.label.trim(), url: s.url } : null;
+
+  const confirmed = races.filter(r => r.source).length;
+  if (!confirmed) problems.push("No race could be tied to a source seen this run.");
+  return {
+    ok: confirmed > 0,
+    problems,
+    notes: raw.notes_for_reviewer || "",
+    officialList: !!raw.found_official_list,
+    candidates,
+    state: {
+      name,
+      officialSite: raw.official_site && cited(raw.official_site.url) ? { label: raw.official_site.label.trim(), url: raw.official_site.url } : { label: "vote.gov", url: "https://vote.gov" },
+      dates, datesSource: keepSource(raw.dates_source),
+      races, racesSource: keepSource(raw.races_source),
+      measures, measuresNote: (raw.measures_note || "").trim(),
+      counties: {}
+    }
+  };
 }

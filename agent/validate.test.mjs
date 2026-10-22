@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { checkProfile, mergeProfile, seenUrls, loadedWords, pickCandidates, normalizeUrl } from "./validate.mjs";
+import { checkProfile, mergeProfile, seenUrls, loadedWords, pickCandidates, normalizeUrl, checkBallot } from "./validate.mjs";
 
 const fixture = JSON.parse(fs.readFileSync(new URL("./fixtures/sample-response.json", import.meta.url)));
 const today = "2026-10-22";
@@ -57,7 +57,7 @@ test("merge keeps earlier stances on topics the agent did not revisit", () => {
 
 test("never-profiled candidates are researched first", () => {
   const data = JSON.parse(fs.readFileSync(new URL("../data/ballot.json", import.meta.url)));
-  const jobs = pickCandidates(data, "48", 5, today);
+  const jobs = pickCandidates(data, 5, today);
   assert.equal(jobs.length, 5);
   for (const j of jobs) assert.equal(data.candidates[j.id].summary, "");
 });
@@ -66,6 +66,41 @@ test("profiles researched in the last week are skipped", () => {
   const data = JSON.parse(fs.readFileSync(new URL("../data/ballot.json", import.meta.url)));
   const ids = Object.keys(data.candidates);
   for (const id of ids) data.candidates[id].lastResearched = "2026-10-20";
-  assert.equal(pickCandidates(data, "48", 1e6, "2026-10-26").length, 0);
-  assert.ok(pickCandidates(data, "48", 1e6, "2026-10-27").length > 0);
+  assert.equal(pickCandidates(data, 1e6, "2026-10-26").length, 0);
+  assert.ok(pickCandidates(data, 1e6, "2026-10-27").length > 0);
+});
+
+test("a state ballot keeps sourced races and flags the rest", () => {
+  const seen = new Set([normalizeUrl("https://sos.example.gov/candidates"), normalizeUrl("https://sos.example.gov")]);
+  const raw = {
+    found_official_list: true,
+    official_site: { label: "Example SOS", url: "https://sos.example.gov" },
+    dates: [{ id: "election", label: "Election Day", start: "2026-11-04", end: "", note: "7 a.m. to 7 p.m." }, { id: "reg", label: "Registration deadline", start: "Oct 5", end: "", note: "" }],
+    dates_source: { label: "Made up", url: "https://nowhere.example.com" },
+    races: [
+      { office: "U.S. Senator", level: "federal", seats: 1, about: "Six-year term.", candidates: [{ name: "Ana Lopez", party: "Democratic", incumbent: true }, { name: "Bo Smith", party: "Republican", incumbent: false }], source_url: "https://sos.example.gov/candidates?utm_source=x", verify: "" },
+      { office: "Governor", level: "state", seats: 1, about: "Four-year term.", candidates: [{ name: "Cy Ng", party: "Republican", incumbent: false }], source_url: "https://unseen.example.com/gov", verify: "" },
+      { office: "Treasurer", level: "state", seats: 1, about: "", candidates: [], source_url: "https://sos.example.gov/candidates", verify: "" }
+    ],
+    races_source: { label: "SOS", url: "https://sos.example.gov/candidates" },
+    measures: [], measures_note: "", notes_for_reviewer: ""
+  };
+  const r = checkBallot(raw, { seen, abbr: "ex", name: "Example" });
+  assert.equal(r.ok, true);
+  assert.deepEqual(r.state.races.map(x => x.id), ["ex-u-s-senator", "ex-governor"]);
+  assert.equal(r.state.races[0].verify, undefined);
+  assert.match(r.state.races[1].verify, /couldn't confirm/);
+  assert.equal(r.candidates["ex-u-s-senator-ana-lopez"].status, "Incumbent");
+  assert.equal(r.candidates["ex-u-s-senator-bo-smith"].status, "Challenger");
+  assert.equal(r.candidates["ex-governor-cy-ng"].status, "Open seat");
+  assert.equal(r.state.dates.find(d => d.id === "election").start, "2026-11-03");
+  assert.equal(r.state.dates.length, 1);
+  assert.equal(r.state.datesSource, null);
+  assert.equal(r.state.officialSite.url, "https://sos.example.gov");
+});
+
+test("research can be limited to some states", () => {
+  const data = JSON.parse(fs.readFileSync(new URL("../data/ballot.json", import.meta.url)));
+  assert.equal(pickCandidates(data, 1e6, today, ["12"]).length, 0);
+  assert.ok(pickCandidates(data, 1e6, today, ["48"]).length > 0);
 });

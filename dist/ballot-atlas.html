@@ -226,8 +226,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
 <div class="sample-ribbon" role="note">
   <div class="ribbon-inner">
-    <strong>Pilot: Texas, November 3, 2026.</strong>
-    Researched October 22 from news coverage and county election offices. Always confirm with your county elections office before you vote.
+    <strong>November 3, 2026 general election.</strong>
+    Texas is fully loaded; more states are being added, starting with their U.S. Senate and governor races. Always confirm with your election office before you vote.
   </div>
 </div>
 
@@ -1013,7 +1013,8 @@ window.BALLOT_DATA = {
           },
           "measures": []
         }
-      }
+      },
+      "coverageNote": "Certified write-in candidates and the Texas House, Texas Senate, State Board of Education and district court races aren't loaded yet."
     }
   },
   "candidates": {
@@ -3729,10 +3730,8 @@ window.BALLOT_DATA = {
     .on("mousemove", (e, d) => showTip(e, d.properties.name + (stateData(d.id) ? " · ballot data" : "")))
     .on("mouseleave", hideTip);
 
-  // Pilot marker on the US view.
-  const pilot = stateById.get(DATA.meta.pilotStateFips);
-  const pilotLabel = statesLayer.append("text").attr("class", "state-label")
-    .attr("x", path.centroid(pilot)[0]).attr("y", path.centroid(pilot)[1] + 4).text("PILOT");
+  const covered = states.filter(f => stateData(f.id)).map(f => f.properties.name).sort();
+  const coveredList = covered.length > 1 ? covered.slice(0, -1).join(", ") + " and " + covered[covered.length - 1] : covered[0];
 
   document.getElementById("legend").innerHTML =
     '<span><i style="background:var(--accent-soft)"></i>Ballot data</span><span><i style="background:var(--land)"></i>Coming later</span>';
@@ -3775,7 +3774,6 @@ window.BALLOT_DATA = {
     statesLayer.selectAll(".state")
       .classed("dim", d => sid && d.id !== sid)
       .classed("active", d => d.id === sid);
-    pilotLabel.attr("display", sid ? "none" : null);
     countiesLayer.selectAll(".county").classed("selected", d => d.id === ui.countyId);
     countiesLayer.classed("choosing", ui.view === "state-choice");
     mapBack.hidden = !sid;
@@ -3786,7 +3784,9 @@ window.BALLOT_DATA = {
   // ---------- Navigation ----------
   function selectState(sid) {
     hideTip();
-    ui.stateId = sid; ui.countyId = null; ui.view = "state-choice";
+    // States without county data skip the county question and open statewide.
+    const sd = stateData(sid);
+    ui.stateId = sid; ui.countyId = null; ui.view = sd && !Object.keys(sd.counties || {}).length ? "state" : "state-choice";
     drawCounties(sid);
     zoomTo(stateById.get(sid), 0.88, 12);
     render();
@@ -3842,7 +3842,7 @@ window.BALLOT_DATA = {
 
   function viewUS() {
     const opts = states.slice().sort((a, b) => a.properties.name.localeCompare(b.properties.name))
-      .map(s => `<option value="${s.id}">${esc(s.properties.name)}${stateData(s.id) ? " (sample data)" : ""}</option>`).join("");
+      .map(s => `<option value="${s.id}">${esc(s.properties.name)}${stateData(s.id) ? " (loaded)" : ""}</option>`).join("");
     return `
       <div>
         <div class="eyebrow">Your ballot, on a map</div>
@@ -3858,7 +3858,7 @@ window.BALLOT_DATA = {
         <div><b>2. Stay statewide or pick a county</b>County view adds local races and polling places.</div>
         <div><b>3. Open a candidate</b>Read their goals, background and recent news, with sources.</div>
       </div>
-      <p class="note">Texas is the pilot state. Other states will be added once the research agent covers them.</p>`;
+      <p class="note">Ballot data is loaded for ${esc(coveredList)}. More states are being added.</p>`;
   }
 
   function viewChoice() {
@@ -3890,7 +3890,7 @@ window.BALLOT_DATA = {
         <input id="county-search" list="county-list" placeholder="Start typing, e.g. Travis" autocomplete="off">
         <datalist id="county-list">${all.map(n => `<option value="${esc(n)}">`).join("")}</datalist>
       </div>
-      <p class="note">Counties with local races loaded: ${opts.map(([id, n]) => `<button class="link-btn" type="button" data-county="${id}">${esc(n)}</button>`).join(", ")}.</p>`;
+      <p class="note">${opts.length ? `Counties with local races loaded: ${opts.map(([id, n]) => `<button class="link-btn" type="button" data-county="${id}">${esc(n)}</button>`).join(", ")}.` : `No county races are loaded for ${name} yet. Choosing a county still shows your statewide races.`}</p>`;
   }
 
   function viewNoData(name) {
@@ -3898,14 +3898,14 @@ window.BALLOT_DATA = {
       <div>
         <div class="eyebrow">${name}</div>
         <h1>${name} isn't covered yet.</h1>
-        <p class="lede">Texas is the pilot state. ${name} will be added once the daily research agent covers it.</p>
+        <p class="lede">Ballot data is loaded for ${esc(coveredList)}. ${name} will be added as the research agent covers more states.</p>
       </div>
       <div class="callout">
         <p>Until then, find official dates, registration and polling places at <a href="https://vote.gov" target="_blank" rel="noopener">vote.gov</a>.</p>
       </div>
       <button class="choice" type="button" data-act="go-pilot">
-        <strong>See the Texas example</strong>
-        <span>Jump to the pilot state</span>
+        <strong>See Texas</strong>
+        <span>The most complete state so far, with county races</span>
       </button>`;
   }
 
@@ -3936,13 +3936,15 @@ window.BALLOT_DATA = {
       return `<li class="${cls === "past" ? "past" : ""}"><span class="when">${when}</span><span class="what"><strong>${esc(d.label)}</strong><small>${esc(d.note)}</small><span class="pill ${cls}">${label}</span></span></li>`;
     }).join("");
 
+    const hasCounties = Object.keys(sd.counties || {}).length > 0;
     const house = cd ? `
       <div class="race house">
         <div class="race-head"><div><h3>U.S. Representative</h3><p>${cName} County is split among ${houseRaces.length} congressional districts. You vote in only one, based on your home address. Your voter registration card and the My Voter Portal on <a href="${sd.officialSite.url}" target="_blank" rel="noopener">${esc(sd.officialSite.label)}</a> show which.</p></div></div>
         <div class="field"><label for="district-pick">Your district</label>
           <select id="district-pick">${houseRaces.map(r => `<option value="${r.district}"${r.district === ui.district ? " selected" : ""}>District ${r.district}</option>`).join("")}</select></div>
-      </div>${raceCard(houseRaces.find(r => r.district === ui.district))}` : (isCounty ? "" : `
-      <div class="callout"><p>Your U.S. House race depends on where you live. <button class="link-btn" type="button" data-act="pick-county">Choose your county</button> to see it.</p></div>`);
+      </div>${raceCard(houseRaces.find(r => r.district === ui.district))}` : (isCounty ? "" : hasCounties ? `
+      <div class="callout"><p>Your U.S. House race depends on where you live. <button class="link-btn" type="button" data-act="pick-county">Choose your county</button> to see it.</p></div>` : `
+      <div class="callout"><p>Your U.S. House race depends on where you live and isn't loaded for ${stateName} yet.</p></div>`);
 
     const raceBlocks = LEVELS.map(([lvl, label]) => {
       const rs = races.filter(r => r.level === lvl);
@@ -3969,7 +3971,9 @@ window.BALLOT_DATA = {
     } else if (isCounty) {
       where = `<div class="callout"><p>We haven't loaded ${cName} County's voting locations yet.</p><p>Find yours at <a href="${sd.officialSite.url}" target="_blank" rel="noopener">${esc(sd.officialSite.label)}</a>.</p></div>`;
     } else {
-      where = `<div class="callout"><p>Each county runs its own voting sites. During early voting you can vote at any early voting site in your county.</p><p><button class="link-btn" type="button" data-act="pick-county">Choose your county</button> for local hours and links, or look them up at <a href="${sd.officialSite.url}" target="_blank" rel="noopener">${esc(sd.officialSite.label)}</a>.</p></div>`;
+      where = hasCounties
+        ? `<div class="callout"><p>Each county runs its own voting sites. During early voting you can vote at any early voting site in your county.</p><p><button class="link-btn" type="button" data-act="pick-county">Choose your county</button> for local hours and links, or look them up at <a href="${sd.officialSite.url}" target="_blank" rel="noopener">${esc(sd.officialSite.label)}</a>.</p></div>`
+        : `<div class="callout"><p>Polling places and hours are set locally. Look yours up at <a href="${sd.officialSite.url}" target="_blank" rel="noopener">${esc(sd.officialSite.label)}</a>, the state's official election site, or at <a href="https://vote.gov" target="_blank" rel="noopener">vote.gov</a>.</p></div>`;
     }
 
     const localNote = isCounty && !cd
@@ -3981,14 +3985,14 @@ window.BALLOT_DATA = {
         <h1>${isCounty ? `Your ballot in ${cName} County` : `What every ${stateName} voter decides`}</h1>
         <p class="lede">${isCounty ? "Statewide races, your U.S. House district and countywide offices." : "Federal and statewide races on the November 3, 2026 general election ballot."}</p>
       </div>
-      ${!isCounty ? `<button class="choice" type="button" data-act="pick-county"><strong>Add your county</strong><span>See your U.S. House race, county races and where to vote</span></button>` : ""}
+      ${!isCounty && hasCounties ? `<button class="choice" type="button" data-act="pick-county"><strong>Add your county</strong><span>See your U.S. House race, county races and where to vote</span></button>` : ""}
       <section class="section"><h2>Key dates</h2><ul class="dates">${dates}</ul>${sd.datesSource ? `<p class="note">Source: ${link(sd.datesSource)}</p>` : ""}</section>
       <section class="section">
         <div class="section-head"><h2>Who you can vote for</h2></div>
-        <p class="note">Candidates are listed alphabetically by last name. Parties are shown as text only. Certified write-in candidates and the Texas House, Texas Senate, State Board of Education and district court races aren't loaded yet.</p>
+        <p class="note">Candidates are listed alphabetically by last name. Parties are shown as text only. ${esc(sd.coverageNote || "")}</p>
         ${localNote}${raceBlocks}
       </section>
-      <section class="section"><h2>Ballot measures</h2>${measures}${measureNote}</section>
+      ${measures || sd.measuresNote || isCounty ? `<section class="section"><h2>Ballot measures</h2>${measures}${measureNote}</section>` : ""}
       <section class="section"><h2>Where to vote</h2><div class="places">${where}</div></section>`;
   }
 

@@ -756,7 +756,9 @@
           },
           "measures": []
         }
-      }
+      },
+      "coverageNote": "Certified write-in candidates and the Texas House, Texas Senate, State Board of Education and district court races aren't loaded yet.",
+      "abbr": "TX"
     }
   },
   "candidates": {

@@ -33,3 +33,9 @@ Each run's estimated cost is logged in `data/runs/<date>.json`. The first live r
 ## Reviewing held updates
 
 Open `data/review-queue.json`. Each entry says what was dropped or held and why, and held entries include the proposed profile. To accept one, copy the fields into the candidate in `data/ballot.json`.
+
+## Adding states
+
+`agent/ballot.mjs` builds a state's statewide ballot (races, candidates, key dates, official election site) from the Secretary of State's certified list where it can find one. Races whose source wasn't seen during the run, and whole states where the official list wasn't found, are shown to voters with a "verify" flag. `--scope top` loads only U.S. Senate and governor; `--scope all` loads every statewide race and measure. States already on the site are skipped unless `--force` is passed.
+
+Run it from GitHub: Actions, then "Add states", then enter state codes such as `FL,GA`. The job builds the ballots, profiles the new candidates (`RESEARCH_STATES` limits profiling to those states), and publishes. The run log is `data/runs/<date>-ballots.json`.
