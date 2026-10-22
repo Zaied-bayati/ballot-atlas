@@ -205,3 +205,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .news a { color: var(--ink); text-decoration-color: var(--line); }
 .news a:hover { color: var(--accent); }
 .race.house { gap: 12px; }
+
+/* Plain state links under the map (in the full-page build only), for crawlers and no-JS readers. */
+.site-footer { max-width: 1280px; margin: 0 auto; padding: 24px 16px 40px; font-size: 13px; color: var(--muted); line-height: 1.9; }
+.site-footer a { white-space: nowrap; }

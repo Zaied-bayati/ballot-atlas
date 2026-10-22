@@ -100,6 +100,7 @@
   // ---------- Navigation ----------
   function selectState(sid) {
     hideTip();
+    setHash(sid);
     // States without county data skip the county question and open statewide.
     const sd = stateData(sid);
     ui.stateId = sid; ui.countyId = null; ui.view = sd && !Object.keys(sd.counties || {}).length ? "state" : "state-choice";
@@ -118,7 +119,12 @@
     zoomTo(f, 0.4, stateScale * 2.2);
     render();
   }
+  // The address bar carries the state (e.g. #florida) so a state view can be shared.
+  const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const setHash = sid => { try { history.replaceState(null, "", sid ? "#" + slugify(stateById.get(sid).properties.name) : location.pathname); } catch (e) { /* sandboxed frames */ } };
+
   function goUS() {
+    setHash(null);
     ui.stateId = null; ui.countyId = null; ui.view = "us";
     drawCounties(null);
     zoomTo(null);
@@ -403,6 +409,7 @@
       ${stances ? `<section><h3>Where they stand</h3><div class="stances">${stances}</div></section>` : ""}
       ${c.history.length ? `<section><h3>Background</h3><ul>${c.history.map(h => `<li>${esc(h)}</li>`).join("")}</ul></section>` : ""}
       ${profiled ? `<section><h3>In the news</h3><div class="news">${news}</div></section>` : ""}
+      ${location.protocol.startsWith("http") ? `<p><a href="candidates/${encodeURIComponent(c.page || id)}/">Full profile page</a> · easy to share and bookmark</p>` : ""}
       ${provenance(c)}`;
     showDrawer();
   }
@@ -432,5 +439,6 @@
   }
   drawer.addEventListener("click", e => { if (e.target === drawer) drawer.close(); });
 
-  render();
+  const fromHash = states.find(f => slugify(f.properties.name) === location.hash.slice(1));
+  if (fromHash) selectState(fromHash.id); else render();
 })();
