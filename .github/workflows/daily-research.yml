@@ -8,6 +8,9 @@ on:
       max:
         description: "Most candidates to research this run"
         default: "20"
+      only:
+        description: "Optional: comma-separated candidate ids to redo now"
+        default: ""
       effort:
         description: "Research effort: low, medium or high"
         default: "low"
@@ -38,6 +41,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEARCH_MAX: ${{ github.event.inputs.max || '20' }}
           RESEARCH_EFFORT: ${{ github.event.inputs.effort || 'low' }}
+          RESEARCH_ONLY: ${{ github.event.inputs.only || '' }}
         run: node agent/research.mjs
       - run: node build.js
       - name: Save updates

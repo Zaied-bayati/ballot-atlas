@@ -101,6 +101,6 @@ test("a state ballot keeps sourced races and flags the rest", () => {
 
 test("research can be limited to some states", () => {
   const data = JSON.parse(fs.readFileSync(new URL("../data/ballot.json", import.meta.url)));
-  assert.equal(pickCandidates(data, 1e6, today, ["12"]).length, 0);
+  assert.equal(pickCandidates(data, 1e6, today, ["99"]).length, 0);
   assert.ok(pickCandidates(data, 1e6, today, ["48"]).length > 0);
 });

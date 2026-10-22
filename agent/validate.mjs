@@ -109,7 +109,8 @@ export function mergeProfile(candidate, profile, today) {
 // Picks which candidates to research this run: never-profiled first, then the most stale, weighted by race.
 const RACE_WEIGHT = { federal: 3, state: 2, county: 2, courts: 1 };
 export const REFRESH_DAYS = 7; // a profile is refreshed at most once a week
-export function pickCandidates(data, max, today, onlyStates = null) {
+// `onlyIds` re-researches the named candidates even if they were done recently.
+export function pickCandidates(data, max, today, onlyStates = null, onlyIds = null) {
   const races = Object.entries(data.states).filter(([fips]) => !onlyStates || onlyStates.includes(fips)).flatMap(([, st]) => [...st.races.map(r => ({ r, place: st.name })),
     ...Object.values(st.counties || {}).flatMap(c => c.races.map(r => ({ r, place: `${c.name} County, ${st.name}` })))]);
   const seen = new Set();
@@ -118,11 +119,27 @@ export function pickCandidates(data, max, today, onlyStates = null) {
     if (seen.has(id)) continue; seen.add(id);
     const c = data.candidates[id];
     const stale = c.lastResearched ? daysBetween(c.lastResearched, today) : 999;
-    if (stale < REFRESH_DAYS) continue;
+    if (onlyIds ? !onlyIds.includes(id) : stale < REFRESH_DAYS) continue;
     const unprofiled = !c.summary && !c.positions.length;
     jobs.push({ id, race: r, place, score: (unprofiled ? 1000 : 0) + stale * (RACE_WEIGHT[r.level] || 1) });
   }
   return jobs.sort((a, b) => b.score - a.score).slice(0, max);
+}
+
+// Ballot party labels vary by state ("Republican (REP)", "Democratic Party", "Democrat"); show one form.
+export function normalizeParty(p) {
+  let x = String(p).trim().replace(/\s*\([A-Z]{2,4}\)$/, "").replace(/\s+Party$/i, "");
+  if (/^democrat(ic)?$/i.test(x)) return "Democratic";
+  if (/^republican$/i.test(x)) return "Republican";
+  const m = x.match(/^(Libertarian|Green|Constitution|Democratic|Republican) Party of /i);
+  return m ? m[1][0].toUpperCase() + m[1].slice(1).toLowerCase() : x;
+}
+
+// The verify note is shown to voters, so keep it to a short sentence; long detail goes to reviewers.
+export const VERIFY_MAX = 180;
+export function voterVerify(text) {
+  const t = String(text || "").trim();
+  return !t ? "" : t.length <= VERIFY_MAX ? t : "Some details of this race couldn't be confirmed. Check your sample ballot.";
 }
 
 export const slug = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -157,13 +174,14 @@ export function checkBallot(raw, { seen, abbr, name, electionDate = "2026-11-03"
     while (races.some(x => x.id === id)) id += "-2";
     const sourced = cited(r.source_url);
     if (!sourced) problems.push(`"${r.office}": source not seen this run (${r.source_url}); flagged for voters to verify.`);
-    const verify = [r.verify && r.verify.trim(), !sourced && "We couldn't confirm this race against a source.", generalFlag].filter(Boolean).join(" ");
+    if (r.verify && r.verify.length > VERIFY_MAX) problems.push(`"${r.office}" verify note shortened for voters. Full note: ${r.verify}`);
+    const verify = voterVerify(r.verify) || (!sourced ? "We couldn't confirm this race against a source. Check your sample ballot." : generalFlag);
     const anyIncumbent = names.some(c => c.incumbent);
     const ids = names.map(c => {
       let cid = `${id}-${slug(c.name)}`;
       while (candidates[cid]) cid += "-2";
       candidates[cid] = {
-        name: c.name.trim(), party: c.party.trim(), status: c.incumbent ? "Incumbent" : anyIncumbent ? "Challenger" : "Open seat",
+        name: c.name.trim(), party: normalizeParty(c.party), status: c.incumbent ? "Incumbent" : anyIncumbent ? "Challenger" : "Open seat",
         occupation: "", summary: "", objectives: [], positions: [], history: [], news: [], sources: []
       };
       return cid;

@@ -24,10 +24,11 @@ const flag = name => args.includes(name);
 const opt = (name, dflt) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : dflt; };
 const DRY = flag("--dry-run");
 const MAX = Number(opt("--max", process.env.RESEARCH_MAX || 20));
-const ONLY = opt("--only", null);
+const ONLY = opt("--only", process.env.RESEARCH_ONLY || "").split(",").map(s => s.trim()).filter(Boolean);
 const EFFORT = process.env.RESEARCH_EFFORT || "low";
 const SEARCHES = 8, FETCHES = 5, PAGE_TOKENS = 6000;
-const CONCURRENCY = Number(process.env.RESEARCH_CONCURRENCY || 4);
+// More than 2 at once trips the search tool's rate limit ("too_many_requests") and leaves profiles thin.
+const CONCURRENCY = Number(process.env.RESEARCH_CONCURRENCY || 2);
 // Optional: only research candidates in these states (two-letter codes), e.g. right after adding them.
 const ONLY_STATES = (process.env.RESEARCH_STATES || "").split(",").map(s => s.trim().toUpperCase()).filter(Boolean);
 const today = opt("--today", new Date().toISOString().slice(0, 10));
@@ -40,9 +41,8 @@ async function main() {
   const queue = readJson(QUEUE, []);
   const fipsOf = abbr => Object.keys(data.states).find(f => data.states[f].abbr === abbr);
   const onlyFips = ONLY_STATES.length ? ONLY_STATES.map(fipsOf).filter(Boolean) : null;
-  let jobs = pickCandidates(data, ONLY || DRY ? 1e6 : MAX, today, onlyFips);
-  if (ONLY) jobs = jobs.filter(j => j.id === ONLY);
-  if (DRY) jobs = jobs.filter(j => j.id === (ONLY || "paxton")).slice(0, 1);
+  let jobs = pickCandidates(data, ONLY.length || DRY ? 1e6 : MAX, today, onlyFips, ONLY.length ? ONLY : DRY ? ["paxton"] : null);
+  if (DRY) jobs = jobs.slice(0, 1);
 
   let client = null;
   if (!DRY) {
@@ -61,10 +61,20 @@ async function main() {
     try {
       res = DRY ? readJson(path.join(here, "fixtures", "sample-response.json"))
         : await askClaude(client, { system: SYSTEM_PROMPT, schema: PROFILE_SCHEMA, prompt, effort: EFFORT, searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS });
+      // A rate-limited search tool returns thin profiles; wait and try once more.
+      if (!DRY && activity(res.blocks || []).toolErrors.some(e => /too_many_requests/.test(e))) {
+        console.log(`  ${c.name}: search tool was rate-limited, retrying in 60s`);
+        await new Promise(r => setTimeout(r, 60000));
+        const again = await askClaude(client, { system: SYSTEM_PROMPT, schema: PROFILE_SCHEMA, prompt, effort: EFFORT, searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS });
+        for (const k of ["input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"]) again.usage[k] += res.usage[k] || 0;
+        again.usage.server_tool_use.web_search_requests += res.usage.server_tool_use.web_search_requests;
+        again.retried = true;
+        res = again;
+      }
     } catch (e) { res = { error: `API error: ${e.message}` }; }
     const spent = res.usage ? cost(res.usage) : 0;
     log.costUSD += spent;
-    const detail = { costUSD: +spent.toFixed(3), usage: res.usage, ...activity(res.blocks || []) };
+    const detail = { costUSD: +spent.toFixed(3), usage: res.usage, retried: !!res.retried, ...activity(res.blocks || []) };
 
     if (res.error) {
       queue.push({ date: today, candidate: job.id, name: c.name, reason: res.error });
