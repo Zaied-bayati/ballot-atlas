@@ -1,5 +1,5 @@
 {
   "note": "Hard cap on Claude API spend for all agent runs from 2026-10-23 (first-layer fill of the remaining states). The scripts stop starting new work before spentUSD would pass capUSD.",
   "capUSD": 95,
-  "spentUSD": 27.69
+  "spentUSD": 53.95
 }

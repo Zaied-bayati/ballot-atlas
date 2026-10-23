@@ -1994,5 +1994,1498 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h33-patrick-david-gillespie",
+    "name": "Patrick David Gillespie",
+    "applied": false,
+    "held": [
+      "Loaded language: woke"
+    ],
+    "problems": [],
+    "notes": "Ballotpedia and FOX 4 both confirm Gillespie won the May 26, 2026 Republican runoff. Ballotpedia shows him on the November 3 general election ballot against Colin Allred (D), with Michelle Craig running as an independent write-in. All stances come from the campaign homepage's questionnaire-style answers. That page still lists the March primary dates, so it may not have been updated since spring. He doesn't state positions on health care/prescription drugs, family economic support, or ethics/stock trading, so those topics are left out. His economic stance is about federal debt and spending, not cost of living directly. I paraphrased the campaign's charged wording neutrally ('Marxist,' 'invasion,' 'woke'), and quoted or attributed it where it matters. The NBC 5 date comes from search metadata ('4 days ago') and wasn't confirmed on the page. Both news items are race overviews, not coverage of his own actions; I found no candidate-specific coverage in the last 45 days. Ballotpedia lists a 2022 campaign but I didn't confirm its details. Ballotpedia's campaign themes section didn't load in the fetch.",
+    "proposed": {
+      "occupation": "Technical writer",
+      "summary": "Patrick David Gillespie is a Republican technical writer from Huntington, West Virginia, who now lives in Texas. He was the Republican nominee for Texas' 33rd Congressional District in 2024 and lost the general election to Rep. Marc Veasey. In 2026 he finished first in the March 3 Republican primary and then beat John Sims in the May 26 runoff, so he faces Democrat Colin Allred in the November 3 general election.",
+      "positions": [
+        {
+          "topic": "Immigration",
+          "stance": "Supports vetting immigrants and enforcing current immigration laws. He wants to stop large numbers of people from crossing the border illegally, and says the crisis should be handled humanely by acting on the Mexican side of the border.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Energy / utility costs",
+          "stance": "Proposes that the U.S. switch all of its coal-fired electricity generation to natural gas. He supports leaving the Paris climate agreement and argues that countries such as China and India are expanding coal power.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Cost of living / economy",
+          "stance": "Says Congress should stop spending money the country does not have. Supports balancing the federal budget and using any surplus to pay down the national debt.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Voting access",
+          "stance": "Says current photo ID laws for voting are the right ones. Argues that people without a birth certificate can use census records to prove their identity and get a government ID.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Gun violence",
+          "stance": "Supports more focus on mental health and enforcing gun laws already on the books. Says red flag laws do not deter gun violence, opposes repealing the Second Amendment, and supports prison sentences without parole for gang members.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Foreign policy / China",
+          "stance": "Supports a 'peace through strength' approach. Proposes ending land sales to China, especially near military bases.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Fentanyl",
+          "stance": "Calls fentanyl a leading cause of death among young adults. Proposes charging people who sell it with capital murder.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Education",
+          "stance": "Says he opposes 'woke policies' in schools. Wants the FBI to drop the threat tag it used for school board threats, which he says has been applied to parents who speak at school board meetings.",
+          "source": "https://patrickgillespie4congress33.com/"
+        }
+      ],
+      "history": [
+        "Republican nominee, U.S. House, Texas District 33, 2024 (lost to Marc Veasey, 31.2%–68.8%)",
+        "Ran for U.S. House, Texas District 33, in 2022 (Ballotpedia)",
+        "Won the 2026 Republican primary runoff for Texas District 33 on May 26, 2026, beating John Sims",
+        "Technical writer; has worked at Boeing, BAE Systems, American Airlines and Flextronics",
+        "Former vice president, International Association of Machinists and Aerospace Workers Local Lodge 2768",
+        "Graduated from Huntington High School (WV); attended Marshall University"
+      ],
+      "news": [
+        {
+          "date": "2026-10-22",
+          "outlet": "KERA News",
+          "headline": "How last year's mid-decade redistricting has shaped North Texas U.S. House races this fall",
+          "url": "https://www.kera.org/2026/10/22/how-redistricting-shaped-north-texas-u-s-house-races-midterms/"
+        },
+        {
+          "date": "2026-10-19",
+          "outlet": "NBC 5 Dallas-Fort Worth",
+          "headline": "12 North Texas Congressional races to be decided during Nov. 3 midterm election",
+          "url": "https://www.nbcdfw.com/news/politics/lone-star-politics/12-north-texas-congressional-races-to-be-decided-during-nov-3-midterm-election/4092009/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia: Patrick Gillespie (Texas)",
+          "url": "https://ballotpedia.org/Patrick_Gillespie_(Texas)"
+        },
+        {
+          "label": "Ballotpedia: Texas' 33rd Congressional District election, 2026",
+          "url": "https://ballotpedia.org/Texas'_33rd_Congressional_District_election,_2026"
+        },
+        {
+          "label": "Gillespie campaign website",
+          "url": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "label": "FOX 4: District 33 May 2026 runoff results",
+          "url": "https://www.fox4news.com/election/district-33-election-results-may-2026"
+        },
+        {
+          "label": "Spectrum News: Allred defeats Johnson in Democratic runoff",
+          "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/05/22/results-of-democratic-primary-runoff-for-33rd-district"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-n-kiyla-jasmine-thomas",
+    "name": "N'Kiyla \"Jasmine\" Thomas",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed she is the Democratic nominee on the Nov. 3 ballot with the other candidates listed in the request (News9 guide, Oct 2). I found no sign she has withdrawn. I did not find her campaign website or a questionnaire such as VOTE411, so the stances come from news interviews.\n\nThings to check:\n- In search snippets, other outlets also say she supports abolishing ICE (yourNEWS), restoring Roe v. Wade (Voz), a pilot 32-hour workweek and a 'Credit Renewal Act' (WSWS). I left these out because I could not check them against her own materials or a mainstream outlet.\n- The Trump stance is her own wording from the KOSU interview, but it was given in July, before the runoff.\n- The OU Daily piece is dated Sep 9, 2026, which is 44 days ago, right at the edge of the 45-day window.\n- A Washington Post opinion analysis (Oct 20) says no debate is scheduled in this race and that Thomas has said she is willing to debate. I left it out of the news list because it is not mainly about her.\n- I could only partly read the News9 page when I fetched it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h8-jessica-hart-steinmann",
+    "name": "Jessica Hart Steinmann",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia, Community Impact, VoteSee and Wikipedia all confirm Steinmann is the Republican nominee on the Nov. 3, 2026 ballot against Laura Jones. I found no sign that she withdrew. 1) News is empty: my searches turned up no coverage of her from the last 45 days (since about Sept. 8). The newest article, the Community Impact Q&A from Sept. 1, is just outside that window. A follow-up news search is recommended. 2) Part of the Community Impact general-election Q&A was cut off. I only saw her answers on priorities and on constituent services, so she may have answered more of the topics covered for her opponent. 3) The immigration, health care, energy and AI stances come from Branch Politics' summary of her positions, not her own words. Her issues page (jessicasteinmann.com/issues) should be checked directly to confirm them. 4) I left out Voting access on purpose. Branch's entry describes her as questioning the 2020 election results, but I couldn't confirm her exact wording from a primary source. 5) Social Security and Growth and housing are also left out because I didn't find a stated position on either. Her general-election answer does mention making it easier to own a home. 6) Her campaign site lists her DOJ title as Director of the Office for Victims of Crime."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h29-sylvia-garcia",
+    "name": "Sylvia Garcia",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Garcia (D, incumbent) and Martha Fierro (R) are running in the November 3, 2026 general election, and that Garcia won the March 3, 2026 primary. I opened the Ballotpedia profile page, but the text I got back did not include the 2026 campaign themes section. The stances from Ballotpedia rely on the search-result text of that same page, which quotes her campaign statements. I did not cite any Ballotpedia text that I couldn't see. The worker heat bill item comes from a Houston Chronicle search snippet, which said she 'will introduce' the bill, so check whether it has since been filed. The Chronicle story's date (2026-10-10) is estimated from the search result's '13 days ago' and should be checked. The October 15 press release links to the House site homepage where it was listed, not to the release itself. The Chronicle's endorsement of Garcia is used only as a source for her own actions and statements. I left out its opinion wording, and it is not listed under news. I found no stated positions from her for Public safety, Education, or Energy and environment, so those topics are left out. Housing and worker safety are additional topics. Note that Texas redrew its congressional map in August 2025, so the district's boundaries are new for 2026."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h36-rhonda-hart",
+    "name": "Rhonda Hart",
+    "applied": false,
+    "held": [
+      "Loaded language: common-sense, common sense"
+    ],
+    "problems": [],
+    "notes": "Ballotpedia confirms Hart is on the Nov. 3, 2026 general ballot against Babin. The independent candidate Hal Ridley is listed as withdrawn or disqualified. News is empty: I found no established-outlet coverage from the last 45 days. The only recent item was a Sept. 24 American Small Business League Substack post that mostly repeats her campaign site, so I left it out. Bio conflict: voteyourviews.org describes her as a CPA and fraud examiner who worked the Madoff and Stanford cases. That does not match Ballotpedia (associate degree, public policy advocate) or Velos (school transportation, early-childhood education, customer service). It looks unreliable, so I did not use it. Her 2024 run is listed only as a TX-14 candidacy because I did not confirm the primary or general results. I found no stated positions on Space/NASA, transportation/infrastructure, birthright citizenship specifically, or the Epstein files, so those topics are left out. The health-care section of her site lists bullet points that did not come through in the fetched text. The abortion stance is from BallotReady, which quotes her 2024 campaign site; Ballotpedia's partial text suggests the same language appears on her 2026 site.",
+    "proposed": {
+      "occupation": "Public policy and gun-safety advocate; U.S. Army veteran",
+      "summary": "Rhonda Hart is a Democrat from Santa Fe, Texas, and a disabled U.S. Army veteran. Her 14-year-old daughter, Kimberly Vaughan, was killed in the 2018 Santa Fe High School shooting, and she has since worked as an advocate for gun-storage laws. She won the March 3, 2026 Democratic primary for Texas' 36th Congressional District over Doug Rogers with 64.2% of the vote and faces incumbent Republican Brian Babin in the November 3, 2026 general election.",
+      "positions": [
+        {
+          "topic": "Immigration / ICE",
+          "stance": "Calls for ICE reform and says the agency operates with masked agents, no body cameras and little accountability. Says she refuses to call people 'illegal.'",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Health care",
+          "stance": "Says health care should be affordable and accessible to all Texans and not tied to a paycheck or premium. Criticizes Babin's vote for the 'Big Beautiful Bill,' which she says cut Medicaid.",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Federal budget and taxes / cost of living",
+          "stance": "Supports taxing billionaires, raising the minimum wage and ending what she calls chaotic tariffs. Argues deporting construction workers worsens the housing shortage.",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Defense / veterans",
+          "stance": "Opposes sending troops into 'unnecessary wars' in the Middle East. Supports reversing the ban on transgender troops and calls for greater VA funding, citing her own VA care.",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Gun policy",
+          "stance": "Supports safe-storage firearm laws and 'common sense gun laws.' Worked to pass the Kimberly Vaughan Safe Storage of Firearms Act, part of the Bipartisan Safer Communities Act.",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Abortion",
+          "stance": "Supports abortion rights and federal legislation to codify Roe v. Wade.",
+          "source": "https://www.ballotready.org/people/rhonda-hart"
+        },
+        {
+          "topic": "Voting / SAVE Act",
+          "stance": "Opposes the SAVE Act. Says voter ID is already required, argues the bill would block millions of citizens from voting and calls a Real ID requirement 'a poll tax by another name.'",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Education",
+          "stance": "Opposes school vouchers and supports more funding for public schools, including higher pay for teachers and support staff.",
+          "source": "https://www.hart4congress.com/"
+        },
+        {
+          "topic": "Energy / environment",
+          "stance": "Says climate change is a crisis and supports investment in solar and wind. Says fossil fuels should not be abandoned overnight because of their role in the Southeast Texas economy.",
+          "source": "https://www.hart4congress.com/"
+        }
+      ],
+      "history": [
+        "U.S. Army, 2000–2003 (disabled veteran)",
+        "Associate degree, University of Alaska Southeast, 2009; Wasilla High School graduate",
+        "Gun-safety and public policy advocate since the 2018 Santa Fe High School shooting",
+        "Candidate for U.S. House, Texas District 14, 2024 (announced a challenge to Rep. Randy Weber)",
+        "Won the Democratic primary for U.S. House, Texas District 36, March 3, 2026 (64.2%)"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia: Rhonda Hart",
+          "url": "https://ballotpedia.org/Rhonda_Hart"
+        },
+        {
+          "label": "Hart for Congress campaign site",
+          "url": "https://www.hart4congress.com/"
+        },
+        {
+          "label": "BallotReady: Rhonda Hart",
+          "url": "https://www.ballotready.org/people/rhonda-hart"
+        },
+        {
+          "label": "Houston Chronicle: Hart launches campaign for Congress (2023)",
+          "url": "https://www.houstonchronicle.com/politics/texas/article/rhonda-hart-congress-campaign-18526597.php"
+        },
+        {
+          "label": "AP via NBC Right Now: Hart wins Democratic nomination in TX-36",
+          "url": "https://www.nbcrightnow.com/politics/rhonda-hart-wins-democratic-nomination-for-u-s-house-in-texas-36th-congressional-district/article_89e94bed-c3f6-5aeb-a738-964381d4ac7a.html"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h38-jon-bonck",
+    "name": "Jon Bonck",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Bonck is on the Nov. 3, 2026 general election ballot with McDonough (D) and McMenemy (G). I used 4 searches and 2 fetches. Three things to check: (1) The only recent news item is a U.S. Chamber press release from Oct. 20. That is the endorser's own announcement, not independent news coverage. My searches turned up no other coverage from the last 45 days. (2) The gun-rights and Social Security stances come from branch.vote, which is a third-party aggregator, and I only saw its search snippet. Please check them against jonbonck.com, which I did not fetch. (3) branch.vote also says he once ran for TX-2 and lost. I could not confirm that, so I left it out of the background. The Ballotpedia page I fetched was cut off before its campaign themes section."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h10-chris-gober",
+    "name": "Chris Gober",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia lists Gober and Caitlin Rourk as the only general-election candidates. Two independents, Robert Mills and Casey Malish, are listed as withdrawn or disqualified. I found no sign that Gober has withdrawn. The tool budget ran out before I could open his campaign issues page or a debate story. That means the stances come only from his Ballotpedia survey (seen in search snippets and a partial fetch) and a KBTX snippet. The border stance rests on one survey line about why he is running and has no policy detail. I rewrote his survey phrase 'radical Democrats' in neutral wording. I couldn't open the Houston Chronicle page because the fetch was blocked. Two news dates are estimates from search 'page age' (Chronicle about 2026-09-29, U.S. Chamber about 2026-10-20); the Prospect date comes from its URL. Please confirm all three dates. The U.S. Chamber item is the endorsing group's own press release, not independent news. The redistricting role is based on Democracy Docket and Prospect reports and should be checked before publishing. I found no stances matching Rourk's topics."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h38-melissa-mcdonough",
+    "name": "Melissa McDonough",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: the Ballotpedia page I opened lists McDonough (D), Bonck (R) and McMenemy (G) on the Nov 3, 2026 ballot. One search snippet from Ballotpedia showed an older version of the race (McDonough vs. independent William Taggart). The current page lists Taggart and Scott Cubbler as withdrawn or disqualified. Budget limits: the Houston Chronicle and campaign-site fetches failed (url_not_allowed, then the tool limit was reached), so the Chronicle stances and the housing stance come from search snippets only. Ballotpedia's survey answers were cut off in the fetched page and are not used. Immigration and gun stances come from smarter.vote, a third-party summary of her campaign platform page and the Community Impact questionnaire. Please check them against melissaforcongress.com before publishing. Branch.vote says she supports universal health care, Medicaid expansion and abortion access, and the 2024 Chronicle endorsement mentions a gun-safe proposal and school health clinics. I left these out because I could not confirm them as current 2026 statements. News date: the Chronicle endorsement was listed as '7 days ago' in search results, so 2026-10-16 is approximate. No other news from the last 45 days about her own actions was found. The Chronicle's 2026 primary endorsement snippet included lines about someone acting as a congressional office's 'de facto representative' and about pushing ICE out of major cities. I could not tell from the snippet whether those lines were about McDonough, so I left them out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h10-caitlin-rourk",
+    "name": "Caitlin Rourk",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed through Ballotpedia and Community Impact (Sept. 16, 2026) that Rourk is on the Nov. 3 general election ballot against Chris Gober. I found no sign that she has withdrawn.\n\nThings to check:\n1. Primary results conflict. Ballotpedia says she defeated Dawn Marshall and Bernie Reyna in the March 3 primary. A KBTX video headline from March 4 says Rourk and Marshall were headed to a Democratic runoff. I left the primary and runoff details out of the summary and history; please confirm the runoff result.\n2. Missing topics. I found no stance from Rourk on 'Federal agencies and government overreach' or 'Relationship with President Trump,' so I left those topics out.\n3. Health care source. The health care stance comes from her campaign website as quoted on Ballotpedia. I did not open her campaign site directly.\n4. News is thin. I found only two items from the last 45 days. The second is a press release from the Texas Forward Party, not a news outlet, so you may want to drop it. The Valley Voice profile (Sept. 1) is just outside the 45-day window, so I used it as a source but not as a news item."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h11-claire-reynolds",
+    "name": "Claire Reynolds",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Ballotpedia and the Odessa American confirm Reynolds is the Democratic nominee on the November 3, 2026 ballot. I found no sign that she withdrew. 2) TX-11 is mostly West Texas (Midland, Odessa, San Angelo). Her campaign site says the redrawn district now includes parts of north Austin and Pflugerville, which fits the Travis County listing. 3) The policy Q&A answers come from Lone Star Left, a progressive Substack, not a nonpartisan questionnaire. The answers are her direct quotes, but the surrounding commentary is partisan, and I used none of it. I didn't open the Ballotpedia survey answers because the page text was cut off. 4) Dates: The San Angelo LIVE byline is Oct 6 and First Alert 7 is dated Oct 5. The Coleman Today date (Sept 15) is my estimate from the search result's age ('38 days ago'), not a date I saw on the article, so please check it. 5) I left out her campaign's press release about the debate because it was written by the campaign and takes sides. Hill Country Focus also has a debate story, but it centers on Pfluger, so I left it out too."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h11-august-pfluger",
+    "name": "August Pfluger",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and a Tom Green County early-voting listing confirm Pfluger is on the ballot in the Nov. 3, 2026 TX-11 general election against Claire Reynolds. I found no sign he withdrew. On the Travis County label: TX-11 has traditionally been a West Texas district. Under the redrawn map, coverage says Pflugerville is now part of TX-11, and his questionnaire says he looks forward to representing Pflugerville. That supports a Travis County portion, but please check against the county ballot. Military record conflicts: his questionnaire says two decades and Lt. Colonel, while the debate article says 26 years and calls him a retired colonel. I kept his own wording and noted the 26-year claim. The Wilco Sun Q&A date (2026-10-20) is estimated from a search result marked 'about 3 days ago'; please confirm it. The Odessa American covered the same Oct. 5 debate, so it is listed under sources only. I went over the search budget (6 searches against 5) because of a tool-parsing error early in the process. I used 2 of 3 fetches."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h27-michael-cloud",
+    "name": "Michael Cloud",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Candidacy is confirmed: Ballotpedia and other sources list Cloud as the Republican nominee for TX-27 on Nov 3, 2026, and I found no sign he withdrew. 2) Travis County: I could not confirm from an official source that the redrawn TX-27 includes part of Travis County. Cloud opened a new Bastrop office in October 2026, and Community Impact covered the race in its Bastrop and Austin editions, so the district now extends into Central Texas, but please check the county against the Texas Secretary of State's district list. 3) Ballot discrepancy: Ballotpedia lists an independent, Dan McQueen, in the general election. Several other sites list only Cloud and Lloyd. Please confirm the certified ballot. 4) Stance sources: All stances cite 2026election.com, which I opened, and which attributes most of Cloud's quotes to Ballotpedia. The Ballotpedia profile was not fetched (budget limit), and it says Cloud has not filled out the 2026 Candidate Connection survey. A reviewer may want to check these quotes against cloudforcongress.com. Cloud did not answer the Community Impact questionnaire. 5) News: The only item from the last 45 days that is about Cloud's own actions is a press release from his House office, not independent coverage. Its date (about Oct 9) is estimated from the search result's '14 days ago' tag, so please verify it. Recent independent coverage is limited. A Punchbowl News article (about Oct 13) on Freedom Caucus members on Appropriations was found but not confirmed to mention Cloud by name, so I left it out. 6) The prior profile was empty, so everything here is new."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h27-tanya-lloyd",
+    "name": "Tanya Lloyd",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Geography may be wrong: the request lists TX-27 under Travis County. Historically, TX-27 is a Coastal Bend district (Corpus Christi/Victoria). Lloyd is from Lockhart in Caldwell County, and she has endorsements from Austin groups (Austin American-Statesman, Austin Young Democrats). That suggests the redrawn district may now reach the Austin area, but I did not confirm that Travis County is in TX-27. Please check against the Travis County ballot. 2) Other candidates: Ballotpedia's 2026 race pages don't agree on the general-election field. One version lists an independent, Dan McQueen. The other lists Wayne Raasch as an independent write-in and shows a Travis McQueen as withdrawn. The request names only Cloud, so please check the official candidate list. 3) News: I found no coverage from established outlets in the last 45 days that met the criteria, so the news list is empty. The only recent item was a Coalition of Democratic Allies Substack post dated about 3 days ago, which is a partisan blog, so I left it out. 4) The Ballotpedia profile page was cut off before the Candidate Connection survey answers. I took the education stance from a Ballotpedia search-result snippet. The campaign site I fetched was a cached copy retrieved 2026-03-10. 5) Cloud's issue topics weren't provided, so I used the topics Lloyd's campaign highlights. I couldn't find her positions on immigration, energy, or taxes."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h37-lauren-b-pe-a",
+    "name": "Lauren B. Peña",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Peña is on the Nov. 3, 2026 general election ballot against Greg Casar (an independent, James Kinney, withdrew). I found no sign that she has withdrawn. Gaps and items to check: (1) Her family size differs by source. Her 2025 Ballotpedia survey says mother of four, but her current campaign site and the Daily Texan say six, so I left the number out of the summary. Her survey bio also mistakenly says District 35. (2) The campaign site fetch returned only metadata, with no issues page. (3) The KUT fetch returned only the page shell, not the article text, so I list its headline and date but used it for no stances. (4) The Daily Texan's 2026-10-19 explainer is listed from search results only. I did not open it, and the snippet I saw mentioned only Casar, so check that it covers Peña before publishing. (5) The spending/taxes stance comes from a third-party X post describing a video of her testimony. It is the weakest source and should be checked against her own materials. (6) Her national security key message was cut off on the Ballotpedia page, so I left that topic out. (7) No Casar topics were given to match against. (8) I passed over a FOX 7 Austin item from about 31 days ago (Peña commenting on something Casar said) because I couldn't confirm its date, headline or link. Ballotpedia lists her profession as 'political operative'; I used her own description instead."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h37-greg-casar",
+    "name": "Greg Casar",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "KUT (Oct 20, 2026) confirms Casar is the Democratic nominee for TX-37 against Lauren Peña. I found no sign that he withdrew or was removed. The KUT page fetch came back with menus only, no article text, so the KUT stances rely on article text shown in search results. Peña's stated priorities are lower taxes, lower utility bills and public safety. Casar has a matching stance only on utility bills. I found none from him on taxes or public safety. Background details (born 1989, dates in office, caucus chair since 2025) come from Wikipedia, as seen in search results. I left out his education because I couldn't verify it this session (from memory it is UVA and possibly a master's from Rice; please check). I did not include the Austin American-Statesman endorsement editorial (about 17 days old) because it is opinion. I also left out an Oct 19 El Paso photo caption from the Sanders tour, since it was only a photo. I used 5 searches and 1 fetch."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "va-member-united-states-senate-mark-r-warner",
+    "name": "Mark R. Warner",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Fact discrepancy: WTVR says Warner is seeking a 'third term,' but he has served in the Senate since 2009 (elected 2008, re-elected 2014 and 2020), so this would be his fourth term. WRIC also says fourth term. The summary avoids giving a term number. 2. Unverified history: the dates for his Senate service (2009–present) and governorship (2002–2006) come from general knowledge, not from a page opened during this request. Education and earlier business career were not checked and are left out. 3. Ballot status not confirmed with the Virginia Department of Elections. Nominee status comes from Wikipedia and news coverage only. 4. Health care source: the universal-coverage claim rests only on a WYDaily headline. I fetched that page but lost its text in a coding error and couldn't refetch it within budget, so the stance cites the Cardinal News campaign statement instead. Please check the WYDaily article before publishing. 5. News dates and content: the dates for the WSET (10-14) and CBS19 (10-10) items are estimated from search-result ages ('9 days ago', '13 days ago') and should be checked. The 29News and WSET articles were not opened, so their contents are unconfirmed. 6. No campaign issues page, VOTE411 or Ballotpedia questionnaire was found within the tool budget. Most stances come from one TV interview. 7. Mizusawa topics: the request listed no topics for Mizusawa. His campaign criticized Warner's vote on the Social Security tax deduction in HR1; Warner's stance on that was not found."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "va-member-united-states-senate-bert-mizusawa",
+    "name": "Bert Mizusawa",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Nominee status: The Virginia Mercury voter guide and Wikipedia's race page both list Mizusawa as the Republican nominee. I did not open an official Virginia Department of Elections ballot list, so his ballot status is not confirmed by an official source. Ballotpedia's page still shows the primary as upcoming.\n2. Third candidate: Fox News (about 80 days ago) describes the race as a three-way contest with independent Mark Moran. The request lists only Warner, so please check whether Moran is on the general election ballot.\n3. Sourcing: All stances come from one Virginia Mercury phone interview (Oct. 14, 2026). I read it through the News From The States republication because virginiamercury.com could not be fetched. I did not find or open a campaign issues page or questionnaire, so the stances are not checked against his own materials.\n4. Disability forum: I only saw the Oct. 8 disability-policy forum article in search results and did not open it, so none of its content is used for stances.\n5. News left out: I did not include a CBS19 item dated Sep. 25, 2026 ('Mizusawa launches GOP challenge to Warner') because the date looks inconsistent with a campaign-launch story.\n6. Unverified detail: The 'commanded a Combined Joint task force' line comes from a search snippet of the Mercury voter guide and was cut off, so the full command title is unverified."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "wv-u-s-senator-shelley-moore-capito",
+    "name": "Shelley Moore Capito",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Capito's candidacy is confirmed: WV MetroNews reported she won the May 12, 2026 GOP primary, and WVVA (Oct 21) shows her on the general election ballot against Fetty Anderson and Wilson. I found no sign she has withdrawn. Things to check before publishing: (1) The Inter-Mountain date (2026-10-01) is an estimate based on the search result's page age ('22 days ago'), not the article's own dateline. (2) The House years (2001–2015) and the Senate start year (2015) come from my background knowledge, not a page I opened in this request. The Inter-Mountain only confirms she was first elected to the House in 2001 and is seeking a third Senate term. Please check these years and her education against Ballotpedia or her Senate bio. Education and her earlier time in the WV House of Delegates were left out because I could not verify them. (3) The Trump endorsement comes from search snippets of News and Sentinel and West Virginia Watch. (4) Two of the news items are press releases from her Senate office, not independent coverage. You may want to replace them. (5) I did not find a campaign issues page or questionnaire (VOTE411, Ballotpedia) within the tool budget. Healthcare/Medicaid was raised in the WVVA piece only as the opponent's criticism, so no Capito stance was recorded on it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "wy-united-states-senator-harriet-hageman",
+    "name": "Harriet Hageman",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed: WyoFile lists her as an active candidate as of 2026-10-21, and several outlets report that she won the Republican primary on 2026-08-18 and faces James Byrd (D) in the general election. All stances come from the WyoFile questionnaire she filled out in June 2026. The questionnaire did not ask about some topics, so they are left out. Only two news items fall within the 45-day window, and both had to be dated from the search tool's relative ages. The Wyoming Public Media date of 2026-10-02 comes from the article URL. The PBS debate date of 2026-09-14 is my estimate from a '39 days ago' tag, so please check it. That headline describes Hageman's own inaction, not her statements. Byrd is the source of the quotes in it, and several other recent stories are about Byrd challenging her to debate. The primary-night results stories are older than 45 days, so I left them out. Other details to check: the candidate's age is 64 on Election Day, and the FEC candidate ID is S6WY00209."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ak-united-states-senator-dan-s-sullivan",
+    "name": "Dan S. Sullivan",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "This profile is for the incumbent, Dan S. Sullivan. Don't mix it up with Daniel J. Sullivan Jr. of Petersburg, a retired teacher who is also on this ballot. The Alaska Supreme Court kept Sullivan Jr. on the ballot, and Trump said on Oct. 22 that Republicans are looking at legal action to remove him. Ballots are already set and early voting has started, so watch for any change. Both page fetches failed (no content came back), so the stances come from search-result text for NBC News and the senate.gov homepage. That homepage also includes press releases from his official Senate office, so the fisheries, rail and Native lands items describe official acts, not campaign platform. The CNN and Fox News articles in our results were too old for the news section, and I left out the Daily Beast item because its headline is opinionated. The Oct. 16 date on the NBC article is estimated from the reported debate date. The background items (offices, years, education) came from memory, not from pages I opened in this request, so please check them against Ballotpedia or his official bio. I couldn't find a campaign issues page or questionnaire answers within the tool budget, and I didn't cover topics like abortion or healthcare."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "wy-united-states-senator-james-byrd",
+    "name": "James Byrd",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Byrd is confirmed as the Democratic nominee for the Nov. 3 general election. Both the Aug. 18 primary results (WPM/AP) and WyoFile's guide (updated Oct 21, status Active) back this up. All positions come from his own WyoFile questionnaire answers (June 2026). The energy stance is based on a section of that page I only saw partly, so please check it against the page. The PBS/Wyoming Tribune Eagle article date is estimated from the search result's '35 days ago' age; I did not open the article, so please verify the date. The Green River Star item is a voter guide that covers both candidates, not coverage of Byrd alone. I did not fetch the campaign website, and I left out a few announcement-era quotes from February and March because they are outside the 45-day news window."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ar-u-s-senate-tom-cotton",
+    "name": "Tom Cotton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) The positions are thin. I found no campaign issues page or candidate questionnaire within the tool budget, so the stances are high-level and come from his launch announcement in February 2025. Next step: pull specific stances from tomcotton.com or VOTE411, covering the topics his opponents discussed: tariffs/trade, the Iran war, the farm bill, rural health care and the national debt. 2) A first-script error used up two of the five searches, and I spent one of the three fetches. 3) The two Talk Business & Politics claims are opponent/outlet statements and are not in his stances. The outlet said Cotton has been 'steadfast' with the president on trade and war policy. His spokesperson attacked Shoffner. 4) News publication dates were estimated from search-result ages ('8-10 days ago'). The Arkansas Advocate date comes from its URL. Please verify the Talk Business date (2026-10-13 is approximate). 5) I left out background facts I could not source in this request: U.S. House service (2013–2015), Army service and Harvard education. Add them once they are confirmed against Ballotpedia or senate.gov. 6) No sign that he withdrew; recent coverage calls him the Republican nominee."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ar-u-s-senate-hallie-shoffner",
+    "name": "Hallie Shoffner",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms she is on the Nov. 3, 2026 general election ballot with Cotton and Wadlin. I found no sign that she withdrew. Most positions come from one Axios interview (2026-09-23), which I read in full. The Saline Courier article on the Oct. 12 debate was paywalled, so I could only see its summary. I left out a 2026-09-02 Fox News article because it is older than 45 days. It reports that in June she said she would defund ICE and later said she wants to reform it. You may want to review that topic. I estimated the 5NEWS date (2026-10-16) from the search result's age ('6 days ago'), so please check it. The Arkansas Advocate headline refers to a separate Cotton–Shoffner debate that will not happen. A Shoffner–Wadlin debate went ahead on Oct. 12 without Cotton. Background details such as her birth date and the food hub come from Wikipedia and were not checked against a primary source. I left her campaign site out because I did not open it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "al-united-states-senator-everett-wess",
+    "name": "Everett Wess",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Search results and news coverage through Oct. 22, 2026 confirm Wess is the Democratic nominee. I found no sign that he withdrew. I did not check the Alabama Secretary of State's ballot list, so please verify there. I also did not find a campaign issues page or a VOTE411/Ballotpedia questionnaire. Most stances come from the ABC 33/40 interview, which I opened. The minimum wage stance comes from search results only; I did not open that page. I opened the Alabama Reflector Sept. 25 article but only read its summary, which is the source for the public safety stance. In the interview, Wess called for getting the U.S. \"out of this war\" but did not name the conflict, so the stance is worded the same way. Wess's judgeship is listed as current on Branch but as former on Spectrum and Sway; please confirm. Only two news items fall in the 45-day window. The Sept. 25 item is 28 days old."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "al-united-states-senator-barry-moore",
+    "name": "Barry Moore",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and the June 2026 runoff coverage confirm that Moore is the Republican nominee on the Nov. 3, 2026 ballot. I found no sign that he has withdrawn. Things to check: (1) The fetched Ballotpedia page was cut off, so the border stance comes from the search-result excerpt of his campaign website text on Ballotpedia. His campaign site (barrymooreforalabama.com) was not opened directly. (2) I opened the Oct. 22 ABC 33/40 article but did not keep the issue details from it. Please review it for current stances on topics that match Wess's (economy, healthcare, public safety). (3) The Alabama Political Reporter story from Oct. 1 says an independent, Craig Jelks, is also running. The request lists only Wess as an opponent, so the race's candidate list should be checked. (4) These items were left out of the news list: the Alabama Daily News poll (horse-race coverage with an uncertain publication date) and the Yahoo item on fundraising (date not confirmed). (5) Ballotpedia notes that Moore was arrested in 2014 and acquitted at trial. I did not include this because I could not verify the details."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-mark-baisley",
+    "name": "Mark Baisley",
+    "applied": false,
+    "held": [
+      "Loaded language: dangerous"
+    ],
+    "problems": [],
+    "notes": "Only the Gazette questionnaire was actually opened, and its text was cut off partway through. The CPR fetch failed. All other stances come from search-result snippets: the CPR interview (tariffs, Space Command), Axios (Iran), and Colorado Newsline (immigration, abortion, Trump). These were not read in full and should be checked against the full articles. I did not use the Colorado Sun issue guide; it covers Medicaid, healthcare, climate, Ukraine, Israel, AI, term limits and other topics, and could fill gaps. Sources disagree on where he lives: the Gazette says Woodland Park, Wikipedia says Roxborough Park. I did not check his ballot status with the Colorado Secretary of State, though news coverage confirms he is the Republican nominee and debated in October 2026. I did not use the Hickenlooper campaign Substack because it is opponent framing. Newsline also reports he was questioned about a 2020 bill to ban same-sex marriage and his view that public schools should be abolished; I did not include these as stances because I did not confirm his own wording.",
+    "proposed": {
+      "occupation": "Colorado state senator (Senate District 4); aerospace engineer",
+      "summary": "Mark Baisley is a Republican state senator who has represented Colorado Senate District 4 since 2023, after serving in the Colorado House from 2019 to 2023. He received at least 30% of the vote at the Republican state assembly, the only candidate to do so, and was unopposed in the June 30, 2026 Republican primary. He faces Democratic incumbent John Hickenlooper and minor-party candidates in the November 3, 2026 general election.",
+      "positions": [
+        {
+          "topic": "Affordability / size of government",
+          "stance": "Says his main goal in the Senate is to make living costs more affordable by reducing the footprint of government.",
+          "source": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        },
+        {
+          "topic": "Taxes and tariffs",
+          "stance": "Proposes shrinking the federal government and eventually replacing federal income taxes with revenue from tariffs.",
+          "source": "https://www.cpr.org/2026/10/12/republican-us-senate-candidate-mark-baisley/"
+        },
+        {
+          "topic": "Property tax",
+          "stance": "Cites his 2024 measure SCR24B-002, which he says would make local government funding reliable and end large swings in property taxes. He says the approach would work in other states too.",
+          "source": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        },
+        {
+          "topic": "Housing",
+          "stance": "Proposes giving lenders incentives so first-time homebuyers can get mortgage rates pegged to the 10-year U.S. Treasury yield.",
+          "source": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        },
+        {
+          "topic": "Water",
+          "stance": "Supports building more tunnels and storage to carry Western Slope water to the Front Range. He says Front Range use leaves little water for farms on the eastern plains.",
+          "source": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        },
+        {
+          "topic": "Iran / foreign policy",
+          "stance": "Defended President Trump's war in Iran during an October 2026 debate. He argued that high gas prices are a necessary cost of confronting terrorism.",
+          "source": "https://www.axios.com/local/denver/2026/10/15/hickenlooper-baisley-senate-colorado-debate-2026-election"
+        },
+        {
+          "topic": "Immigration",
+          "stance": "His campaign site says America is enriched by immigrants and that lawful immigrants should be self-reliant and assimilate. Axios reports he supports deporting immigrants deemed dangerous while letting vetted legal immigrants stay.",
+          "source": "https://coloradonewsline.com/voter-guides/contests/2026-general-u-s-senate/"
+        },
+        {
+          "topic": "Abortion",
+          "stance": "Opposes abortion rights and said in a debate that he would vote for a national abortion ban.",
+          "source": "https://coloradonewsline.com/2026/10/14/hickenlooper-debate-trump-healthcare-baisley-senate/"
+        },
+        {
+          "topic": "Relationship with Trump administration",
+          "stance": "Told the state GOP assembly that he intends to partner with the Trump administration in the Senate.",
+          "source": "https://coloradonewsline.com/voter-guides/contests/2026-general-u-s-senate/"
+        },
+        {
+          "topic": "Space Command",
+          "stance": "Opposed moving U.S. Space Command headquarters out of Colorado.",
+          "source": "https://www.cpr.org/2026/10/12/republican-us-senate-candidate-mark-baisley/"
+        }
+      ],
+      "history": [
+        "Colorado State Senate, District 4 (2023–present)",
+        "Colorado House of Representatives, District 39 (2019–2023)",
+        "Aerospace engineer; worked for NASA and several defense contractors",
+        "B.S., Columbia College (Missouri); attended University of Colorado Colorado Springs",
+        "Born August 2, 1955, in Hastings, Minnesota",
+        "Republican nominee for U.S. Senate, 2026 (unopposed in the June 30 primary)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-15",
+          "outlet": "Axios Denver",
+          "headline": "Colorado GOP Senate candidate Mark Baisley defends Trump's war on Iran",
+          "url": "https://www.axios.com/local/denver/2026/10/15/hickenlooper-baisley-senate-colorado-debate-2026-election"
+        },
+        {
+          "date": "2026-10-14",
+          "outlet": "Colorado Newsline",
+          "headline": "Hickenlooper debates Trump, healthcare with GOP challenger Baisley",
+          "url": "https://coloradonewsline.com/2026/10/14/hickenlooper-debate-trump-healthcare-baisley-senate/"
+        },
+        {
+          "date": "2026-10-12",
+          "outlet": "Colorado Public Radio",
+          "headline": "Republican US Senate candidate Mark Baisley on Trump, tariffs and Space Command",
+          "url": "https://www.cpr.org/2026/10/12/republican-us-senate-candidate-mark-baisley/"
+        },
+        {
+          "date": "2026-10-05",
+          "outlet": "The Colorado Sun",
+          "headline": "Where John Hickenlooper, Mark Baisley stand on the issues in Colorado's US Senate race",
+          "url": "https://coloradosun.com/2026/10/05/colorado-senate-race-candidate-guide/"
+        },
+        {
+          "date": "2026-10-03",
+          "outlet": "The Gazette",
+          "headline": "Voters Guide: Baisley looks to unseat Hickenlooper in U.S. Senate",
+          "url": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Gazette voter guide questionnaire (opened)",
+          "url": "https://gazette.com/2026/10/03/mark-baisley-john-hickenlooper-us-senate/"
+        },
+        {
+          "label": "Wikipedia: 2026 U.S. Senate election in Colorado",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado"
+        },
+        {
+          "label": "Wikipedia: Mark Baisley",
+          "url": "https://en.wikipedia.org/wiki/Mark_Baisley"
+        },
+        {
+          "label": "Colorado Newsline voter guide",
+          "url": "https://coloradonewsline.com/voter-guides/contests/2026-general-u-s-senate/"
+        },
+        {
+          "label": "Axios Denver 1-minute voter guide",
+          "url": "https://www.axios.com/local/denver/2026/10/17/hickenlooper-baisley-us-senate-colorado-voter-guide"
+        },
+        {
+          "label": "cpr.org",
+          "url": "https://www.cpr.org/2026/10/12/republican-us-senate-candidate-mark-baisley/"
+        },
+        {
+          "label": "axios.com",
+          "url": "https://www.axios.com/local/denver/2026/10/15/hickenlooper-baisley-senate-colorado-debate-2026-election"
+        },
+        {
+          "label": "coloradonewsline.com",
+          "url": "https://coloradonewsline.com/2026/10/14/hickenlooper-debate-trump-healthcare-baisley-senate/"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-john-hickenlooper",
+    "name": "John Hickenlooper",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Hickenlooper is confirmed as the Democratic nominee. The Colorado Sun lists the same minor-party candidates as the request. I found no sign he has withdrawn. All three page fetches failed (Colorado Sun not allowed; CPR and Colorado Newsline not accessible), so every stance comes from search-result snippets, not full pages. Please check them against the full articles. Several gaps need filling: I have no exact years for his time as governor or entering the Senate, and none for leaving the mayor's office. I didn't find his pre-politics occupation. The Wesleyan University entry is my inference: CPR quotes him writing to the Middletown Press about the college he attended, but it doesn't name the school. The Colorado Sun guide also covers tax policy, tariffs, Ukraine, Israel, AI and data centers, but those answers weren't in the snippets. That page is the best source for filling in topics to compare with Baisley. Some publication dates are estimates. The CPR and Colorado Newsline dates come from the article text. The 9NEWS date comes from the page's video upload timestamp. The two Colorado Sun dates come from their URLs. The Longmont Leader date was not shown, and its debate coverage is not in the news list."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-u-s-senator-todd-achilles",
+    "name": "Todd Achilles",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed the candidacy through the Idaho Voters guide, which says the Idaho Secretary of State approved his filing on Feb 26, 2026. I found no sign that he has withdrawn. Gaps and caveats: 1) I ran out of tool budget before I could open the campaign site (achillesforidaho.com/policies) or the Sept 30 Capital Sun forum article. The stances on term limits, public lands, guns, and abortion come from the Idaho Voters guide's quotes of the campaign page and should be checked against that page directly. 2) The housing stance cites smarter.vote, a third-party aggregator; it should be checked against the campaign's priorities page. 3) I found no stated positions on Russia/Ukraine or the Columbia River Treaty, so I left those topics out. 4) The date for the Daily News article is estimated from the search result's '0 days ago' tag and needs confirming. 5) The Capital Sun also published 'Independent US Senate candidate Todd Achilles says he won't caucus with either political party' on 2026-10-07, but I don't have its URL, so I left it out of the news list."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-u-s-senator-natalie-m-fleming",
+    "name": "Natalie M Fleming",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Idaho Voters guide says the Idaho Secretary of State lists her Feb 25, 2026 filing as approved. I found no sign she withdrew. I hit the fetch limit before I could open her campaign site (nataliefleming.info/policy). The housing, energy, campaign finance, privacy and education stances are cited to Smarter.Vote, an AI-assisted aggregator that summarizes her campaign site. Please check them against the campaign site directly. Smarter.Vote's abortion summary ('supports access to safe, legal abortion', based on an Instagram reel) is broader than what she said at the KIVI forum. I used the forum statement instead. No stance found on the Columbia River Treaty or water. News dates are approximate: KIVI is estimated from page age, the Idaho State Journal date is a syndication date (the story likely first ran in the Capital Sun around Oct 6-7), and the Idaho Press date is estimated from page age. Spokesman-Review (2020) and smarter.vote describe her as a former self-described conservative or lifelong Republican. She cites this as part of her reason for running as an independent."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-u-s-senator-matt-loesby",
+    "name": "Matt Loesby",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: IdahoVoters.com, citing the Secretary of State, shows his filing approved and his unopposed primary win, and KREM lists him on the general election ballot. I found no sign that he withdrew. Items to check: (1) The dates of the two Statesman/Yahoo fact checks are estimates from search result ages (about 27 and 16 days ago). The foreign policy headline is also inferred from the page's section heading and URL, so confirm both. (2) I fetched the Idaho Capital Sun forum article but couldn't pull Loesby's remarks from it, so no stance cites it; the headline and date come from the search snippet. (3) His immigration answer uses the terms 'remigration', 'replacement migration' and 'demographic security'. I wrote the stance as plain claims, putting 'remigration' in quotes as his own term; editors may want to review the wording for neutrality. (4) I found no stance from him on term limits and ethics, party caucus, or firearms, so those topics are left out. (5) I didn't find a campaign website or a Ballotpedia questionnaire within the tool budget."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ia-united-states-senator-thomas-laehn",
+    "name": "Thomas Laehn",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by the FEC (ID S6IA00181, Libertarian) and by October 2026 coverage that lists him on the ballot. I found no sign that he withdrew. I used up the fetch budget, and the last fetch, for The Gazette questionnaire page, was blocked by the tool limit. That means the questionnaire, Gazette profile and Iowa Capital Dispatch stances come from search-result text only, not from pages I opened in full. The two Gazette pages also loaded without their article text, so it is worth checking them against the live pages. The CBS2 interview covered immigration and ICE, but the search text did not show his position, so I left out an immigration stance. I found no stated positions on taxes, health care, prescription drugs, child care, housing, wages, Social Security/Medicare or abortion. The Iowa State Daily piece mentions income tax, but no details were visible. News dates for Iowa State Daily (about 2026-09-28) and N'West Iowa (about 2026-09-23) are estimated from 'days ago' labels in search results and should be checked. The Gazette questionnaire uses evaluative language such as 'failed' and 'immoral.' I paraphrased neutrally and attributed those views to him. He was left out of the Nexstar/WHO 13 debate for not meeting its criteria."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ks-united-states-senator-david-c-graham",
+    "name": "David C. Graham",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't check the Kansas Secretary of State's certified candidate list, so please confirm his ballot status there. News coverage from October 2026 refers to him as the Libertarian nominee on the ballot, and I found no sign that he withdrew. Almost every stance comes from one source: a Johnson County Post interview with him. I didn't find his campaign site or any questionnaire answers. He gave no stance on SNAP, housing, immigration, agriculture, Israel/Gaza, data centers or fuel prices, so I left those topics out. The 2022 Senate run is something he mentioned in the interview; I didn't confirm it separately. The October 22 PAC story is about an outside group, StarkFreedom PAC, promoting his campaign. In that story he says he is running to win, not to be a spoiler. In the interview he also described one opponent with a disparaging label; I left that out to keep the profile neutral. The 2026-10-22 date on the PAC story comes from its URL; the article page itself wasn't opened."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ky-united-states-senator-christopher-campbell",
+    "name": "Christopher Campbell",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: the Kentucky SOS filing shows Kentucky Party, filed 2026-06-01. Ballotpedia lists him as 'Independent'; LINK nky describes him as running as an Independent as part of the Kentucky Party. Please confirm the party label as it appears on the ballot. A write-in candidate, Thomas Michael Murphy, is also in the race. I could not open the Yahoo article. Its headline and the occupation ('DoorDasher') come from the search snippet, and the publication date (2026-10-09) is estimated from 'page_age 14 days ago', so please verify it. The Yahoo piece is probably syndicated from a Gannett paper such as the Courier Journal; the original outlet was not confirmed. I found no stated positions on these topics, so I left them out: data centers, Flock cameras, guns, immigration, taxes, gas prices, coal specifically, agriculture, and Iran specifically. Stances come from his campaign site, which I fetched on 2026-10-22."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-senator-in-congress-shiva-ayyadurai",
+    "name": "Shiva Ayyadurai",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status: The Boston Globe's voter guide (published 2026-10-19) lists Ayyadurai as an independent on the November 3 ballot against Markey, Deaton and Tache. However, I did not confirm this on the Secretary of State's official ballot list. On 2026-09-10, Secretary Galvin sent allegations that the campaign turned in fraudulent nomination signatures to Attorney General Campbell's office. Clerks in seven towns complained, including Woburn's city clerk, who said her own name appeared even though she never signed. I found no report that he was removed from the ballot, but I could not check what happened with the referral after that. Please check the official ballot and any update before publishing. The news item was published 43 days ago, so it is inside the 45-day window. Ballotpedia's 2026 general-election candidate list looked out of date: it did not include Markey or Deaton. Stances: all three come from the Globe's summary of his campaign, since I did not open his campaign site. They do not line up with most of the topics covered for the other candidates. The only overlap is health care, and 'medical freedom' is his own term. I found no sourced positions on energy, AI, guns, immigration, tariffs, Iran or the other listed topics. I hit the search limit before I could look for his issues page or other recent news, so the profile is thin. Another pass is recommended."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-senator-in-congress-joe-tache",
+    "name": "Joe Tache",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) The candidate's own campaign site (tache4ma.com) and the LocalCandidates.org positions page were never opened, so the stance list is short. That page has a Climate Change heading, but its text was not visible. None of the shared topics (health care, climate, immigration, Iran, tariffs, AI, guns, LGBTQ+ rights, checks on the president, party loyalty) could be confirmed with a source, so they were left out. Someone should check the campaign site and the Ballotpedia survey to add them. 2) The Ballotpedia page fetch did not come back in usable form. The economy and wealth stances come from Ballotpedia survey text that appeared in search results. The filibuster stance comes from a search snippet of Ballotpedia's race page. 3) Ballotpedia's general-election list in search results named Philip Devincentis (American Independent) and Morgan Dawicki, plus Tache and Ayyadurai, and seemed to leave out Markey and Deaton. That snippet may be stale or cut off. The Boston Globe voter guide (2026-10-19) confirms Tache is on the ballot against Markey, Deaton and Ayyadurai. The request's candidate list may be missing Devincentis and Dawicki; please check against the Secretary of the Commonwealth's list. 4) The WAMC interview (2026-09-03) is a substantive interview but falls just outside the 45-day news window, so it is listed as a source only. 5) The Berkshires DSA endorsement article is dated October 1 in the article text; the page also shows an unrelated October 22 timestamp. 6) The age of 31 (per WAMC, September 2026) was left out of the summary."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mn-u-s-senator-peggy-flanagan",
+    "name": "Peggy Flanagan",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Flanagan is confirmed as the DFL nominee through MPR News and other coverage. I did not check the Minnesota Secretary of State's site. Most stances come from the MPR News write-up of the Oct. 16 debate, which I opened in full. I did not reach her campaign issues page or a VOTE411 questionnaire because of the tool budget. The health care stance comes only from the Minnesota Reformer search snippet (I did not open that article) and is general, so a more specific health care position from her campaign site would help. I found no stated position on federal spending and the national debt or on data centers, so those topics are left out. The 'War in Iran' and 'Term limits' entries are extra topics not on the comparison list; drop them if the guide needs strictly matching topics. Background details (birth year, education, House district) come from Wikipedia search snippets and should be checked against an official source. The Oct. 12 MPR News headline is taken from the page text shown in search results. On Oct. 21, MPR reported that Flanagan said she has been a Phi Beta Kappa member since 2002 and that the society confirmed it, disputing a Wall Street Journal report that she had inflated her credentials."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mn-u-s-senator-marisa-simonetti",
+    "name": "Marisa Simonetti",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: MPR (2026-10-15) and KAXE (2026-09-25) both list her as an independent on the general-election ballot, and I found no sign she withdrew. Caveats: (1) The tool budget ran out before I could read KAXE's questionnaire answers for her or her campaign site. Her stances come only from MPR's paraphrase and quotes. Her answers on the race's other topics (Social Security, tariffs, abortion, Israel/Gaza, Iran, debt, data centers, etc.) were not checked and should be pulled from KAXE or marisasimonetti.com. (2) Background is incomplete: I didn't find her education or full occupation history. (3) Sensitive fact for an editor to decide on: in March 2026 a jury convicted her of one gross misdemeanor count over a 2024 incident in which she threw items, including a live tarantula, down a stairway toward a tenant's door. On 2026-06-30 she was sentenced to 90 days in custody, with 270 more days stayed during probation. MPR reports she is appealing. I left this out of the summary and positions because it is not a policy stance; I listed it here and in sources. Coverage of it falls outside the 45-day news window. (4) EP Local News reported that she presented herself as a conservative in the officially nonpartisan 2024 county race. She is running as an independent now. (5) An October Wikipedia snapshot of polls shows her at roughly 3–4%. That is horse-race information, so I did not put it in the profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mn-u-s-senator-rebecca-whiting",
+    "name": "Rebecca Whiting",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: MPR, the FEC (S6MN00572) and Map the Midterms (citing the MN Secretary of State candidate file) all list her, and I found no sign she has withdrawn. I didn't open the SOS site myself. My last attempt to fetch the full campaign site failed because the tool limit was reached, so I only saw the homepage. Gaps: I couldn't confirm her positions on Social Security, immigration, trade, public-program fraud, Israel/Gaza or data centers, so those topics are left out. The abortion stance comes from the campaign's X account (seen only in search results) and reflects a campaign post, not a policy statement. The VA stance comes from a third-party aggregator (smarter.vote) summarizing her campaign materials, not from her own words, so please check both. Smarter.vote also says she was the Libertarian Senate nominee in 2024, but I didn't confirm that, so I left it out of her background. The homepage mentions a $34 trillion debt figure, so it may not have been updated since 2024. KAXE lists her age on Election Day as 45. Only one news item from the last 45 days turned up."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ms-united-states-senate-ty-pinkins",
+    "name": "Ty Pinkins",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia lists Pinkins as an independent on the Nov. 3, 2026 general election ballot alongside Hyde-Smith (R) and Colom (D). WJTV reports he qualified by submitting 1,000 signatures. I found no sign that he withdrew, but I did not check the Mississippi Secretary of State's certified ballot list directly. All three positions come from his 2024 campaign platform as summarized on Ballotpedia; I could not confirm they are on his 2026 platform. He completed Ballotpedia's 2026 Candidate Connection survey, but the fetched page was cut off before his answers, so none of them are included. That survey and typinkins.com should be checked for stances on the topics used for the other candidates (Social Security, health care, abortion, taxes, economy, etc.). I used up the search budget before finding news from the last 45 days, so news is empty. The WJTV qualification article could not be fetched and its date is unknown, so it is listed only as a source."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mt-united-states-senator-kyle-austin",
+    "name": "Kyle Austin",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://montanafreepress.org/2026/10/07/montana-candidates-healthcare-policy/",
+      "Dropped news item not seen in this run: https://montanafreepress.org/2026/10/05/how-montana-candidates-federal-office-plan-to-make-life-affordable/"
+    ],
+    "notes": "Austin is the certified Libertarian nominee. MTFP shows he won the June 2 primary with 53.3%, and he took part in the October 11 Bozeman debate. A Helena Independent Record article says the Montana Libertarian Party has \"spurned\" him. That page is paywalled, so I could not open it or confirm its date or details. Please check it before relying on it. Two stances need a look: 1) The SNAP work-requirements stance sits under 'Public safety and drugs' only because no closer topic matched. Consider renaming the topic to 'Social programs'. 2) The Medicaid concern and the tariff view come from KTVH's paraphrase, not his own words. Data center and debate news items are from 45 days or less. I did not fetch the 10/5 and 10/7 MTFP articles. MTFP lists them as covering Austin, but I did not confirm his quotes in them. I found no stated positions on abortion, guns, public lands, campaign finance, climate, or Iran. I did not visit his campaign site because of the tool budget. MTFP also lists a no-party candidate, Jami Dee Woodman, in this race. Debate coverage says Austin called Bodnar \"bought and paid for\" by \"far left\" money. I left this out of the stances because it is a characterization of an opponent."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-united-states-senator-mike-marvin",
+    "name": "Mike Marvin",
+    "applied": false,
+    "held": [
+      "Loaded language: patriot"
+    ],
+    "problems": [
+      "Agent could not confirm the candidate: I set found_profile to false because the candidate withdrew. Nebraska Public Media and KOLN both reported on Aug. 21, 2026 that Marvin left the race, citing worsening health, and endorsed Dan Osborn. He missed the Secretary of State's Aug. 3 withdrawal deadline, so his name is still on the ballot, but he said he will not ask for votes. The profile and any display should note that he has withdrawn. Ballotpedia has not been updated and still lists him as an active candidate. I could not find any news from the last 45 days, so the news list is empty; the withdrawal stories are about 63 days old. The positions come from a news summary of his campaign platform, not from his campaign site, which I did not open. I found no stated positions on the topics covered for the other candidates (taxes, tariffs and trade, beef prices and agriculture, border security and immigration, Iran, cost of living). His primary opponent was Earl Starkey; I did not confirm the primary result, but news reports describe Marvin as the party's candidate on the general election ticket. I used 1 of 5 searches and 0 of 3 page fetches."
+    ],
+    "notes": "I set found_profile to false because the candidate withdrew. Nebraska Public Media and KOLN both reported on Aug. 21, 2026 that Marvin left the race, citing worsening health, and endorsed Dan Osborn. He missed the Secretary of State's Aug. 3 withdrawal deadline, so his name is still on the ballot, but he said he will not ask for votes. The profile and any display should note that he has withdrawn. Ballotpedia has not been updated and still lists him as an active candidate. I could not find any news from the last 45 days, so the news list is empty; the withdrawal stories are about 63 days old. The positions come from a news summary of his campaign platform, not from his campaign site, which I did not open. I found no stated positions on the topics covered for the other candidates (taxes, tariffs and trade, beef prices and agriculture, border security and immigration, Iran, cost of living). His primary opponent was Earl Starkey; I did not confirm the primary result, but news reports describe Marvin as the party's candidate on the general election ticket. I used 1 of 5 searches and 0 of 3 page fetches.",
+    "proposed": {
+      "occupation": "Retired bus driver and labor leader",
+      "summary": "Mike Marvin is the Legal Marijuana NOW Party nominee for U.S. Senate in Nebraska. He was a candidate in the party's May 12, 2026 primary against Earl Starkey. On August 21, 2026 he announced he was withdrawing from the race for health reasons and endorsed Dan Osborn. His name remains on the ballot because he withdrew after the August 3 deadline.",
+      "positions": [
+        {
+          "topic": "Marijuana legalization",
+          "stance": "Made legalizing both medical and recreational marijuana his top priority. Supports protecting Nebraska's medical marijuana law.",
+          "source": "https://nebraskapublicmedia.org/en/news/news-articles/legal-marijuana-now-candidate-drops-out-of-nebraska-senate-race/"
+        },
+        {
+          "topic": "Health care",
+          "stance": "Proposed expanding Medicare and Medicaid.",
+          "source": "https://nebraskapublicmedia.org/en/news/news-articles/legal-marijuana-now-candidate-drops-out-of-nebraska-senate-race/"
+        },
+        {
+          "topic": "Campaign finance",
+          "stance": "Opposes political action committee money and foreign lobbying money in politics.",
+          "source": "https://nebraskapublicmedia.org/en/news/news-articles/legal-marijuana-now-candidate-drops-out-of-nebraska-senate-race/"
+        },
+        {
+          "topic": "Civil liberties",
+          "stance": "Supports repealing the USA PATRIOT Act.",
+          "source": "https://nebraskapublicmedia.org/en/news/news-articles/legal-marijuana-now-candidate-drops-out-of-nebraska-senate-race/"
+        }
+      ],
+      "history": [
+        "Omaha bus driver for 26 years",
+        "Labor leader for Nebraska unions",
+        "Executive director, Nebraska Association of Public Employees, 2013–2017",
+        "Withdrew from the 2026 U.S. Senate race on Aug. 21, 2026 and endorsed Dan Osborn"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Nebraska Public Media: Legal Marijuana NOW candidate drops out of Nebraska Senate race (Aug. 21, 2026)",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/legal-marijuana-now-candidate-drops-out-of-nebraska-senate-race/"
+        },
+        {
+          "label": "KOLN 10/11: Legal Marijuana NOW candidate exits Nebraska Senate race due to health issues",
+          "url": "https://www.1011now.com/2026/08/21/legal-marijuana-now-candidate-exits-nebraska-senate-race-due-health-issues/"
+        },
+        {
+          "label": "Ballotpedia: Mike Marvin",
+          "url": "https://ballotpedia.org/Mike_Marvin"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mt-united-states-senator-seth-bodnar",
+    "name": "Seth Bodnar",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmation: I did not open the Montana Secretary of State's site or an official candidate list. Recent coverage from MTFP (guide updated Oct 19), MTPR (Oct 14) and the Daily Montanan (Oct 21) lists Bodnar as an active general-election candidate. Coverage in July and August mentioned pressure on him to withdraw, but I found no sign that he did, so he appears to be on the ballot. MTFP's guide also lists a fifth candidate, Jami Dee Woodman, who is not in the request; please check the official ballot. Background: Bodnar's military years, his Oxford degrees and the 2018–2026 University of Montana dates come from Wikipedia and should be checked against a primary source. Stance sources: the guns stance comes from a Newsweek search snippet (I didn't open the page). The abortion and public lands stances come from the KPAX search snippet; I opened that page but only checked the data center, housing, immigration and tariff answers. The campaign finance stance (anti-corruption, no caucusing) uses a Daily Montanan search snippet I didn't open. It's about his independence pledge, not a campaign finance policy, so you may want to drop it or rename the topic. No stance found for these topics: federal spending, climate and energy, public safety and drugs, or Iran and war powers beyond the general war powers answer. The Iran conflict is only mentioned in a snippet about diesel and fertilizer costs. News note: the Oct 13 item covers an endorsement by the Democratic Party chair, not Bodnar's own action."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-united-states-senator-robin-richards",
+    "name": "Robin Richards",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I could only check two of the three page fetches I attempted. The Journal Star and the Nebraska Examiner Sept. 1 article were blocked or paywalled. The Omaha.com fetch returned little useful text, so its quotes come from search-result excerpts. Her candidacy is confirmed by the Nebraska Examiner, which cites the Secretary of State's Office (Sept. 1, 2026), and I found no sign she has withdrawn. Sources disagree on when she joined the school board: the Journal Star/Omaha guide says 2019, the Nebraska Examiner says 2020. The Nebraska Public Media date (2026-09-23) is estimated from the search result's '30 days ago' label and should be checked. The Sept. 1 candidacy article is outside the 45-day news window, so I listed it only as a source. The 'Iran' topic is left out because I found no stated position. Her 2022 legislative questionnaires (iVoterGuide, Ballotpedia) contain older state-level positions that I did not use. Note that the Oct. 19 Examiner caption names Dan Hartong as the America First Senate candidate, but other reporting lists Chuck Conboy for Senate and Hartong for the House."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-united-states-senator-chuck-conboy",
+    "name": "Chuck Conboy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by several outlets, and nothing found suggests he withdrew. I did not check the Nebraska Secretary of State's certified candidate list directly, so that is worth doing before publishing.\n\nSourcing limits: My fetches of the Journal Star and Nebraska Public Media pages failed (one blocked access, the other returned an error), so every stance comes from text in search results rather than full pages I read. The tariffs and military-intervention quotes are from the Journal Star questionnaire as republished on omaha.com.\n\nNo position found: I found no stated position on Taxes, so that topic is left out. The agriculture stance is general, with no specifics.\n\nCampaign site: smarter.vote says his campaign also stresses trade education and putting domestic needs ahead of foreign spending. I couldn't trace that to his own statement, so I left it out.\n\nNews dates: The Journal Star date (2026-09-29) is estimated from the search result's \"24 days ago\" and needs checking. The Yahoo video is dated 2026-10-06 UTC, which may be Oct. 5 local time.\n\nOther: The Norfolk Daily News (about Oct. 14) reported that Conboy did not respond to its questionnaire. Separately, Mike Marvin (Legal Marijuana NOW) has suspended his campaign and endorsed Osborn but is still on the ballot. The Journal Star spells the party name \"American First\"; the official name is America First Party."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-united-states-senator-dan-osborn",
+    "name": "Dan Osborn",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I found Dan Osborn on the 2026 Nebraska U.S. Senate ballot as a registered nonpartisan running against Ricketts, and I saw no sign that he withdrew. Gaps and issues: (1) I used up my page fetches on parsing problems, so the text of the two fetched pages wasn't fully readable. Most stances therefore rest on search-result excerpts from those URLs, not full article text. (2) I didn't find a specific stated position on Iran, taxes, border security and immigration, birthright citizenship, or the federal budget. C-SPAN says he discussed Iran and immigration at a town hall but gives no stance, so I left those topics out. (3) The Red Cloud town hall date (2026-10-09) is estimated from the search result's '14 days ago' and should be checked. (4) I didn't verify his education or the exact name of his union office. Please add those from his official campaign site. (5) Recent coverage includes leaked recordings of his remarks about Trump supporters and about Sen. Fischer. I included only the stories about his own response or apology and chose neutral headlines."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nh-united-states-senator-edmond-j-laplante-jr",
+    "name": "Edmond J. Laplante, Jr.",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed. Ballot Access News and Independent Political Report (2026-09-02) report the Secretary of State certified his petition, and Ballotpedia News (2026-10-07) lists him in the general election field. I found no sign he withdrew. All stances come from his answers to the 2026 Citizens Count issue survey. One label there may be misleading: Citizens Count marks his answer on abolishing ICE as 'Against,' but his actual quote says he is 'open to suggestions on reform or constitutional provisions,' so the stance uses the quote. His campaign site fetch failed, so I didn't use any of its platform text. News is empty because I found no coverage centered on him in the last 45 days. The ballot-qualification stories (2026-09-02) are about 51 days old, and recent race coverage, such as the Boston Globe story on a cancelled debate, only mentions him in passing or not at all. Watch for a name clash: a Hoosier Enquirer item about a Supreme Court ruling on New Hampshire student IDs refers to a different 'Laplante' (a judge), not this candidate. Also, his Citizens Count answers on Iran and Israel say 'effect' where 'affect' is meant; I didn't quote those wordings."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nj-united-states-senator-veronica-fernandez",
+    "name": "Veronica Fernandez",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The official NJ list (dated 07/27/2026) confirms she is a candidate for the Nov. 3, 2026 general election. I found no sign she has withdrawn. All stances come from her email answers in the WHYY voter guide, published Sept. 22, 2026. I did not open her campaign site, veronicaforsenate.com. News is empty because I found no coverage from the last 45 days that is mainly about her. The WHYY guide is 31 days old but is a voter guide, not news about her own actions. The occupation details come from Sway, which shows small business owner since 2006 and underwriter from 1986 to 2006. The 'co-owns a commercial electrical contracting business' detail appeared only in a smarter.vote search snippet, so please verify it. I found no stated positions on taxes, immigration, energy, pardons or marijuana, so those topics are left out. The previous profile was empty, so nothing was carried over."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nc-us-senate-michael-dublin",
+    "name": "Michael Dublin",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't check the NC State Board of Elections ballot list. Candidacy is confirmed by WLOS, EdNC, WFAE, and the NC Green Party, and I found no sign he withdrew. 1) The four positions from the WLOS questionnaire come from the fetched article text. The five positions from the NC Green Party page come only from the search-result snippet, which matches the beginning of the page, because I didn't fetch it. 2) The Independent Political Report date (2026-10-13) is an estimate from the search result's '10 days ago'. Please check the exact publication date. 3) I left out the immigration and affordability statistics he cited (for example $3,100 in extra costs, 350,000 Haitians), since those are his factual claims. If they're added, attribute them to him. 4) Military service comes from WLOS; I couldn't find the branch or years. 5) The campaign site URL is 'dublinforcongress.com', taken from a WLOS link. I didn't open it, so his own issues page wasn't reviewed. 6) Topics follow WLOS's shared questionnaire (Helene, cost of living, immigration), which was also given to Cooper and Whatley, so the candidates can be compared on the same questions."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nj-united-states-senator-joanne-kuniansky",
+    "name": "Joanne Kuniansky",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed ballot status two ways. CandidateAlerts cites the NJ Division of Elections official candidate list dated 07/27/2026, but I could not open the state PDF directly. WHYY (Sept. 22) also lists her on the ballot, and I found no sign she withdrew. Her prior candidacies (2021 and 2025 governor, 2024 Senate, 2022 NJ-8) come from Smarter.Vote, Chamberlight and older WHYY and InsiderNJ results in search; I did not check them against official results. When I fetched the WHYY page, the text cut off before the Kuniansky section. Her stance quotes from WHYY come from what showed in search results, so please check them against the live page. The Short Hills Sentinel appears to be an automated or aggregator-style local news site, and its questionnaire quotes match WHYY's wording. Two of the three news items are weak: The Militant is the SWP's own newspaper, and the WHYY piece is a guide to the whole race. I found no stated positions on taxes, presidential pardons, energy or marijuana, so I left those topics out. Health care, Cuba and labor are extra topics. I used 4 of 5 searches and 2 of 3 fetches."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nc-us-senate-roy-cooper",
+    "name": "Roy Cooper",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Cooper's candidacy is confirmed by several current sources, including an Oct. 12 WLOS questionnaire and coverage of his early-voting appearance on Oct. 21. I found nothing suggesting he has withdrawn.\n\nGaps:\n- **Education:** left out because none of the pages I opened confirmed it.\n- **No stance:** I found nothing on campaign finance, elections/voting or reparations, so those topics are left out.\n- **Primary results:** I didn't confirm them, so the summary just calls him the Democratic nominee.\n\nNews section:\n- Only two items have publication dates I could confirm within the 45-day window.\n- Recent C-SPAN event pages (Winston-Salem rally, Rocky Mount remarks) were left out because they had no exact dates.\n- The North State Journal item covers a dispute over questions about Cooper's health. It quotes his response that he intends to serve his full term. NSJ is one of the parties in that dispute, so you may want to swap in or add a different outlet's coverage.\n\nSourcing:\n- **Data centers:** the stance comes from the Washington Examiner's summary of his statements, not his own words. Fox News reports that his position has changed since his time as governor. That is the outlet's description, so I didn't include it.\n- **Health care:** the stance comes from his questionnaire answer on cost of living. I found nothing from him on military spending."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nc-us-senate-shannon-w-bray",
+    "name": "Shannon W. Bray",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Bray's place on the ballot is confirmed: Ballotpedia, EdNC, and the FEC all list him as the 2026 Libertarian nominee. Problem: Ballotpedia's candidate list (seen in search snippets) names Brian McGinnis as the Green candidate and adds independent Shaunesi Deberry. Your request, EdNC (published about 4 days ago), and Independent Political Report all name Michael Dublin as the Green nominee. Please check the race's candidate list against the NC State Board of Elections. Positions mostly come from the LPNC interview page, whose content was retrieved around July 2026; his own campaign issues page was not fetched. I left out the campaign finance and reparations topics because I found no stance from him on either. The Yahoo News headline and date come from search results only, because the page could not be fetched. The Independent Political Report date is estimated from a search result labeled '8 days ago' and should be verified. The 2022 and 2024 races come from iVoterGuide, and the DoD employer comes from the 2022 INDY Week questionnaire."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-sevier-white",
+    "name": "Sevier White",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Multiple outlets confirm White is on the Nov. 3 ballot. News On 6 says he is listed on the State Election Board's official candidate list, but I did not open the Election Board site myself. I found no stated positions. FOX23 (7 days ago) reports he has no active campaign website. The Oklahoma Voice and OU Daily profiles say only that he is running, with no policy answers. I left positions empty rather than infer them from his party. I also couldn't find his occupation or education. I left news empty because recent coverage only lists him among the candidates; I found no articles about his own actions or statements in the last 45 days. The Oklahoma Voice voter guide page (oklahomavoice.com/voter-guides/2026-general-election-voting-guide/) has a 'Read More' entry for him but would not load, so a reviewer may want to check it for questionnaire answers. I used 2 of 5 searches and 1 of 3 fetches; that fetch failed."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nc-us-senate-michael-whatley",
+    "name": "Michael Whatley",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Whatley is the Republican nominee and active on the ballot. WLOS reported him casting an early vote about 6 days ago, and I found no sign he has withdrawn. The Helene, cost of living, energy and immigration stances come from his own answers to WLOS, which are partly framed as attacks on Cooper. I left out the attack language and kept only his proposals. The public safety stance comes from his campaign homepage. The health care, abortion and education stances come from guides.vote, a secondary source that links to primary sources I did not open. Those primary sources include an older 2023 NSJ article and a USA Today piece from 2024. Exact dates are confirmed for Roll Call (10-21), WLOS (10-12) and BPR (09-17). The WCNC (10-14) and Cardinal & Pine (09-26) dates are estimates worked out from search-result page ages, so please check them. Cardinal & Pine is a progressive-leaning outlet. Its article reports public records about his recovery-czar work, so consider replacing it if you want a different source. I found no stances from Whatley on campaign finance, elections and voting, reparations, or specific foreign policy, so I left those topics out. The guides.vote page has sections on voting rules and Iran, but its content was cut off in the fetch. My understanding is that he chaired the NC GOP from 2019 to 2024, which matches both Wikipedia and WLOS."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-curtis-stinnett",
+    "name": "Curtis Stinnett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Candidacy: News On 6 says the State Election Board's official list names Stinnett as an independent U.S. Senate candidate. I found no sign that he withdrew or was removed. I did not open the Election Board's site myself. 2) Only one page fully loaded: the campaign home page. The fetch of the LocalCandidates.org profile failed, and the OU Daily article fetch was cut off by a code error after the attempt, so it counts against the budget. The OU Daily and LocalCandidates stances come from search-result excerpts. 3) The campaign site has a 'Main Ideas' page (stinnettforsenate.org/main-ideas) that I did not open; it may hold positions on more topics. LocalCandidates also lists clean energy, immigration, diplomacy, worker pay, Medicaid and Medicare, and transparency, but the excerpts I saw didn't give his specific position on those. 4) I found no stated position from him on alignment with President Trump, defense or the military, or cost of living, so those topics are left out. FOX23 says he cares about 'civil and human rights, immigration, healthcare' but gives no specific stance. The policy bullet list in that FOX23 excerpt appears to belong to N'Kiyla Thomas, so I did not attribute it to him. 5) News dates are estimated from search 'page age' values (2, 7 and 16 days before 2026-10-23) and should be checked. All three news items are candidate roundups, not stories about him alone; I found no coverage specifically about Stinnett. 6) Note that Melanie Stinnett (Missouri) and Sean Stinnett (Maryland) are different people."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-ron-meinhardt",
+    "name": "Ron Meinhardt",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status: News On 6 (citing the State Election Board's candidate list), Oklahoma Voice, and Ballotpedia list Meinhardt as an Independent on the Nov. 3 ballot. The FEC shows an Independent statement of candidacy filed 2026-03-31. I found no sign that he withdrew. One older cached Ballotpedia search snippet listed him as a candidate in the Republican primary against Mullin. The current Ballotpedia page lists him only as an Independent in the general election, so the snippet looks outdated, but a reviewer may want to check it. Several sources describe this as a special election for the seat Markwayne Mullin left. Positions: none came from a questionnaire. Ballotpedia's page has no survey answers from him. The 'Alignment with President Trump' stance is limited to his statements on war powers and party endorsements; he made no direct statement about Trump that I found. I left out Civil rights because I found no stated position. News: the FOX23 candidate roundup is about 7 days old, but I could not confirm its exact publication date. I found no other dated news coverage of him from the last 45 days, so the news list is empty. The education details come from Ballotpedia; the job history and MPA program come from third-party aggregators (elect.link and his Substack bio) and are marked as such. FOX23 has a typo in its link text ('Reinhardt')."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "or-us-senator-gary-lyndon-dye",
+    "name": "Gary Lyndon Dye",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Ballot status: several sources say Dye is certified for the Nov. 3, 2026 ballot as the Libertarian nominee, including BallotReady, Politics1 and the LWV voters' guide. I did not open the Oregon Secretary of State's site directly to confirm.\n\n2. The LWV PDF text was jumbled: its columns are interleaved, so I pulled the text out by position. I only used passages that clearly belong to Dye, and they match his Ballotpedia and iVoterGuide answers. Some nearby passages (Medicare for All, AI regulation, cutting the military budget) could belong to Chris Henry, so I left them out. Please check the stances against the printed guide.\n\n3. The citizenship stance comes from Dye's 2024 Ballotpedia survey, not a 2026 statement.\n\n4. No positions are listed on housing, abortion, climate, health care, elections or labor, because I found no clearly attributable statement from Dye on those topics.\n\n5. News: I found no established news outlet covering Dye in the last 45 days. The only recent items are near-identical short profiles on small local sites (Beaverton Beat, Oswego Chronicle, Cherry City Chronicle, Tigard Today). They look automated, built from BallotReady data. I listed one; consider removing it if those sites don't meet the standard.\n\n6. Two items I left out: a 2020 nude bridge protest he reportedly helped organize, and his 2012 firing by NW Natural after he filed complaints about meter testing (he settled a wrongful-termination dispute in 2013). Both appeared only in secondary aggregator summaries, so I did not include them. The reviewer can decide whether either belongs in the profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "or-us-senator-chris-henry",
+    "name": "Chris Henry",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Henry is listed as a certified candidate in the state voters' pamphlet, as reported by Tigard Today and the Oregon Capital Chronicle voter guide, and I found nothing suggesting he has withdrawn. I didn't open the Secretary of State's site directly, so it may be worth checking there. The news date (2026-10-10) is an estimate: the search result showed the article as about 13 days old, and I didn't open the article to confirm. I found no other news about him in the last 45 days. The Capital Chronicle says he has reported no fundraising or spending. All positions come from his campaign's Issues page, which I rewrote in neutral wording. I left out some lighter items, such as naming Portland sports teams, and the page's 'Take Back The Streets' proposal to turn city streets into parks. His site also has a 'Detailed Platform' page and an 'LWV Info' page that I couldn't open within the fetch budget. They may cover housing, abortion, or immigration, which I found no stance on, so I left those topics out. I also didn't open the Smarter.vote page, so the Teamsters Local 81 membership and the past campaigns listed for him come only from its search snippet. His campaign page says he was co-chair of the Oregon Progressive Party; the Smarter.vote snippet says chair of the Progressive Party and co-chair of the Pacific Green Party."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "sd-united-states-senator-brian-l-bengs",
+    "name": "Brian L Bengs",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The SD Secretary of State certified Bengs as an independent on 2026-04-28, per KOTA. I found no sign he has withdrawn. Smarter.vote reports that Democratic nominee Julian Beaudion withdrew in August 2026, leaving Bengs as Rounds' only challenger; that matches the candidate list in this request. I opened the campaign homepage and Ballotpedia. The fetch of the Searchlight 10/16 article failed, and the fetch budget ran out before I could open the campaign policy-positions page. So the gun stance cites the policy-positions page from its search snippet, and the abortion stance comes from smarter.vote's quote of Bengs's campaign 'What I Believe' page; please check that one against the campaign site if you can. I left out an older ontheissues wealth-tax item from 2022. votebengs.com and electbengs.com look like third-party sites, not the official campaign site, so I didn't cite them. Partisan characterizations, such as a Dakota War College post and NRSC statements, were left out on purpose. I found no stated 2026 positions on Education or Energy, so those topics are omitted; his data-center stance touches on energy use. The SDPB debate was published 2026-09-14, about 39 days ago, so it's within the window but not listed under news. Occupation: news reports call him a former park ranger, and his site says he decided to run after Park Service cuts."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-tharon-chandler",
+    "name": "Tharon Chandler",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed his place on the 2026 ballot through the WSMV sample-ballot article from 2026-10-18 and the Ballotpedia list of 2026 general election candidates. The petition filing date comes from TN Firefly, an unofficial site, and should be checked against elections.tn.gov. All three positions come from his 2024 Ballotpedia survey because I found nothing he has said about the issues during the 2026 race. Vote Smart and LocalCandidates have no positions for him, and the Nashville Banner did not send him a questionnaire. I opened the Ballotpedia page, but its survey section was cut off, so the stance wording is based on the search-result excerpt. In that excerpt he writes 'Black&Rock', which I took to mean BlackRock. He also wrote 'APAC', possibly meaning AIPAC; I left that out and summarized the point in general terms. The FEC shows no money raised or spent for 2025–2026. I found no news from the last 45 days about him specifically, only ballot listings. He has no stated position on the other topics covered in this race (cryptocurrency, immigration, disaster relief, education, health care, rural broadband, environment)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-andrew-gerena",
+    "name": "Andrew Gerena",
+    "applied": false,
+    "held": [
+      "Loaded language: corrupt, patriot"
+    ],
+    "problems": [],
+    "notes": "Ballot status: TN Firefly says it takes its ballot list from the Secretary of State's certified list, and it shows Gerena qualified by petition from Knoxville, filed 2026-03-09. I did not open the Secretary of State's site directly, so please confirm against the official certified list. I saw no signs that he withdrew or was removed. All stances come from his campaign issues page, which is written as short bullet points. They are paraphrased, and the AIPAC and 'corrupt' health care items are attributed to him as his own claims. His site gives no positions on cryptocurrency, immigration, disaster relief, housing or rural broadband, so I left those topics out. Education, health care and environment are covered. I found no news coverage about him from the last 45 days, so the news list is empty. His site does not list education history or exact years of military service. I used 3 of 5 searches and 2 of 3 fetches.",
+    "proposed": {
+      "occupation": "Veteran; work history in security, commercial trucking, information technology, food service, maintenance and scientific research (per campaign site)",
+      "summary": "Andrew Gerena, who goes by the military callsign \"Jeranimo,\" is an independent candidate for U.S. Senate in Tennessee. He is from Knoxville and filed on March 9, 2026. He qualified for the November 3, 2026 general election ballot by petition.",
+      "positions": [
+        {
+          "topic": "Health care",
+          "stance": "Says the health care system is corrupt and profit-based and calls for fixing it. Supports letting veterans choose their own health care providers and modernizing the Department of Veterans Affairs.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Education",
+          "stance": "Proposes moving federal money from the military budget to education, infrastructure, research and job training. Supports required financial literacy classes in all high schools.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Environment",
+          "stance": "Supports expanding protections for parks and wildlife and strict environmental and data privacy rules for AI data centers. Proposes building modern nuclear and renewable power plants.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Taxes and federal budget",
+          "stance": "Opposes any tax increase. Says too much tax money goes to regime-change wars and corporate tax breaks, and proposes moving military spending to domestic programs.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Foreign policy and military aid",
+          "stance": "Proposes ending military aid to any country suspected of war crimes. Calls for separating U.S. military and intelligence agencies from all branches of the Israeli government, and for investigating AIPAC for espionage and treason.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Surveillance and civil liberties",
+          "stance": "Supports repealing the Patriot Act and ending all public-facing mass surveillance systems. Calls for investigating executives and engineers at companies that conduct mass surveillance.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Crime",
+          "stance": "Proposes making the death penalty available, by jury decision only, for people convicted of child sex offenses or trafficking. Wants to prioritize fighting human, drug and weapons trafficking.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Artificial intelligence",
+          "stance": "Proposes making it a felony to use AI to produce news or informational content about real people, events or subjects.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Infrastructure and transportation",
+          "stance": "Supports building high-speed passenger rail across the country and bringing back modern terminals where truckers can rest, transfer loads and make repairs.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "topic": "Right to repair",
+          "stance": "Supports right-to-repair protections, saying they defend farmers and working-class people.",
+          "source": "https://www.jeranimo4senate.org/issues"
+        }
+      ],
+      "history": [
+        "U.S. military veteran (served at Fort Gordon, Georgia, per campaign site)",
+        "Work experience: security, commercial trucking, information technology, food service, maintenance, scientific research",
+        "Independent candidate for U.S. Senate, Tennessee, 2026 (filed March 9, 2026; qualified by petition)",
+        "Residence: Knoxville, Tennessee"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Andrew Gerena campaign site: issues",
+          "url": "https://www.jeranimo4senate.org/issues"
+        },
+        {
+          "label": "Andrew Gerena campaign site: home/bio",
+          "url": "https://www.jeranimo4senate.org/home"
+        },
+        {
+          "label": "TN Firefly: U.S. Senate candidates (based on Secretary of State certified list)",
+          "url": "https://tnfirefly.com/elections/us-senate"
+        },
+        {
+          "label": "Wikipedia: 2026 U.S. Senate election in Tennessee",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee"
+        },
+        {
+          "label": "Sway candidate profile",
+          "url": "https://www.sway.co/candidate/andrew-gerena-746373b3-753c-41bc-98d2-439849ce3bba"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-jeremy-dean-hearn",
+    "name": "Jeremy Dean Hearn",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "He is on the November 3, 2026 ballot: WSMV and the USA Today Network voter guide (both from October 2026) list him, and Tennessee Firefly says he qualified by petition on February 20, 2026. No sign he withdrew. All positions come from his campaign site, which is written in an unusual style. Among other things, it says historical 'pyramid schemes' and a 'coup' drained American earnings. I left those claims out of the stances. The included stances use his own wording or are attributed to him; please check the paraphrases. I found no questionnaire answers from the Texas Tribune, VOTE411 or Ballotpedia, and no stated positions on immigration, disaster relief, education, housing, health care, broadband, environment, agriculture or crypto, so those topics are left out. DataCenterRecord also reported no sourced statement from him on data centers as of October 12, 2026. I found no news coverage about him from the last 45 days beyond voter-guide candidate lists, so the news field is empty. Occupation and education are not confirmed. His campaign site lists a personal address, phone number and email; none of that is included here."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-robert-jones",
+    "name": "Robert Jones",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Jones is confirmed on the November 3 ballot by several candidate lists (TN Firefly, WSMV 2026-10-14, tnelection.org), and he has an FEC filing. I found no sign that he withdrew. All stances come from an Indivisible Tri-Cities TN post dated 2026-08-25. It summarizes his campaign issues page (robertfortn.com/issues) but is not the page itself. I did not open robertfortn.com within the budget, so the stances should be checked against it. The localcandidates.org positions page would not load. I found no news coverage about Jones's own actions in the last 45 days. The WSMV early-voting article only lists him, so news is empty. The occupation 'small business owner' comes only from the Wikipedia race page. I found no stances on stablecoins, disaster relief, rural broadband or agriculture. Civoren says his slogan is 'Unity Through Community', but I left it out because I only saw that in a search snippet."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-james-william-macon-iii",
+    "name": "James William Macon III",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status is confirmed: WSMV (Oct. 14), tnelection.org (which links the Secretary of State's certified list) and Ballotpedia all list him on the Nov. 3 ballot. All stances come from his candidate statement on Civoren (updated Sept. 2, 2026). That statement lists priorities without specific proposals, so the stances are general. His employers and education are self-reported on Civoren and not independently checked. Civoren also shows a past August 6, 2026 primary entry for him, which doesn't match TN Firefly's note that he filed as an independent by petition; the entry may just be how the platform organizes races. A WREG guide that turned up in search mentions someone with 12 years on the Memphis City Council near his name. Because the guide was never opened, it is unclear whether that refers to Macon, so it was left out. I opened the tnelection.org page, but its comparison table was cut off before his column, so I didn't use it for stances. I found no news coverage about him in the last 45 days. No campaign website was found; Sway lists a Facebook page (facebook.com/james.macon.92) that I didn't check. Not covered for lack of a stated position: cryptocurrency, immigration, disaster relief, rural broadband, environment, foreign policy."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-yoshi-d-matthews",
+    "name": "Yoshi D. Matthews",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballot status: the Tennessee Secretary of State's candidate list (seen in search results) shows Matthews as an approved independent who filed on 2/2/2026, and tnelection.org and tnfirefly.com list her on the November 3 ballot. One aggregator (oathstar.com) says she is 'Not on the November ballot'. That conflicts with the state source, so I treated it as an error, but it would be worth a quick check. Ballotpedia's race listing also looks out of date: it shows only Matthews and Andrew Mixon (Federalist). News: I found no news coverage of her from the last 45 days. Sourcing: the issues page states positions briefly and gives no policy detail. The term-limits stance comes from tnelection.org's paraphrase of her materials (its footnote 11). I couldn't see which source footnote 11 points to because the fetched page was cut off. BallotReady also mentions a Social Services position about preparing for unspecified 'changes', which I left out because the context was missing. FEC data via oathstar shows small amounts ($47 raised, about $5K spent, through 9/30/2026) that I couldn't confirm on FEC directly. Her campaign site uses she/her pronouns."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-david-sutman-jr",
+    "name": "David Sutman, Jr.",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia, Vote Rutherford and the Johnson City Press 10/14 questionnaire all list Sutman as a candidate on the ballot. I found no sign that he withdrew. I did not check the Tennessee Secretary of State's official candidate list directly. His campaign site and the Vote Rutherford page (which copies the site's text) only state general themes. I found no stated positions on immigration, health care, abortion, guns, crypto, foreign policy and other topics, so I left those out. I fetched the Johnson City Press questionnaire, but it came back as page navigation only, with none of the article text. The search snippet showed the opening of his answers: why he's running and his background in business and technology. It also gave the publication date and confirmed he faces Hagerty. His full answers are worth checking manually for more positions. A search result also listed a datacenterrecord.org page on where the candidates stand on data centers, which I did not open. A Ballotpedia Candidate Connection survey exists, but its answers were cut off in the search snippet. That would be the best page to fetch next for education or other background details."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-catherine-barcel-barcy-whitson",
+    "name": "Catherine Barcel \"Barcy\" Whitson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Her place on the ballot is confirmed by the TN Secretary of State candidate list and the House Clerk nominee list. I found no news coverage about her from the last 45 days; the WSMV article only lists her name. All positions come from the issues page on her campaign site. The site has two oddities. First, its footer says 'Paid for by Barcy Whitson for Senate. Not authorized by any candidate or candidate's committee,' which contradicts itself. Second, its testimonials look like template text. The site does read as written in her voice, so please check that it is officially hers before publishing. Her education was not found. Her stances on transportation (mass transit), policing (trauma-informed training), dependent care and science/tech are also left out because those topics aren't on the comparison list. One aggregator (themidtermproject.org) wrongly says she 'won' the August primary; independents did not run in a primary. Ignore this Whitson's possible connection to former state Rep. Sam Whitson; nothing links them."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h23-ben-mendoza",
+    "name": "Ben Mendoza",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The Texas Secretary of State confirms Mendoza's ballot status, listing him as 'Candidate in the General Election.' The SOS filing lists his county as El Paso, and El Paso Matters reports he lives outside TD-23, so he can't vote for himself. That doesn't disqualify him: the U.S. Constitution only requires House members to live in the state. Most positions come from search snippets of the Fox San Antonio / WOAI 'Beyond the Podium' interview, which ran Oct. 14 and was updated Oct. 15. I tried to open the full article, but the fetch returned only page metadata, and I ran out of fetch budget before I could retry. El Paso Matters blocked fetching. Please check the stance wording against the video or article. The Texan says the San Antonio Report found Mendoza 'takes a firm stance on border security' and supports expanding seasonal H-2A/H-2B visas. I did not open the San Antonio Report article, so I left the visa position out. I found no stated positions on taxes and spending, the Second Amendment, veterans, or health care. I found no campaign website, and Branch said in September that he had none. Branch's 'Economy' entry is from his El Paso City Council run, so I left it out. Not all past-campaign dates are confirmed: TX-16 (2018) and council (2023) come from Smarter.vote, mayor (2024) is Smarter.vote's date, and the EPISD board run has no year. For 'Previous campaigns' in the history list, check Ballotpedia. The news dates come from page metadata (WOAI) and the URL (El Paso Matters)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h38-alex-mcmenemy",
+    "name": "Alex McMenemy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: VoteSee (updated about 6 days ago) and Smarter.Vote list McMenemy (Green) on the Nov 3 ballot alongside Bonck and McDonough. He also appears in the Houston Chronicle voter guide, the Texas Green Party nominee list and Ballotpedia. Things to check: (1) Sources disagree on the Green convention date. Ballotpedia says April 11, 2026; Smarter.Vote says March 14, 2026. I left the date out of the summary. (2) Ballotpedia's general-election section is out of date. It lists McMenemy with independent William Taggart and does not name Bonck or McDonough, so it may be worth checking whether Taggart is still on the ballot. (3) A VoteClock snippet seemed to place 'ALEX MCMENEMY (Green)' near a Texas State Senate heading. This is probably a page-layout artifact, but it could be checked against the Secretary of State candidate list. (4) Age (27), Tomball origin and theatre/accounting background come only from Smarter.Vote. (5) The search found no news coverage about him from the last 45 days, so the news list is empty. (6) All positions come from his campaign platform page, which was last modified 2026-03-01. Topics with no stated position found: abortion, guns, religious liberty, Social Security, government spending, Trump agenda."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h7-espoir-ngabo",
+    "name": "Espoir Ngabo",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia's race page, fetched today, confirms Ngabo (G) is on the Nov 3, 2026 general election ballot. The only withdrawn candidates it lists are two independents (Brough, Centeno). Ballotpedia gives the convention date as March 21, 2026; an older search snippet said April 11. I used the March date from the fetched page. Position text comes from search-result snippets of LocalCandidates and BallotReady. I tried to fetch the LocalCandidates page but it was not accessible. LocalCandidates lists 24 positions (including housing, worker pay, voting rights, abortion, air and water quality and student debt), but I only saw a few of them, so most comparison topics are not covered. The Community Impact Q&A (about 55 days old, outside the news window) and Ballotpedia's survey answers probably contain more stances, but my tool budget ran out before I could read them. Possible inconsistency: LocalCandidates says he was 'born and raised in the district,' while Community Impact quotes him saying he came to Houston as a 5-year-old refugee from Congo. I used the Community Impact wording in the summary; please verify. Community Impact describes him as a 'Houston community advocate.' I found no news within the last 45 days. Campaign site reported as www.espoirfortexas.com (not opened)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "wv-u-s-senator-rachel-fetty-anderson",
+    "name": "Rachel Fetty Anderson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and several news reports confirm her nomination and general-election candidacy. Ballotpedia also lists Rio Phillips as an independent write-in candidate in this race, but the request does not include him. The WOWK publication date is an estimate from search metadata ('8 days ago', so about 2026-10-15), so please verify it. I found no stances on SNAP, college athletics or infrastructure. The Ballotpedia survey text was cut off when I fetched it. The bachelor's degree type is not specified in the sources. I did not find or check a campaign website."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "wv-u-s-senator-s-marshall-wilson",
+    "name": "S. Marshall Wilson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Several sources confirm his candidacy, including the WV Public, West Virginia Watch and News and Sentinel voter guides (October 2026) and the Morgan Messenger's October 20 early-voting article. I found no sign that he withdrew. All stances come from BallotReady's issue section, which links to his campaign site (wilsonwv.com). I did not open the campaign site itself because the fetch budget ran out. Hometown: the Morgan Messenger says Hedgesville, while his Facebook page says Glengary. Both are in Berkeley County, so the history entry gives the Hedgesville area. I found no stated position on Iran, SNAP, college athletics or infrastructure, so those topics are left out. A Mountain State Spotlight questionnaire (Hampshire County guide) appears to include answers from him, but I could not confirm which answers were his without opening the page. It is worth checking. I left the news list empty on purpose. The only coverage from the last 45 days names him only as a candidate in early-voting and county voter-guide stories. A WOWK 'On The Record' interview with him is 55 days old, outside the window. WVVA's October 21 story on the race covered only Capito and Fetty Anderson. Birth date per Wikipedia: July 8, 1969."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ak-united-states-senator-gerald-l-heikes",
+    "name": "Gerald L. Heikes",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Confirmed on the ballot: NBC News reports the Division of Elections certified the four general-election candidates, and Britannica (about 18 days old) lists Heikes among them. I found no sign he has withdrawn since then. I could not find a campaign website or any 2026 questionnaire answers: BallotReady and LocalCandidates profiles have no positions, and Ballotpedia notes he did not answer its 2024 survey. The only stance I included comes from his 2024 U.S. House campaign, quoted on Ballotpedia, and is labeled that way. You may decide it is too old to use. I found no stances on the comparison topics (Iran/foreign policy, energy and cost of living, fisheries, infrastructure, Alaska Native lands). Occupation is not documented. Sources only call him a perennial candidate, so please confirm before publishing. News is empty because the coverage about him that I found is from about September 1-2 (ADN, NBC), which is outside the 45-day window, and recent race coverage only mentions him in passing. I could not fetch the ADN page (access was blocked), so the facts from it come from search snippets. Background for context only, not for the profile: ADN reports that a super PAC called Right For Alaska spent more than $400,000 promoting Heikes in the primary, which ADN describes as an effort to weaken Sen. Dan S. Sullivan. I left this out of the summary to keep it neutral."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ak-united-states-senator-mary-peltola",
+    "name": "Mary Peltola",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Please check several things before publishing:\n\n1. **Sourcing:** The tool budget ran out before any page could be opened. One page was blocked, another could not be reached, and the last two fetches hit the usage limit. All stances and facts therefore come from search-result snippets only. Neither the campaign site nor any questionnaire answers were consulted.\n\n2. **Missing topics:** No stances were found for Infrastructure or Alaska Native lands. A Yahoo article (published about a day before 2026-10-23) says she spoke at the First Alaskans Institute Elders & Youth Conference, but its content could not be read.\n\n3. **Estimated news dates:** Several dates were worked out from 'X days ago' labels and may be off by a day. The Detroit News date comes from its URL. The Yahoo Elders & Youth date was estimated as about 2026-10-22. The Alaska Beacon date (2026-09-21) comes from its URL. The Hill date (2026-09-15) was estimated from the label. That same Hill article describes the first debate as happening on a Saturday, and the Alaska Beacon dates the Kodiak debate to Sept. 12. The Center Square snippet about that debate is 38 days old, which puts it outside the 45-day news window, so it is cited only for a stance.\n\n4. **Election-day error in one source:** The Center Square snippet says Election Day is Nov. 1. The correct date is Nov. 3.\n\n5. **Primary results not confirmed:** An AP photo caption describes an Aug. 18, 2026 election-night watch party, which suggests she advanced from the primary. Official results from the Alaska Division of Elections were not checked.\n\n6. **Workplace allegations:** The NewsNation item reports allegations about her conduct toward staff. These come from former staffers as reported by the New York Times, and Sullivan raised them at the debate; Peltola called them fabrications. That item is included as news only, not as a position."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ak-united-states-senator-daniel-j-sullivan-jr",
+    "name": "Daniel J. Sullivan Jr.",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Wrong-person risk: this is NOT the incumbent, Sen. Dan S. Sullivan. Do not merge the two profiles. This candidate is the Petersburg resident who appears on the ballot as Daniel J. Sullivan Jr. 2) Disputed candidacy: the incumbent and Republican allies call this a sham candidacy meant to confuse voters, and the candidate denies it. Sources say the Alaska Supreme Court allowed him on the ballot (one NBC snippet credits a Superior Court ruling). Neither claim is in the profile. 3) Possible removal: Newsweek (about 2026-10-22/23) reports President Trump threatening legal action to remove him. I found no sign he has withdrawn or been removed as of today. Please check with the Division of Elections close to publication. 4) Ballot label: per the August 3 reporting, the primary ballot showed his name without a party label. I could not confirm how he appears on the general ballot. 5) News: only one item falls within the last 45 days. It is about the President's statement, not the candidate's own actions. The publication date is estimated from '0 days ago', so please verify it. Earlier coverage (August to September 1) is outside the window. 6) The Division of Elections statement PDF could not be fetched (blocked), so I used it only for biography through search snippets. Most stances come from a KFSK interview reprinted in the Petersburg Pilot. The Iran stance is from an Alaska Public Media search-result excerpt; I did not open that page. 7) I found no stated positions on infrastructure or Alaska Native lands."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ar-u-s-senate-jeff-wadlin",
+    "name": "Jeff Wadlin",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and the 5NEWS guide confirm Wadlin is on the Nov. 3, 2026 general election ballot. I found no sign that he withdrew. I used up the fetch budget, and both page fetches came back mostly as navigation markup, so the stances are based on search-result excerpts from those articles. The debate was reported to cover Iran, immigration, economic development and college athletics, but I couldn't get Wadlin's specific answers on those topics, so I left them out. That means there are no stances yet on immigration, the Iran war, agriculture, health care or AI. A follow-up fetch of the Advocate or Talk Business debate story, or of his campaign website (not found here), could fill those gaps. In the debate stance I left out his quote calling Cotton 'a coward and a hypocrite.' The 5NEWS date comes from a search result marked '0 days ago' and should be checked. The Oct. 14 Advocate story is mostly about Cotton and Shoffner; it mentions Wadlin only as having been excluded from the canceled debate. Ballotpedia shows $0 in FEC receipts for Wadlin; that figure was not used in the profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-bob-chew",
+    "name": "Bob Chew",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy for this office on the November 3, 2026 ballot is confirmed by CPR, Colorado Newsline, the FEC (ID S6CO00556), and the Colorado Forward Party. I found no sign he withdrew. I did not check the Colorado Secretary of State's ballot list directly. The 'Health care / Medicare' stance comes from Newsline's summary of his website; I could not open the campaign issues page itself. The Oct 12 CPR article could not be opened, so stances cited to it come only from search-result excerpts. Some outlets call him an 'independent' while he runs on the Forward Party line. He was endorsed by the Center Party (campaign release, Oct 13, 2026). I left out a Hickenlooper aide's claim that Chew proposes cutting Social Security and Medicare benefits, because it is an opponent's characterization. I found no stated positions on Iran policy beyond its effect on gas prices, immigration enforcement tactics, climate policy beyond electricity prices, or term limits. Background details about his company and Navy service come from CPR, which cites his campaign site."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-christopher-baum",
+    "name": "Christopher Baum",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Baum is on the 2026 ballot as the Approval Voting Party nominee through CPR News's voter guides and several candidate directories. I found no sign that he withdrew. I did not check the Colorado Secretary of State's official candidate list directly, because of the tool budget. All positions come from the iVoterGuide questionnaire shown on his 2026 Senate race page. However, the page says he completed that questionnaire in 2024, when he was running for CO-8. That means these answers may be from 2024 and not restated for 2026, so a reviewer may want to mark them as 2024 answers. iVoterGuide is run by AFA Action, a group that advocates for its views. I used only the candidate's own answers from it, not its rating of him. I left out Iran as a topic: he mentions Iran only in passing, as an example in an answer about Islamic terrorism, which isn't a clear policy stance. I also found nothing he has said on fuel prices, Social Security, or the Trump administration. I found no news coverage about Baum from the last 45 days, so the news list is empty. Two other things to check: the CPR third-party guide had a correction about his party label, and its blurb about approval voting advocacy sits under Blake Huber's name, so other candidates' entries should be checked there. Also, the Kim Monson guide's header shows him as 'Forward' in one spot, which looks like a page error; every other source lists him as Approval Voting."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-blake-huber",
+    "name": "Blake Huber",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Two sources confirm Huber is the Libertarian candidate on the Nov. 3, 2026 ballot: CPR's guide, updated about 3 days ago, and lp.org. I did not check the Colorado Secretary of State's candidate list directly. The only issue statements I found are his three key issues: voting methods, immigration and regulation. None of them address the other comparison topics, such as health care, Social Security, Iran, the national debt or the filibuster. I mapped his immigration statement to 'Legal immigration'. The source is vague and does not separate legal immigration from enforcement, so please check that this label fits. I found no news coverage about him from the last 45 days beyond the CPR guide (published 2026-09-25, which is outside the 45-day window), so the news list is empty. The military service comes only from BallotReady and is not confirmed elsewhere. I did not find his education. The CPR text links his campaign 'website' to the party's PDF, and I did not find a separate campaign site."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "co-united-states-senator-adam-withrow",
+    "name": "Adam Withrow",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://www.coloradoan.com/story/news/politics/elections/2026/10/01/adam-withrow-running-for-election-to-u-s-senate-colorado-midterm/91799852007/"
+    ],
+    "notes": "1. Ballot status is confirmed through CPR, KSJD and the Coloradoan Q&A, which says it covered candidates whose names will be printed on the ballot. I did not check the Colorado Secretary of State's site directly. I found no sign that he has withdrawn.\n2. I found no stated positions on these shared topics: immigration, Social Security, Medicare/Medicaid specifics, abortion, guns, term limits, filibuster, redistricting, the national debt, Iran, the Trump administration, housing, fuel prices or education. I left them all out.\n3. KSJD says his platform covers education and election reform. I didn't find specific statements on either, so I didn't add them.\n4. His campaign site has a page on 'Epstein and Public Trust' and a separate AI page. I didn't fetch either one, so neither is reflected here.\n5. The site's metadata still says 'Adam Withrow for CD3,' which suggests he may have run for Colorado's 3rd Congressional District before. I couldn't confirm that, so it's not in the history.\n6. The CPR item from 2026-09-25 is a multi-candidate guide, not coverage of his own actions. I found no news specifically about him other than the Coloradoan Q&A.\n7. Searches returned an older Wikipedia article on the Unity Party. I didn't use it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "hi-governor-gary-cordery",
+    "name": "Gary Cordery",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Confirmed on the ballot: the AP reported his Aug. 8, 2026 GOP primary win, and he appears on the state Campaign Spending Commission's final 2026 candidate list (legal name Gary A. Cordery). I found nothing suggesting he withdrew. Most positions come from one fetched page, a Civil Beat profile dated 2026-10-04. Civil Beat also published a candidate Q&A (civilbeat.org/2026/07/candidate-qa-governor-gary-cordery-2/), but I didn't open it because of the tool budget; it's worth checking for more topics. The housing stance comes from a Fox News search snippet. The two Oct. 22 Hawaii News Now headlines come from search results; I didn't open either page. The scuffle story is about an incident involving a Cordery supporter, not Cordery himself, so the reviewer may want to drop it. The abortion stance is from a 2022 quote as reported in 2026. Fox News gave his primary vote share as 75.9%. The debate topic is left out of positions because it's a campaign dispute: Civil Beat reports he repeatedly asked Green for a televised debate and Green's campaign has not agreed to one. No topics were listed for Green to match against."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-governor-brad-little",
+    "name": "Brad Little",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Little's candidacy is confirmed by Wikipedia and Idaho EdNews (Oct 8, 2026), which say he is the Republican nominee seeking a third term. I did not reach the Idaho Secretary of State candidate list, so this is not confirmed by an official election source.\n2. I found no campaign issues page or questionnaire answers. His campaign skipped the Oct 6 League of Women Voters forum and other debates, and answered EdNews only in writing. As a result, most positions come from EdNews coverage of his record and statements from campaign manager Joan Vargas.\n3. The nuclear/aquifer stance comes from an Idaho Capital Sun headline linked in the EdNews article (idahocapitalsun.com/2026/09/25/...). My fetch of that article failed, so the stance cites the EdNews page instead and should be checked.\n4. The 'least regulated state' stance comes from OnTheIssues' summary of his January 2026 State of the State speech, a secondary source.\n5. The forest-management stance cites the governor's press release index (Oct 2, 2026 entry), not the release itself.\n6. The Oct 10 date for the harvest executive order is estimated from a search result marked '13 days ago' and needs checking.\n7. The Oct 6 Capital Sun article is mainly about his opponents, with Little mentioned for not attending. Consider dropping it from news.\n8. The history items (Senate 2001–2009, Lt. Gov. 2009–2019, rancher) come from general knowledge and EdNews' '25 years in public office.' They are not tied to a page opened in this request and should be checked.\n9. I found no stated positions on immigration, abortion, Prop 1, or public lands. Those topics were left out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-governor-terri-pickens",
+    "name": "Terri Pickens",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Nominee status is confirmed by the Idaho Voter Guide, which cites certified Secretary of State results (30,326 votes, 61.42%). The Capital Sun's election-night story reported a slightly lower count of 30,022. I found no sign that she has withdrawn. I couldn't open the Capital Sun forum article directly, so the two stances citing it are based on the search-result text. The stances on taxes, vouchers, the nuclear campus and the restroom law come from her quotes as compiled by idahovoters.com; that page links to the original sources (CBS2/FOX9 survey, her campaign blog, Capital Sun, East Idaho News), but I didn't open those. News dates are approximate: the Daily News item was listed as about 21 days old (roughly 2026-10-02). I left out a Lewiston Tribune forum story (about 2026-10-09) because it covers the same Oct. 6 forum. I found no stated positions on teachers' unions, forest management, regulation or higher education within the tool budget."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "hi-governor-josh-green",
+    "name": "Josh Green",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Every stance cites the Smarter.Vote profile I opened. That page is a secondary source. It in turn cites primary sources: Green's campaign issues page (joshgreenforhawaii.com/issues), governor.hawaii.gov news releases, and a July 2026 Civil Beat candidate Q&A (civilbeat.org/2026/07/candidate-qa-governor-josh-green-2/). I saw those links on the profile but did not open them, so please check them and switch the citations to the primary sources where you can. 2) The sources disagree on Green's primary vote share: Wikipedia says 88.5% and Smarter.Vote says 81.7%. I left the figure out until it can be checked against the Hawaii Office of Elections results. 3) I found no stated housing stance I could cite, even though Smarter.Vote lists housing as a campaign theme, so housing is not included. 4) The two Hawaii News Now items are dated Oct 21 local time, though the URLs say Oct 22. The Civil Beat piece is mainly about Cordery. I found little recent coverage of Green's own statements, and HNN reports there has been no debate. 5) Some tool calls failed because of parsing errors, which may have used up part of the search budget."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ia-governor-and-lieutenant-governor-zach-lahn",
+    "name": "Zach Lahn",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Several news reports confirm that Lahn is the Republican nominee for the November 3, 2026 general election, with Derek Wulf as running mate. I did not check this against the Iowa Secretary of State's certified candidate list. The IPR debate page fetch returned only page metadata and site navigation, not the article text. Because of that, every stance here comes from search-result excerpts of the listed pages, not from full articles I read. No candidate website or questionnaire (VOTE411, Ballotpedia) was opened because of the tool budget, and his education is not listed because I found no source for it. Facts that may need checking: the primary vote share (37.65%) comes from Wikipedia, and his age (40) and prior jobs come from KTIV. The KTIV profile shows a web date of 2026-10-18 but a URL path of 10/19. Opponents have raised questions about his residency and ties to Wichita, Kansas; he rejects those claims. These were left out of the profile as opponent characterizations. Several outlets reported on the October 6 debate, so I listed only one of those stories under news."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ia-governor-and-lieutenant-governor-rob-sand",
+    "name": "Rob Sand",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't check the Iowa Secretary of State's site, so Sand's nominee status and running mate (Dave Muhlbauer) come from news and Wikipedia. Several current outlets confirm he is the Democratic nominee. Sand's campaign did not withdraw from the race. He pulled out of the Oct. 21 Iowa PBS debate after his brother-in-law died in a crash, and both campaigns said they would work on rescheduling. I couldn't confirm whether that happened. I only fully read the Iowa Capital Dispatch debate article. The NBC fetch was blocked, and the other stances come from search-result excerpts. The water-quality and Medicaid stances come from April–May 2026 articles. Background years and education come from the Wikipedia excerpt. I left out the site therealrobsand.com because it is opposition material. The KTIV headline date (Oct. 19) is from the article, though its URL shows 2026/10/20. Shared topics with Lahn: education funding, data center tax breaks, taxes and budget, and water quality and cancer."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ks-governor-lieutenant-governor-ty-masterson",
+    "name": "Ty Masterson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I could not find the Kansas Secretary of State candidate list or Masterson's campaign issues page, so his nomination and his running mate (Jeff Klemp, listed by Wikipedia) are confirmed only through news coverage. Two fetches returned only page navigation or a partial article (KCUR and Lawrence Times), and the Kansas Public Radio fetch was blocked. Because of that, several stances rely on search-result excerpts from articles I did not open in full. The abortion, Medicaid and transgender-policy stances come from a July 2025 Kansas Reflector summary of his legislative record, not from 2026 statements. The 'Mississippi Miracle' literacy pledge and the Hays Post school-funding comments come from a 2025–26 source. The GoCreate job title came from KWCH coverage of a dispute in which Holscher alleges it is a 'no-show' job and his campaign rejects that; the dispute is in the news list, and the job title is in the history list with no characterization. Debate exchanges in which each candidate labeled the other were left out of the stances on purpose."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ks-governor-lieutenant-governor-cindy-holscher",
+    "name": "Cindy Holscher",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Holscher's nomination, primary result, and running mate (KC Ohaebosim) through news coverage and Wikipedia. I did not check them against the Kansas Secretary of State's site, so please verify them there. I found no sign that she has withdrawn. The State Fair debate story (2026-09-12) is 41 days old, so it is inside the 45-day window but close to the limit. I left out a 'Trump rally response' item because I only saw it on the campaign homepage and did not open the KMBC article. I did not fetch the campaign issues page; the data center stance comes from the summary on the homepage. I did not find a VOTE411 or Ballotpedia questionnaire. The search results mentioned private school vouchers and water as debate topics, but I did not find Holscher's specific stance on either, so I left them out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "me-governor-hannah-m-pingree",
+    "name": "Hannah M. Pingree",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Press Herald (2026-06-19) confirms Pingree as the Democratic nominee, facing Bobby Charles (R) and Rick Bennett (I). Nothing found suggests she has withdrawn. I left the news list empty: the closest articles were a 2026-09-25 poll story (28 days old, but it's horse-race coverage) and a 2026-07-22 fundraising story (outside the 45-day window), and the search limit ran out before I found October coverage of her own actions. All stances come from her June 2025 launch coverage, because I couldn't reach her campaign issues page, VOTE411 or debate coverage. Topics like taxes, energy/climate and abortion are missing and need another sourcing pass before publication. The year her Speaker term ended (2010) is from background knowledge, not a cited source, so please verify it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "me-governor-robert-bobby-b-charles",
+    "name": "Robert \"Bobby\" B. Charles",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: several news outlets from October 2026 call Charles the Republican nominee, and none mention a withdrawal. However, I did not check the Maine Secretary of State's candidate list, and Ballotpedia and VOTE411 were not consulted. I did not open the campaign site; the URL is listed only because the WCSH article links to it. The Maine Morning Star fetch failed, so the tariffs stance is based only on the search snippet; a reviewer may want to check its wording. Residence: Maine Public calls him 'an attorney from Wayne' (where he grew up), but WGME and the Bangor Daily News place him in Leeds. I left residence out of the summary. Abortion: Charles has given different emphases over time, and the Democratic Party says he implied repeal in a debate. I used only his direct quotes from NEWS CENTER Maine and did not cite partisan press releases. I also left out the Maine Calling exchange on ICE because I could not see his full answer. Sources describe his past work as 'Navy intelligence' and 'law enforcement' without dates. The September NEWS CENTER profile date is approximate (about 24 days old), so I did not include it in the news list. I did not include polling, per the instructions on horse-race coverage."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "md-governor-lt-governor-wes-moore",
+    "name": "Wes Moore",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy and running mate (Aruna Miller) are confirmed by Wikipedia and current news coverage; I did not check the State Board of Elections site. I used up the tool budget. The Baltimore Sun general-election voter guide blocked the fetch, and I couldn't read the AFRO or CBS articles in full. Some stances therefore rest on search-result excerpts, and most come from Moore's primary-season answers to Maryland Matters. Two dates need checking: the CBS date (2026-10-21) is estimated from a '2 days ago' search label, and the Maryland Matters debate article's date comes from its URL. The data-center stance is based on a partial excerpt, so please check it against the full AFRO article. I left the NGA chair role in Background because Wikipedia lists it, but I could not confirm it from an official source."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "md-governor-lt-governor-dan-cox",
+    "name": "Dan Cox",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Search results show Cox as the 2026 Republican nominee: SBE official results, NBC and the Banner all report the primary win, with running mate Rob Krop. I found no sign he has withdrawn. I ran out of tool budget before I could pull immigration and Trump positions from the Fox45 debate article (it lists debate topics including immigration, Dignity Not Detention and the FBI headquarters), so those topics are left out. No other candidates' topics were given, so I chose topics from Cox's own platform. The CBS article date of 2026-10-19 is taken from its image path and search age (about 3 days old); please confirm it. The Baltimore Sun voter guide URL has a May date but showed an update about 10 days ago. I did not open the campaign website. The 2022 platform items described on Wikipedia were left out because they may not reflect his 2026 positions."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-governor-lieutenant-governor-michael-roger-minogue",
+    "name": "Michael Roger Minogue",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Running mate: Shawn Oliver, the Republican nominee for lieutenant governor, suspended his campaign around Oct. 18, 2026 after an OUI arrest. Per Wikipedia, his name stays on the ballot. Minogue says Oliver will not serve as his lieutenant governor and that, if elected, he would ask Oliver to resign. The ticket row may need a note. 2) Background: I did not confirm Minogue's specific former employer or his education during this request, so the history section leaves them out. Please check his campaign site before adding them. 3) Ballotpedia's page still shows pre-primary status. The primary result comes from Wikipedia and news coverage; it has not been checked against the Secretary of the Commonwealth's certified results. 4) Positions on taxes, energy, immigration and education overlap with topics covered in the debates and should line up with Healey's profile. I found no coverage of Andrea James in these searches. 5) All positions come from one source, the Boston 25 interview. The GBH and debate coverage I saw in search results was consistent with it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-governor-lieutenant-governor-maura-healey",
+    "name": "Maura Healey",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) No campaign issues page or questionnaire found within budget. Almost all stances come from WBUR's report on the October 15 debate. The Q1 veto stance is from a Yahoo search snippet only, not an opened page. 2) A coding error spent one fetch on PolitiFact before I could read it. The Boston.com fetch came back cut off before the article body, so only search snippets from both were used. 3) The history list is thin. Education and pre-AG career were not checked this session, so they were left out. The AG years are not shown because I didn't confirm them in a source. 4) The Mass.gov news item is the governor's office news page, not a dedicated article URL, so consider replacing it. 5) Wikipedia says Republican LG nominee Shawn Oliver withdrew but remains on the ballot. This concerns the Minogue ticket, not Healey. 6) The race list names Andrea James (Independent). A UMass poll shows her on the ballot, but I found no Healey stances on topics James raised. 7) Poll results (UMass/WCVB: Healey 57%, Minogue 32%) were left out of the summary on purpose (no horse-race)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-governor-and-lt-governor-jim-pillen",
+    "name": "Jim Pillen",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I used up the tool budget early. The first search worked, but a coding error kept me from reading the results properly, and my retry ran past the search limit. The only source I actually opened is the WOWT article from May 2025 about his re-election announcement. I could not confirm from an official source (such as the Nebraska Secretary of State) that Pillen won the May 2026 primary and is on the November 3 general election ballot, so found_profile is false. He is the sitting governor and announced he would run, so please check his ballot status and then rerun this profile. Not yet covered: his campaign issues page, his running mate, his background and education, and positions on property taxes, school funding and medical marijuana, which would line up with the other candidates in this race. I found no news from the last 45 days. The history items come from the WOWT article and from the fact that he is the sitting governor. I added the 2023 start date from general knowledge, so please confirm it."
+    ],
+    "notes": "I used up the tool budget early. The first search worked, but a coding error kept me from reading the results properly, and my retry ran past the search limit. The only source I actually opened is the WOWT article from May 2025 about his re-election announcement. I could not confirm from an official source (such as the Nebraska Secretary of State) that Pillen won the May 2026 primary and is on the November 3 general election ballot, so found_profile is false. He is the sitting governor and announced he would run, so please check his ballot status and then rerun this profile. Not yet covered: his campaign issues page, his running mate, his background and education, and positions on property taxes, school funding and medical marijuana, which would line up with the other candidates in this race. I found no news from the last 45 days. The history items come from the WOWT article and from the fact that he is the sitting governor. I added the 2023 start date from general knowledge, so please confirm it.",
+    "proposed": {
+      "occupation": "Governor of Nebraska",
+      "summary": "Jim Pillen is the Republican Governor of Nebraska. On May 29, 2025, he announced he would run for a second term in 2026 with a video posted to his campaign page.",
+      "positions": [
+        {
+          "topic": "Gun policy",
+          "stance": "Lists the passage of permitless concealed carry, which supporters call 'constitutional carry,' as an accomplishment of his administration.",
+          "source": "https://www.wowt.com/2025/05/29/nebraska-gov-jim-pillen-run-reelection-2026/"
+        },
+        {
+          "topic": "Transgender athletes",
+          "stance": "Supports rules that keep transgender girls out of girls' sports, which he describes as keeping 'men out of girls sports.'",
+          "source": "https://www.wowt.com/2025/05/29/nebraska-gov-jim-pillen-run-reelection-2026/"
+        },
+        {
+          "topic": "Electoral votes",
+          "stance": "Named a return to winner-take-all allocation of Nebraska's electoral votes as a legislative priority for the 2025 session.",
+          "source": "https://www.wowt.com/2025/05/29/nebraska-gov-jim-pillen-run-reelection-2026/"
+        }
+      ],
+      "history": [
+        "Governor of Nebraska (2023–present)",
+        "Announced re-election campaign May 29, 2025"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "WOWT: Nebraska Gov. Jim Pillen to run for reelection in 2026",
+          "url": "https://www.wowt.com/2025/05/29/nebraska-gov-jim-pillen-run-reelection-2026/"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mn-governor-lieutenant-governor-lisa-demuth",
+    "name": "Lisa Demuth",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I didn't find any official election-office page, so her candidacy is confirmed by multiple news outlets reporting her as the GOP nominee and covering the October 2026 debates. I fully opened only the WCCO questionnaire; every other source is based on search snippets. News dates are estimates worked out from the 'X days ago' labels in search results, so please check them before publishing. That matters most for the MPR item: its URL is dated 2026-10-21, but I listed it as 10-22. I didn't find her education background. The affordability stance comes from SmarterVote's summary, which points to KEYC, InForum and Southern Minn reporting; I didn't open those originals. On abortion, I found only a Star Tribune article describing her record, not a statement from her, so I left that topic out. The questionnaire's original wording includes language attacking her opponent; I rewrote it neutrally. I didn't cover Klobuchar's or Young's topics because none were provided."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-governor-and-lt-governor-lynne-walz",
+    "name": "Lynne Walz",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Her candidacy is confirmed as the Democratic nominee. I found no signs that she withdrew. Only the WOWT article was fully opened. The Nebraska Public Media voter guide fetch was blocked (url_not_allowed). The voucher and independent-auditor stances come from the Omaha World-Herald search snippet, not the full article, so please check them. That snippet showed two dates (a July 22, 2026 dateline and an older page age); I treated it as the July platform rollout. The running mate (Ben Steffen) and the primary result come from Wikipedia, not an official Secretary of State source; please confirm them against official results. I did not use her campaign website or a VOTE411 questionnaire because I did not open them. I found no stance on data centers: she said only that they were not an issue during her time in the Legislature. The KCAU/Yahoo item is timestamped Oct. 22 UTC; the campaign stop was the evening of Oct. 21 local time."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nv-governor-joe-lombardo",
+    "name": "Joe Lombardo",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I used 3 of 5 searches and 1 of 3 fetches. I didn't check his candidacy on the Nevada Secretary of State site, but several news reports from October 2026 describe him as the Republican incumbent running for a second term, with early voting already underway. I didn't find any sign that he has withdrawn. Most stances come from one Nevada Independent comparison article covering him and Aaron Ford. It didn't cover Danielle Ford, so the topics may not line up with hers. Before publishing, please check: (1) The background section is thin. I didn't confirm his years as sheriff or his education, so I left them out. (2) The 10/01 KOLO item is a video, and its headline is the page title, so it may not be the outlet's official headline. Publication dates are based on how old the search results said each page was, plus the dates shown on the pages. (3) A Review-Journal story says no Lombardo-Ford debate had been scheduled as of about three weeks before early voting. I left it out because I couldn't confirm its date."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nv-governor-aaron-ford",
+    "name": "Aaron Ford",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Search results confirm Ford is the Democratic nominee facing Lombardo; I found no sign that he has withdrawn. Danielle Ford (Nonpartisan) did not appear in any result, so I could not check her place on the ballot. I took three news dates from approximate search 'page age' values, not from the articles: RJ economy story (2026-10-19), RJ debate story (2026-10-06) and the Nevada Current profile (2026-10-15; its URL shows 10/15). Please confirm the exact dates. I left out a Fox News piece on his Pardons Board votes because its headline frames the issue from the opponent's side. Lombardo's ads attacking his Pardons Board clemency votes are a live issue in the race. The Independent reports that Ford would still carry out existing death sentences as required by law. The 'former state senator' item has no dates; I could not confirm the years within the tool budget, so I added no dates. The campaign site's issues page was not opened."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nh-governor-kelly-ayotte",
+    "name": "Kelly Ayotte",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "x"
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nh-governor-cinde-warmington",
+    "name": "Cinde Warmington",
+    "applied": false,
+    "held": [],
+    "problems": [
+      "Agent could not confirm the candidate: I set found_profile to false because I could not confirm that Warmington is the Democratic nominee on the November 3, 2026 ballot. The only source I could check was a Ballotpedia snippet from search results. It lists her and Jonathan Kiper as candidates in the September 8, 2026 Democratic primary and says general election candidates will be added after the primary. That suggests the page had not been updated with primary results. A coding mistake ran some searches twice and used up the search budget. Because of that, I never checked the primary results, opened her campaign site, or searched for recent news. So positions and news are empty. Please do these before publishing: (1) check the 2026 primary results on the NH Secretary of State site (sos.nh.gov) to confirm she won; (2) if she did, pull her stances on topics that can be compared with Ayotte and Villee from her campaign site or questionnaires; (3) add news items from the last 45 days. The occupation 'health care attorney' comes from my own background knowledge, not from a source I opened, so it needs to be checked."
+    ],
+    "notes": "I set found_profile to false because I could not confirm that Warmington is the Democratic nominee on the November 3, 2026 ballot. The only source I could check was a Ballotpedia snippet from search results. It lists her and Jonathan Kiper as candidates in the September 8, 2026 Democratic primary and says general election candidates will be added after the primary. That suggests the page had not been updated with primary results. A coding mistake ran some searches twice and used up the search budget. Because of that, I never checked the primary results, opened her campaign site, or searched for recent news. So positions and news are empty. Please do these before publishing: (1) check the 2026 primary results on the NH Secretary of State site (sos.nh.gov) to confirm she won; (2) if she did, pull her stances on topics that can be compared with Ayotte and Villee from her campaign site or questionnaires; (3) add news items from the last 45 days. The occupation 'health care attorney' comes from my own background knowledge, not from a source I opened, so it needs to be checked.",
+    "proposed": {
+      "occupation": "Former New Hampshire Executive Councilor (District 2); health care attorney",
+      "summary": "Cinde Warmington is a Democrat who served on the New Hampshire Executive Council for District 2 from 2021 to 2025. She ran for governor in 2024 and lost the Democratic primary. Ballotpedia lists her as a candidate in the September 8, 2026 Democratic primary for governor against Jonathan Kiper. I could not confirm that she won that primary or that she will be on the November 3 general election ballot.",
+      "positions": [],
+      "history": [
+        "New Hampshire Executive Council, District 2, 2021–2025 (per Ballotpedia)",
+        "Candidate for Governor of New Hampshire, 2024: lost the Democratic primary (per Ballotpedia)",
+        "Declared candidate in the 2026 Democratic primary for Governor of New Hampshire, held September 8, 2026 (per Ballotpedia)"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia – Cinde Warmington",
+          "url": "https://ballotpedia.org/Cinde_Warmington"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nm-governor-and-lieutenant-governor-greggory-d-hull",
+    "name": "Greggory D. Hull",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Hull is the Republican nominee from news coverage only (Source NM, States Newsroom and others). I did not check the NM Secretary of State's certified candidate list, which would be the official source. The ballot lists Governor and Lieutenant Governor jointly; per Wikipedia his running mate is David Gallegos, which I didn't confirm against an official source. I couldn't open the States Newsroom primary Q&A page, so the 'State priorities' stance comes from its search-result snippet. Most stances come from the Oct 8 KOB-TV broadcast, which was planned as a debate. Haaland did not take part because the campaigns couldn't agree on a date; each side says it offered dates the other rejected. The Sept 24 NewsNation item is 29 days old, inside the 45-day window. Its snippet mentions a poll; I left that out because poll numbers are horse-race commentary. Education (high school only) comes from Wikipedia, and I found no college degree in the sources. I didn't fetch the campaign website within the tool budget, so Haaland-comparable topics such as abortion, energy/oil and gas, and education policy are missing."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nm-governor-and-lieutenant-governor-deb-haaland",
+    "name": "Deb Haaland",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Running mate change: the Wikipedia race page lists Stephanie Garcia Richard as Haaland's lieutenant governor running mate, 'replacing Maggie Toulouse Oliver'. Please confirm the current ticket with the NM Secretary of State before publishing. I did not use an official election site. 2) Except the tax position, all stances cite Smarter.Vote, a third-party summary site. It cites the campaign's debhaaland.com/debsplans page, which I did not open. If you can, check the stances against that page. 3) The Source NM questionnaire could not be fetched. 4) The opponent's name appears as Gregg Hull in the sources. 5) The Santa Fe New Mexican date is estimated from search metadata ('26 days ago'), so please check it. I left out a Journal poll article and a duplicate KOB debate story."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ny-governor-and-lt-governor-kathy-c-hochul",
+    "name": "Kathy C. Hochul",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by news coverage and Wikipedia, which list Hochul as the Democratic and Working Families nominee with running mate Adrienne Adams. I found no sign that she withdrew. I hit the tool limit before finding her campaign issues page or a VOTE411 or Ballotpedia questionnaire, so every stance comes from news coverage of what she said or did. Two items need checking. First, the CBS debate article's date is an estimate: the search result said 8 days ago, the debate was on a Tuesday, and that points to Oct. 13, so the 2026-10-14 date is a guess. Second, the City & State date of Oct. 20 is based on the article describing a Tuesday announcement two weeks before Election Day. I listed one prior office, Lieutenant Governor, from my own knowledge. It is not supported by the sources I opened, it has no years, and earlier offices and her education are missing. Please confirm or fill these in from an official source. The Medicaid position combines two sources: FOX 5 for the fraud crackdown and the CBS debate coverage for her claim that Blakeman would cut Medicaid in half. The 2-K expansion with Mayor Mamdani comes from a video caption on the FOX 5 page."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-governor-mike-mazzei",
+    "name": "Mike Mazzei",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Mazzei is confirmed as the Republican nominee. He won the Aug. 25, 2026 runoff according to unofficial results reported by KGOU, NBC and PBS. I did not see the certified results on the State Election Board site. I did not open the campaign website (mikeforok.com), so all stances come from news coverage. The opened pages were the News 9 issues guide, whose text was cut off after the education section, and the NonDoc debate article. The other stances come from search-result snippets. Five news-item dates are calculated from the 'X days ago' labels in search results, not from bylines; only the NonDoc date of 2026-10-02 is confirmed. Check the other dates, and check whether the News 9 priorities story and the News On 6 tax story are on the right domain (newson6.com vs news9.com). The education/history items about the College for Financial Planning and The Financial Coach Inc. come from Wikipedia and could be checked against Ballotpedia. I did not find any Mazzei statements on topics specific to the independent candidates. I did not include the polling story because it is horse-race coverage."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-governor-cyndi-munson",
+    "name": "Cyndi Munson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Munson's candidacy is confirmed by several outlets that list her as the Democratic nominee for the November 3, 2026 election. I found no sign she withdrew. The pages I fetched came back cut off, so most stances rely on search-result excerpts from News 9, News On 6, and Public Radio Tulsa. I did not open her campaign site or the state election board's candidate list. Her start year in the House (2015) comes from News 9. The data center and minimum wage stances come from news reports, not her own materials. The childcare, minimum wage, and Medicaid stances come from an August forum recap. The Public Radio Tulsa item (2026-09-18) is about 35 days old, so it falls inside the 45-day news window. The Frontier fact-check covers both candidates. If you want a source closer to her own words, the OETA debate video on PBS is available."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "or-governor-tina-kotek",
+    "name": "Tina Kotek",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed her candidacy through news coverage of the October 2026 debates and the Wikipedia race page, which lists Working Families as her alliance party. I did not check the Oregon Secretary of State ballot listing or her campaign site because of the tool budget. The history items (years in office) come from general knowledge, not a page opened during this request. Education is left out because I could not verify it. Please confirm these against an official source. I saw the 2026-10-13 executive order press release only in search results and did not open it. I left out a 2026-10-16 Fox News video about her response to the Bend school shooting because it is not about her platform. The 2026-10-20 Umatilla news item is about local reaction to her data center pause; I included it because it covers her own policy action. Several outlets covered the final debate in Bend, so I used only one of those stories. No other candidates' topics were given in the request. I chose topics that came up in the debates: housing, affordability, data centers, education, the economy, health care, immigration and elections."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "pa-governor-and-lieutenant-governor-josh-shapiro",
+    "name": "Josh Shapiro",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy: Spotlight PA confirms Shapiro is the Democratic nominee facing Stacy Garrity on the November 3 ballot. I found no sign that he withdrew. Sourcing: All stances come from Spotlight PA's debate recap (fetched) and its candidate guide. I fetched the guide, but the body did not come through, so the minimum-wage/guns/revenue stance relies on the search-result excerpt. I did not reach the campaign website or a VOTE411 or Ballotpedia questionnaire, so stances on energy and environment, abortion, and elections are missing. Please verify these items: (1) The history items (offices, years, education) come from my background knowledge, not sources opened in this request. (2) News dates are estimated from the search results' page age; the Inquirer date comes from its URL. (3) The Port of Philadelphia item is a Yahoo syndication, so the original outlet should be confirmed. (4) The Lt. Governor running mate, presumably Austin Davis, was not verified and is left out. I found no Ken Krawchuk material to align topics with."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "pa-governor-and-lieutenant-governor-stacy-garrity",
+    "name": "Stacy Garrity",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I did not open Garrity's campaign website or check the Department of State's list of certified candidates, so her ballot status rests on news coverage. Spotlight PA's September 14 guide says she and Shapiro face each other on the Nov. 3 ballot, and the October debate coverage confirms she is still running. Her running mate, Jason Richey, is confirmed only by January 2026 reports that she endorsed him before the primary. His spot as the lieutenant governor nominee on the joint ticket is assumed, so please check it against the Department of State list. Bloomsburg University comes from a Wikipedia search snippet; I did not find her degree or year. The positions on data centers and energy come from Axios and the Inquirer describing her campaign website. In the Axios questionnaire she declined to answer the data center and fracking questions. The Spotlight PA guide's issue-by-issue section was cut off when I fetched it, so it was not used. I left out the Pennsylvania Democratic Party's descriptions of her positions because they are opponent framing. The Inquirer date (2026-10-06) comes from the URL; the search tool listed the page as 13 days old, which would be about Oct. 10, so the exact publication date should be checked. The FOX 29 date is based on the search tool showing the page as one day old."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ri-governor-helena-buonanno-foulkes",
+    "name": "Helena Buonanno Foulkes",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Her Democratic nomination is confirmed by CNN's primary projection and by news coverage of the Oct. 20 three-way debate, which identifies her as the Democratic nominee. I did not check this against the RI Secretary of State or Board of Elections. The CNN story is from 2026-09-09, so it falls inside the 45-day news window. Sources disagree on the exact primary date: the Globe said Sept. 9, so I wrote 'September 2026.' The WPRI story's date (2026-10-17) is estimated from the search result's '6 days ago' and should be checked. The Boston Globe debate page loaded but showed only navigation text, so it is listed as news only. I took no stances from it. I left out education because I couldn't open a source for it during this request. Other news I saw but did not use: polling stories (horse-race coverage) and the CVS/DOJ $315M settlement. For the settlement, CVS admitted no wrongdoing, and the Rhode Island Current story says she was president of CVS Pharmacy for part of the period covered by the 2024 lawsuit. Topics that overlap with opponents for comparison: housing, pensions/COLAs, education, budget/taxes, judicial selection, sports betting."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ri-governor-aaron-c-guckian",
+    "name": "Aaron C. Guckian",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "His status as Republican nominee comes from Wikipedia, Smarter.Vote and current news coverage (WPRI calls him the 'Republican nominee'). I did not see official primary results from the RI Secretary of State or Board of Elections, so please check those. The WPRI 'Community Focus' date (2026-10-19) is worked out from the 'Monday' reference and the page age, so it is approximate. Three positions come from pages I saw only in search results, not pages I opened: energy (Yahoo), federal relations (WPRI) and state spending (Smarter.Vote, a third-party aggregator). The '$2,000 campaign account' figure in the RI Current launch article was from an older filing and is left out. I also left out horse-race material (polls showing him around 10%, calls for him to drop out) and his debate remarks about Speaker candidate David Morales. Pending items: in the Oct. 20 debate he said he had not released his tax returns but promised to, and his primary opponent Elaine Pelino said she was filing a complaint about undisclosed private-plane travel to a Florida fundraiser."
   }
 ]
