@@ -43,12 +43,21 @@ dl.stances dt { font-weight: 600; margin-top: 12px; }
 dl.stances dd { margin: 2px 0 0; }
 ul.plain { padding-left: 20px; }
 .cta { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none; padding: 10px 16px; border-radius: 8px; font-weight: 600; margin: 8px 0; }
+.signup { margin-top: 40px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.signup h2 { margin-top: 0; }
+.signup iframe { width: 100%; height: 72px; border: 0; background: transparent; }
 .states { columns: 3 160px; padding: 0; list-style: none; }
 footer { border-top: 1px solid var(--line); background: var(--surface); padding: 24px 0; font-size: 14px; color: var(--muted); }
 `;
 }
 
-function layout({ site, depth, title, description, canonical, body, jsonld }) {
+// Newsletter signup box, shown only once a beehiiv embed address is set in data/site.json.
+function signupBox(embed) {
+  if (!embed || !/^https:\/\/embeds\.beehiiv\.com\/[\w-]+(\?[\w=&-]*)?$/.test(embed)) return "";
+  return `<section class="signup"><h2>Get ballot reminders by email</h2><p class="muted">Key dates and a short, neutral rundown of your ballot. Free, no ads, unsubscribe anytime.</p><iframe src="${embed}" title="Newsletter signup" loading="lazy" frameborder="0" scrolling="no"></iframe></section>`;
+}
+
+function layout({ site, depth, title, description, canonical, body, jsonld, signup = "" }) {
   const up = "../".repeat(depth);
   return `<!doctype html>
 <html lang="en">
@@ -74,15 +83,18 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <header class="top"><div><a class="brand" href="${up}">Ballot Atlas</a><nav><a href="${up}">Map</a><a href="${up}states/">States</a><a href="${up}about/">About</a></nav></div></header>
 <main>
 ${body}
+${signup}
 </main>
-<footer><div>Ballot Atlas is a free, nonpartisan guide to the November 3, 2026 election. Candidate profiles are researched daily from public sources and written in neutral language. Always confirm with your election office before you vote. <a href="${up}about/">How this works</a></div></footer>
+<footer><div>Ballot Atlas is a free, nonpartisan guide to the November 3, 2026 election. Candidate profiles are researched daily from public sources and written in neutral language. Always confirm with your election office before you vote. <a href="${up}about/">How this works</a> · <a href="${up}privacy/">Privacy</a></div></footer>
 </body>
 </html>
 `;
 }
 
 function build({ root, data, styles }) {
-  const site = JSON.parse(fs.readFileSync(path.join(root, "data", "site.json"), "utf8")).url.replace(/\/$/, "");
+  const cfg = JSON.parse(fs.readFileSync(path.join(root, "data", "site.json"), "utf8"));
+  const site = cfg.url.replace(/\/$/, "");
+  const signup = signupBox(cfg.newsletterEmbed);
   const out = path.join(root, "dist");
   const write = (rel, html) => { fs.mkdirSync(path.join(out, path.dirname(rel)), { recursive: true }); fs.writeFileSync(path.join(out, rel), html); };
   const urls = [{ loc: `${site}/`, priority: "1.0" }];
@@ -130,7 +142,7 @@ function build({ root, data, styles }) {
 ${counties ? `<h2>County and U.S. House races</h2>${counties}` : ""}
 ${measures}`;
     const canonical = `${site}/states/${s}/`;
-    write(`states/${s}/index.html`, layout({ site, depth: 2, title, description, canonical, body,
+    write(`states/${s}/index.html`, layout({ site, depth: 2, title, description, canonical, body, signup,
       jsonld: { "@context": "https://schema.org", "@type": "Event", name: `${st.name} general election`, startDate: "2026-11-03", eventStatus: "https://schema.org/EventScheduled", location: { "@type": "Place", name: st.name, address: { "@type": "PostalAddress", addressRegion: st.name, addressCountry: "US" } }, url: canonical } }));
     urls.push({ loc: canonical, priority: "0.9" });
   }
@@ -160,7 +172,7 @@ ${others.length ? `<h2>Also running for ${esc(race.office)}</h2><ul class="plain
 ${c.sources.length ? `<h2>Sources</h2><ul class="plain">${c.sources.map(s => `<li><a href="${esc(s.url)}" rel="noopener nofollow">${esc(s.label)}</a></li>`).join("")}</ul>` : ""}
 <p class="muted">${c.lastResearched ? `Last researched ${fmt(c.lastResearched)}. ` : ""}Written in neutral language from the sources above. Spot an error? See <a href="../../about/">how to report it</a>.</p>`;
     const canonical = `${site}/candidates/${c.page}/`;
-    write(`candidates/${c.page}/index.html`, layout({ site, depth: 2, title, description, canonical, body,
+    write(`candidates/${c.page}/index.html`, layout({ site, depth: 2, title, description, canonical, body, signup,
       jsonld: { "@context": "https://schema.org", "@type": "Person", name: c.name, jobTitle: c.occupation || undefined, affiliation: /^(Democratic|Republican|Libertarian|Green|Constitution)$/.test(c.party) ? { "@type": "Organization", name: `${c.party} Party` } : undefined, description: c.summary || undefined, url: canonical } }));
     urls.push({ loc: canonical, priority: "0.7", lastmod: c.lastResearched });
   }
@@ -188,13 +200,26 @@ ${c.sources.length ? `<h2>Sources</h2><ul class="plain">${c.sources.map(s => `<l
 <p>Always confirm your registration, polling place and ballot with your state or county election office, or at <a href="https://vote.gov">vote.gov</a>.</p>` }));
   urls.push({ loc: `${site}/about/`, priority: "0.5" });
 
+  // Privacy page.
+  write("privacy/index.html", layout({ site, depth: 1, title: "Privacy | Ballot Atlas", description: "What Ballot Atlas collects and why.", canonical: `${site}/privacy/`, body: `<p class="crumbs"><a href="../">Map</a> › Privacy</p>
+<h1>Privacy</h1>
+<p class="lede">Short version: browsing Ballot Atlas doesn't require an account, and we don't sell personal information.</p>
+<h2>Browsing</h2>
+<p>The site has no logins and sets no advertising or tracking cookies. Our host, GitHub Pages, keeps standard server logs (such as IP addresses) for security. Fonts load from Google Fonts.</p>
+<h2>Email newsletter</h2>
+<p>If you sign up for reminders, your email address (and your state, if you choose to share it) is stored by our newsletter provider, beehiiv, and used only to send Ballot Atlas emails. Every email has an unsubscribe link. We never sell or share the list, and we never give it to campaigns, parties or political committees. See <a href="https://www.beehiiv.com/privacy" rel="noopener">beehiiv's privacy policy</a> for how they handle data.</p>
+<h2>Questions or deletion requests</h2>
+<p>Open an issue at <a href="https://github.com/Zaied-bayati/ballot-atlas/issues">github.com/Zaied-bayati/ballot-atlas/issues</a>, or unsubscribe from any email to be removed from the list.</p>
+<p class="muted">Last updated October 23, 2026.</p>` }));
+  urls.push({ loc: `${site}/privacy/`, priority: "0.3" });
+
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${esc(u.loc)}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ""}<priority>${u.priority}</priority></url>`).join("\n")}
 </urlset>
 `);
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`);
-  return { pages: urls.length, states: states.map(s => ({ name: s.st.name, slug: s.slug })), site };
+  return { pages: urls.length, states: states.map(s => ({ name: s.st.name, slug: s.slug })), site, signup };
 }
 
 module.exports = { build, slug };

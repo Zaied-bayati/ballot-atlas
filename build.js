@@ -18,7 +18,7 @@ const site = pages.site;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const description = "See what's on your 2026 ballot: election dates, every race, and neutral, sourced profiles of each candidate, updated daily.";
 // Plain links under the map so crawlers (and people without JavaScript) can reach every state page.
-const footer = `<footer class="site-footer"><nav aria-label="States"><strong>Ballots by state:</strong> ${pages.states.map(s => `<a href="states/${s.slug}/">${esc(s.name)}</a>`).join(" · ")} · <a href="states/">All states</a> · <a href="about/">How this works</a></nav></footer>`;
+const footer = `<footer class="site-footer"><nav aria-label="States"><strong>Ballots by state:</strong> ${pages.states.map(s => `<a href="states/${s.slug}/">${esc(s.name)}</a>`).join(" · ")} · <a href="states/">All states</a> · <a href="about/">How this works</a> · <a href="privacy/">Privacy</a></nav>${pages.signup.replace('<section class="signup">', '<section class="signup site-signup">')}</footer>`;
 
 // Standalone page for GitHub Pages: the same content inside a full HTML document.
 const page = `<!doctype html>
