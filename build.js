@@ -5,15 +5,23 @@ const read = p => fs.readFileSync(__dirname + "/" + p, "utf8");
 // Built first because it gives each candidate a readable page address the map links to.
 const { build: buildPages } = require("./src/pages.js");
 const data = JSON.parse(read("data/ballot.json"));
-const pages = buildPages({ root: __dirname, data, styles: read("src/styles.css") });
-// Unprojected (longitude/latitude) geometry, so the app can draw it on a rotating globe.
-const topo = JSON.stringify(JSON.parse(read("vendor/counties-10m.json")));
-const land = JSON.stringify(JSON.parse(read("vendor/land-110m.json")));
+
+// Unprojected (longitude/latitude) geometry for the globe: simplified outlines for the zoomed-out
+// view (see scripts/globe-lite.js) and the detailed county topology for zooming in.
+// Embedded as JSON blocks, so "<" is escaped to keep them from closing their script tag.
+const asJson = obj => JSON.stringify(obj).replace(/</g, "\\u003c");
+const topo = asJson(JSON.parse(read("vendor/counties-10m.json")));
+const lite = asJson(JSON.parse(read("vendor/globe-lite.json")));
+// The marble texture: inlined into the single-file page, a file next to the static pages' CSS.
+const marbleJpg = fs.readFileSync(__dirname + "/vendor/marble.jpg");
+const styles = read("src/styles.css");
+const pages = buildPages({ root: __dirname, data, styles: styles.replace("/*MARBLE*/", "marble.jpg") });
+fs.writeFileSync(__dirname + "/dist/assets/marble.jpg", marbleJpg);
 let html = read("src/index.html");
-html = html.replace("/*STYLES*/", () => read("src/styles.css"))
+html = html.replace("/*STYLES*/", () => styles.replace("/*MARBLE*/", "data:image/jpeg;base64," + marbleJpg.toString("base64")))
+  .replace("/*LITE*/", () => lite)
   .replace("/*TOPO*/", () => topo)
-  .replace("/*LAND*/", () => land)
-  .replace("/*DATA*/", () => "window.BALLOT_DATA = " + JSON.stringify(data).replace(/</g, "\\u003c") + ";")
+  .replace("/*DATA*/", () => asJson(data))
   .replace("/*APP*/", () => read("src/app.js"));
 fs.mkdirSync(__dirname + "/dist", { recursive: true });
 fs.writeFileSync(__dirname + "/dist/ballot-atlas.html", html);

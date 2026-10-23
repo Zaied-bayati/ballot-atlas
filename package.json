@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.131.0"
+  },
+  "devDependencies": {
+    "topojson-client": "3.1.0",
+    "topojson-simplify": "3.0.3"
   }
 }
