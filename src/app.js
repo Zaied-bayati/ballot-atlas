@@ -3,27 +3,55 @@
 
   const DATA = window.BALLOT_DATA;
   const topo = window.US_TOPO;
-  const W = 975, H = 610;
   const LEVELS = [["federal", "Federal"], ["state", "State"], ["courts", "State courts"], ["county", "County"]];
 
-  const states = topojson.feature(topo, topo.objects.states).features;
-  const counties = topojson.feature(topo, topo.objects.counties).features;
+  // The 50 states and DC (FIPS codes below 60); territories aren't covered.
+  const inStates = id => id.slice(0, 2) < "60";
+  const states = topojson.feature(topo, topo.objects.states).features.filter(f => inStates(f.id));
+  const counties = topojson.feature(topo, topo.objects.counties).features.filter(f => inStates(f.id));
+  const land = topojson.feature(window.WORLD_LAND, window.WORLD_LAND.objects.land);
   const stateById = new Map(states.map(f => [f.id, f]));
-  const path = d3.geoPath();
+
+  // ---------- Globe ----------
+  // An orthographic projection: drag rotates it, scroll and pinch change its scale.
+  const projection = d3.geoOrthographic().precision(0.3);
+  const path = d3.geoPath(projection);
+  const globe = { rotate: [40, -20, 0], scale: 300 };
+  let W = 800, H = 600, base = 300;
+  const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // view: "us" | "state-choice" | "state" | "county"
   const ui = { view: "us", stateId: null, countyId: null, district: null };
 
+  const frame = document.getElementById("map-frame");
   const svg = d3.select("#map");
-  const zoomLayer = svg.append("g");
-  const statesLayer = zoomLayer.append("g");
-  const countiesLayer = zoomLayer.append("g").attr("class", "counties");
-  const outlineLayer = zoomLayer.append("g");
+  const defs = svg.append("defs");
+  const grad = (id, stops, attrs = {}) => {
+    const g = defs.append("radialGradient").attr("id", id);
+    Object.entries(attrs).forEach(([k, v]) => g.attr(k, v));
+    stops.forEach(([o, c, a]) => g.append("stop").attr("offset", o).attr("stop-color", c).attr("stop-opacity", a ?? 1));
+  };
+  grad("ocean", [["0%", "#24563f"], ["70%", "#143a2b"], ["100%", "#0a2018"]], { cx: "42%", cy: "38%", r: "65%" });
+  grad("glow", [["86%", "#1d4a37", 0.35], ["93%", "#1d4a37", 0.12], ["100%", "#1d4a37", 0]]);
+  grad("shine", [["0%", "#ffffff", 0.28], ["45%", "#ffffff", 0.06], ["100%", "#ffffff", 0]], { cx: "35%", cy: "28%", r: "70%" });
+  grad("shade", [["60%", "#000000", 0], ["100%", "#000000", 0.35]]);
+
+  const glow = svg.append("circle").attr("class", "globe-glow").attr("fill", "url(#glow)");
+  const spherePath = svg.append("path").attr("class", "globe-sphere").attr("fill", "url(#ocean)").datum({ type: "Sphere" });
+  const gratPath = svg.append("path").attr("class", "graticule").datum(d3.geoGraticule10());
+  const landPath = svg.append("path").attr("class", "world-land").datum(land);
+  const statesLayer = svg.append("g");
+  const countiesLayer = svg.append("g").attr("class", "counties");
+  const outlineLayer = svg.append("g");
+  const shade = svg.append("circle").attr("class", "globe-shine").attr("fill", "url(#shade)");
+  const shine = svg.append("circle").attr("class", "globe-shine").attr("fill", "url(#shine)");
+
   const tip = document.getElementById("tip");
   const panel = document.getElementById("panel");
   const drawer = document.getElementById("drawer");
   const drawerBody = document.getElementById("drawer-body");
   const mapBack = document.getElementById("map-back");
+  const hint = document.getElementById("map-hint");
 
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const stateData = id => DATA.states[id] || null;
@@ -32,28 +60,25 @@
   const initials = name => name.split(/\s+/).map(p => p[0]).slice(0, 2).join("");
   const lastName = name => name.split(/\s+/).slice(-1)[0];
 
-  // ---------- Map ----------
   statesLayer.selectAll("path")
     .data(states)
     .join("path")
     .attr("class", d => "state" + (stateData(d.id) ? " has-data" : ""))
-    .attr("d", path)
     .attr("tabindex", 0)
     .attr("role", "button")
     .attr("aria-label", d => d.properties.name + (stateData(d.id) ? ", ballot data available" : ""))
     .on("click", (e, d) => selectState(d.id))
     .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectState(d.id); } })
-    .on("mousemove", (e, d) => showTip(e, d.properties.name + (stateData(d.id) ? " · ballot data" : "")))
+    .on("mousemove", (e, d) => showTip(e, d.properties.name))
     .on("mouseleave", hideTip);
 
   const covered = states.filter(f => stateData(f.id)).map(f => f.properties.name).sort();
-  const coveredList = covered.length > 1 ? covered.slice(0, -1).join(", ") + " and " + covered[covered.length - 1] : covered[0];
-
-  document.getElementById("legend").innerHTML =
-    '<span><i style="background:var(--accent-soft)"></i>Ballot data</span><span><i style="background:var(--land)"></i>Coming later</span>';
+  const coveredList = covered.length === states.length ? "all 50 states and DC"
+    : covered.length > 1 ? covered.slice(0, -1).join(", ") + " and " + covered[covered.length - 1] : covered[0];
 
   function showTip(e, text) {
-    const r = svg.node().parentNode.getBoundingClientRect();
+    if (frame.classList.contains("grabbing")) return;
+    const r = frame.getBoundingClientRect();
     tip.textContent = text;
     tip.style.left = (e.clientX - r.left) + "px";
     tip.style.top = (e.clientY - r.top) + "px";
@@ -61,15 +86,132 @@
   }
   function hideTip() { tip.hidden = true; }
 
-  function zoomTo(feature, fill, maxScale) {
-    let t = d3.zoomIdentity;
-    if (feature) {
-      const [[x0, y0], [x1, y1]] = path.bounds(feature);
-      const k = Math.min(maxScale, fill / Math.max((x1 - x0) / W, (y1 - y0) / H));
-      t = d3.zoomIdentity.translate(W / 2 - k * (x0 + x1) / 2, H / 2 - k * (y0 + y1) / 2).scale(k);
-    }
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    zoomLayer.transition().duration(reduce ? 0 : 750).ease(d3.easeCubicInOut).attr("transform", t.toString());
+  // Redraw everything at the current rotation and scale. Paths on the far side come back
+  // null; hiding them also takes them out of the keyboard tab order.
+  function draw() {
+    projection.rotate(globe.rotate).scale(globe.scale).translate([W / 2, H / 2]);
+    const k = globe.scale / base;
+    const halo = Math.max(0, Math.min(1, (3 - k) / 2));
+    [glow, shade, shine].forEach(c => c.attr("cx", W / 2).attr("cy", H / 2));
+    glow.attr("r", globe.scale * 1.12).attr("opacity", halo);
+    shade.attr("r", globe.scale).attr("opacity", halo);
+    shine.attr("r", globe.scale).attr("opacity", halo);
+    spherePath.attr("d", path);
+    gratPath.attr("d", path).attr("opacity", halo);
+    landPath.attr("d", path);
+    const put = sel => sel.each(function (d) { const p = path(d); this.setAttribute("d", p || ""); this.style.visibility = p ? "" : "hidden"; });
+    put(statesLayer.selectAll("path"));
+    put(countiesLayer.selectAll("path"));
+    put(outlineLayer.selectAll("path"));
+  }
+  let queued = false;
+  const schedule = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; draw(); }); } };
+
+  // The rotation and scale that center a feature and make it fill `fill` of the frame.
+  function fit(feature, fill, maxScale = Infinity) {
+    const [lon, lat] = d3.geoCentroid(feature);
+    const rotate = [-lon, -lat, 0];
+    const p = d3.geoOrthographic().rotate(rotate).scale(1).translate([0, 0]);
+    const [[x0, y0], [x1, y1]] = d3.geoPath(p).bounds(feature);
+    const scale = Math.min(fill * W / (x1 - x0), fill * H / (y1 - y0), maxScale);
+    return { rotate, scale: Math.max(scale, base * 0.7) };
+  }
+  // Home view: the whole globe, turned to face the lower 48.
+  const usView = () => ({ rotate: [97, -36, 0], scale: base * 1.02 });
+
+  // Drag (mouse or one finger) spins the globe; wheel, pinch and the buttons zoom it.
+  // Only the change between zoom events is used, so flights never need to sync d3.zoom's own transform.
+  let last = d3.zoomIdentity;
+  const clampScale = s => Math.max(base * 0.7, Math.min(base * 400, s));
+  const zoom = d3.zoom()
+    .scaleExtent([1e-9, 1e9])
+    .clickDistance(5)
+    .on("start", e => {
+      if (!e.sourceEvent) return;
+      svg.interrupt("fly");
+      hideTip();
+      hint.classList.add("gone");
+      if (e.sourceEvent.type !== "wheel") frame.classList.add("grabbing");
+    })
+    .on("zoom", e => {
+      const t = e.transform;
+      const type = e.sourceEvent && e.sourceEvent.type;
+      if (type && type !== "wheel" && type !== "dblclick" && t.k === last.k) {
+        const perPx = 180 / Math.PI / globe.scale;
+        globe.rotate = [globe.rotate[0] + (t.x - last.x) * perPx, Math.max(-89, Math.min(89, globe.rotate[1] - (t.y - last.y) * perPx)), 0];
+      }
+      const scale = clampScale(globe.scale * t.k / last.k);
+      // Zoom toward the pointer: turn the globe so the spot under it stays put.
+      const at = type === "wheel" && d3.pointer(e.sourceEvent, svg.node());
+      const spot = at && projection.invert(at);
+      globe.scale = scale;
+      if (spot && !isNaN(spot[0])) {
+        const [x, y] = projection.scale(scale)(spot);
+        const perPx = 180 / Math.PI / scale;
+        globe.rotate = [globe.rotate[0] + (at[0] - x) * perPx, Math.max(-89, Math.min(89, globe.rotate[1] - (at[1] - y) * perPx)), 0];
+      }
+      last = t;
+      schedule();
+    })
+    .on("end", () => frame.classList.remove("grabbing"));
+  svg.call(zoom).on("dblclick.zoom", null);
+
+  // Fly to a view: rotate along the short way round, and pull back mid-flight on long hops.
+  function fly(target, duration = 900) {
+    svg.interrupt("fly");
+    const r0 = globe.rotate.slice(), s0 = globe.scale;
+    const r1 = target.rotate.slice();
+    r1[0] = r0[0] + ((((r1[0] - r0[0]) % 360) + 540) % 360 - 180);
+    const ir = d3.interpolate(r0, r1);
+    const ls0 = Math.log(s0), ls1 = Math.log(target.scale);
+    const hop = d3.geoDistance([-r0[0], -r0[1]], [-r1[0], -r1[1]]);
+    const dip = Math.min(0.55, hop * 0.9) * Math.min(1, Math.min(s0, target.scale) / base / 2);
+    if (reduceMotion()) duration = 0;
+    svg.transition("fly").duration(duration).ease(d3.easeCubicInOut)
+      .tween("globe", () => t => {
+        globe.rotate = ir(t);
+        globe.scale = Math.exp(ls0 + (ls1 - ls0) * t) * (1 - dip * Math.sin(Math.PI * t));
+        draw();
+      });
+  }
+
+  function resize() {
+    const r = frame.getBoundingClientRect();
+    if (!r.width || !r.height) return;
+    const k = globe.scale / base;
+    W = r.width; H = r.height;
+    base = Math.min(W, H) * 0.44;
+    globe.scale = base * k;
+    svg.attr("viewBox", `0 0 ${W} ${H}`);
+    draw();
+  }
+  new ResizeObserver(resize).observe(frame);
+
+  function zoomBy(f) { hint.classList.add("gone"); svg.interrupt("fly"); svg.transition().duration(reduceMotion() ? 0 : 350).call(zoom.scaleBy, f); }
+  document.getElementById("zoom-in").addEventListener("click", () => zoomBy(1.8));
+  document.getElementById("zoom-out").addEventListener("click", () => zoomBy(1 / 1.8));
+  document.getElementById("recenter").addEventListener("click", () => fly(currentView()));
+
+  // Arrow keys spin the globe and +/- zoom it when it has focus.
+  svg.on("keydown", e => {
+    if (e.target !== svg.node()) return;
+    const step = 40 * 180 / Math.PI / globe.scale;
+    const turn = { ArrowLeft: [step, 0], ArrowRight: [-step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[e.key];
+    if (turn) {
+      e.preventDefault();
+      globe.rotate = [globe.rotate[0] + turn[0], Math.max(-89, Math.min(89, globe.rotate[1] + turn[1])), 0];
+      schedule();
+    } else if (e.key === "+" || e.key === "=") zoomBy(1.5);
+    else if (e.key === "-") zoomBy(1 / 1.5);
+  });
+
+  function currentView() {
+    if (!ui.stateId) return usView();
+    const st = stateById.get(ui.stateId);
+    const sv = fit(st, 0.86, base * 120);
+    if (!ui.countyId) return sv;
+    // Zoom toward the county but keep the surrounding state in view.
+    return fit(counties.find(c => c.id === ui.countyId), 0.4, sv.scale * 2.2);
   }
 
   function drawCounties(sid) {
@@ -78,11 +220,11 @@
       .data(list, d => d.id)
       .join("path")
       .attr("class", d => "county" + (countyData(sid, d.id) ? " has-data" : ""))
-      .attr("d", path)
       .on("click", (e, d) => selectCounty(d.id))
       .on("mousemove", (e, d) => showTip(e, d.properties.name + " County" + (countyData(sid, d.id) ? " · local races" : "")))
       .on("mouseleave", hideTip);
-    outlineLayer.selectAll("path").data(sid ? [stateById.get(sid)] : []).join("path").attr("class", "state-outline").attr("d", path);
+    outlineLayer.selectAll("path").data(sid ? [stateById.get(sid)] : []).join("path").attr("class", "state-outline");
+    draw();
   }
 
   function paintMap() {
@@ -94,7 +236,7 @@
     countiesLayer.classed("choosing", ui.view === "state-choice");
     mapBack.hidden = !sid;
     document.getElementById("map-back-label").textContent = ui.countyId ? stateById.get(sid).properties.name : "All states";
-    svg.attr("aria-label", sid ? `Map of ${stateById.get(sid).properties.name}. Select a county.` : "Map of the United States. Select a state.");
+    svg.attr("aria-label", sid ? `Globe zoomed to ${stateById.get(sid).properties.name}. Select a county.` : "Globe centered on the United States. Select a state.");
   }
 
   // ---------- Navigation ----------
@@ -105,18 +247,13 @@
     const sd = stateData(sid);
     ui.stateId = sid; ui.countyId = null; ui.view = sd && !Object.keys(sd.counties || {}).length ? "state" : "state-choice";
     drawCounties(sid);
-    zoomTo(stateById.get(sid), 0.88, 12);
+    fly(currentView(), 1100);
     render();
   }
   function selectCounty(cid) {
     hideTip();
     ui.countyId = cid; ui.view = "county";
-    const f = counties.find(c => c.id === cid);
-    const st = stateById.get(ui.stateId);
-    // Zoom toward the county but keep the surrounding state in view.
-    const [[sx0, sy0], [sx1, sy1]] = path.bounds(st);
-    const stateScale = 0.88 / Math.max((sx1 - sx0) / W, (sy1 - sy0) / H);
-    zoomTo(f, 0.4, stateScale * 2.2);
+    fly(currentView());
     render();
   }
   // The address bar carries the state (e.g. #florida) so a state view can be shared.
@@ -127,16 +264,23 @@
     setHash(null);
     ui.stateId = null; ui.countyId = null; ui.view = "us";
     drawCounties(null);
-    zoomTo(null);
+    fly(usView(), 1100);
     render();
   }
   function goStateLevel() {
     ui.countyId = null; ui.view = "state";
-    zoomTo(stateById.get(ui.stateId), 0.88, 12);
+    fly(currentView());
     render();
   }
   mapBack.addEventListener("click", () => (ui.countyId ? goStateLevel() : goUS()));
   document.getElementById("brand-home").addEventListener("click", e => { e.preventDefault(); goUS(); });
+
+  // Days until Election Day, in the top bar.
+  const eday = new Date("2026-11-03T00:00:00");
+  const daysLeft = Math.ceil((eday - new Date().setHours(0, 0, 0, 0)) / 864e5);
+  document.getElementById("countdown").innerHTML = daysLeft > 0
+    ? `<span class="long">Election Day · Nov 3 ·</span> <b>${daysLeft}</b> day${daysLeft === 1 ? "" : "s"} left`
+    : daysLeft === 0 ? "<b>Election Day is today</b>" : "<span>Nov 3, 2026 general election</span>";
 
   // ---------- Panel ----------
   function render() {
@@ -146,6 +290,8 @@
     else if (ui.view === "state-choice") panel.innerHTML = viewChoice();
     else if (ui.view === "state") panel.innerHTML = viewBallot(false);
     else panel.innerHTML = viewBallot(true);
+    panel.insertAdjacentHTML("beforeend", `<p class="panel-foot">Nonpartisan and sourced, updated daily. Always confirm with your election office before you vote.</p>`);
+    panel.scrollTop = 0;
     wirePanel();
   }
 
@@ -167,20 +313,20 @@
       .map(s => `<option value="${s.id}">${esc(s.properties.name)}${stateData(s.id) ? " (loaded)" : ""}</option>`).join("");
     return `
       <div>
-        <div class="eyebrow">Your ballot, on a map</div>
+        <div class="eyebrow">November 3, 2026 general election</div>
         <h1>See what's on your ballot, from county races to Congress.</h1>
-        <p class="lede">Pick your state on the map to see upcoming election dates, every race you can vote in, where to vote, and neutral summaries of each candidate.</p>
+        <p class="lede">Spin the globe and tap your state, or pick it below. You'll see key dates, every race you can vote in, where to vote, and neutral summaries of each candidate.</p>
       </div>
       <div class="field">
         <label for="state-pick">Or choose a state from the list</label>
         <select id="state-pick"><option value="">Select a state…</option>${opts}</select>
       </div>
       <div class="howto">
-        <div><b>1. Pick a state</b>The map zooms in and shows its counties.</div>
-        <div><b>2. Stay statewide or pick a county</b>County view adds local races and polling places.</div>
-        <div><b>3. Open a candidate</b>Read their goals, background and recent news, with sources.</div>
+        <div><b>Pick a state</b>The globe flies there and shows its counties.</div>
+        <div><b>Stay statewide or pick a county</b>County view adds local races and polling places.</div>
+        <div><b>Open a candidate</b>Read their goals, background and recent news, with sources.</div>
       </div>
-      <p class="note">Ballot data is loaded for ${esc(coveredList)}. More states are being added.</p>`;
+      <p class="note">Ballot data is loaded for ${esc(coveredList)}.${covered.length < states.length ? " More states are being added." : ""}</p>`;
   }
 
   function viewChoice() {
@@ -196,7 +342,7 @@
         <p class="lede">Statewide races are the same for every voter in ${name}. Your county adds U.S. House, county offices and polling places.</p>
       </div>
       <div class="choice-grid">
-        <button class="choice" type="button" data-act="state-level">
+        <button class="choice primary" type="button" data-act="state-level">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <strong>Stay at state level</strong>
           <span>Dates, statewide races and ballot measures</span>
@@ -204,7 +350,7 @@
         <button class="choice" type="button" data-act="pick-county">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.5" r="2.5" fill="currentColor"/></svg>
           <strong>Choose my county</strong>
-          <span>Tap it on the map or search below</span>
+          <span>Tap it on the globe or search below</span>
         </button>
       </div>
       <div class="field">
@@ -360,7 +506,6 @@
         if (ui.view !== "state-choice") { ui.view = "state-choice"; render(); }
         countiesLayer.classed("choosing", false); void countiesLayer.node().getBoundingClientRect(); countiesLayer.classed("choosing", true);
         document.getElementById("county-search")?.focus({ preventScroll: true });
-        document.querySelector(".map-wrap").scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }));
     panel.querySelectorAll("[data-county]").forEach(b => b.addEventListener("click", () => selectCounty(b.dataset.county)));
@@ -440,5 +585,7 @@
   drawer.addEventListener("click", e => { if (e.target === drawer) drawer.close(); });
 
   const fromHash = states.find(f => slugify(f.properties.name) === location.hash.slice(1));
-  if (fromHash) selectState(fromHash.id); else render();
+  resize();
+  if (fromHash) selectState(fromHash.id);
+  else { render(); fly(usView(), 1800); }
 })();

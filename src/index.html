@@ -7,38 +7,41 @@
 /*STYLES*/
 </style>
 
+<div class="app">
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="#" id="brand-home" aria-label="Ballot Atlas, back to the national map">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 12l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <a class="brand" href="#" id="brand-home" aria-label="Ballot Atlas, back to the globe">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#d9c592" stroke-width="1.6"/><path d="M2.5 16h27M16 2.5c4 3.8 6 8.3 6 13.5s-2 9.7-6 13.5M16 2.5c-4 3.8-6 8.3-6 13.5s2 9.7 6 13.5" fill="none" stroke="#d9c592" stroke-width="1.1" opacity=".55"/><path d="M10.5 16.5l3.6 3.6 7.6-8" fill="none" stroke="#f6f3ea" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span>Ballot Atlas</span>
     </a>
     <nav class="crumbs" id="crumbs" aria-label="Location"></nav>
+    <span class="countdown" id="countdown"></span>
   </div>
 </header>
 
-<div class="sample-ribbon" role="note">
-  <div class="ribbon-inner">
-    <strong>November 3, 2026 general election.</strong>
-    Texas is fully loaded; more states are being added, starting with their U.S. Senate and governor races. Always confirm with your election office before you vote.
-  </div>
-</div>
-
 <main class="layout">
-  <section class="map-wrap" aria-label="Map">
-    <div class="map-frame">
-      <svg id="map" viewBox="0 0 975 610" role="img" aria-label="Map of the United States. Select a state."></svg>
+  <section class="map-wrap" aria-label="Globe">
+    <div class="map-frame" id="map-frame">
+      <svg id="map" role="img" tabindex="0" aria-label="Globe centered on the United States. Select a state." aria-describedby="map-hint"></svg>
       <div class="map-tip" id="tip" hidden></div>
-      <div class="map-legend" id="legend"></div>
       <button class="map-back" id="map-back" type="button" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span id="map-back-label">All states</span>
       </button>
+      <div class="map-controls" role="group" aria-label="Globe controls">
+        <button type="button" id="zoom-in" aria-label="Zoom in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <button type="button" id="zoom-out" aria-label="Zoom out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <button type="button" id="recenter" aria-label="Recenter on the selection"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      </div>
+      <div class="map-hint" id="map-hint">Drag to spin · scroll or pinch to zoom · tap a state</div>
     </div>
   </section>
 
-  <aside class="panel" id="panel" aria-live="polite"></aside>
+  <div class="panel-shell">
+    <aside class="panel" id="panel" aria-live="polite" tabindex="-1"></aside>
+  </div>
 </main>
+</div>
 
 <dialog id="drawer" class="drawer" aria-labelledby="drawer-title">
   <div class="drawer-inner" id="drawer-body"></div>
@@ -47,6 +50,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script>window.US_TOPO = /*TOPO*/;</script>
+<script>window.WORLD_LAND = /*LAND*/;</script>
 <script>
 /*DATA*/
 </script>
