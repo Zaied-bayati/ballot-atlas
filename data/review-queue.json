@@ -932,5 +932,1067 @@
     "applied": true,
     "problems": [],
     "notes": "I did not see the official certified candidate list or a sample ballot. A sample ballot is available through the MyscVOTES login (vrems.scvotes.sc.gov), but I could not reach it. U.S. SENATE: The candidate list is incomplete. Several sources say Sen. Lindsey Graham died July 11, 2026, and that Gov. McMaster appointed his sister Darline Graham on July 13: WBTV (Oct. 20, the page I fetched and the race's source_url), the Wikipedia search snippet and the Cook Political Report snippet. They also say she beat Ralph Norman in the August special GOP runoff and faces Democrat Annie Andrews. I listed only those two nominees. WBTV calls her 'Darline Graham Nordone' while other sources say 'Darline Graham', so the name printed on the ballot needs checking. A Ballotpedia search snippet (updated about 1 day ago) also listed Jason Brenkus (L), Kasie Whitener (L), Jack Ellison (Independent), Cindy Glaser (Independent) and more names that were cut off. My fetch of that page timed out and I ran out of tool budget, so I could not confirm the full list. Two Libertarians in one race is unusual and may be a data error or reflect a withdrawal, so I left all of them out. Confirm the full Senate list from the SEC certified list before publishing. GOVERNOR: The Ballotpedia page I fetched lists Jermaine Johnson/Sam Skardon (D), Alan Wilson/Mike Reichenbach (R), Walid Hakim (G, no running mate shown) and Michael Addison/Candace Brewer (United Citizens Party). Wikipedia and WBTV confirm the Wilson and Johnson nominations. Ballot party labels are assumed to be 'Republican', 'Democratic', 'Green' and 'United Citizens', so confirm the printed labels and Hakim's running mate. DATES: Early voting dates and hours come from the SEC press release. The registration deadlines (Oct. 2 in person, Oct. 4 online, Oct. 5 mail postmark) come from Vote411, and ABC News 4 also gives Oct. 4. The Oct. 23 absentee application deadline comes from the WBTV and ABC News 4 search snippets. Polling hours of 7 a.m. to 7 p.m. come from Ballotpedia. WBTV gives the absentee return deadline as 7:30 p.m., but state law says 7 p.m., so I wrote 'close of polls'. Today (Oct. 23) is the absentee application deadline."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "de-u-s-senator-chris-coons",
+    "name": "Chris Coons",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "WHYY reports confirm Coons won the Sept. 15, 2026 Democratic primary and faces Mike Katz on Nov. 3. Most positions come from Delaware LIVE's report on the Oct. 22 Rotary Club forum. I didn't open Coons's campaign site or any questionnaire, so these are positions as the reporter summarized them, not his own wording. Three background items weren't verified in this session and should be checked before publishing: his years on the county council and as county executive, and his education. They are labeled that way in the history list. News dates were worked out from the search engine's 'days ago' labels, so they could be off by about a day. I left out the Iran nuclear deal, which came up only as Katz's criticism of Coons, and Israel aid, because the article gave no Coons stance on it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "de-u-s-senator-michael-dr-mike-katz",
+    "name": "Michael \"Dr. Mike\" Katz",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Katz's candidacy is confirmed: WHYY and Fox News report he won the Sept. 15, 2026 GOP primary, and he appeared with Coons at an Oct. 22 forum. I found no sign he withdrew. 1) Unverified details: I did not open Wikipedia, so I could not confirm his exact state Senate term years. The 2012 date comes from a caption on his campaign site; please check the dates and district. 2) Platform sections not reviewed: the campaign platform page got cut off before the sections on border security, voter integrity, the Second Amendment, women's sports, law and order, and 'weaponization of government.' Those stances are not included and may be worth adding. 3) Dates to check: the WDEL article date (2026-09-29) is estimated from the search result's '24 days ago' and should be confirmed. 4) Wording choices: I rewrote positions in neutral language and left out the campaign's judging terms (for example, 'failed economic prescription'). 5) Budget: all 3 fetches and 2 of 5 searches were used."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "id-u-s-senator-jim-risch",
+    "name": "Jim Risch",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Every stance comes from one fetched article: an October 22, 2026 candidate roundup on Yahoo News. It appears to be reprinted from a local Idaho paper that I didn't identify, so the outlet name may need correcting. The Wikipedia race page I saw in search results lists Risch as the Republican nominee against Todd Achilles. I didn't find any sign he withdrew. I only used 1 search and 1 fetch, so I did not check the official Idaho Secretary of State candidate list, his campaign site, or his education and earlier offices (such as Idaho governor and state senate). Please verify those and add them to the background list. The news list has only one item because I didn't run a separate news search."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ia-united-states-senator-josh-turek",
+    "name": "Josh Turek",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed through multiple news reports of the October 7 and October 13 general-election debates against Hinson. I did not check an official Iowa Secretary of State ballot listing. Some news dates were estimated, not read from the pages: Our Quad Cities was worked out from a search result showing '3 days ago'; C-SPAN was worked out from '24 days ago', so it may be off by a day. Please verify those two. Newsweek (Oct 13) and Iowa Capital Dispatch and KTTC (dates in the URLs) are reliable. Biographical details come from Wikipedia, seen only in a search snippet, and the campaign site. The Senate seat being open because Ernst is retiring is confirmed by The Hill and PBS. The campaign platform describes Iowa's abortion law as an 'extreme, near-total' ban, so the abortion stance uses neutral wording instead. I left out the NRSC's criticism of his farm voting record and the debate discussion of his missed votes in the Iowa House because they are opponents' characterizations; the missed votes could be added as a neutral fact if wanted. I found no Ballotpedia or VOTE411 questionnaire within the tool budget."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ia-united-states-senator-ashley-hinson",
+    "name": "Ashley Hinson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: The Gazette (2026-10-20) lists Hinson as running in the Nov. 3 general election against Turek and Laehn. I found no sign she withdrew. The Gazette questionnaire page came back with only navigation and metadata, so its answers (age 43, occupation 'Member of Congress') are known only from a search snippet and I didn't use it for stances. Please read the questionnaire directly and add stances from it. I didn't open the campaign issues page. The border, spending and child-care stances come from FOX 9's summary of her campaign site. The background items are mostly from my general knowledge: Iowa House 2017–2021, U.S. House since 2021 (IA-01, then IA-02), and her former job at KCRG. Of these, only the 2021 IA-01 label appeared in a source I saw, so please check the years and districts against Ballotpedia or the House bio. Her education and the 2026 primary date and result were not checked and are left out. Turek says Hinson voted seven times against Iran war powers resolutions and five times against limiting tariffs. That is a charge from her opponent, as reported by NBC and The Hill. I didn't check it against the roll calls, so it isn't listed as a stance. News dates for Newsweek (2026-10-18), The Hill (2026-10-14) and The Gazette are worked out from search 'page age' and article metadata. The Gazette item is a candidate questionnaire, not a news story. Replace it if a fifth news item is wanted. I didn't fetch the Newsweek debate article. Its border-security quote comes from the search result text."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ks-united-states-senator-adam-hamilton",
+    "name": "Adam Hamilton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: he won the Democratic nomination on Aug 4, 2026, and is the nominee against Marshall (R) and Graham (L). I did not check the Kansas Secretary of State site; checking it would be good. All stances come from one Kansas News Service article dated Oct 16, 2026, which I fetched. The FOX4 profile would not load, and I did not open the campaign issues page, so the stances are not in his own words and should be checked against hamiltonforkansas.com/issues. Some news dates are estimates from how old the search results said the pages were: NBC (assumed Oct 22, the day after the Wednesday Oct 21 debate), The Hill 'attempts to flip' (Oct 23), The Hill 'glad' (Oct 21). Please confirm them. I left out the GOP attack-ad allegations about how his church handled a camp volunteer later convicted of sex crimes, because they are an opponent's characterization. That story is covered in the Kansas Reflector (May 27, 2026) and The Hill if editors want to address it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ks-united-states-senator-roger-marshall",
+    "name": "Roger Marshall",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Marshall as the Republican nominee on the Nov. 3, 2026 ballot through Ballotpedia News and several outlets covering the Oct. 21 debate. I did not find any official Kansas Secretary of State page or campaign issues page within the tool budget. Both full-text fetches (KCUR and Lawrence Times, Oct. 16) came back cut off. That means the health care, Medicaid and housing stances rely on search-result excerpts of those articles, so please spot-check them. The Lawrence Times excerpt also contained the line 'He says the Senate needs to end Trump's tariffs'. Because of how it was cut, I could not tell whether 'he' meant Marshall or Hamilton, and Marshall's debate remarks back the tariffs, so I left that line out. I left out education history because I could not confirm it this session. Marshall's statements that Hamilton supports 'amnesty' and is tied to Chuck Schumer are attacks on his opponent, not policy positions, so they are not listed as stances. The CBS article's publication date was unclear, so it is listed as a source rather than a news item. In the news coverage, the medical-debt lawsuit controversy (Marshall says the arrests were outside his control once accounts went to collections) is mentioned in the debate articles but has no separate entry. The Johnson County Post excerpt gives Election Day as 'Nov. 4', which looks like an error on their part; the official date is Nov. 3."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ky-united-states-senator-andy-barr",
+    "name": "Andy Barr",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Barr's nomination is confirmed by several October 2026 news reports, and none mention a withdrawal. I did not check the Kentucky State Board of Elections candidate list. I fetched only the LEX 18 article. The WDRB, LPM, Spectrum and FOX 56 details come from search-result snippets. The primary result (May 19, 2026; 60.5%; Cameron defeated) comes from smarter.vote. LPM described a three-way GOP primary but named no other candidates, so the summary names only Cameron. The Spectrum and LPM headlines differ between the search results and the page snippets, so please confirm them. The balanced-budget and border stances come from OnTheIssues' April 2025 copy of Barr's House campaign site and describe House votes. Please confirm them against barrforsenate.com, which lists Border Security, Tax Cuts and 'Protecting Our Girls' as issues; I did not fetch it. I did not use debate quotes where the candidates traded labels such as 'socialist.' Christopher Campbell is not mentioned in any source I saw. The Booker side should cover the same debate topics: cost of living, Iran, data centers, Flock cameras and term limits. One gap: Barr's debate positions on health care, Social Security and tariffs were not reported in a way I could cite."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ky-united-states-senator-charles-booker",
+    "name": "Charles Booker",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I did not confirm Booker's candidacy on an official Kentucky State Board of Elections page. It rests on multiple October 2026 news reports saying he won the May primary and debated Andy Barr on October 19. I saw no sign that he withdrew. The issues page I fetched was a cached copy dated May 2026, so the platform text may have changed since then. The LEX18 article credits the line 'Data centers don't belong in every community' to Barr, right after saying Barr backed local control. That attribution may be wrong, so I only used the article's direct statement that Booker called for a moratorium. I found no stated positions for Christopher Campbell to line topics up against. Booker's years in the state House (generally reported as 2019–2021) and his education were not in the sources I opened, so I left them out. The 2025 announcement date comes from the 14 News report ('last December'). Debate topics that sources mentioned without giving Booker's specific stance (immigration, Social Security, tariffs, school safety) were left out. The Spectrum News URL path says 10/11, but the page shows a publication date of October 14, 2026, which is the date I used."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "la-u-s-senator-julia-letlow",
+    "name": "Julia Letlow",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Letlow is the Republican nominee against Democrat Jamie Davis for the November 3 election. Ballotpedia and Wikipedia confirm this; I did not check the Louisiana Secretary of State's site. Most stances come from her campaign's policy plan page, which I opened. The education stance cites the AP/PBS article for her change on DEI. No stances came from opponents. The WGNO publication date is an estimate from the search result's 'days ago' label (about Oct 19–20), so please check it. The FOX 8 item is mainly about Davis's ads but includes a statement from Letlow's campaign. I left out polling and fundraising details on purpose, since the guide avoids horse-race coverage. I did not check her House voting record."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "la-u-s-senator-jamie-davis",
+    "name": "Jamie Davis",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Davis (D) and Letlow (R) are the general election candidates and shows no sign that Davis withdrew. Farm size doesn't match across sources: Ballotpedia's survey text says more than 2,000 acres, and the campaign issues page says 3,200 acres. I left the acreage out of the profile. The page fetch cut off before the Ballotpedia survey answers and the runoff vote totals, so the stances come from the campaign site. The runoff date (June 27) is from Ballotpedia. A Verite News analysis from 2026-09-08 falls right at the 45-day limit, so I left it out. The headline 'Louisiana First is Common Sense' on the campaign homepage is campaign wording and isn't used in the profile. No other candidate topics were in the request; the topics were picked to let voters compare candidates."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "me-u-s-senator-susan-m-collins",
+    "name": "Susan M. Collins",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed. Maine Morning Star (2026-10-21) reports the November ballot lists Collins (R) and Troy Jackson (D), plus a write-in line. Jackson became the Democratic nominee on July 25, replacing Graham Platner. I hit the tool limit after 3 searches and 2 fetches. The Maine Public fetch returned only site navigation, not the article, and the CNBC fetch returned nothing usable. So every stance here comes from search-result snippets (C-SPAN, WABI), not full pages, and the list of positions is short. I found no detailed Collins positions on the issues covered in the debates: tariffs, ICE enforcement tactics, and congressional war powers. A follow-up should check her campaign site, official Senate site, and full debate coverage for those topics. Education is left out because I couldn't verify it from a source opened in this session; the Cook bio snippet was cut off. The campaign-finance item is a denial in response to reports, not a policy position, so the reviewer may want to drop it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "me-u-s-senator-troy-dale-jackson",
+    "name": "Troy Dale Jackson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Nominee status is confirmed by NBC News: Jackson replaced Graham Platner, who withdrew, as Democratic nominee in late July 2026. He took part in four debates with Collins, the last on Oct. 15. I did not check the Maine Secretary of State ballot listing directly. Most policy stances are sourced only to Wikipedia because I ran out of tool budget before reaching the campaign site, VOTE411 or Ballotpedia. Please check them against the campaign site before publishing. The Wikipedia text on his abortion position was cut off partway, so that stance gives only the part I could read. The Oct. 9 Washington Post item is a poll story. It is kept only because there were few other recent items; drop it if poll coverage isn't wanted. The four Oct. 15–19 items on the debate remark are covered once, by the AP and Press Herald links. Endorsements (Sanders, Khanna, Maine DSA) and his refusal of Platner's endorsement are left out of the stances."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-senator-in-congress-john-deaton",
+    "name": "John Deaton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Deaton's candidacy only from Wikipedia and news coverage. I did not check the Massachusetts Secretary of State's candidate list, so please verify that before publishing. I used up the tool budget before I could read the full articles. Most of the positions come from short search-result excerpts of the WBUR profile, and the party-loyalty stance comes from Wikipedia's account of the June debate. The WBUR excerpt says only that he disagrees with Trump on Iran and tariffs, without details, so those two stances stay general; a specific stance would need the full article. I did not find or open his campaign issues page or any candidate questionnaire. I left out biographical details I could not verify in sources I saw, including education, military service and law-practice focus; please add them from a confirmed source. Other outlets also covered the October 13 debate (Boston 25, WBUR, YourArlington), but I listed one per the guidelines."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ma-senator-in-congress-edward-j-markey",
+    "name": "Edward J. Markey",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed. Markey won the September 1, 2026 Democratic primary, and multiple outlets covered his October 13 debate with Deaton. I found no sign of withdrawal. I did not open the Secretary of the Commonwealth's ballot list, so the Ayyadurai and Tache listings were not checked against it. Things to check: (1) The history items (years in office and education) come from general knowledge and were not confirmed on a page during this request. (2) The campaign issue pages use heated language (for example, 'extreme agenda'). I restated the stances in neutral terms and quoted only 'fair and humane policies'. (3) The primary-win news is about 52 days old, outside the 45-day window, so I used it as a source but not as a news item. (4) Three news items are Senate office press releases, not independent coverage. They are listed on the official site's homepage and press page, and I used those page URLs because I didn't have direct links to each release. Swap them for news coverage if needed. (5) Deaton's positions came up in the debate coverage but are not included here. (6) Topics I did not cover because of the tool budget: tariffs, Iran, and affordability. Iran and affordability were major debate topics, but I did not confirm Markey's stances on them."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mn-u-s-senator-michele-tafoya",
+    "name": "Michele Tafoya",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Used 2 searches and 1 fetch. I fully opened only the WCCO questionnaire; the other sources come from search snippets. 1) News dates are estimates from the search engine's 'days ago' labels (CBS 'Oct 13' is based on its image path). Please check the CBS, Yahoo and Derrick dates, and confirm the Derrick piece is a wire story. 2) Her official nomination comes from CBS calling her the 'Republican nominee'. I did not check this against Minnesota Secretary of State results, and I didn't find the primary date. 3) Education is left out because I couldn't verify it. 4) The questionnaire answers include attacks on Flanagan; I left those out of the stances. 5) I left out the Daily Signal debate story (2026-10-19) because it reads as advocacy, not news. 6) I didn't search for Whiting's or Simonetti's positions, so topics follow Tafoya's questionnaire and the debate. 7) Yahoo reports she backs Trump's deportation campaign and bans on transgender athletes in girls' and women's sports. I left both out because I couldn't find her own statement on either; adding them would need a direct source."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ms-united-states-senate-cindy-hyde-smith",
+    "name": "Cindy Hyde-Smith",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy was confirmed through Wikipedia, which shows her winning the March 10 primary with 80.8%, and through Mississippi Today's Sept. 21 coverage of the three-way race. I did not check the Mississippi Secretary of State's certified ballot list. Most stances come from her answers to the Starkville Daily News questionnaire; the paper notes her campaign returned them after its deadline. That fetch was cut off at a question on mid-decade redistricting, so no stance on that topic is included. The Second Amendment stance comes from her official Senate office page, not her campaign site, and her campaign site was not found. Ballotpedia says she has not completed its 2026 survey. News dates were worked out from the search results' relative 'page age' and could be off by a day; the Starkville Q&A date (2026-09-20) is especially uncertain. The Yahoo item was taken from its search snippet only and should be checked. The Washington Times item is mainly about Democratic super PAC spending against her rather than her own actions, but it was kept because coverage of her own actions in the 45-day window was thin. One news item was left out: Magnolia Tribune (2026-10-20) reported that a poll promoted by the Colom campaign was fabricated. That story is mainly about Colom, so it should be considered for his profile instead."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ms-united-states-senate-scott-colom",
+    "name": "Scott Colom",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Colom's candidacy is confirmed: multiple sources from October 2026 describe him as the Democratic nominee against Hyde-Smith, and I found no sign he withdrew or was removed. A coding error in my tool calls used up most of the search budget, so I could not open his campaign issues page or a candidate questionnaire. As a result, there are only four positions. I found no stated positions on topics such as immigration, abortion or Medicaid expansion, so I left them out. The rally articles mention Medicaid expansion and immigration only in comments from attendees, not from Colom. Publication dates are taken from URL paths or inferred from search-result page ages. Please verify the MPB date (estimated as 2026-10-16) and the Mississippi Link date (2026-10-22). The Magnolia Tribune poll story uses the outlet's real headline but makes a disputed claim about a poll the Colom campaign promoted. Please review whether to keep it or replace it with neutral coverage. I did not check whether Ty Pinkins is on the general-election ballot as an Independent."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mt-united-states-senator-kurt-alme",
+    "name": "Kurt Alme",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://montanafreepress.org/2026/10/11/montana-senate-hopefuls-trade-jabs-first-debate/",
+      "Dropped news item not seen in this run: https://montanafreepress.org/2026/10/07/montana-candidates-healthcare-policy/"
+    ],
+    "notes": "All positions come from Alme's answers to the March 2026 Montana Free Press questionnaire. That guide has no question on immigration, energy or public lands. MTFP published a story on candidates' immigration views on 2026-10-14, but I did not open it. I could not find his education, so it is left out of history. I also could not confirm the years he served as Revenue director or the start and end dates of his second U.S. Attorney term. I left out polling news (Quantus poll, 2026-10-20) because it is horse-race coverage. I did not check the Secretary of State's site directly for ballot certification. Multiple news outlets list him as the Republican nominee, and I found nothing suggesting he withdrew. MTFP lists a fifth candidate, Jami Dee Woodman (no party), who was not in the request; their ballot status should be checked. Only one page was fetched; the news headlines come from search results."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mt-united-states-senator-alani-bankhead",
+    "name": "Alani Bankhead",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Ballot status: Montana Free Press and Daily Montanan (Aug. 10) both report that Bankhead stayed in past the withdrawal deadline, and October coverage confirms she is still running. 2) Primary share conflicts: Montana Free Press says 47.3% and Wikipedia says 43.7%, so I left the percentage out. The Secretary of State's canvass should settle it. 3) News dates come from URL paths and search-result ages. The Flathead Beacon date is from its URL and is consistent with search results. The KTVH profile (about Oct. 8) is not in the news list because I couldn't confirm its exact date. 4) The Oct. 12 Washington Post item is mainly about the party chair endorsing Bodnar, not about Bankhead's own actions; consider swapping it for KTVH once that date is confirmed. 5) Each stance is my paraphrase of the campaign's positions page. The site has its own loaded wording (e.g. 'genocide' attributed to a UN commission, an 'illegal' war); I attributed those claims rather than stating them as fact. 6) I couldn't confirm her college. 7) The campaign home page has a 'shows her work' tally that compares candidates; I did not use it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ne-united-states-senator-pete-ricketts",
+    "name": "Pete Ricketts",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "No signs of withdrawal; Ricketts is the Republican nominee. I did not check an official Nebraska Secretary of State candidate list. I did not open his campaign issues page or any questionnaire because the tool budget ran out (one fetch failed with 'url_not_accessible'). All stances come from the Sept. 1 debate coverage and an Oct. 13 Nebraska Examiner article. That debate falls just outside the 45-day news window, so it is cited only as a source for stances. I left out Medicaid and AI/data centers: the debate covered both, but I could not retrieve what Ricketts said on them. The college name was cut off in the Cook bio snippet, so education is listed only as 'B.A. in biology' and should be checked (likely University of Chicago). The Oct. 18 World-Herald item is mainly about a group questioning pardons Ricketts issued as governor, not about his own statements. I added it because it concerns his record, but you may want to swap it out. No positions were found for the minor-party candidates' topics."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nh-united-states-senator-chris-pappas",
+    "name": "Chris Pappas",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Nomination: NHPR (Oct. 22) and Wikipedia both confirm Pappas is the Democratic nominee for the Nov. 3 general election. I found no sign that he has withdrawn.\n\n2. Not checked on official sites: I did not check the NH Secretary of State's site or pappas.house.gov because of the tool budget. The exact years for the Executive Council seat and any earlier NH House service still need checking.\n\n3. Positions mostly from one aggregator: Many stances come from Citizens Count's summaries of Pappas's own statements (debates, his House press releases, WMUR). Some of those quotes are from 2018–2024 (term limits, Social Security means-testing, abortion, Israel, Ukraine, Taiwan, transgender athletes). Recent stances are from 2026 (tariffs, ICE, campaign finance, Venezuela, housing).\n\n4. Unanswered survey: Pappas has not yet answered Citizens Count's 2026 federal candidate survey.\n\n5. Topics left out: I found no stated position on AI, even though the NHPR interview headline mentions it.\n\n6. News items, all within the last 45 days:\n- Oct. 22 NHPR: mainly about Sununu declining the forum, but Pappas was the other scheduled participant.\n- Oct. 13 NHPR: an analysis of Pappas's congressional record.\n- Not included: poll stories, which are horse-race coverage.\n- Not included: the NH Bulletin campaign-finance story (Sept. 3), which is outside the 45-day window. It is cited only as a source for a stance."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nh-united-states-senator-john-e-sununu",
+    "name": "John E. Sununu",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://www.wmur.com/article/sununu-pappas-high-profile-democrats-102126/74209883",
+      "Dropped news item not seen in this run: https://www.nhpr.org/nh-news/2026-10-21/nh-newhampshire-senate-race-pappas-sununu-2026-election",
+      "Dropped news item not seen in this run: https://www.conwaydailysun.com/news/local/pappas-and-sununu-spar-in-conway-debate/article_291bae95-cadd-46a9-8620-30d5eec8da93.html",
+      "Dropped news item not seen in this run: https://www.wmur.com/article/pappas-sununu-social-security-aarp-forum-101426/74138225"
+    ],
+    "notes": "The candidate is confirmed: NBC News reported Sununu won the September 8, 2026 GOP primary. I found nothing suggesting he has withdrawn. Every stance cites the Citizens Count profile, which quotes Sununu from debates (C-SPAN, Southern NH Chamber forum), WMUR and his own statements. I did not open those original sources or his campaign site. Most of his Citizens Count survey answers are blank. I did not open any of the news articles. Headlines come from the Citizens Count news list, and dates come from the article URLs where they appear there (NHPR 10-21 and 10-16, WMUR 10-21 and 10-14). The Conway Daily Sun date (10-17) is the date Citizens Count lists, so please check it. One stance is less firm: Citizens Count notes Sununu never directly addressed oil and gas leasing on public land, so the energy stance only covers his general production and pipeline remarks. The Russia/Ukraine position is missing: NHPR's interview headline mentions Russia, but I did not open it. There is also an Iran stance to check: a Nashua Telegraph headline says a mayor criticized Sununu for supporting war in Iran. That claim comes from a critic, so I left it out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nj-united-states-senator-justin-murphy",
+    "name": "Justin Murphy",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: WHYY (AP call) reports Murphy won the June 2, 2026 GOP primary, and multiple outlets cover his Oct. 8 debate with Booker. I found no sign he has withdrawn. Both page fetches failed (url_not_accessible), so the content here comes from search-result text only, and I did not reach the candidate's campaign site or any questionnaire. Publication dates for the Inquirer and Monitor items come from their URLs. The Fox News and Washington Examiner dates are my estimates from the search engine's relative ages ('4 days ago', '3 days ago') and should be checked. WHYY lists Robert Lebovics among his primary opponents, while Ballotpedia's candidate list differs (it names Natalie Rivera), so I left opponent names out. Murphy's Navy service and his role as Tabernacle deputy mayor come from Fox News, NJ State House News Service and Ballotpedia. I left out his quoted debate phrase urging Trump to 'kick some ass' because it isn't needed for the Iran stance. I found no stated positions on topics specific to the Fernandez or Kuniansky campaigns."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nj-united-states-senator-cory-booker",
+    "name": "Cory Booker",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Booker's candidacy is confirmed by Ballotpedia and the FOX 29 ballot guide from Oct. 2026. No signs of withdrawal. I did not open any page: both fetches (NJ Monitor, Hoodline) failed with 'url_not_accessible', so every stance and fact comes from search-result text only. This run used 5 of 5 searches and 2 of 3 fetches. I could not find an official NJ election office candidate list or a campaign issues page/questionnaire. Five dates are estimated from the 'page_age' values in search results, not confirmed: the NJ Monitor debate story (Oct. 8 vs. Oct. 9, 2026), the NJ Globe story, the press release dates on the official Senate site, and the Keep Your Pay Act announcement date. The Keep Your Pay Act stance comes from a FOX 29 summary. The pardon bill and Lewy Body items are official-office press releases, not independent coverage, and the Lewy Body item is not campaign-related; consider replacing them with independent news. The background list is thin: education, Newark mayoral years, and the date he won the primary are not confirmed from this run's sources. I left out the Epstein files and civility remarks because the snippets were too thin."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nm-united-states-senator-larry-e-marker",
+    "name": "Larry E. Marker",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Sources disagree on his past campaigns. Source NM says he previously ran unsuccessfully for state land commissioner and state senate, but KRQE's snippet says he has never run for public office. I kept the claim attributed to Source NM; please check against Secretary of State records. 2) Publication dates for the Albuquerque Journal and KRQE stories are estimated from search-result page ages (about 14 days before today), not confirmed from the articles. Please verify. 3) The Source NM Q&A is dated 2026-09-11, 42 days before today, so it falls just inside the 45-day news window. 4) Every stance comes from a single source, the Source NM Q&A. I found no campaign website or VOTE411 answers within the tool budget. 5) I left out poll stories (Political Wire/SurveyUSA, Journal Poll) because they are horse-race coverage. 6) Ballotpedia lists his primary run as a write-in."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nm-united-states-senator-ben-r-lujan",
+    "name": "Ben R. Luján",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Name on the request is 'Ben R. Luján'; he is commonly known as Ben Ray Luján. Several news outlets confirm he is the Democratic nominee facing Larry Marker on November 3, 2026, and I found no sign he has withdrawn. I did not check the NM Secretary of State's certified candidate list. Each stance cites the page it came from (the ENMN questionnaire, the KUNM interview or the KOB interview). Exact dates are uncertain for two news items: the KOB date (Oct 7) and Albuquerque Journal date (Oct 9) are estimated from search-result ages of about 16 and 14 days. The KRQE item shows Oct 7 03:21 UTC, which is Oct 6 local time. The years for his Public Regulation Commission service are not in the history list because the sources only give the 2004 election year. His education is also missing because no page I opened mentioned it. The 2021 Senate start comes from KUNM. The Republican Party of NM has said Luján is avoiding a debate with Marker; this is an opponent's characterization, so I left it out of the profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-kevin-hern",
+    "name": "Kevin Hern",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: NBC News projected Hern the winner of the June 16, 2026 GOP primary, and Wikipedia lists him as the Republican nominee. Mullin resigned in March 2026 to become DHS Secretary, and appointed Sen. Alan Armstrong is barred from running. The tool budget ran out before I could run a dedicated news search, so the news array is empty. The only recent item I saw was a Substack post (about 13 days old) on Hern's $5.05M campaign loan and its repayment. I left it out because it is not an established news outlet. Positions are thin. I found no campaign issues page or 2026 questionnaire (VOTE411, Oklahoma newspapers). The health care stance comes from his 2018 House campaign and is labeled that way. The Trump-alignment and cost-of-living stances come from March 2026 launch coverage. The News9 article text was cut off when fetched, so the cost-of-living stance relies on its 'Main Takeaways' summary. Please add topics that match the other candidates (immigration, energy, abortion, spending) once sources are found. Wikipedia's retrieved copy still showed the Democratic runoff (Priest vs. Thomas) as pending. The request lists Thomas as the nominee, which I did not separately verify. The summary was updated: the occupation is still U.S. Representative because he appears to remain in the House while running."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ok-united-states-senator-n-kiyla-jasmine-thomas",
+    "name": "N'Kiyla \"Jasmine\" Thomas",
+    "applied": false,
+    "held": [
+      "Loaded language: failed"
+    ],
+    "problems": [],
+    "notes": "1) Nomination: NonDoc, News9 and Blavity all report that Thomas won the Aug. 25, 2026 Democratic runoff. I found no sign that she has withdrawn. The search results describe this as a special election for the seat Markwayne Mullin left. 2) News dates: I could not open the News9 or OU Daily articles because the fetch budget ran out. Their dates (2026-10-03 and 2026-09-10) are estimates worked out from the search engine's 'days ago' figures, so please check them. I found no other candidate-focused coverage from the last 45 days. 3) Missing sources: I did not open her campaign site (its issues page is titled 'POLICIES AND ISSUES — Jasmine Thomas for Oklahoma') because I never saw its URL. The environment and corporate-PAC stances come from the Smarter.vote summary of that page, so please confirm them against the campaign site. Several stances come from search-result text, not full pages I opened. The KOSU page loaded but its article text did not come through, so it is listed as a source only. 4) Left out: Some outlets report that she supports abolishing ICE and impeaching President Trump. The only source I saw for this was RAIR Foundation, a partisan outlet that frames her negatively, so I did not use it. Check this against neutral reporting before adding those stances.",
+    "proposed": {
+      "occupation": "Nurse",
+      "summary": "N'Kiyla \"Jasmine\" Thomas is a nurse from Ardmore and a citizen of the Chickasaw Nation. This is her first political campaign. She led the five-way June 16, 2026 Democratic primary for Oklahoma's open U.S. Senate seat, then defeated Jim Priest in the August 25, 2026 runoff to win the Democratic nomination for the November 3 general election.",
+      "positions": [
+        {
+          "topic": "Health care",
+          "stance": "Supports a single-payer \"Medicare for All\" system and says she aims to achieve it during a six-year term. She cites her nursing experience and rural access to care.",
+          "source": "https://nondoc.com/2026/07/17/u-s-senate-runoff-democrats-nkiyla-jasmine-thomas-jim-priest-clash-over-electability-identity/"
+        },
+        {
+          "topic": "Childcare and family leave",
+          "stance": "Supports universal childcare and parental leave.",
+          "source": "https://blavity.com/nkiyla-jasmine-thomas-wins-oklahoma-democratic-senate-primary"
+        },
+        {
+          "topic": "Defense spending",
+          "stance": "Opposes defunding the Department of Defense, a position on which she says she differs from the Democratic Socialists of America platform. Her husband serves in the U.S. military.",
+          "source": "https://blavity.com/nkiyla-jasmine-thomas-wins-oklahoma-democratic-senate-primary"
+        },
+        {
+          "topic": "Tribal sovereignty",
+          "stance": "Her campaign says she is committed to preserving tribal sovereignty and to working with Native leaders to protect tribal land, rights and cultural heritage.",
+          "source": "https://blavity.com/nkiyla-jasmine-thomas-wins-oklahoma-democratic-senate-primary"
+        },
+        {
+          "topic": "Environment and water",
+          "stance": "Supports strengthening the Clean Water Act, protecting tribal water sovereignty, holding polluters accountable and investing in rural water infrastructure.",
+          "source": "https://smarter.vote/races/ok-senate-2026/n-kiyla-jasmine-thomas/"
+        },
+        {
+          "topic": "Campaign finance",
+          "stance": "Has pledged not to accept contributions from corporate PACs.",
+          "source": "https://smarter.vote/races/ok-senate-2026/n-kiyla-jasmine-thomas/"
+        },
+        {
+          "topic": "Economy",
+          "stance": "Describes herself as a democratic socialist. She argues that working-class Oklahomans have been failed by a political class more focused on donors than on constituents.",
+          "source": "https://nondoc.com/2026/07/17/u-s-senate-runoff-democrats-nkiyla-jasmine-thomas-jim-priest-clash-over-electability-identity/"
+        }
+      ],
+      "history": [
+        "Democratic nominee for U.S. Senate, Oklahoma (won runoff Aug. 25, 2026)",
+        "Led the June 16, 2026 Democratic primary with about 44–45% of the vote",
+        "Nurse; community health advocate",
+        "Citizen of the Chickasaw Nation; born and raised in Ardmore, Oklahoma",
+        "Active-duty military spouse; mother of two",
+        "No prior elected office"
+      ],
+      "news": [
+        {
+          "date": "2026-10-03",
+          "outlet": "News9",
+          "headline": "Hern vs. Thomas: Who should I vote for in Oklahoma's U.S. Senate race?",
+          "url": "https://www.news9.com/oklahoma-politics/oklahoma-us-senate-election-candidates-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "outlet": "OU Daily",
+          "headline": "Meet Oklahoma's democratic socialist Senate candidate",
+          "url": "https://www.oudaily.com/news/democratic-socialism-nkiyla-jasmine-thomas-kevin-hern-senate-election/article_fcdfa6da-9f29-4359-8c3b-2abf9d6932ec.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NonDoc: Thomas wins U.S. Senate runoff (Aug. 25, 2026)",
+          "url": "https://nondoc.com/2026/08/25/nkiyla-jasmine-thomas-wins-u-s-senate-runoff-becomes-oklahomas-first-democratic-socialist-nominee/"
+        },
+        {
+          "label": "NonDoc: Thomas and Priest runoff coverage",
+          "url": "https://nondoc.com/2026/07/17/u-s-senate-runoff-democrats-nkiyla-jasmine-thomas-jim-priest-clash-over-electability-identity/"
+        },
+        {
+          "label": "Blavity: Thomas wins runoff",
+          "url": "https://blavity.com/nkiyla-jasmine-thomas-wins-oklahoma-democratic-senate-primary"
+        },
+        {
+          "label": "Smarter.vote candidate page",
+          "url": "https://smarter.vote/races/ok-senate-2026/n-kiyla-jasmine-thomas/"
+        },
+        {
+          "label": "LocalCandidates.org biography",
+          "url": "https://www.localcandidates.org/politicians/n-kiyla-thomas/about"
+        },
+        {
+          "label": "KOSU candidate interview (July 29, 2026)",
+          "url": "https://www.kosu.org/jasmine-thomas-oklahoma-2026-senate-election"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "or-us-senator-david-brock-smith",
+    "name": "David Brock Smith",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Most stances come from KTVZ's live blog of the Oct. 6 town hall, which paraphrases him instead of quoting him directly. They could be checked against the video. 2) The Oregon Capital Chronicle voter guide has his questionnaire answers on immigration, federal lands, climate, prices, health care and other topics, but the page could not be fetched. Those answers should be added if possible. 3) The campaign website was not opened. 4) The Yahoo News date is estimated from the search result's '8 days ago' label, so the exact publication date needs checking. That article covers the whole race, not just Smith. 5) The hunting/fishing/farming amendment stance comes from a third-party aggregator (Smarter.Vote), so it should be checked against a primary source. 6) The ballot listing is confirmed by local coverage (Beaverton Beat lists all four candidates), and no sign of withdrawal was found. 7) Merkley declined to debate, so the KTVZ event was a solo town hall."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "or-us-senator-jeff-merkley",
+    "name": "Jeff Merkley",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://www.statesmanjournal.com/story/news/politics/elections/2026/10/14/david-brock-smith-jeff-merkley-us-senate/92224562007/"
+    ],
+    "notes": "Merkley's candidacy is confirmed: he is the Democratic nominee in multiple October 2026 sources, and nothing indicates he withdrew. I did not confirm his Working Families cross-nomination in any source. Please check it with the Oregon Secretary of State.\n\nMost policy stances come from a Right Now Oregon article (Aug 31, 2026) that summarizes his campaign issues page at jeffmerkley.com/issues. That outlet calls itself 'Your Oregon Uncanceled' and uses opinionated framing, so I took only the plain descriptions of his positions from it. I did not open his campaign site directly, so please check these stances against it. The one stance cited to the Statesman Journal comes from the start of that article; I lost access to the rest after a tool error.\n\nThe Oregon Capital Chronicle voter guide covers comparable topics (immigration, federal lands, climate, high prices, healthcare, vetting nominees) but could not be fetched. I found no stances on immigration, federal lands or vetting nominees, so those topics are left out. It would be worth adding them from that guide.\n\nNews section: there is only one item. The Statesman Journal headline and date (Oct 14, 2026) were confirmed through the Yahoo syndicated copy. Debate coverage from mid-September (KTVZ debate set for Oct 6 in Bend) was about Brock Smith's announcement and said Merkley had not yet responded. I did not confirm whether Merkley took part. The occupation and summary fields were empty in the old profile and are now filled in."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ri-united-states-senator-jack-reed",
+    "name": "Jack Reed",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped stance on \"Economy, tariffs and inflation\": its source was not in this run's search results (https://www.reed.senate.gov/news/releases/reed-economic-warning-signs-are-flashing-and-america-must-change-course).",
+      "Dropped stance on \"Energy and heating costs\": its source was not in this run's search results (https://www.reed.senate.gov/news/releases/reed-northeast-democrats-call-for-trump-to-take-immediate-action-to-lower-heating-oil-costs).",
+      "Dropped stance on \"Gun policy\": its source was not in this run's search results (https://www.reed.senate.gov/news/releases/reed-whitehouse-press-trump-doj-for-allowing-sale-of-handguns-to-teenagers).",
+      "Dropped stance on \"Federal spending / congressional power of the purse\": its source was not in this run's search results (https://www.reed.senate.gov/news/releases/after-federal-watchdog-rules-trumps-810m-funding-cancellation-is-unconstitutional-reed-calls-on-trump-admin-to-drop-pocket-recission-and-comply-with-the-law).",
+      "Dropped news item not seen in this run: https://www.reed.senate.gov/news/releases/reed-whitehouse-press-trump-doj-for-allowing-sale-of-handguns-to-teenagers",
+      "Dropped news item not seen in this run: https://www.reed.senate.gov/news/releases/reed-helps-lead-bipartisan-push-for-dod-ig-investigation-into-ukraines-starlink-restrictions",
+      "Dropped news item not seen in this run: https://www.reed.senate.gov/news/releases/reed-northeast-democrats-call-for-trump-to-take-immediate-action-to-lower-heating-oil-costs",
+      "Dropped news item not seen in this run: https://www.reed.senate.gov/news/releases/reed-economic-warning-signs-are-flashing-and-america-must-change-course"
+    ],
+    "notes": "Candidacy confirmed: Wikipedia's race page lists Reed as the Democratic nominee against Raymond McKay (R). It says he won the September 9 primary with 76.8%. Ballotpedia's search snippet gives September 8 as the primary date, so the date should be checked with the RI Secretary of State. 1) Stances and news all come from Reed's official Senate press releases, not campaign materials or questionnaires. I did not find a campaign issues page or questionnaire within the tool budget. 2) The news items are his office's own releases, not independent news coverage. My searches for outside news returned nothing usable, so these should ideally be swapped for independent reports. 3) Press-release headlines use charged wording (e.g., 'Blasts', 'Exploitative'). I kept the real headlines as required but restated the stances neutrally. 4) The background items (years in office, military service, degrees) are from general knowledge plus the Wikipedia bio search result. I did not open the bio page, so these need a check. 5) Topics were chosen to compare with McKay; no topic list was provided for him."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "ri-united-states-senator-raymond-mckay",
+    "name": "Raymond McKay",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia lists McKay (R) on the Nov. 3, 2026 general election ballot with Jack Reed (D) and Michael Bahry (Independent). Smarter.Vote reports McKay was unopposed in the primary with 20,354 votes. Ballotpedia lists Jon Lindley as withdrawn or disqualified.\n\nPrimary date conflict: Ballotpedia's page shows both Sept. 8 and Sept. 9, 2026. I used September 2026 without a specific day.\n\nSourcing of positions:\n- Five stances come from the campaign's own issues page, which I opened.\n- The Education and Abortion stances come from Smarter.Vote's summaries of McKay's Ballotpedia Candidate Connection survey and his iVoterGuide questionnaire. I did not open those original sources, so please check them before publishing.\n\nNews is empty. I found no coverage from the last 45 days mainly about McKay's own actions. The only recent items were a 12 News/Emerson poll story (horse race) and a Washington Post opinion piece on Senate debates. The WPRI/Turnto10 interviews from June 2026 are older than 45 days.\n\nOccupation ('IT professional') comes from Wikipedia's 2024 race page. Army service dates (1981–1992) come from Ballotpedia.\n\nI did not find a stated position from McKay on firearms, foreign policy or election policy.\n\nThe campaign page includes language criticizing Reed. Stances were reworded neutrally, and 'argues' marks that attribution."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "sc-u-s-senate-darline-graham",
+    "name": "Darline Graham",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) I could not open an official election site, a campaign issues page, or a questionnaire. Most of the biography and primary results come from Wikipedia, so please check them against SC Election Commission records before publishing. 2) I couldn't open the NPR page (fetch was blocked), so its headline and date come from search results only. The Fox debate article's date (about 2026-10-12) is estimated from the search result's age and the October 11 debate date. The veterans press release is dated October 9 on the listing page, but the URL points to the index page, not the release itself. 3) The immigration quote comes from a search snippet of NBC's live blog. Its wording doesn't clearly show whether Graham or Trump said it, so please confirm the speaker. 4) The Al Jazeera piece mentions a Libertarian candidate, Kasie Whitener, in the debate. She isn't in the request's candidate list, so check whether she's on the ballot. 5) I found no stated positions yet on abortion, healthcare, or the economy, and left those topics out instead of guessing. 6) The NPR story is about a disagreement between Trump and Graham on Russia sanctions; its headline is kept as published."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "sc-u-s-senate-annie-andrews",
+    "name": "Annie Andrews",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: several October 2026 outlets call her the Democratic nominee against appointed Sen. Darline Graham (R). The Prospect says two minor-party candidates are also on the ballot, but I couldn't confirm their names. Most stances come from The American Prospect's summary of her 'Patients and Prices' platform (fetched). I didn't open her campaign site directly, so please check those stances against drannieandrews.com. The abortion and gun stances come from OnTheIssues search snippets dated May 2026. The child tax credit stance comes from a 2025 Hill snippet. The Rolling Stone date is estimated from 'page age: 10 days ago', so please verify it. The WaPo and CNN items cover the same ad, so only CNN is listed under news. I left out NBC's Oct 5 report on Trump's slur because it covers Trump's remark rather than Andrews's own actions. The WRDW item mainly covers Graham's demand that she release her tax returns. I didn't find Andrews's response to it. The education details come from Wikipedia. The WCNC page could not be fetched."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-bill-hagerty",
+    "name": "Bill Hagerty",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I used 4 searches and no page fetches. I could only see search snippets, so this profile is thin. 1) I didn't find a campaign issues page or questionnaire (Vote411, Ballotpedia, newspapers). Every stance comes from his Senate office's own releases, not campaign material. 2) News is empty. I found no independent outlet coverage of Hagerty dated after 2026-09-08 (the 45-day window). The only recent items were his own Senate office releases: Sep 9 Fox Business interview on Israel trade and affordability, Sep 11 Scott Jennings Show interview, Sep 14 letter asking for a disaster declaration. 3) The immigration-housing bill's title was cut off in the snippet and had no date (it appeared just before the Aug 13 item). It needs a check. 4) I left out background I couldn't confirm in this request's sources: Ambassador to Japan (2017–2019), Tennessee Economic and Community Development Commissioner (2011–2014), and his education. Please confirm these and add them. 5) Ballot status: Wikipedia shows him as the unopposed primary winner, and I saw no sign he withdrew. I didn't check the Tennessee Secretary of State's official candidate list. 6) I found no stances matching topics for the other candidates in the race."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "sd-united-states-senator-mike-rounds",
+    "name": "Mike Rounds",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Rounds is confirmed as the Republican nominee facing independent Brian Bengs. I found no sign that he withdrew. 1) I could not open the South Dakota Searchlight article directly (the fetch failed), so the AI stance comes from the search-result excerpt. That excerpt did not include Rounds' positions on Iran or Israel, so I left those topics out. 2) On October 14, a Joe.My.God post citing a Sun report (I did not open the original) said Rounds had removed Trump endorsement references from his campaign site. The issues page I fetched was last modified 2025-09-25 and still says he stands with President Trump's America First agenda. I left out a Trump/America First stance because the page may have changed since. 3) Where the history items came from: the governor (2003–2011) and Senate (2015–present) dates are from Wikipedia. 'Former state senator' and 'former business owner' are from his campaign site. 'Insurance and real estate' and the state senate years come from background knowledge and were not confirmed in this request, so please verify or drop them. I did not confirm education. 4) Two of the news items are about polls. I kept the South Dakota News Watch poll story but would swap it for coverage of something Rounds himself did or said if you have one. The KELOLAND article is dated 2026-09-18, which is 35 days ago and inside the 45-day window."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "tn-united-states-senate-marquita-bradshaw",
+    "name": "Marquita Bradshaw",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Search error: my first search call failed with a parsing error, so I used the budget as follows: 3 searches and 2 fetches. Candidacy check: WATE, WKMS, Nashville Banner and The Hill (all Aug 6, 2026) report that she won the Democratic primary. WPLN (Oct 9, 2026) lists her on the November ballot. I found no sign she has withdrawn. Immigration stance: it comes from her 2020 campaign site, as quoted by OnTheIssues. I did not find a 2026 statement on immigration, so please confirm it is still current. Missing topics: I found no stated position on crypto/stablecoin regulation or disaster relief, so I left them out. I also left out a Christian Coalition survey result, because the survey group inferred her answer rather than quoting her. Thin sourcing on other positions: the education, housing, health care, broadband and environment positions come from WPLN's one-sentence summary of her campaign themes, not from her own issues page. I did not open her campaign site or a VOTE411 or Ballotpedia questionnaire. Pages seen but not opened: a smarter.vote profile and an International Risk Podcast interview (about Oct 19, 2026) may have more 2026 positions. The podcast's search snippet mentions data centers in Memphis. Occupation: Wikipedia's race page calls her a 'staffing consultant,' while WPLN says she runs Sowing Justice. I used WPLN's description; please verify. News: I found only one news item about her within the 45-day window."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h35-carlos-de-la-cruz",
+    "name": "Carlos De La Cruz",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Nomination confirmed: Ballotpedia, KSAT, the Texas Tribune and NBC all report De La Cruz won the May 26 runoff, with about 57.6% to Lujan's 42.4% per NBC. I found no sign he has withdrawn. All stances come from his answers to the San Antonio Report questionnaire, which I fetched. I did not reach his campaign website. Two items need checking before publishing. (1) The San Antonio Report article's date (2026-10-19) is estimated from a search result saying '4 days ago', and its headline comes from that outlet's own link text; the search result showed a slightly different version, 'With Carlos De La Cruz, GOP seeks to keep TX35 in the family'. (2) The Daily Signal headline comes from the page heading in search results, and its date comes from the URL; I did not open that page. I did not include a news item for Trump's October San Antonio rally for him (about 2026-10-07/08) because I did not fully verify a headline. I used my searches mainly to confirm his candidacy, so it would be worth a further search for any debate coverage."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h35-johnny-c-garcia",
+    "name": "Johnny C. Garcia",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Nomination confirmed by AP-projected runoff results (KSAT, KUT). I did not check an official Texas SOS or Bexar County ballot listing. Every position comes from his San Antonio Report questionnaire; I did not find his campaign website in this budget. Employment status is unclear: the San Antonio Report (updated Oct 20) calls him the sheriff's office's current PIO, but the Texas Tribune (Oct 19) calls him a 'former sheriff's deputy.' Please verify. The Texan article's date (2026-10-20) is estimated from a '3 days ago' search tag. The Oct 6 Tribune headline is taken from the article page; its search-result title was different. I left out a Mother Jones piece (about Oct 21) because it covers several Texas races and its exact date is unconfirmed."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h5-lance-gooden",
+    "name": "Lance Gooden",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Opponent mismatch: the Ballotpedia snippet I saw lists only Gooden (R) and Dea Foy (Independent) for the general election. It also shows Chelsey Hockett and Ruth Torres heading to a May 26, 2026 Democratic runoff, but I didn't see the runoff result. That page may be out of date. Before publishing, check with the Texas Secretary of State or Dallas County Elections that Hockett is the Democratic nominee and whether Foy is on the ballot. 2) Gooden's candidacy looks confirmed, since he won the primary as the incumbent. 3) Only one position is included. I couldn't reach his campaign site, House issues pages, or any candidate questionnaire within the tool budget, and I left out topics I couldn't source. More research is needed, ideally on topics that match Hockett's profile. 4) The kratom bill source is an AI-written summary of his press release by Quiver Quantitative, not a news outlet. If possible, replace it with the original release on gooden.house.gov. 5) In July 2026 (about 85–87 days ago, outside the 45-day window), the House Ethics Committee publicly confirmed it is investigating Gooden after a referral from the Office of Congressional Conduct. The committee didn't say what the allegation is, and Gooden has publicly called the probe baseless (Fox News, The Hill, Washington Examiner). It isn't listed under news because of the date window; editors may decide whether to mention it. 6) Background is incomplete. Wikipedia also suggests earlier service in the Texas House that I couldn't confirm, and I didn't verify his education or private-sector job."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h6-jake-ellzey",
+    "name": "Jake Ellzey",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Ellzey is the Republican nominee for TX-6 in the November 3, 2026 general election against Danny Minton. I found no sign he has withdrawn. The search tool hit its usage limit after 3 of the 5 budgeted searches, so I fetched no pages and couldn't run a news search. The news list is empty and needs a follow-up search for coverage from the last 45 days. Only two stances are cited, so add more on topics that match Minton's profile (economy, health care, etc.) from Ellzey's campaign or House site. Two things need checking: (1) The immigration votes come from yourreprecord.org, a third-party advocacy scorecard. Check them against Congress.gov roll calls before publishing, and don't use that site's grades. (2) The background items for the Texas House (2021), the Navy career and the special-election win came from general knowledge, not a source opened during this request, so confirm them with Ballotpedia or his House bio. GovTrack lists him on the Appropriations and Small Business committees."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h5-chelsey-hockett",
+    "name": "Chelsey Hockett",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Hockett is confirmed as the Democratic nominee: NBC News projected her the runoff winner, Dallas County posted runoff results, and recent NBC DFW and FOX 4 coverage lists her against Gooden. I found no sign she withdrew. 1) District geography: FOX 4 describes TX-5 under the 2026 map as covering parts of Kaufman, Van Zandt, Henderson and Anderson counties. Dallas County did report TX-5 runoff votes. Please check that the 'Dallas County' label still fits the new lines. 2) News: I found no recent stories focused on Hockett herself. The two items listed are race roundups. Their publication dates are estimated from the search results' 'days ago' labels (about Oct 19 and Oct 20), so please verify them. NBC DFW wrongly calls her runoff a 'March' runoff; it was May 26. 3) Every stance comes from her campaign issues page, which I fetched. I didn't open the Dallas Morning News Q&A or her Ballotpedia Candidate Connection survey. 4) Wikipedia lists her as a 'stay-at-home mom'. Her campaign calls her a community organizer, and a secondary summary (theballotbrief) says she was a retail general manager; that claim is unverified. 5) The final runoff margin of about 53–47 comes from NBC News. Dallas County's election-night count was 52.87%. The official statewide canvass was not checked."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h24-beth-van-duyne",
+    "name": "Beth Van Duyne",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "x"
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h6-danny-minton",
+    "name": "Danny Minton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and NBC DFW's Ellis County ballot list both show Minton on the November 3 ballot, and I found no sign that he withdrew. The campaign site lists Dallas County as part of the redrawn district (map PLANC2333). I found only one news item from the last 45 days that mentions him: a Fort Worth Report race overview, which isn't mainly about his own actions. The Ballotpedia survey text on the tax and Social Security stances came from search-result excerpts, because the fetched Ballotpedia page cut off the survey answers. All stances paraphrase his own words. I left out his campaign's descriptions of opponents, such as 'West Texas Billionaires' and its claims about Republicans. Occupation sources differ: Ballotpedia says 'Sales Representative' and the Fort Worth Report says VP of sales at Clarix Imaging. I used the more specific one."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h30-everett-jackson",
+    "name": "Everett Jackson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) I could not find an official result for the May 26 runoff. Jackson's status as the nominee rests on NPR (2026-09-27) and the Dallas Express article on Yahoo (October 2026), which both name him as Haynes' Republican opponent. Please confirm against the Texas SOS or Dallas County ballot. 2) All policy stances except one come from a CBS Texas primary-night summary (March 2026), which drew on his campaign messaging. I did not find a campaign issues page or questionnaire, so the topics don't cover any positions Haynes may have stated. 3) The Yahoo/Dallas Express article was about 5 days old when I searched, so the date of 2026-10-18 is an estimate. Please check the real publication date. 4) The NPR article is mainly about Haynes. It reports that Jackson questioned Haynes' religious sincerity on a YouTube show. I left that out of the positions because it's a comment about his opponent, not a policy stance. 5) I couldn't find any education history. 6) I didn't open the Ballotpedia pages for Jackson or the primary. I'm citing them from search results only. I opened the Ballotpedia page for the overall race, but I couldn't pull Jackson's details from it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h24-kevin-burge",
+    "name": "Kevin Burge",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia (fetched) confirms Burge won the May 26, 2026 runoff against TJ Ware and is on the Nov 3 general-election ballot against Beth Van Duyne. Things to check: (1) The Community Impact date (2026-09-10) is an estimate based on the search result's '43 days ago'; I could not confirm the exact publication date. It may fall just outside the 45-day window. (2) The Fort Worth Report Q&A page blocked fetching, so the health-care stance relies on its search snippet. In that snippet Burge says universal coverage would be 'without banning private insurance.' The Oct 1 Fort Worth Report article quotes him as saying 'with banning private insurance,' which looks like a typo. I used the Q&A wording; please verify. (3) I found no stance on fraud against seniors or COVID-era unemployment fraud. The immigration stance is general (the campaign platform says 'immigration reform'). I did not see more detailed immigration positions. (4) The campaign uses both burgeforcongress.com and kevinfortexas.com. (5) The district covers parts of both Dallas and Tarrant counties."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h30-frederick-d-haynes-iii",
+    "name": "Frederick D. Haynes III",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Sources from October 2026 (Fort Worth Report, FOX 4) confirm Haynes as the Democratic nominee against Everett Jackson (R) on the Nov. 3 ballot. I found no sign he withdrew. I could not open the Fort Worth Report survey page directly (fetch blocked), so its stances come from the search-result text, which showed only the first of his three priorities. I found no stated positions on national security/cartels, religious freedom, the child tax credit, or election administration, so I left those topics out. Health care and ICE come from KERA's summary of his kickoff priorities, not a direct statement from him. Dates are estimated: the Yahoo/Dallas Express piece is dated from its 'about 5 days ago' tag (the protest itself was Oct. 11), and the other dates come from the URLs. The 2024 Rainbow PUSH dates come from the KERA photo caption. KERA describes the district as covering both Dallas and Tarrant counties after redistricting. I didn't find education details. The Yahoo story is about the opponent's protest at Haynes's church, which is a polling site; I found no response from Haynes."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h32-jace-yarbrough",
+    "name": "Jace Yarbrough",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed his candidacy through Ballotpedia, which lists the Nov 3, 2026 general as Dan Barrios (D) vs. Jace Yarbrough (R). Ballotpedia's race page also lists independent Charles Harper, but Yarbrough's Ballotpedia profile puts Harper under withdrawn/disqualified candidates. Please check the final ballot with the Texas Secretary of State or Dallas County. I did not check an official election office site because of the tool budget.\n\nPositions come from the campaign's Priorities page. I kept his own framing and left out the page's descriptions of opponents. I could not reach the Ballotpedia Candidate Connection answers in the fetched text. The only part visible was a search snippet saying \"America first immigration, economic and foreign policy.\" I found no Texas Tribune or VOTE411 answers.\n\nBallotpedia's profile has a 2024 elections section, which may mean an earlier candidacy, but I couldn't see the details, so I left it out of history. A First Liberty page says Air Force officials disciplined him (as Major Jace Yarbrough) over a private speech he gave as a civilian. That page is an advocacy source, so I left it out. His exact service dates and rank need checking.\n\nNews: the KERA and The Texan items are race overviews, not coverage of his own actions. Both appeared as 0 days old in search results, so I estimated their dates as 2026-10-22. The KERA date matches its URL; please check The Texan's date. The U.S. Chamber item is a press release from the endorsing group, not news coverage, and is dated October 15, 2026."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h32-dan-barrios",
+    "name": "Dan Barrios",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia lists three general-election candidates: Barrios (D), Yarbrough (R) and Charles Harper (Independent). The request only named Yarbrough, so please check whether Harper is on the certified ballot. The seat is open because Rep. Julie Johnson is running in CD-33 after redistricting. The full Ballotpedia page came back without Barrios's candidate section. Its two stances (education/workforce, small business) are based only on Ballotpedia's search snippet, not the opened page. News dates come from search-result page ages and may be off by a day; I did not open The Texan article, and Barrios is a secondary subject in it. I could not reach Barrios's campaign issues page, so there may be no stated positions yet on topics like immigration or federal spending/debt. Hoodline describes the race as centered on those issues, but its debt section only quoted Yarbrough's proposal. The 'former teacher' item comes from his submitted Ballotpedia bio; the adjunct role comes from BallotReady."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h33-patrick-david-gillespie",
+    "name": "Patrick David Gillespie",
+    "applied": false,
+    "held": [
+      "Loaded language: woke"
+    ],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia lists Gillespie as the Republican nominee for the November 3, 2026 general election, and NBC News projected him as the runoff winner. Ballotpedia also lists Michelle Craig (Independent) in the general election, but VoteSee says only Allred and Gillespie are on the ballot. Please check the Texas Secretary of State or Dallas County candidate list. I found no news coverage of Gillespie from the last 45 days, so the news list is empty. All stances come from questionnaire-style answers on his campaign homepage, which he wrote himself. I paraphrased them neutrally; quoted terms like 'woke' are his own words. Bio details (employers, union role, education) come from Ballotpedia. I only saw the Ballotpedia 2022 and 2024 sections in the page's table of contents, so the prior candidacies could not be checked in detail.",
+    "proposed": {
+      "occupation": "Technical writer",
+      "summary": "Patrick David Gillespie is the Republican nominee for U.S. House in Texas' 33rd Congressional District. He took first place in the March 3, 2026 Republican primary with 35.5% of the vote, then beat John Sims in the May 26, 2026 runoff, 57.1% to 42.9%. Ballotpedia also lists him as a candidate for this seat in 2024 and 2022.",
+      "positions": [
+        {
+          "topic": "Immigration and border security",
+          "stance": "Supports vetting immigrants and enforcing current immigration laws. Says the border must not allow large numbers of illegal crossings and argues the humanitarian crisis should be handled on the Mexico side of the border.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Foreign policy and China",
+          "stance": "Supports a 'peace through strength' foreign policy. Proposes stopping U.S. land sales to China, especially near military bases.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Climate and energy",
+          "stance": "Supports U.S. withdrawal from the Paris climate accords and says the U.S. can switch its coal-fired power generation to natural gas.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Voting and elections",
+          "stance": "Says current federal law is adequate and supports requiring photo ID to vote. Says people without birth certificates can use census records to get a government-approved ID.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Guns and public safety",
+          "stance": "Supports a focus on mental health and enforcing existing gun laws. Says red flag laws do not deter gun violence, opposes abolishing the Second Amendment, and supports no-parole prison sentences for gang members.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Federal budget and debt",
+          "stance": "Supports stopping deficit spending, balancing the federal budget, and using any surplus to pay down the national debt.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Fentanyl",
+          "stance": "Calls fentanyl poisoning the top killer of young adults and says Congress should address it as a priority.",
+          "source": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "topic": "Education",
+          "stance": "Opposes what he calls 'woke' policies in schools. Calls for ending the FBI threat tag used for school board threats, which he says has targeted parents who speak at board meetings.",
+          "source": "https://patrickgillespie4congress33.com/"
+        }
+      ],
+      "history": [
+        "Republican nominee, U.S. House Texas District 33 (2026); won the May 26, 2026 primary runoff",
+        "Candidate for U.S. House Texas District 33 in 2024 and 2022 (per Ballotpedia)",
+        "Technical writer; has worked at Boeing, BAE Systems, American Airlines and Flextronics",
+        "Former vice president, Local Lodge 2768, International Association of Machinists and Aerospace Workers",
+        "Graduate of Huntington High School (Huntington, WV); attended Marshall University"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia: Patrick Gillespie (Texas)",
+          "url": "https://ballotpedia.org/Patrick_Gillespie_(Texas)"
+        },
+        {
+          "label": "Patrick Gillespie campaign website",
+          "url": "https://patrickgillespie4congress33.com/"
+        },
+        {
+          "label": "NBC News: Texas House District 33 primary runoff results",
+          "url": "https://www.nbcnews.com/politics/2026-primary-elections/texas-us-house-district-33-runoff-results"
+        },
+        {
+          "label": "WTOP: Gillespie advances to primary runoff",
+          "url": "https://wtop.com/elections/2026/03/republican-patrick-gillespie-advances-to-primary-runoff-election-in-texas-33rd-congressional-district/"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h33-colin-allred",
+    "name": "Colin Allred",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia lists Allred on the November 3, 2026 general election ballot for TX-33, and FOX 4 reports he won the May 26 runoff and faces Patrick Gillespie. Ballotpedia and FOX 4 were checked through search results. Nothing suggests he has withdrawn. His campaign Substack posted an early-voting message about 3 days ago. The news list is empty: the tool budget ran out before the recent-news search finished, so no outlet coverage from the last 45 days has been confirmed. Please add news items manually. Five of the six stances come from a Smarter.vote aggregator page that summarizes Allred's 'A More Affordable Texas' agenda. That page was seen in search results only, not opened. I couldn't confirm the agenda on colinallred.com within budget. The immigration stance (abolishing ICE) carries the most weight, so please check it against the campaign's own materials before publishing. No profile topics were provided for Gillespie. I chose topics likely to allow comparison: cost of living, health care, immigration, energy, family economic support and ethics. Note that a race rating appears only in the KERA article, which said before the primary that the district is not competitive between the parties. It was left out of the summary on purpose, to avoid horse-race commentary."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h16-adam-bauman",
+    "name": "Adam Bauman",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1. Fetches failed. Every page fetch was blocked (url_not_allowed), so all facts and stances come from search-result text only; no page was opened in full.\n\n2. Candidacy confirmed. El Paso Matters (Oct. 14 and Oct. 16) and KVIA (Oct. 21–22) confirm Bauman is the Republican nominee on the Nov. 3 ballot. I found no sign he withdrew.\n\n3. Not yet checked against an official source. I did not open the Texas Secretary of State or El Paso County elections site.\n\n4. Ballotpedia text is from the primary. The page I saw still showed primary-era text; its campaign-website quote supports the property-tax stance only.\n\n5. Questionnaires: Bauman did not answer the El Paso Matters questionnaire or interview requests, and KVIA was still waiting on its questionnaire as of Oct. 6.\n\n6. Two stances are secondhand. Immigration and federal funding are El Paso Matters' summary of a KTSM interview, not the original KTSM piece. Term limits is El Paso Matters' report of something he said; the original source is not named.\n\n7. Gaps: no topic list was given for Escobar. KTSM says the interview also covered data centers and border security, but I could not get his remarks on those. Education was not found.\n\n8. News dates: the KTSM/Yahoo date (Oct. 15) is estimated from \"8 days ago\" and the item said 20 days to the election. The KTSM Camp East Montana item (about Sept. 11) is just under 45 days old and appears as a source rather than a news item."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h16-veronica-escobar",
+    "name": "Veronica Escobar",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed: El Paso Matters (Oct 14 and 16) and KVIA (Oct 6 and 21) report that Escobar is the Democratic nominee against Republican Adam Bauman, who won the GOP runoff on May 26, 2026. I found no sign that she withdrew. The tool budget ran out before I could get her issue stances. Both El Paso Matters fetches failed with 'url_not_allowed', and my last search went over the server tool limit. Because of that, every position listed is legislation she sponsored or introduced, taken from search snippets of congress.gov, GovTrack and her House press release. None are her own statements of policy views. A reviewer should add her answers from the El Paso Matters Q&A and the KVIA questionnaire on topics comparable to Bauman's (he lists property taxes as a priority). The background items come from search snippets. Wikipedia lists the House Democratic Policy and Communications Committee co-chair role; KVIA and the official site give the County Commissioner/County Judge history. I could not confirm the years she held each county office or her education, so I left them out. I also left out a GovTrack snippet item about H.Res. 1560 because its context was unclear. News headlines come from search result titles. The Oct 21 KVIA date appears in the snippet, and the other dates come from the URLs. Her House site says she was the first woman elected to this seat."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h2-steve-toth",
+    "name": "Steve Toth",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Toth (R) and Shaun Finnie (D) are running in the TX-2 general election on November 3, 2026. I found no sign that Toth withdrew or was removed. A Legacy.com obituary for a 'Steven A. Toth' (died October 18, 2026) came up in search results. It is a different person, age 63, from DeMotte, Indiana, so I did not use it. The two Ballotpedia pages give different primary totals: one shows 57.3% (31,637 votes), and the certified table shows 55.8% (36,830) to Crenshaw's 40.7%. I left the percentages out of the summary, so please check them against the Texas Secretary of State results. The News list is empty. In the last 45 days I found only a Houston Chronicle editorial endorsing his opponent Finnie (about 29 days old). It is an opinion piece rather than coverage of Toth's own actions, and I could not confirm its exact headline or date. ABC13's 'Vote 2026' ballot guide (about 4 days old) was not checked for Toth-specific content. Ballotpedia says Toth has not completed its 2026 Candidate Connection survey. Most stances come from BallotReady, which appears to reproduce his campaign's issue statements. The education stance comes from Smarter.vote, a secondary site describing his campaign page, because the campaign issues page was not opened. The gun-rights stance rests only on a listed campaign priority. Shaun Finnie's topics weren't provided, so I couldn't match topics to his."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h2-shaun-finnie",
+    "name": "Shaun Finnie",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia and Smarter.Vote both confirm Finnie is on the November 3, 2026 general election ballot against Steve Toth. I did not check an official Texas Secretary of State or Harris County candidate list. Most stances come from interviews with outlets that lean progressive (Politics Done Right) or represent small businesses (ASBL). Their summaries were reworded neutrally, and the stances are framed as the candidate's own statements. I did not open the campaign's issues page directly. The Aug 2026 Politics Done Right source (education/childcare stance) appeared only in search results. The veterans stance comes from a recent X post seen in a search snippet with no date shown. Recent news coverage is thin: I found no recent mainstream articles (Houston Chronicle, Texas Tribune), only two interview items from Oct 15 and Oct 17, 2026. The Oct 17 date comes from the article's byline. Smarter.Vote reports Finnie announced a $1 million TV ad buy in October and that a September internal poll was released. I did not include either because there was no primary source and it is horse-race material. Ballotpedia campaign finance data: $2.31M raised as of Feb 11, 2026, much of it in candidate loans per Smarter.Vote."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h7-alexander-hale",
+    "name": "Alexander Hale",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "How I checked he's on the ballot: Smarter.vote says Hale beat Tina Blum Cohen in the May 26 runoff, and VoteClock (8 days old) lists Fletcher (D), Hale (R) and Ngabo (G) for the November 2026 ballot. VoteClock cites the state's Ballot Certification Report, but I did not open the Secretary of State's site myself. Please check it there.\n\nNo news included: I found nothing from the last 45 days that is about Hale's own actions. The only recent item was a Houston Chronicle editorial endorsing Fletcher (about 7 days ago), and I left it out because it is opinion about his opponent. I used 3 of 5 searches and 1 of 3 fetches, so a follow-up search could still look for recent news.\n\nWhere the positions come from: most come from his May 2026 Community Impact Q&A, which I opened. The NGO-fraud item comes only from an iVoterGuide search snippet; I did not open that page.\n\nThings to check: the Q&A says 'end failed government programs,' and I reworded it to keep the guide neutral. His LinkedIn snippet mentions a 2026 trial competition, which may mean he is also a law student, so his occupation should be confirmed. 'Previously worked at WoodRock & Co.' is from a cut-off BallotReady snippet with no title or dates, so please verify it. I did not find a campaign website."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h7-lizzie-pannill-fletcher",
+    "name": "Lizzie Pannill Fletcher",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms her candidacy for the Nov. 3, 2026 general election, and I found no sign she has withdrawn. Ballotpedia says she won the March 3, 2026 primary unopposed (100%, 61,707 votes). The positions are thin, and both are older. The Social Security and Medicare stance comes from her 2018 campaign platform as quoted on Ballotpedia. The health care stance comes from an undated House newsletter that appears to be from about 2021–22, since it mentions the Build Back Better Act. She has not filled out Ballotpedia's 2026 survey. I did not find a 2026 issues page or questionnaire, such as from the Texas Tribune or VOTE411, within the tool budget. Topics for the other candidates were not provided, so I could not match them. The only recent news item is from Houston Republic, which looks like an automated site that summarizes social media posts. It may be worth swapping for an established outlet. One fetch went to the campaign's nomination press release, which had only general statements and no specific policy positions. That page also uses the phrase 'common-sense solutions' to describe her record, which I left out under our neutral-writing rules. A follow-up search of Texas Tribune, VOTE411 and the Houston Chronicle is recommended."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h8-jessica-hart-steinmann",
+    "name": "Jessica Hart Steinmann",
+    "applied": false,
+    "held": [
+      "Loaded language: radical"
+    ],
+    "problems": [],
+    "notes": "Ballotpedia and VoteSee confirm Steinmann is the Republican nominee on the Nov. 3, 2026 ballot against Laura Jones (D). I found no sign that she withdrew. I found no news coverage about her own actions from the last 45 days, so the news list is empty. The searches returned only general ballot guides, such as a Community Impact piece on early voting. Several stances come from her campaign site and launch press release (Gilmer Mirror), so they reflect her own framing; I added 'says' or 'what she calls' where the claims are disputed. The launch release was published as news but reads like a campaign statement. Education: I did not confirm where she earned her law degree, so it is left out; please add it if you can verify it. She has not completed Ballotpedia's candidate survey. TX-08 is centered in Montgomery County, not Harris County; please check the office label. Positions for opponent Laura Jones were not provided for comparison.",
+    "proposed": {
+      "occupation": "Attorney; former Director of the U.S. Justice Department's Office for Victims of Crime",
+      "summary": "Jessica Hart Steinmann is a Republican attorney from Montgomery County. She worked for U.S. Senator Ted Cruz, served as Director of the Office for Victims of Crime at the Justice Department during the Trump administration, and was later Executive General Counsel at the America First Policy Institute. She entered the race for the open TX-08 seat in September 2025 after Rep. Morgan Luttrell said he would not seek reelection, and she won the March 3, 2026 Republican primary to advance to the November 3 general election against Democrat Laura Jones.",
+      "positions": [
+        {
+          "topic": "Immigration and border security",
+          "stance": "Says she will work to keep the border secure and supports President Trump's border agenda.",
+          "source": "https://www.gilmermirror.com/2025/09/15/jessica-hart-steinmann-america-first-conservative-donald-j-trump-and-ted-cruz-alum-launches-campaign-for-congress-in-texass-8th-congressional-district/"
+        },
+        {
+          "topic": "Federal spending",
+          "stance": "Pledges to cut what she calls reckless federal spending.",
+          "source": "https://www.gilmermirror.com/2025/09/15/jessica-hart-steinmann-america-first-conservative-donald-j-trump-and-ted-cruz-alum-launches-campaign-for-congress-in-texass-8th-congressional-district/"
+        },
+        {
+          "topic": "Parental rights and education",
+          "stance": "Supports parental rights over children's upbringing and opposes school gender-identity policies that she calls a radical agenda. She cites her lawsuit against a school district that went to the U.S. Supreme Court.",
+          "source": "https://www.jessicasteinmann.com/issues"
+        },
+        {
+          "topic": "Transgender athletes / Title IX",
+          "stance": "Opposes allowing transgender girls to compete in girls' sports. She cites her lawsuit against Oregon, filed with Riley Gaines, over a transgender athlete in girls' track.",
+          "source": "https://www.jessicasteinmann.com/issues"
+        },
+        {
+          "topic": "Religious liberty and military",
+          "stance": "Supports religious-liberty protections for service members. She represented 36 Air Force members who sued over the Biden administration's COVID-19 vaccine mandate.",
+          "source": "https://www.jessicasteinmann.com/issues"
+        },
+        {
+          "topic": "Prosecutions of political figures",
+          "stance": "Opposes what she calls lawfare and the weaponization of government. She sued Manhattan DA Alvin Bragg over his prosecution of President Trump.",
+          "source": "https://www.jessicasteinmann.com/issues"
+        },
+        {
+          "topic": "Election law",
+          "stance": "Says she helped draft Texas's 2021 election law, which she calls an election-integrity law, and backs what she calls securing elections.",
+          "source": "https://www.gilmermirror.com/2025/09/15/jessica-hart-steinmann-america-first-conservative-donald-j-trump-and-ted-cruz-alum-launches-campaign-for-congress-in-texass-8th-congressional-district/"
+        }
+      ],
+      "history": [
+        "Staff, office of U.S. Senator Ted Cruz",
+        "Director, Office for Victims of Crime, U.S. Department of Justice (Trump administration; oversaw 2020 grant awards)",
+        "Executive General Counsel, America First Policy Institute",
+        "Texas committeewoman, RNC Platform Committee",
+        "Former president, The Woodlands Republican Women; former member, Montgomery County Child Welfare Board",
+        "Won the Republican primary for TX-08, March 3, 2026",
+        "Born and attended high school in Harris County; lives in Montgomery County"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia: Jessica Steinmann",
+          "url": "https://ballotpedia.org/Jessica_Steinmann"
+        },
+        {
+          "label": "Campaign site: About",
+          "url": "https://www.jessicasteinmann.com/about"
+        },
+        {
+          "label": "Campaign site: Issues",
+          "url": "https://www.jessicasteinmann.com/issues"
+        },
+        {
+          "label": "Gilmer Mirror: campaign launch announcement (Sept. 15, 2025)",
+          "url": "https://www.gilmermirror.com/2025/09/15/jessica-hart-steinmann-america-first-conservative-donald-j-trump-and-ted-cruz-alum-launches-campaign-for-congress-in-texass-8th-congressional-district/"
+        },
+        {
+          "label": "The Texan: Steinmann wins GOP primary",
+          "url": "https://thetexan.news/elections/former-doj-official-jessica-steinmann-wins-gop-primary-for-open-congressional-seat-near-houston/article_1afd63a7-bfa8-4fc0-a33f-c237f7b55ab7.html"
+        },
+        {
+          "label": "VoteSee: TX-08 2026 ballot",
+          "url": "https://www.votesee.org/ballot/texas/district-8"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h8-laura-jones",
+    "name": "Laura Jones",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia, Wikipedia, KPRC/Click2Houston's ballot guide and the FEC all confirm she is the Democratic nominee for TX-8 on the Nov 3, 2026 ballot. I found no sign that she withdrew. All stances come from one source, the Community Impact Q&A (Sept 1, 2026), which I opened in full. Steinmann answered the same questions there, so the two profiles can be compared topic by topic. Jones's answer on 'projects most important for Congress' was cut off on the fetched page, so I left that topic out. I could not fetch the Houston Chronicle endorsement (access blocked). Its headline and Oct 15, 2026 date come from search results, and it is an editorial-board endorsement, not coverage of her own actions. I found no other news about her from the last 45 days. I did not fetch her campaign site (laura4tx.com) or her Ballotpedia Candidate Connection answers, which are worth checking for more stances. I did not find her education in any source."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h9-alex-mealer",
+    "name": "Alex Mealer",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Ballotpedia confirms Mealer (R) and Leticia Gutierrez (D) are on the Nov. 3, 2026 ballot for TX-9, with no incumbent; independent Roy Morales is listed as withdrawn or disqualified. Gaps: 1) The Ballotpedia campaign-themes section and the TPR article body were cut off in the fetch, so the stances come from search snippets of the Texas Tribune, The Texan, Houston Public Media, her campaign site and her X account. 2) Two news dates are estimates from the search engine's page age, not the article bylines: the U.S. Chamber endorsement (shown as 0 days old, so about 2026-10-23) and The Texan (about 2026-10-14). Please check both. 3) The 'secure elections' stance comes from a May 2026 primary-runoff post on X. TPR/HPM report that Trump references have since been removed from her website, so check whether the current site still lists this. 4) I left out poll-only coverage (UH Hobby School) as horse-race news. 5) I couldn't find stated positions on health care or affordability, the topics Gutierrez emphasizes, within the tool budget. 6) Wikipedia notes her article is nominated for deletion; I didn't rely on it for any facts."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h9-leticia-gutierrez",
+    "name": "Leticia Gutierrez",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia, which I opened, lists Gutierrez (D) and Mealer (R) on the Nov 3, 2026 general election ballot. I found no sign she has withdrawn. I did not check the Texas Secretary of State or Harris County election sites directly. I could not open her campaign priorities page because the fetch budget ran out, so the corporate-subsidies stance relies on the search-result snippet. The Ballotpedia page I fetched was cut off before her survey answers. Most stances come from The Texan's summary of her platform, not her own words; please check them against the priorities page if you can. The 2026-10-14 date for The Texan is estimated from search metadata ('8 days ago'). Houston Public Media and TPR covered the same Oct 14 UH Hobby School poll under the headline 'Republican Alex Mealer leads Leticia Gutierrez as her campaign scrubs Trump from website'. I left that out of news because the headline is about her opponent and duplicates the same event. Only one news item from the last 45 days was found, and it is poll coverage, not her own actions; I found no other recent coverage. Some aggregator sites (electionstx, civic-align) say she was a Houston City Council chief of staff and worked at Air Alliance Houston. Those summaries are AI-written, so I did not include those claims."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h18-ronald-dwayne-whitfield",
+    "name": "Ronald Dwayne Whitfield",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia shows Whitfield won the March 3, 2026 GOP primary, and ABC13 (about 4 days old) says he faces Menefee on Nov. 3. I found no sign he withdrew. No positions are listed because I found no stance from Whitfield himself. He did not answer Community Impact's primary questionnaire (Jan 2026) or its general-election questionnaire (about 48 days old). I found no campaign website, and Ballotpedia shows no Candidate Connection survey for him. I did not take positions from his party. Occupation conflict: the Ballotpedia primary page includes a bio quote describing an accountant and former HISD math teacher. It sits next to Vences's Candidate Connection entry, and I believe it is hers, not his, so I left it out. Community Impact and Wikipedia both describe Whitfield as a landscaping contractor. An AI-generated site (edgechat.ai 'Edgepedia') makes Medicaid/Medicare claims that look unreliable and possibly confused with someone else; I excluded them. The 2025 candidacy item comes only from a Wikipedia search snippet; I did not open the page, so please verify it. Same for the education item, which comes from a BallotReady snippet I did not open. News: I found no coverage in the last 45 days about Whitfield's own actions. The Houston Chronicle endorsement of Menefee (about 9 days ago, https://www.houstonchronicle.com/opinion/endorsements/article/christian-menefee-congress-district-18-2026-22463144.php) mentions him only as the opponent. ABC13's ballot guide just lists him. I left both out of news. If he answers a VOTE411/LWV or Texas Tribune questionnaire, please re-run this profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h18-christian-dashaun-menefee",
+    "name": "Christian Dashaun Menefee",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: several sources (Spectrum News, VoteSee, Community Impact, Houston Chronicle) say Menefee is the Democratic nominee and faces Ronald Whitfield on November 3, 2026. I found no sign he withdrew or was removed. Our profile was empty, so everything here is new. Things to check: (1) The date for the Houston Chronicle 'What could Houston Democrats accomplish...' article (2026-10-10) is estimated from a '13 days ago' note in search results. I did not open the page. (2) Two of the news items are the candidate's own press releases, and one is an editorial endorsement. I found little independent news coverage in the last 45 days, so you may want to drop or replace those items. (3) The energy and research stances cite the House issues page, and I only saw it in search snippets. (4) I could not compare topics with Whitfield because he did not answer the Community Impact questionnaire. (5) The background facts come from Wikipedia and should be checked against an official bio if possible. I didn't open the campaign site (christianmenefee.com) because of the tool budget."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h22-trever-nehls",
+    "name": "Trever Nehls",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The positions come from BallotReady, which cites the campaign's issues page (trevernehlsforcongress.com/issues). I did not open the campaign site directly. I rewrote the campaign's loaded wording neutrally, for example 'soft-on-crime' and 'radical woke ideology'. The 'restrict girls' sports to biological girls' wording interprets the campaign's 'protect girls' sports' phrasing — please check it before publishing. The '33 years of service' figure comes from a voter-guide summary at voteyourviews.org, and the Sugar Land police and Army start years come from BallotReady; neither was confirmed against a primary source. I found no news from the last 45 days (since about 2026-09-08) that focused on the candidate's own actions, so news is empty. The Community Impact candidate Q&A is about 51 days old, which is outside the window, and could be a useful source for more stances. The Houston Chronicle's endorsement of Greene-Scott (about 7 days ago) is about the race, not Nehls, so I left it out. Office note: the district covers most of Fort Bend County, parts of Brazoria County, and southwest Harris County, so it appearing on Harris County ballots is consistent. Ballotpedia also lists a third candidate, Demile James (American Independent Party), who was not included in the request. Nehls's paid position as chief of staff to the interim Fort Bend County Judge was reported by Houston Public Media (up to $100K in consulting fees) and drew local protests in April 2026. That is factual context; I listed it under history without characterizing it."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h29-martha-fierro",
+    "name": "Martha Fierro",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Her candidacy is confirmed by the U.S. House Clerk's 2026 nominee list and by Ballotpedia: she is the Republican nominee for TX-29 against incumbent Sylvia Garcia. All stances come from Branch Politics' summary of her campaign website. I did not open the campaign site itself to check the wording, so it's worth verifying against fierrofortexas.com. Branch notes that her site had nothing on voting and elections as of July 22, 2026. I found no news from the last 45 days about her own actions. The only recent coverage was a Houston Chronicle editorial (about Oct. 16) endorsing her opponent, which I left out because it isn't about her actions. Background conflict: Branch says she worked in health care at the Texas Medical Center, while electionstx.com calls her a nurse and says she has one bachelor's degree from UH, not two. I kept the Branch wording. I didn't find the year or exact percentages of her Texas Senate District 6 race in an opened source. The figures come from a Wikipedia table I saw in search results, so please confirm them. FEC data via votesee.org shows minimal fundraising ($485 through Sept. 30, 2026)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h22-marquette-greene-scott",
+    "name": "Marquette Greene-Scott",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Candidacy: Ballotpedia and other ballot sites confirm she is the Democratic nominee on the November 3, 2026 ballot. I found no sign that she withdrew. 2) Possible third candidate: a July 2026 Daily Kos community post says Demile James (American Independent Party) is also in the general election, but VoteSee lists only two candidates. Please check the Texas Secretary of State ballot. 3) Geography: TX-22 is mostly Fort Bend and Brazoria counties and only partly in Harris County, so the 'Harris County' label in the request may be misleading. 4) Sourcing limits: I could not open her campaign site (MarquetteGreeneScott.com) directly. The bipartisanship and priorities stances come from campaign-site text quoted on the ASBL Substack, which is an advocacy blog. The Houston Chronicle page blocked fetching, so the immigration stance relies on its search snippet. The voting rights item comes from a Daily Kos community post, which is user-written, not newsroom reporting. Please confirm these against the official campaign site if you can. 5) No healthcare, abortion, or economy specifics were found beyond issue headings, so I left those topics out. I had no positions for Trever Nehls to match topics against. 6) News: I found no established-outlet coverage from the last 45 days about her own actions. The only recent item is the ASBL advocacy post (September 28). Consider dropping it. 7) The Chronicle gives her age as 54 as of early 2026.  Her 2024 general election percentage was not confirmed beyond Nehls winning with 62%."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h36-brian-babin",
+    "name": "Brian Babin",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://babin.house.gov/news/documentsingle.aspx?DocumentID=14406",
+      "Dropped news item not seen in this run: https://babin.house.gov/news/documentsingle.aspx?DocumentID=14395"
+    ],
+    "notes": "Ballotpedia confirms Babin is the Republican nominee on the Nov 3, 2026 ballot against Rhonda Hart (D). I found no sign that he withdrew. Gaps to check: (1) The only news items from the last 45 days are Babin's own House press releases. I found no independent news coverage in that window, so you may want to swap in outlet stories. (2) The Space Academy, ORTHO Act, I-47 and MQ-9 stances cite the news-list page where each release's summary appeared, not the individual release pages. (3) I did not open the campaign site or any candidate questionnaire. No topics were listed for Hart, so the topics here may not match hers. (4) The Ballotpedia search snippet listed the Republican primary result but not vote totals. The district also covers counties outside Harris."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h29-sylvia-garcia",
+    "name": "Sylvia Garcia",
+    "applied": false,
+    "held": [
+      "Loaded language: fighting for"
+    ],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia lists Garcia (incumbent) and Martha Fierro on the November 3, 2026 general election ballot for TX-29. Garcia won the March 3, 2026 primary with 58.2% against Jarvis Johnson (35.7%) and Robert Slater (6.1%). I found no sign that she withdrew. The tool budget ran out before I could search for news, so the news list is empty and needs a follow-up search for coverage from the last 45 days. All stances come from short summaries on her campaign homepage; I did not open the full issues page (sylviaforcongress.com/issues), which may have more detail. I didn't add a 'Democracy' topic from her site because no other candidate in the race has one. The years she served as Houston City Controller and Harris County Commissioner were not in the sources I opened, so they need checking. The Lightering Act claim comes from the GovTrack search result. The GovTrack page itself would not load.",
+    "proposed": {
+      "occupation": "U.S. Representative for Texas's 29th Congressional District",
+      "summary": "Sylvia Garcia is a Democrat who has represented Texas's 29th Congressional District in the U.S. House since 2019. Before that she served in the Texas Senate from 2013 to 2018. She won the March 3, 2026 Democratic primary with 58.2% of the vote and faces Republican Martha Fierro in the November 3, 2026 general election.",
+      "positions": [
+        {
+          "topic": "Economy and inflation",
+          "stance": "Says she is fighting for an economy that works for everyone, not just those at the top, and for lower costs so families have a safe, stable and affordable place to live.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Immigration and border security",
+          "stance": "Lead sponsor of the Dream and Promise Act, which would create a path to citizenship for Dreamers and TPS recipients. Supported expanding TPS to Venezuelans and renewing TPS for Central Americans.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Health care",
+          "stance": "Says she has championed funding for community health centers, school-based clinics and mobile health pods to expand access to health care across the district.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Energy and environment",
+          "stance": "Says she helped secure more than $1 billion for a hydrogen hub on the Houston Ship Channel. Was primary sponsor of the Energy Security and Lightering Independence Act of 2021, which was enacted.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Education",
+          "stance": "Says she secured funding for workforce training programs in Pasadena ISD.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Public safety",
+          "stance": "Sponsored the I Am Vanessa Guillen Act, which changed military justice procedures for sexual harassment and assault cases. Sponsored the Don't Block Our Communities Act to fine railroads for trains stopped in neighborhoods.",
+          "source": "https://www.sylviaforcongress.com"
+        },
+        {
+          "topic": "Abortion and women's rights",
+          "stance": "Says women's freedoms are under attack, especially in Texas, and that she opposes efforts to restrict women's rights.",
+          "source": "https://www.sylviaforcongress.com"
+        }
+      ],
+      "history": [
+        "U.S. Representative, Texas District 29 (2019–present)",
+        "Texas State Senator, District 6 (2013–2018)",
+        "Harris County Commissioner (years not confirmed)",
+        "Houston City Controller (years not confirmed)",
+        "Former director and presiding judge, Houston Municipal Court System",
+        "Former social worker and legal aid lawyer",
+        "House impeachment manager, 2020 Senate trial of President Donald Trump",
+        "Committees: Financial Services (Vice Ranking Member); Ethics",
+        "J.D., Thurgood Marshall School of Law, Texas Southern University (1978)",
+        "B.A. in social work and political science, Texas Woman's University (1972)"
+      ],
+      "news": [],
+      "sources": [
+        {
+          "label": "Ballotpedia: Sylvia Garcia",
+          "url": "https://ballotpedia.org/Sylvia_Garcia"
+        },
+        {
+          "label": "Sylvia Garcia for Congress campaign site",
+          "url": "https://www.sylviaforcongress.com"
+        },
+        {
+          "label": "GovTrack: Rep. Sylvia Garcia",
+          "url": "https://www.govtrack.us/congress/members/sylvia_garcia/412827"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "h36-rhonda-hart",
+    "name": "Rhonda Hart",
+    "applied": false,
+    "held": [
+      "Loaded language: common-sense, common sense"
+    ],
+    "problems": [],
+    "notes": "Candidacy confirmed: Ballotpedia, KPRC/Click2Houston's ballot list and county roundups all show Hart (D) vs. Babin (R) on the Nov 3 ballot. Ballotpedia lists independent Hal Ridley as withdrawn. 1) Voteyourviews.org says Hart is a CPA and fraud examiner who worked the Madoff and Stanford cases. That appears to mix her up with her primary opponent, Doug Rogers, whom the Houston Chronicle describes as a forensic accountant. I left it out. 2) The voting section of her campaign site names 'Congressional District 4', but the footer and every other source say District 36. This looks like a typo on the site. 3) No stance found on Space/NASA, Transportation/infrastructure, or Government transparency/Epstein files, so those topics are left out. 4) I found almost no recent news about her own actions. The Lufkin item is a ballot roundup, not coverage of her, and its date is estimated from the search result's page age, so please check it. The ASBL Substack post mostly quotes her website. 5) Ballotpedia's page cut off before the survey section loaded, so the abortion stance cites BallotReady instead. Note that Hart's campaign site includes criticism of Babin, attributed in the health-care stance.",
+    "proposed": {
+      "occupation": "Gun-safety and public policy advocate; U.S. Army veteran",
+      "summary": "Rhonda Hart is a U.S. Army veteran (2000–2003) and gun-safety advocate who began her advocacy after her 14-year-old daughter, Kimberly Vaughan, was killed in the 2018 Santa Fe High School shooting. She ran for Congress in Texas' 14th District in 2024 and lost. She won the March 3, 2026 Democratic primary for Texas' 36th District with 64.2% of the vote over Doug Rogers and faces incumbent Republican Brian Babin on November 3, 2026.",
+      "positions": [
+        {
+          "topic": "Immigration / birthright citizenship",
+          "stance": "Calls for ICE reform and says the agency operates with masks, no body cameras and little accountability. Says \"no human being is illegal\" and refuses to use that term.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Federal budget and taxes",
+          "stance": "Proposes ending what she calls chaotic tariffs, taxing billionaires and raising the minimum wage to lower the cost of living.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Health care",
+          "stance": "Says health care should be affordable and accessible and not tied to a paycheck. Criticizes Babin's vote for the \"Big Beautiful Bill\", which she says cut Medicaid.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Defense",
+          "stance": "Opposes sending troops into what she calls unnecessary wars in the Middle East. Supports reversing the ban on transgender troops and more VA funding, based on her own experience as a disabled veteran.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Abortion / reproductive rights",
+          "stance": "Supports defending a woman's right to choose and passing federal law to codify Roe v. Wade.",
+          "source": "https://www.ballotready.org/people/rhonda-hart"
+        },
+        {
+          "topic": "Gun policy",
+          "stance": "Supports safe-storage laws and what she calls common sense gun laws. Says she helped pass the Kimberly Vaughan Safe Storage of Firearms Act as part of the Bipartisan Safer Communities Act.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Education",
+          "stance": "Opposes school vouchers. Supports more public-school funding and higher pay for teachers and support staff.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Energy / climate",
+          "stance": "Says climate change is a crisis. Supports investing in solar and wind while moving away from fossil fuels gradually, citing their importance to Southeast Texas jobs.",
+          "source": "https://www.hart4congress.com"
+        },
+        {
+          "topic": "Voting rights",
+          "stance": "Opposes the SAVE Act. Says voter ID is already required and that requiring a Real ID to vote would amount to a poll tax.",
+          "source": "https://www.hart4congress.com"
+        }
+      ],
+      "history": [
+        "U.S. Army, 2000–2003; describes herself as a disabled veteran",
+        "Associate degree, University of Alaska Southeast (2009); graduated from Wasilla High School",
+        "Public policy advocate on gun safe-storage laws since 2018",
+        "Democratic nominee for U.S. House, Texas District 14, 2024 (lost)",
+        "Won Democratic primary for U.S. House, Texas District 36, March 3, 2026 (64.2%)"
+      ],
+      "news": [
+        {
+          "date": "2026-10-18",
+          "outlet": "Lufkin Daily News",
+          "headline": "Key races on ballot for November general election; early voting starts Monday",
+          "url": "https://lufkindailynews.com/elections/key-races-on-ballot-for-november-general-election-early-voting-starts-monday/article_a0c6460c-676f-574f-a3a9-57e2e5fc01de.html"
+        },
+        {
+          "date": "2026-09-24",
+          "outlet": "American Small Business League (Substack)",
+          "headline": "Rhonda Hart, House Candidate, Texas District 36, ASBL 80, September 24, 2026",
+          "url": "https://asbl.substack.com/p/rhonda-hart-house-candidate-texas"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rhonda Hart for Congress – campaign site",
+          "url": "https://www.hart4congress.com"
+        },
+        {
+          "label": "Ballotpedia – Rhonda Hart",
+          "url": "https://ballotpedia.org/Rhonda_Hart"
+        },
+        {
+          "label": "BallotReady – Rhonda Hart",
+          "url": "https://www.ballotready.org/people/rhonda-hart"
+        },
+        {
+          "label": "Smarter.vote – TX-36 2026",
+          "url": "https://smarter.vote/races/tx-house-36-2026/"
+        },
+        {
+          "label": "Click2Houston – 2026 ballot guide",
+          "url": "https://www.click2houston.com/news/local/2026/10/07/who-is-running-in-texas-in-november-a-guide-to-the-2026-statewide-ballot/"
+        }
+      ]
+    }
   }
 ]

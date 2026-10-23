@@ -1,0 +1,1612 @@
+{
+  "date": "2026-10-23",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 2,
+  "limits": {
+    "searches": 5,
+    "fetches": 3,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "de-u-s-senator-chris-coons",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 4,
+      "costUSD": 0.218,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3713,
+        "cache_creation_input_tokens": 19760,
+        "cache_read_input_tokens": 76312,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "de-u-s-senator-michael-dr-mike-katz",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.257,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3974,
+        "cache_creation_input_tokens": 26427,
+        "cache_read_input_tokens": 125274,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "id-u-s-senator-jim-risch",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 1,
+      "sources": 2,
+      "costUSD": 0.116,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2091,
+        "cache_creation_input_tokens": 11031,
+        "cache_read_input_tokens": 42775,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ia-united-states-senator-josh-turek",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.254,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4274,
+        "cache_creation_input_tokens": 24046,
+        "cache_read_input_tokens": 92353,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ia-united-states-senator-ashley-hinson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.361,
+      "usage": {
+        "input_tokens": 32,
+        "output_tokens": 5117,
+        "cache_creation_input_tokens": 35431,
+        "cache_read_input_tokens": 254825,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ks-united-states-senator-adam-hamilton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 4,
+      "costUSD": 0.224,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3775,
+        "cache_creation_input_tokens": 20565,
+        "cache_read_input_tokens": 80069,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ks-united-states-senator-roger-marshall",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.376,
+      "usage": {
+        "input_tokens": 36,
+        "output_tokens": 5574,
+        "cache_creation_input_tokens": 32331,
+        "cache_read_input_tokens": 265822,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ky-united-states-senator-andy-barr",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.26,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4258,
+        "cache_creation_input_tokens": 23555,
+        "cache_read_input_tokens": 136780,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "ky-united-states-senator-charles-booker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.195,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3331,
+        "cache_creation_input_tokens": 16994,
+        "cache_read_input_tokens": 67112,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "la-u-s-senator-julia-letlow",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.214,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3534,
+        "cache_creation_input_tokens": 21815,
+        "cache_read_input_tokens": 70217,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "la-u-s-senator-jamie-davis",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.247,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 3635,
+        "cache_creation_input_tokens": 24432,
+        "cache_read_input_tokens": 159013,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "me-u-s-senator-susan-m-collins",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.253,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4115,
+        "cache_creation_input_tokens": 19379,
+        "cache_read_input_tokens": 119531,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "me-u-s-senator-troy-dale-jackson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 4,
+      "costUSD": 0.216,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3855,
+        "cache_creation_input_tokens": 19850,
+        "cache_read_input_tokens": 95927,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ma-senator-in-congress-john-deaton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 4,
+      "costUSD": 0.185,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2753,
+        "cache_creation_input_tokens": 17441,
+        "cache_read_input_tokens": 63868,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ma-senator-in-congress-edward-j-markey",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.279,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4310,
+        "cache_creation_input_tokens": 25212,
+        "cache_read_input_tokens": 132556,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "mn-u-s-senator-michele-tafoya",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.192,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3846,
+        "cache_creation_input_tokens": 18481,
+        "cache_read_input_tokens": 61510,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ms-united-states-senate-cindy-hyde-smith",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.244,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 4234,
+        "cache_creation_input_tokens": 22740,
+        "cache_read_input_tokens": 76509,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ms-united-states-senate-scott-colom",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.185,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3366,
+        "cache_creation_input_tokens": 15071,
+        "cache_read_input_tokens": 60581,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "mt-united-states-senator-kurt-alme",
+      "status": "updated",
+      "problems": 2,
+      "stances": 5,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.198,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2948,
+        "cache_creation_input_tokens": 20532,
+        "cache_read_input_tokens": 80312,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "mt-united-states-senator-alani-bankhead",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.234,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 4128,
+        "cache_creation_input_tokens": 22084,
+        "cache_read_input_tokens": 57017,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ne-united-states-senator-pete-ricketts",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.22,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3629,
+        "cache_creation_input_tokens": 20006,
+        "cache_read_input_tokens": 88990,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nh-united-states-senator-chris-pappas",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.268,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 4282,
+        "cache_creation_input_tokens": 25217,
+        "cache_read_input_tokens": 80785,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nh-united-states-senator-john-e-sununu",
+      "status": "updated",
+      "problems": 4,
+      "stances": 10,
+      "news": 1,
+      "sources": 2,
+      "costUSD": 0.208,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3370,
+        "cache_creation_input_tokens": 19271,
+        "cache_read_input_tokens": 72887,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nj-united-states-senator-justin-murphy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.218,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3632,
+        "cache_creation_input_tokens": 17485,
+        "cache_read_input_tokens": 89895,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nj-united-states-senator-cory-booker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.247,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3848,
+        "cache_creation_input_tokens": 19147,
+        "cache_read_input_tokens": 118687,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nm-united-states-senator-larry-e-marker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.154,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2888,
+        "cache_creation_input_tokens": 12948,
+        "cache_read_input_tokens": 58111,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nm-united-states-senator-ben-r-lujan",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.247,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4306,
+        "cache_creation_input_tokens": 22026,
+        "cache_read_input_tokens": 101500,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ok-united-states-senator-kevin-hern",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.231,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3212,
+        "cache_creation_input_tokens": 19138,
+        "cache_read_input_tokens": 103469,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ok-united-states-senator-n-kiyla-jasmine-thomas",
+      "status": "held",
+      "problems": 0,
+      "stances": 7,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.199,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3414,
+        "cache_creation_input_tokens": 18020,
+        "cache_read_input_tokens": 52594,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "or-us-senator-david-brock-smith",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.277,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3786,
+        "cache_creation_input_tokens": 28943,
+        "cache_read_input_tokens": 133274,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "or-us-senator-jeff-merkley",
+      "status": "updated",
+      "problems": 1,
+      "stances": 7,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.23,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3678,
+        "cache_creation_input_tokens": 21396,
+        "cache_read_input_tokens": 96840,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ri-united-states-senator-jack-reed",
+      "status": "updated",
+      "problems": 8,
+      "stances": 3,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.237,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3929,
+        "cache_creation_input_tokens": 18271,
+        "cache_read_input_tokens": 84674,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ri-united-states-senator-raymond-mckay",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.294,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3396,
+        "cache_creation_input_tokens": 34152,
+        "cache_read_input_tokens": 124843,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-u-s-senate-darline-graham",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.195,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3400,
+        "cache_creation_input_tokens": 18415,
+        "cache_read_input_tokens": 74331,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-u-s-senate-annie-andrews",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.236,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 4061,
+        "cache_creation_input_tokens": 21971,
+        "cache_read_input_tokens": 74404,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "tn-united-states-senate-bill-hagerty",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.171,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2354,
+        "cache_creation_input_tokens": 12529,
+        "cache_read_input_tokens": 57527,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "sd-united-states-senator-mike-rounds",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.217,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3973,
+        "cache_creation_input_tokens": 17854,
+        "cache_read_input_tokens": 92643,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "tn-united-states-senate-marquita-bradshaw",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.183,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2811,
+        "cache_creation_input_tokens": 17210,
+        "cache_read_input_tokens": 52888,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h35-carlos-de-la-cruz",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.239,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3658,
+        "cache_creation_input_tokens": 23690,
+        "cache_read_input_tokens": 85412,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h35-johnny-c-garcia",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 4,
+      "costUSD": 0.196,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 3168,
+        "cache_creation_input_tokens": 18842,
+        "cache_read_input_tokens": 41152,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h5-lance-gooden",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.178,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2672,
+        "cache_creation_input_tokens": 14103,
+        "cache_read_input_tokens": 72108,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h6-jake-ellzey",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.161,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2211,
+        "cache_creation_input_tokens": 11430,
+        "cache_read_input_tokens": 45610,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h5-chelsey-hockett",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 2,
+      "sources": 9,
+      "costUSD": 0.291,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4463,
+        "cache_creation_input_tokens": 27646,
+        "cache_read_input_tokens": 116131,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "h24-beth-van-duyne",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 4,
+      "costUSD": 0.164,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2256,
+        "cache_creation_input_tokens": 11479,
+        "cache_read_input_tokens": 55133,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h6-danny-minton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.216,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 2921,
+        "cache_creation_input_tokens": 22717,
+        "cache_read_input_tokens": 121343,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "h30-everett-jackson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.166,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2858,
+        "cache_creation_input_tokens": 11583,
+        "cache_read_input_tokens": 53640,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h24-kevin-burge",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.264,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 4002,
+        "cache_creation_input_tokens": 23644,
+        "cache_read_input_tokens": 176529,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h30-frederick-d-haynes-iii",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.191,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3110,
+        "cache_creation_input_tokens": 15006,
+        "cache_read_input_tokens": 66005,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h32-jace-yarbrough",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.225,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3780,
+        "cache_creation_input_tokens": 21550,
+        "cache_read_input_tokens": 107463,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "h32-dan-barrios",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.162,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3029,
+        "cache_creation_input_tokens": 12999,
+        "cache_read_input_tokens": 83622,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h33-patrick-david-gillespie",
+      "status": "held",
+      "problems": 0,
+      "stances": 8,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.237,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 3427,
+        "cache_creation_input_tokens": 21859,
+        "cache_read_input_tokens": 146740,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h33-colin-allred",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.26,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3954,
+        "cache_creation_input_tokens": 21719,
+        "cache_read_input_tokens": 109753,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h16-adam-bauman",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.216,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3890,
+        "cache_creation_input_tokens": 18451,
+        "cache_read_input_tokens": 81259,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h16-veronica-escobar",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.21,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3532,
+        "cache_creation_input_tokens": 14608,
+        "cache_read_input_tokens": 79650,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h2-steve-toth",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.251,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3851,
+        "cache_creation_input_tokens": 21817,
+        "cache_read_input_tokens": 126043,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h2-shaun-finnie",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 2,
+      "sources": 8,
+      "costUSD": 0.197,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3321,
+        "cache_creation_input_tokens": 19749,
+        "cache_read_input_tokens": 59032,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h7-alexander-hale",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.214,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3740,
+        "cache_creation_input_tokens": 19350,
+        "cache_read_input_tokens": 61471,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h7-lizzie-pannill-fletcher",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.209,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3044,
+        "cache_creation_input_tokens": 17952,
+        "cache_read_input_tokens": 91761,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h8-jessica-hart-steinmann",
+      "status": "held",
+      "problems": 0,
+      "stances": 7,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.19,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3105,
+        "cache_creation_input_tokens": 17168,
+        "cache_read_input_tokens": 57743,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "h8-laura-jones",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.242,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3475,
+        "cache_creation_input_tokens": 20510,
+        "cache_read_input_tokens": 99668,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h9-alex-mealer",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.303,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 4510,
+        "cache_creation_input_tokens": 26896,
+        "cache_read_input_tokens": 190438,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "h9-leticia-gutierrez",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.272,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3933,
+        "cache_creation_input_tokens": 27115,
+        "cache_read_input_tokens": 139446,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "h18-ronald-dwayne-whitfield",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.191,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2703,
+        "cache_creation_input_tokens": 18635,
+        "cache_read_input_tokens": 68443,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h18-christian-dashaun-menefee",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 10,
+      "costUSD": 0.304,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4497,
+        "cache_creation_input_tokens": 26554,
+        "cache_read_input_tokens": 155642,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "h22-trever-nehls",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.245,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3556,
+        "cache_creation_input_tokens": 22325,
+        "cache_read_input_tokens": 108696,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h29-martha-fierro",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.152,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2519,
+        "cache_creation_input_tokens": 14862,
+        "cache_read_input_tokens": 35148,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h22-marquette-greene-scott",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.181,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3115,
+        "cache_creation_input_tokens": 17128,
+        "cache_read_input_tokens": 66884,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "h36-brian-babin",
+      "status": "updated",
+      "problems": 2,
+      "stances": 7,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.187,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2783,
+        "cache_creation_input_tokens": 15924,
+        "cache_read_input_tokens": 60324,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "h29-sylvia-garcia",
+      "status": "held",
+      "problems": 0,
+      "stances": 7,
+      "news": 0,
+      "sources": 3,
+      "costUSD": 0.296,
+      "usage": {
+        "input_tokens": 40,
+        "output_tokens": 3690,
+        "cache_creation_input_tokens": 24471,
+        "cache_read_input_tokens": 246896,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "h36-rhonda-hart",
+      "status": "held",
+      "problems": 0,
+      "stances": 9,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.296,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 3957,
+        "cache_creation_input_tokens": 28030,
+        "cache_read_input_tokens": 183814,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    }
+  ],
+  "costUSD": 15.84
+}
