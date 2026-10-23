@@ -198,9 +198,11 @@ export function checkBallot(raw, { seen, abbr, name, electionDate = "2026-11-03"
   const keepSource = s => s && s.url && cited(s.url) ? { label: s.label.trim(), url: s.url } : null;
 
   const confirmed = races.filter(r => r.source).length;
-  if (!confirmed) problems.push("No race could be tied to a source seen this run.");
+  // A state with no statewide races this year still gets its dates and measures, if those are sourced.
+  const nothingOnBallot = !races.length && (measures.length > 0 || !!keepSource(raw.dates_source));
+  if (!confirmed && !nothingOnBallot) problems.push("No race could be tied to a source seen this run.");
   return {
-    ok: confirmed > 0,
+    ok: confirmed > 0 || nothingOnBallot,
     problems,
     notes: raw.notes_for_reviewer || "",
     officialList: !!raw.found_official_list,

@@ -120,3 +120,10 @@ test("spending cap holds room for jobs in flight and stops at the cap", async ()
   assert.equal(b.reserve(1.2), true);
   assert.equal(JSON.parse(fs.readFileSync(file, "utf8")).spentUSD, 1.1);
 });
+
+test("a state with no statewide races is kept when its dates or measures are sourced", () => {
+  const seen = new Set([normalizeUrl("https://sos.example.gov")]);
+  const base = { found_official_list: false, official_site: { label: "SOS", url: "https://sos.example.gov" }, dates: [], races: [], races_source: { label: "", url: "" }, measures: [], measures_note: "", notes_for_reviewer: "" };
+  assert.equal(checkBallot({ ...base, dates_source: { label: "SOS", url: "https://sos.example.gov" } }, { seen, abbr: "ex", name: "Example" }).ok, true);
+  assert.equal(checkBallot({ ...base, dates_source: { label: "X", url: "https://unseen.example.com" } }, { seen, abbr: "ex", name: "Example" }).ok, false);
+});

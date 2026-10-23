@@ -83,7 +83,8 @@ async function main() {
     if (check.ok) {
       // Drop the old candidates of a rebuilt state so they don't linger.
       if (data.states[fips]) for (const r of data.states[fips].races) for (const id of r.candidates) delete data.candidates[id];
-      data.states[fips] = { ...check.state, abbr, coverageNote: COVERAGE[SCOPE] };
+      const coverageNote = check.state.races.length ? COVERAGE[SCOPE] : `${name} has no U.S. Senate, governor or other statewide office on the ballot this year. U.S. House, state legislature and local races aren't loaded yet. Check your sample ballot.`;
+      data.states[fips] = { ...check.state, abbr, coverageNote };
       Object.assign(data.candidates, check.candidates);
       console.log(`✓ ${name}: ${check.state.races.length} races, ${Object.keys(check.candidates).length} candidates` + (check.officialList ? ", checked against the official list" : ", official list not found"));
     } else {

@@ -125,8 +125,10 @@ function build({ root, data, styles }) {
   // State pages.
   for (const { st, slug: s } of states) {
     const offices = st.races.map(r => r.office);
-    const title = `${st.name} 2026 ballot: ${offices.length <= 3 ? offices.join(", ") : "statewide races"} candidates | Ballot Atlas`;
-    const description = `Who is running in ${st.name} on November 3, 2026: ${offices.slice(0, 4).join(", ")}. Key dates, neutral candidate profiles with sources, and where to vote.`;
+    const title = !offices.length ? `${st.name} 2026 election: key dates and where to vote | Ballot Atlas`
+      : `${st.name} 2026 ballot: ${offices.length <= 3 ? offices.join(", ") : "statewide races"} candidates | Ballot Atlas`;
+    const description = !offices.length ? `${st.name} on November 3, 2026: registration and voting deadlines, ballot measures, and where to vote.`
+      : `Who is running in ${st.name} on November 3, 2026: ${offices.slice(0, 4).join(", ")}. Key dates, neutral candidate profiles with sources, and where to vote.`;
     const dates = st.dates.map(d => `<li><strong>${esc(d.label)}:</strong> ${fmt(d.start)}${d.end ? ` to ${fmt(d.end)}` : ""}. ${esc(d.note)}</li>`).join("");
     const byLevel = LEVELS.map(([lvl, label]) => {
       const rs = st.races.filter(r => r.level === lvl);
