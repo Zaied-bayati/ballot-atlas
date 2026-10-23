@@ -1,0 +1,1419 @@
+{
+  "date": "2026-10-23",
+  "kind": "ballot",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "scope": "top",
+  "limits": {
+    "searches": 6,
+    "fetches": 4,
+    "pageTokens": 10000
+  },
+  "results": [
+    {
+      "state": "AK",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Gerald L. Heikes (Registered Republican)",
+            "Mary Peltola (Registered Democrat)",
+            "Dan S. Sullivan (Registered Republican)",
+            "Daniel J. Sullivan Jr. (Registered Republican)"
+          ],
+          "verify": "Two candidates are named Dan Sullivan. The incumbent is Dan S. Sullivan; Daniel J. Sullivan Jr. is a different person."
+        },
+        {
+          "office": "Governor / Lieutenant Governor",
+          "candidates": [
+            "Dave Bronson (Registered Republican)",
+            "Jonathan S. \"JKT\" Kreiss-Tomkins (Registered Democrat / Nonpartisan)",
+            "Treg Taylor (Registered Republican)",
+            "Bernadette M. Wilson (Registered Republican)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.206,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3335,
+        "cache_creation_input_tokens": 20877,
+        "cache_read_input_tokens": 74417,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "state": "AZ",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Katie Hobbs (Democratic)",
+            "Andy Biggs (Republican)",
+            "Risa Lombardo (Green)",
+            "Teri Ann Hourihan (No Labels)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.313,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4387,
+        "cache_creation_input_tokens": 28379,
+        "cache_read_input_tokens": 167848,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "AR",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senate",
+          "candidates": [
+            "Tom Cotton (Republican)",
+            "Hallie Shoffner (Democratic)",
+            "Jeff Wadlin (Libertarian)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Sarah Huckabee Sanders (Republican)",
+            "Fred Love (Democratic)",
+            "Colt Shelby (Libertarian)"
+          ],
+          "verify": "The Democratic candidate may be listed as Fred or Fredrick Love. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.341,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4830,
+        "cache_creation_input_tokens": 29085,
+        "cache_read_input_tokens": 194230,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "AL",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Barry Moore (Republican)",
+            "Everett Wess (Democratic)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Tommy Tuberville (Republican)",
+            "Doug Jones (Democratic)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.386,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 5434,
+        "cache_creation_input_tokens": 34159,
+        "cache_read_input_tokens": 280442,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "CA",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Governor",
+          "candidates": [
+            "Xavier Becerra (Democratic)",
+            "Steve Hilton (Republican)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.215,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3033,
+        "cache_creation_input_tokens": 18450,
+        "cache_read_input_tokens": 109594,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "CO",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Mark Baisley (Republican)",
+            "John Hickenlooper (Democratic)",
+            "Bob Chew (Forward)",
+            "Christopher Baum (Approval Voting)",
+            "Blake Huber (Libertarian)",
+            "Adam Withrow (Unity)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Victor Marx (Republican)",
+            "Phil Weiser (Democratic)",
+            "Stephen T. Hamilton (American Constitution)",
+            "Eric Mulder (Libertarian)",
+            "Jeff Peckman (Unity)",
+            "Erik Underwood (Approval Voting)",
+            "Greg Lopez (Unaffiliated)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.335,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4320,
+        "cache_creation_input_tokens": 29512,
+        "cache_read_input_tokens": 204701,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "DE",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Chris Coons (Democratic)",
+            "Michael \"Dr. Mike\" Katz (Republican)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.233,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 2832,
+        "cache_creation_input_tokens": 24591,
+        "cache_read_input_tokens": 117199,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "CT",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Ned Lamont (Democratic / Working Families)",
+            "Ryan Fazio (Republican / Independent)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.319,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3927,
+        "cache_creation_input_tokens": 31947,
+        "cache_read_input_tokens": 154393,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "HI",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor",
+          "candidates": [
+            "Josh Green (Democratic)",
+            "Gary Cordery (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.217,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 3767,
+        "cache_creation_input_tokens": 18548,
+        "cache_read_input_tokens": 43240,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "ID",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Todd Achilles (Independent)",
+            "Natalie M Fleming (Independent)",
+            "Matt Loesby (Libertarian)",
+            "Jim Risch (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Brad Little (Republican)",
+            "Terri Pickens (Democratic)",
+            "Pro-Life (Constitution)",
+            "Paul Sand (Libertarian)",
+            "John R. Stegner (Independent)"
+          ],
+          "verify": "Some guides also list Jacob Burnett, who may be a write-in candidate. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.306,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4576,
+        "cache_creation_input_tokens": 26288,
+        "cache_read_input_tokens": 115340,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "IA",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Ashley Hinson (Republican)",
+            "Josh Turek (Democratic)",
+            "Thomas Laehn (Libertarian)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Zach Lahn (Republican)",
+            "Rob Sand (Democratic)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.294,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4377,
+        "cache_creation_input_tokens": 26210,
+        "cache_read_input_tokens": 176732,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "state": "KS",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Roger Marshall (Republican)",
+            "Adam Hamilton (Democratic)",
+            "David C. Graham (Libertarian)"
+          ],
+          "verify": "Names are from secondary sources, not the official list. Check your sample ballot for exact spellings."
+        },
+        {
+          "office": "Governor / Lieutenant Governor",
+          "candidates": [
+            "Ty Masterson (Republican)",
+            "Cindy Holscher (Democratic)"
+          ],
+          "verify": "Third-party or independent tickets are unconfirmed. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.367,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 5044,
+        "cache_creation_input_tokens": 33226,
+        "cache_read_input_tokens": 197216,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "KY",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Andy Barr (Republican)",
+            "Charles Booker (Democratic)",
+            "Christopher Campbell (Kentucky)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.344,
+      "usage": {
+        "input_tokens": 32,
+        "output_tokens": 4312,
+        "cache_creation_input_tokens": 30182,
+        "cache_read_input_tokens": 284097,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "LA",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Julia Letlow (Republican)",
+            "Jamie Davis (Democratic)"
+          ],
+          "verify": "This list comes from news voter guides, not the state's official list. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.299,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4428,
+        "cache_creation_input_tokens": 28578,
+        "cache_read_input_tokens": 138565,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "state": "MD",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Governor / Lt. Governor",
+          "candidates": [
+            "Wes Moore (Democratic)",
+            "Dan Cox (Republican)",
+            "Andy Ellis (Green)",
+            "Cathy White (Working Class)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.273,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3486,
+        "cache_creation_input_tokens": 24948,
+        "cache_read_input_tokens": 144211,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "MA",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Senator in Congress",
+          "candidates": [
+            "Edward J. Markey (Democratic)",
+            "John Deaton (Republican)",
+            "Shiva Ayyadurai (Independent)",
+            "Joe Tache (Socialism and Liberation)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor & Lieutenant Governor",
+          "candidates": [
+            "Maura Healey (Democratic)",
+            "Michael Roger Minogue (Republican)",
+            "Andrea James (Independent)"
+          ],
+          "verify": "Republican running mate Shawn Oliver has suspended his campaign, but he is still on the ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.259,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3270,
+        "cache_creation_input_tokens": 26940,
+        "cache_read_input_tokens": 93498,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "ME",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Susan M. Collins (Republican)",
+            "Troy Dale Jackson (Democratic)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Richard A. Bennett (Independent)",
+            "Robert \"Bobby\" B. Charles (Republican)",
+            "Hannah M. Pingree (Democratic)"
+          ],
+          "verify": "Rick Bennett's ballot label (Independent vs. Unenrolled) is unconfirmed. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.43,
+      "usage": {
+        "input_tokens": 34,
+        "output_tokens": 5718,
+        "cache_creation_input_tokens": 39337,
+        "cache_read_input_tokens": 296428,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "MS",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senate",
+          "candidates": [
+            "Cindy Hyde-Smith (Republican)",
+            "Scott Colom (Democratic)",
+            "Ty Pinkins (Independent)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.309,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4690,
+        "cache_creation_input_tokens": 27423,
+        "cache_read_input_tokens": 141833,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "MN",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Peggy Flanagan (Democratic-Farmer-Labor)",
+            "Michele Tafoya (Republican)",
+            "Rebecca Whiting (Libertarian)",
+            "Marisa Simonetti (Independent)"
+          ],
+          "verify": "The party label printed for Marisa Simonetti may differ from 'Independent.' Check your sample ballot."
+        },
+        {
+          "office": "Governor & Lieutenant Governor",
+          "candidates": [
+            "Amy Klobuchar (Democratic-Farmer-Labor)",
+            "Lisa Demuth (Republican)",
+            "Steven Young (Green)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.396,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 5660,
+        "cache_creation_input_tokens": 33567,
+        "cache_read_input_tokens": 274439,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "MT",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Kurt Alme (Republican)",
+            "Kyle Austin (Libertarian)",
+            "Alani Bankhead (Democratic)",
+            "Seth Bodnar (Independent)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.251,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3940,
+        "cache_creation_input_tokens": 24191,
+        "cache_read_input_tokens": 107106,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "NE",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Pete Ricketts (Republican)",
+            "Mike Marvin (Legal Marijuana NOW)",
+            "Robin Richards (Nebraska Working People)",
+            "Chuck Conboy (America First)",
+            "Dan Osborn (By Petition)"
+          ],
+          "verify": "Mike Marvin is on the certified list but has been reported as no longer running. Check your sample ballot."
+        },
+        {
+          "office": "Governor and Lt. Governor",
+          "candidates": [
+            "Jim Pillen (Republican)",
+            "Lynne Walz (Democratic)",
+            "Rick Beard (Legal Marijuana NOW)",
+            "Brett Lindstrom (America First)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.268,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4141,
+        "cache_creation_input_tokens": 24255,
+        "cache_read_input_tokens": 120690,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "NV",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor",
+          "candidates": [
+            "Joe Lombardo (Republican)",
+            "Aaron Ford (Democratic)",
+            "Danielle Ford (Nonpartisan)"
+          ],
+          "verify": "Exact name spellings and party labels may differ on your ballot. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.244,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4787,
+        "cache_creation_input_tokens": 19589,
+        "cache_read_input_tokens": 99686,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "state": "NJ",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Cory Booker (Democratic)",
+            "Justin Murphy (Republican)",
+            "Veronica Fernandez (End The Corruption!)",
+            "Joanne Kuniansky (Socialist Workers)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.201,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2726,
+        "cache_creation_input_tokens": 20828,
+        "cache_read_input_tokens": 61051,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "state": "NM",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Ben R. Luján (Democratic)",
+            "Larry E. Marker (Republican)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Greggory D. Hull (Republican)",
+            "Deb Haaland (Democratic)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.306,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4148,
+        "cache_creation_input_tokens": 31756,
+        "cache_read_input_tokens": 118753,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "NY",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Governor and Lt. Governor",
+          "candidates": [
+            "Kathy C. Hochul (Democratic, Working Families)",
+            "Bruce A. Blakeman (Republican, Conservative, Vote Affordable)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.295,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3863,
+        "cache_creation_input_tokens": 26726,
+        "cache_read_input_tokens": 171644,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "NH",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Chris Pappas (Democratic)",
+            "John E. Sununu (Republican)",
+            "Edmond J. Laplante, Jr. (Constitution)"
+          ],
+          "verify": "Independent candidates' ballot status and party labels are unconfirmed. Check your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Kelly Ayotte (Republican)",
+            "Cinde Warmington (Democratic)",
+            "Stephen Villee (Libertarian)"
+          ],
+          "verify": "Stephen Villee's party label as printed (Libertarian or independent) is unconfirmed. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.415,
+      "usage": {
+        "input_tokens": 34,
+        "output_tokens": 6166,
+        "cache_creation_input_tokens": 32629,
+        "cache_read_input_tokens": 339712,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "NC",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "US Senate",
+          "candidates": [
+            "Michael Dublin (GRE)",
+            "Roy Cooper (DEM)",
+            "Shannon W. Bray (LIB)",
+            "Michael Whatley (REP)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.25,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4212,
+        "cache_creation_input_tokens": 21985,
+        "cache_read_input_tokens": 130343,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "PA",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Josh Shapiro (Democratic)",
+            "Stacy Garrity (Republican)",
+            "Ken Krawchuk (Libertarian)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.199,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2827,
+        "cache_creation_input_tokens": 18415,
+        "cache_read_input_tokens": 53940,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "OK",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Kevin Hern (Republican)",
+            "N'Kiyla \"Jasmine\" Thomas (Democratic)",
+            "Sevier White (Libertarian)",
+            "Curtis Stinnett (Independent)",
+            "Ron Meinhardt (Independent)"
+          ],
+          "verify": "Exact ballot wording and name spellings were not confirmed against the official list. Check your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Mike Mazzei (Republican)",
+            "Cyndi Munson (Democratic)",
+            "Robert E. Brooks Sr. (Independent)",
+            "Orlando Lynn Bush (Independent)",
+            "Jerry Griffin (Independent)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.44,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4611,
+        "cache_creation_input_tokens": 49800,
+        "cache_read_input_tokens": 192880,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "OR",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "US Senator",
+          "candidates": [
+            "David Brock Smith (Republican)",
+            "Jeff Merkley (Democrat, Working Families)",
+            "Gary Lyndon Dye (Libertarian)",
+            "Chris Henry (Progressive, Pacific Green)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Brett Smith (Pacific Green)",
+            "Tina Kotek (Democrat, Working Families)",
+            "Christine Drazan (Republican, Libertarian)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.404,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4616,
+        "cache_creation_input_tokens": 43895,
+        "cache_read_input_tokens": 259754,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "RI",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Jack Reed (Democratic)",
+            "Raymond McKay (Republican)"
+          ],
+          "verify": "Independent candidates may also be on the ballot. Check your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Helena Buonanno Foulkes (Democratic)",
+            "Aaron C. Guckian (Republican)",
+            "Ken Block (Independent)"
+          ],
+          "verify": "Ken Block's ballot status and any other independent candidates are unconfirmed. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.315,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4943,
+        "cache_creation_input_tokens": 25002,
+        "cache_read_input_tokens": 156459,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "TN",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "United States Senate",
+          "candidates": [
+            "Bill Hagerty (Republican)",
+            "Marquita Bradshaw (Democratic)",
+            "Tharon Chandler (Independent)",
+            "Andrew Gerena (Independent)",
+            "Jeremy Dean Hearn (Independent)",
+            "Robert Jones (Independent)",
+            "James William Macon III (Independent)",
+            "Yoshi D. Matthews (Independent)",
+            "David Sutman, Jr. (Independent)",
+            "Catherine Barcel \"Barcy\" Whitson (Independent)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Marsha Blackburn (Republican)",
+            "Jerri Green (Democratic)",
+            "Misam Abidi (Independent)",
+            "Dean Brewer (Independent)",
+            "Ray Brown (Independent)",
+            "David Hatley (Independent)",
+            "Wendell Jackson (Independent)",
+            "Charles Van Morgan (Independent)",
+            "Eddie Lee Murphy (Independent)",
+            "Lauren Pinkston (Independent)",
+            "Victor L. Scoggin (Independent)",
+            "Dave Seeman (Independent)",
+            "Karl Knox Smithson (Independent)",
+            "L. Webb Taylor (Independent)",
+            "Robert C. Vick (Independent)"
+          ],
+          "verify": "Some independent candidates' names may be printed slightly differently on the ballot. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.324,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 5162,
+        "cache_creation_input_tokens": 29017,
+        "cache_read_input_tokens": 178513,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 4,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "SD",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Mike Rounds (Republican)",
+            "Brian L Bengs (Independent)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Larry Rhoden (Republican)",
+            "Dan Ahlers (Democratic)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.363,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4734,
+        "cache_creation_input_tokens": 32150,
+        "cache_read_input_tokens": 236615,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "VA",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Member, United States Senate",
+          "candidates": [
+            "Mark R. Warner (Democratic)",
+            "Bert Mizusawa (Republican)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.191,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2335,
+        "cache_creation_input_tokens": 20537,
+        "cache_read_input_tokens": 59406,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "state": "VT",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Governor",
+          "candidates": [
+            "June Goodband (Peace and Justice)",
+            "Amanda Janoo (Democratic/Progressive)",
+            "Brian Judd (Independent)",
+            "Dean Roy (Freedom and Unity)",
+            "Phil Scott (Republican)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.309,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4059,
+        "cache_creation_input_tokens": 29057,
+        "cache_read_input_tokens": 210397,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "WV",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "U.S. Senator",
+          "candidates": [
+            "Shelley Moore Capito (REP)",
+            "Rachel Fetty Anderson (DEM)",
+            "S. Marshall Wilson (CST)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.246,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3408,
+        "cache_creation_input_tokens": 20893,
+        "cache_read_input_tokens": 118438,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "WI",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Governor / Lieutenant Governor",
+          "candidates": [
+            "David Crowley (Democratic)",
+            "Tom Tiffany (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.318,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4345,
+        "cache_creation_input_tokens": 28504,
+        "cache_read_input_tokens": 144912,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "state": "WY",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Harriet Hageman (Republican)",
+            "James Byrd (Democratic)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Governor",
+          "candidates": [
+            "Eric Barlow (Republican)",
+            "Kenneth R. Casner (Democratic)",
+            "Rebecca Bextel (Constitution)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.286,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3467,
+        "cache_creation_input_tokens": 26954,
+        "cache_read_input_tokens": 106931,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "state": "SC",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "U.S. Senate",
+          "candidates": [
+            "Darline Graham (Republican)",
+            "Annie Andrews (Democratic)"
+          ],
+          "verify": "Libertarian and independent candidates may also be on the ballot. Check your sample ballot for the full list."
+        },
+        {
+          "office": "Governor and Lieutenant Governor",
+          "candidates": [
+            "Alan Wilson (Republican)",
+            "Jermaine Johnson (Democratic)",
+            "Walid Hakim (Green)",
+            "Michael Addison (United Citizens)"
+          ],
+          "verify": "Minor-party candidates and their party labels come from Ballotpedia, not the official list. Check your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.38,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 5650,
+        "cache_creation_input_tokens": 31740,
+        "cache_read_input_tokens": 240128,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 3,
+      "toolErrors": []
+    }
+  ],
+  "costUSD": 11.85
+}

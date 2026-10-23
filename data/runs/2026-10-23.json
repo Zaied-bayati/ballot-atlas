@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-23",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 2,
+  "limits": {
+    "searches": 5,
+    "fetches": 3,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [],
+  "costUSD": 0
+}
