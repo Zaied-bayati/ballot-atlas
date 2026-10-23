@@ -1,0 +1,939 @@
+{
+  "date": "2026-10-23",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 2,
+  "limits": {
+    "searches": 5,
+    "fetches": 3,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-robert-white",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.194,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2944,
+        "cache_creation_input_tokens": 16855,
+        "cache_read_input_tokens": 53545,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-denise-rosado",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.212,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3273,
+        "cache_creation_input_tokens": 20081,
+        "cache_read_input_tokens": 80321,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-united-states-senator-robert-simmons",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.148,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2111,
+        "cache_creation_input_tokens": 13277,
+        "cache_read_input_tokens": 47743,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-united-states-senator-paul-strauss",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.153,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2010,
+        "cache_creation_input_tokens": 13059,
+        "cache_read_input_tokens": 35758,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-united-states-representative-franklin-garcia",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.178,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2689,
+        "cache_creation_input_tokens": 15843,
+        "cache_read_input_tokens": 72230,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-united-states-representative-ciprian-ivanof",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.238,
+      "usage": {
+        "input_tokens": 32,
+        "output_tokens": 3326,
+        "cache_creation_input_tokens": 18594,
+        "cache_read_input_tokens": 191532,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-kymone-freeman",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.21,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3002,
+        "cache_creation_input_tokens": 21459,
+        "cache_read_input_tokens": 62387,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-mayor-of-the-district-of-columbia-janeese-lewis-george",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.221,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3420,
+        "cache_creation_input_tokens": 21452,
+        "cache_read_input_tokens": 74944,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-chairman-of-the-council-of-the-district-of-columbia-phil-mendelson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 3,
+      "costUSD": 0.166,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 1924,
+        "cache_creation_input_tokens": 13228,
+        "cache_read_input_tokens": 58141,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-at-large-member-of-the-council-of-the-district-of-columbia-oye-owolewa",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.157,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2757,
+        "cache_creation_input_tokens": 14081,
+        "cache_read_input_tokens": 59223,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-chairman-of-the-council-of-the-district-of-columbia-abi-ananiah-prudent",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.19,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2503,
+        "cache_creation_input_tokens": 18494,
+        "cache_read_input_tokens": 85030,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "dc-at-large-member-of-the-council-of-the-district-of-columbia-darrell-green",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.266,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 3213,
+        "cache_creation_input_tokens": 23304,
+        "cache_read_input_tokens": 174645,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-attorney-general-for-the-district-of-columbia-manuel-rivera",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 1,
+      "sources": 7,
+      "costUSD": 0.231,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 2902,
+        "cache_creation_input_tokens": 22290,
+        "cache_read_input_tokens": 109235,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-attorney-general-for-the-district-of-columbia-brian-l-schwalb",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.194,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3154,
+        "cache_creation_input_tokens": 16143,
+        "cache_read_input_tokens": 49447,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-at-large-member-of-the-council-of-the-district-of-columbia-elissa-silverman",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 9,
+      "costUSD": 0.616,
+      "usage": {
+        "input_tokens": 58,
+        "output_tokens": 9183,
+        "cache_creation_input_tokens": 50017,
+        "cache_read_input_tokens": 460096,
+        "server_tool_use": {
+          "web_search_requests": 9
+        }
+      },
+      "retried": true,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "in-secretary-of-state-beau-bayh",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.311,
+      "usage": {
+        "input_tokens": 38,
+        "output_tokens": 4831,
+        "cache_creation_input_tokens": 25676,
+        "cache_read_input_tokens": 278746,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "in-secretary-of-state-max-engling",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.21,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3333,
+        "cache_creation_input_tokens": 21375,
+        "cache_read_input_tokens": 84423,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "in-state-comptroller-auditor-of-state-jessica-bailey",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.196,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3072,
+        "cache_creation_input_tokens": 15338,
+        "cache_read_input_tokens": 90789,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "in-state-comptroller-auditor-of-state-elise-nieshalla",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.195,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 2902,
+        "cache_creation_input_tokens": 17733,
+        "cache_read_input_tokens": 93300,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "in-treasurer-of-state-coumba-kebe",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.259,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4215,
+        "cache_creation_input_tokens": 23467,
+        "cache_read_input_tokens": 136070,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "in-treasurer-of-state-daniel-elliott",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.233,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3415,
+        "cache_creation_input_tokens": 23666,
+        "cache_read_input_tokens": 83259,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "mo-state-auditor-scott-fitzpatrick",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 9,
+      "costUSD": 0.242,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4025,
+        "cache_creation_input_tokens": 20416,
+        "cache_read_input_tokens": 95314,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "mo-state-auditor-quentin-wilson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.197,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3179,
+        "cache_creation_input_tokens": 18470,
+        "cache_read_input_tokens": 55309,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nd-secretary-of-state-michael-howe",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 1,
+      "sources": 9,
+      "costUSD": 0.228,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3107,
+        "cache_creation_input_tokens": 20792,
+        "cache_read_input_tokens": 111163,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nd-attorney-general-drew-wrigley",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.221,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3105,
+        "cache_creation_input_tokens": 22364,
+        "cache_read_input_tokens": 82739,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nd-agriculture-commissioner-doug-goehring",
+      "status": "updated",
+      "problems": 2,
+      "stances": 5,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.207,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3331,
+        "cache_creation_input_tokens": 20911,
+        "cache_read_input_tokens": 80777,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nd-tax-commissioner-brian-kroshus",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 8,
+      "costUSD": 0.252,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2964,
+        "cache_creation_input_tokens": 25376,
+        "cache_read_input_tokens": 80059,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nd-public-service-commissioner-unexpired-two-year-term-jill-kringstad",
+      "status": "held",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.209,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3047,
+        "cache_creation_input_tokens": 20489,
+        "cache_read_input_tokens": 79412,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nd-public-service-commissioner-six-year-term-sheri-haugen-hoffart",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.253,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3734,
+        "cache_creation_input_tokens": 20845,
+        "cache_read_input_tokens": 118328,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nd-superintendent-of-public-instruction-levi-bachmeier",
+      "status": "updated",
+      "problems": 1,
+      "stances": 4,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.193,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2872,
+        "cache_creation_input_tokens": 20117,
+        "cache_read_input_tokens": 73814,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-mayor-of-the-district-of-columbia-rhonda-hamilton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.202,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3160,
+        "cache_creation_input_tokens": 18992,
+        "cache_read_input_tokens": 117223,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "dc-mayor-of-the-district-of-columbia-robert-l-gross",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.255,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3676,
+        "cache_creation_input_tokens": 21156,
+        "cache_read_input_tokens": 129138,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "in-secretary-of-state-lauri-a-shillings",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 9,
+      "costUSD": 0.289,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4147,
+        "cache_creation_input_tokens": 27895,
+        "cache_read_input_tokens": 83066,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "dc-at-large-member-of-the-council-of-the-district-of-columbia-darryl-moch",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.226,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3014,
+        "cache_creation_input_tokens": 19941,
+        "cache_read_input_tokens": 131014,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "in-secretary-of-state-greg-ballard",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.23,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3897,
+        "cache_creation_input_tokens": 19329,
+        "cache_read_input_tokens": 78227,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "in-state-comptroller-auditor-of-state-john-schick",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 10,
+      "costUSD": 0.299,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4061,
+        "cache_creation_input_tokens": 30210,
+        "cache_read_input_tokens": 83185,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "mo-state-auditor-dustin-coffell",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.219,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3511,
+        "cache_creation_input_tokens": 22464,
+        "cache_read_input_tokens": 82091,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "nd-secretary-of-state-ryan-braunberger",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 8,
+      "costUSD": 0.208,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3189,
+        "cache_creation_input_tokens": 18713,
+        "cache_read_input_tokens": 53852,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "nd-attorney-general-tim-lamb",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 1,
+      "sources": 7,
+      "costUSD": 0.2,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2988,
+        "cache_creation_input_tokens": 19843,
+        "cache_read_input_tokens": 56023,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nd-agriculture-commissioner-vern-thompson",
+      "status": "updated",
+      "problems": 1,
+      "stances": 6,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.233,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3799,
+        "cache_creation_input_tokens": 23521,
+        "cache_read_input_tokens": 95936,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    }
+  ],
+  "costUSD": 9.14
+}

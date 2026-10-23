@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-23",
+  "kind": "ballot",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "scope": "all",
+  "limits": {
+    "searches": 12,
+    "fetches": 8,
+    "pageTokens": 10000
+  },
+  "results": [
+    {
+      "state": "MO",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "State Auditor",
+          "candidates": [
+            "Scott Fitzpatrick (Republican)",
+            "Quentin Wilson (Democratic)",
+            "Dustin Coffell (Libertarian)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Missouri Supreme Court – Retention of Judge Paul C. Wilson",
+          "candidates": [
+            "Paul C. Wilson (Nonpartisan)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.381,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 5907,
+        "cache_creation_input_tokens": 34371,
+        "cache_read_input_tokens": 204254,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "UT",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Justice of the Supreme Court of Utah",
+          "candidates": [
+            "Jill M. Pohlman (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Judge of the Court of Appeals of Utah",
+          "candidates": [
+            "Amy Jo Oliver (Nonpartisan)",
+            "David Ned Mortensen (Nonpartisan)",
+            "Gregory Keith Orme (Nonpartisan)",
+            "John David Luthy (Nonpartisan)",
+            "Michele M. Christiansen Forster (Nonpartisan)",
+            "Ryan M. Harris (Nonpartisan)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.416,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 5715,
+        "cache_creation_input_tokens": 35346,
+        "cache_read_input_tokens": 222968,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 4,
+      "toolErrors": []
+    },
+    {
+      "state": "WA",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Supreme Court Justice Position 1 (2-year unexpired term)",
+          "candidates": [
+            "Colleen Melody (Nonpartisan)",
+            "Scott Edwards (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Supreme Court Justice Position 3 (6-year term)",
+          "candidates": [
+            "David Stevens (Nonpartisan)",
+            "Jaime Michelle Hawk (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Supreme Court Justice Position 4 (6-year term)",
+          "candidates": [
+            "Ian Birk (Nonpartisan)",
+            "Sean O'Donnell (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Supreme Court Justice Position 5 (2-year unexpired term)",
+          "candidates": [
+            "Theo Angelis (Nonpartisan)",
+            "Dave Larson (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Supreme Court Justice Position 7 (6-year term)",
+          "candidates": [
+            "Debra L. Stephens (Nonpartisan)",
+            "Todd A. Bloom (Nonpartisan)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.557,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 7432,
+        "cache_creation_input_tokens": 56855,
+        "cache_read_input_tokens": 318118,
+        "server_tool_use": {
+          "web_search_requests": 6
+        }
+      },
+      "searches": 6,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "state": "IN",
+      "status": "added",
+      "officialList": false,
+      "races": [
+        {
+          "office": "Secretary of State",
+          "candidates": [
+            "Beau Bayh (Democratic)",
+            "Lauri A. Shillings (Libertarian)",
+            "Greg Ballard (Lincoln)",
+            "Max Engling (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "State Comptroller (Auditor of State)",
+          "candidates": [
+            "Jessica Bailey (Democratic)",
+            "John Schick (Libertarian)",
+            "Elise Nieshalla (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Treasurer of State",
+          "candidates": [
+            "Coumba Kebe (Democratic)",
+            "Daniel Elliott (Republican)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Court of Appeals of Indiana – Retention of Judge Mary A. DeBoer (Fourth District)",
+          "candidates": [
+            "Mary A. DeBoer (Nonpartisan)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Court of Appeals of Indiana – Retention of Judge Paul A. Felix (Fifth District)",
+          "candidates": [
+            "Paul A. Felix (Nonpartisan)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        },
+        {
+          "office": "Indiana Tax Court – Retention of Judge Justin L. McAdam",
+          "candidates": [
+            "Justin L. McAdam (Nonpartisan)"
+          ],
+          "verify": "Not yet checked against the state's official candidate list. Confirm on your sample ballot."
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.515,
+      "usage": {
+        "input_tokens": 34,
+        "output_tokens": 8091,
+        "cache_creation_input_tokens": 39772,
+        "cache_read_input_tokens": 373004,
+        "server_tool_use": {
+          "web_search_requests": 8
+        }
+      },
+      "searches": 8,
+      "fetches": 6,
+      "toolErrors": []
+    },
+    {
+      "state": "ND",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Secretary of State",
+          "candidates": [
+            "Michael Howe (Republican)",
+            "Ryan Braunberger (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Attorney General",
+          "candidates": [
+            "Drew Wrigley (Republican)",
+            "Tim Lamb (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Agriculture Commissioner",
+          "candidates": [
+            "Doug Goehring (Republican)",
+            "Vern Thompson (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Tax Commissioner",
+          "candidates": [
+            "Brian Kroshus (Republican)",
+            "Mark Nelson (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Public Service Commissioner (six-year term)",
+          "candidates": [
+            "Sheri Haugen-Hoffart (Republican)",
+            "John M. Pederson (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Public Service Commissioner (unexpired two-year term)",
+          "candidates": [
+            "Jill Kringstad (Republican)",
+            "Scot Kelsh (Democratic-NPL)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "candidates": [
+            "Levi Bachmeier (Nonpartisan)",
+            "Tracy Layne Foss (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Justice of the Supreme Court (10-year term)",
+          "candidates": [
+            "Jerod Tufte (Nonpartisan)",
+            "Ariston E. Johnson (Nonpartisan)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Justice of the Supreme Court (unexpired eight-year term)",
+          "candidates": [
+            "Douglas A. Bahr (Nonpartisan)"
+          ],
+          "verify": "Ballot label for this seat's term is unconfirmed. Check your sample ballot."
+        }
+      ],
+      "problems": [
+        "Dropped date with a bad format: Voter registration deadline"
+      ],
+      "costUSD": 0.554,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 8494,
+        "cache_creation_input_tokens": 46491,
+        "cache_read_input_tokens": 307475,
+        "server_tool_use": {
+          "web_search_requests": 9
+        }
+      },
+      "searches": 9,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "state": "DC",
+      "status": "added",
+      "officialList": true,
+      "races": [
+        {
+          "office": "Delegate to the House of Representatives from the District of Columbia",
+          "candidates": [
+            "Denise Rosado (Republican)",
+            "Robert White (Democratic)",
+            "Kymone Freeman (DC Statehood Green)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "United States Senator",
+          "candidates": [
+            "Robert Simmons (Republican)",
+            "Paul Strauss (Democratic)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "United States Representative",
+          "candidates": [
+            "Ciprian Ivanof (Republican)",
+            "Franklin Garcia (Democratic)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Mayor of the District of Columbia",
+          "candidates": [
+            "Rhonda Hamilton (Independent)",
+            "Janeese Lewis George (Democratic)",
+            "Robert L. Gross (DC Statehood Green)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "Chairman of the Council of the District of Columbia",
+          "candidates": [
+            "Phil Mendelson (Democratic)",
+            "Abi-Ananiah Prudent (Republican)"
+          ],
+          "verify": ""
+        },
+        {
+          "office": "At-Large Member of the Council of the District of Columbia",
+          "candidates": [
+            "Oye Owolewa (Democratic)",
+            "Darryl Moch (DC Statehood Green)",
+            "Darrell Green (Republican)",
+            "Elissa Silverman (Independent)"
+          ],
+          "verify": "This contest appears once on the ballot as a single ranked-choice race. Check your sample ballot for how the two seats are filled."
+        },
+        {
+          "office": "Attorney General for the District of Columbia",
+          "candidates": [
+            "Manuel Rivera (Republican)",
+            "Brian L. Schwalb (Democratic)"
+          ],
+          "verify": ""
+        }
+      ],
+      "problems": [],
+      "costUSD": 0.472,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 7770,
+        "cache_creation_input_tokens": 45684,
+        "cache_read_input_tokens": 289589,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "searches": 3,
+      "fetches": 4,
+      "toolErrors": []
+    }
+  ],
+  "costUSD": 2.89
+}

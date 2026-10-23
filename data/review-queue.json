@@ -5765,5 +5765,493 @@
     "held": [],
     "problems": [],
     "notes": "Candidacy confirmed: Baker is on the November 3 printed ballot (per Click2Houston's guide based on the Secretary of State sample ballot) and was the unopposed Democratic primary nominee. Two source conflicts need checking. (1) The San Antonio Report profile says he served on the '5th Court of Appeals in Austin' and was 'swept out' in the 2024 election. Ballotpedia and the Texas Tribune say Third Court of Appeals. The Houston Chronicle says he lost the 2024 Democratic primary, which fits Ballotpedia listing fellow Democrat Karin Crump as his successor. I used Third Court and left out how his term ended. (2) His campaign site was not located or opened, and I found no detailed questionnaire answers. Stances are limited to what the Tribune reported. The second stance describes rulings by courts he sat on, as the Tribune reported them, not his own statements. Endorsements per the Tribune: Bay Area Democratic Movement, Victoria County Democratic Party, Panhandle Democrats. The Houston Chronicle endorsed Field and criticized Baker's screening performance. That is an opponent-side characterization, so I left it out. The Law.com article could not be opened (fetch blocked). Its headline and date come from the search results. The Texas Tribune primary guide was only partly retrieved. The Baker record item comes from a search snippet, and no topic overlap with Field could be confirmed."
+  },
+  {
+    "date": "2026-10-23",
+    "state": "MO",
+    "applied": true,
+    "problems": [],
+    "notes": "1) Missouri has no U.S. Senate race in 2026: Hawley's term runs to 2031 and Schmitt's to 2029. Governor, lieutenant governor, secretary of state, treasurer and attorney general were all elected in 2024. State Auditor is the only statewide executive office on the ballot. A KCUR guide I saw in search results mentions 'U.S. Senate' and 'governor' races, but that wording appears to apply generally to Kansas and Missouri together; neither race is on Missouri's 2026 ballot. 2) The candidates come from the SOS certified candidate list dated August 25, 2026. For State Auditor it lists Republican Scott Fitzpatrick, Democrat Quentin Wilson and Libertarian Dustin Coffell. No independent or other-party statewide candidates are listed. Ballotpedia's pre-primary listing named Gregory Upchurch and Mike Carter, but they are not on the certified general election list. 3) The judicial certification lists only Paul C. Wilson for Missouri Supreme Court retention. Court of Appeals retention races were left out because they vary by appellate district: Eastern (Virginia W. Lay, Rebeca Navarro-McKelvey, Angela Turner Quigless), Southern (Matthew P. Hamner) and Western (Lisa White Hardwick). The Missouri Bar says every voter will see at least two appellate judges on the ballot. The exact ballot wording for the retention question was not checked against a sample ballot; I used a descriptive office label. 4) The 12-year term length for Supreme Court retention comes from Missouri's constitution and was not re-checked in this request. 5) The SOS page lists measures 3, 6, 7, 8 and Proposition A as certified for November 3. Amendments 1, 2, 4 and 5 were on the August 4 primary ballot and are not included here. Ballotpedia's page (as of March) still listed Amendments 1 and 2 for November, which is outdated. Proposition A, the congressional map referendum, has been the subject of litigation, but the SOS lists it as certified for November as of the fetch on 2026-10-22. The measure summaries paraphrase the SOS fair ballot language. 6) Dates come from Vote411 and from KCTV5, KCUR and KFVS voter guides, which all agree. Polling hours (6 a.m. to 7 p.m.) are confirmed by the SOS certification document and Ballotpedia."
+  },
+  {
+    "date": "2026-10-23",
+    "state": "UT",
+    "applied": true,
+    "problems": [],
+    "notes": "1) No statewide candidate offices are on the 2026 ballot. Neither U.S. Senate seat is up (Lee's is up in 2028, Curtis's in 2030). The governor, lieutenant governor, attorney general, treasurer and auditor were elected in 2024 and serve 4-year terms. The sample ballot I saw lists no statewide candidate races; its partisan contests are only U.S. House, legislature and county offices, which are excluded. 2) found_official_list is true because I saw an official sample ballot: Tooele County's, certified by the county clerk and posted on the state's Public Notice Website (utah.gov/pmn). It is a county sample ballot, not a state-level list. It says it contains every race held in the county. Its statewide section matches news coverage: Amendments A and B (Deseret News, KUER) and Pohlman as the only Supreme Court justice up for retention (Ballotpedia News, Oct 13, 2026). A second county's publication ballot (Sevier, utah.gov/pmn/files/1494267.pdf) also showed Amendment A and Pohlman in search snippets, but I did not fetch it. 3) Justice Diana Hagen was originally scheduled for retention but resigned in May 2026 (Ballotpedia News), so she is not on the ballot. 4) Court of Appeals retention is included because Utah's Court of Appeals is a statewide court, so all voters see these questions. Names are written as on the Tooele ballot, which prints them in all capitals; I changed them to normal capitalization. District and juvenile court retention questions are left out because they are by district. The 'about' terms (10 years for Supreme Court, 6 for Court of Appeals) come from background knowledge and an ABC4 article, not the ballot itself. 5) Measure wording comes from the ballot titles and the ballot's own explanation for Amendment A. The 'after November 1, 2026' detail for Amendment B comes from the resolution text quoted by the Salt Lake Tribune. Both measures were referred by the Legislature. 6) The HB 267 public-union referendum is not on the ballot. The Legislature repealed HB 267 in a December 2025 special session, which cancels the referendum (Ballotpedia News, vote.utah.gov). 7) Dates: the vote.utah.gov registration page gives the start of early voting (Oct 20), the registration deadline (Oct 23) and the mail-ballot request deadline (Oct 27). The Oct 30 end of early voting comes from Uintah County's page and US Vote Foundation, and counties set their own schedules. Poll hours (7 a.m. to 8 p.m.) come from KUER. The rule that mail ballots must be received by 8 p.m. on Election Day comes from vote.utah.gov's vote-by-mail page (search snippet) and ABC4. Note that today (2026-10-23) is the regular registration deadline."
+  },
+  {
+    "date": "2026-10-23",
+    "state": "WA",
+    "applied": true,
+    "problems": [],
+    "notes": "Sources: Candidate names, ballot office titles, and measure ballot titles come from the official 2026 General Election Voters' Pamphlet published by the Washington Secretary of State (the King County–Seattle edition, PDF fetched and parsed). The Supreme Court section lists two candidates per position. For Position 1 the pamphlet lists Colleen Melody and Scott Edwards, and for Position 7 Debra L. Stephens and Todd A. Bloom. This means both races are contested in November even though Melody and Stephens got more than 50% in the August primary. The Spokesman-Review election center and KUOW coverage match this. I set found_official_list to true based on the state's official pamphlet. It is not a certified candidate list or a county sample ballot, so a reviewer may want to compare it with VoteWA. Names are spelled as printed in the pamphlet; the printed ballot could differ slightly. Incumbency: Melody (Position 1) and Angelis (Position 5) were appointed by Gov. Ferguson and are the sitting justices. Stephens (Position 7) is the sitting Chief Justice. Positions 3 and 4 are open: Montoya-Lewis is not running and Johnson reached the retirement age. Background on the vacancies is from Wikipedia's 2026 Washington Supreme Court election page. Other offices: No U.S. Senate seat is up in Washington in 2026 (Murray's next race is 2028, Cantwell's is 2030). The governor and all statewide executive offices were elected in 2024 and are not on the 2026 ballot. The Court of Appeals races in the pamphlet are by division or district, not statewide, so I left them out. Measures: the pamphlet lists exactly three, IP26-645, IL26-001, and IL26-638, with no legislative alternatives and no constitutional amendments. This matches Ballotpedia News (Oct 6, 2026) and KREM. Dates: from the SOS fact sheet (seen in search results) and the pamphlet. Ballots mailed by Oct 16. Online and mail registration must be received by Oct 26. In-person registration runs until 8 p.m. Nov 3. Mailed ballots must be postmarked by Nov 3. Drop boxes close at 8 p.m. Nov 3. Washington does not require voters to request a mail ballot, so the 'mail' entry shows the return deadline instead. The 'early' entry is the statewide voting period."
+  },
+  {
+    "date": "2026-10-23",
+    "state": "IN",
+    "applied": true,
+    "problems": [],
+    "notes": "Indiana has no U.S. Senate, governor, or attorney general race in 2026. Young's term runs to 2028 and Banks's to 2030. Statewide executive races are Secretary of State, Comptroller, and Treasurer, and Ballotpedia's 2026 state executive page confirms these three. found_official_list is false because I did not see the Indiana Election Division's own certified list. Candidate names, party labels, and office titles come from White County's official candidate list hosted on in.gov, which is a county list and not the state's. It matches Ballotpedia, WFYI, the Jefferson County list, and the Howard County page. The Howard County page has an error: it shows 'Daniel Elliot (D)' and 'Columba K...'. I ignored that because every other source shows Daniel Elliott (R) and Coumba Kebe (D). Greg Ballard's label is 'Lincoln Party' in White County's list, Ballotpedia, and the Jefferson County list. WFYI and Wikipedia call him Independent, and Howard County abbreviates it 'Lincoln'. Andrew Delano is a write-in for Secretary of State and is left out. Office titles follow the White County list: 'State Comptroller (Auditor of State)' and 'Treasurer of State'. The exact wording on printed ballots may be shorter. Judicial retention: the Indiana Judicial Branch press release of Aug 27, 2026 lists Court of Appeals Judges DeBoer (4th District), Felix (5th District), and Kenworthy (2nd District), plus Tax Court Judge McAdam. Mirror Indy and the Indiana Capital Chronicle say DeBoer, Felix, and McAdam are on every ballot. Kenworthy appears only in the 2nd District (Marion, Hamilton, Tippecanoe, Delaware, Howard counties and others), so she is left out of this statewide list. No Indiana Supreme Court justice is up for retention this year. The 10-year retention term comes from the press release. Dates: registration deadline Oct 5 (BallotReady, RU Voting, Mirror Indy). Mail application must be received by Oct 22, 12 days before the election (BallotReady, Vote411). Early voting runs Oct 6 to Nov 2 (Wikipedia, Mirror Indy). The noon end time on Nov 2 is from Indiana law and was not seen on a page this session. Polls are 6 a.m. to 6 p.m. local time (ACLU of Indiana, Wikipedia). No Election Division dates page was fetched. The Indiana Citizen mentioned candidate positions on keeping the 28-day early-voting period, which suggests a proposal to change it. Please confirm the 2026 early-voting window has not changed."
+  },
+  {
+    "date": "2026-10-23",
+    "state": "ND",
+    "applied": true,
+    "problems": [
+      "Dropped date with a bad format: Voter registration deadline"
+    ],
+    "notes": "Official source: I fetched the SOS 2026 General Election Contest/Candidate List (vip.sos.nd.gov eid=348). It shows the statewide contests (Agriculture Commissioner, Attorney General, Justice of the Supreme Court, Public Service Commissioner, Secretary of State, Superintendent of Public Instruction, Tax Commissioner) and a dropdown of certified candidate names. All 17 statewide candidates above appear there. The fetched page does not link each candidate to a contest, so I matched candidates to races using BallotReady, ND Monitor, the PSC site and the governor's office. found_official_list is set to true on that basis. The SOS list does not include Governor, Lieutenant Governor, U.S. Senate, Treasurer, Auditor or Insurance Commissioner, and none of these are up in 2026. Left out on purpose: U.S. House at-large (Fedorchak R, Hammer D, Tuttle I, Neville I), which is on every ND ballot but excluded by the rules. Party labels: I used 'Democratic-NPL' and 'Republican' but did not see a sample ballot to confirm the exact printed wording. Office names follow the SOS contest names. The term notes in parentheses for the two PSC seats and two Supreme Court seats are my own and may not match the ballot wording. PSC: the PSC website says Haugen-Hoffart's term ends in 2026 and Kringstad (appointed January 2025) must be confirmed by voters to finish the remaining term. ND Monitor (October 22) reports Kelsh is challenging Kringstad for a two-year term, which makes Pederson the opponent for the six-year seat (BallotReady lists him in a separate PSC contest). Superintendent: the race is nonpartisan. Bachmeier was appointed November 24, 2025 after Baesler left office, and Ballotpedia calls this a 2026 special election, which implies the term ends in 2028. Bahr: the governor's 2023 release says he serves until the 2026 general election and may run for the remaining eight years of the term. Bolts reports he is unopposed. Tim Lamb is listed as 'Timothy "
+  },
+  {
+    "date": "2026-10-23",
+    "state": "DC",
+    "applied": true,
+    "problems": [],
+    "notes": "1) Main source: the official DCBOE sample ballot for Wards 2/4/7/8, found on dcboe.org/elections/2026-elections. Candidates are listed in ballot order, with the party labels printed on the ballot (the ballot prints 'DCStatehoodGreen'). Write-ins are left out. Ward Council, ward State Board of Education and ANC races are left out.\n2) The Delegate race is technically a U.S. House seat, but it is a non-voting, districtwide seat that appears on every ballot in DC, so I included it. Remove it if Ballot Atlas policy excludes it.\n3) 'United States Senator' and 'United States Representative' are the shadow offices; I used the exact ballot titles.\n4) At-large seat count: Wikipedia's 2026 DC Council page says two at-large seats are up (Bonds is retiring; the former McDuffie seat is held by Silverman). The sample ballot shows one ranked contest ('Rank up to 5 Choices') and does not print 'vote for two'. This looks like the first general election under ranked choice voting, and I did not confirm how the two seats are tabulated. Please confirm seats=2.\n5) Silverman is marked as incumbent. Wikipedia says she won the June 16, 2026 special election for the rest of McDuffie's term, after an interim appointee (Doni Crawford). I did not confirm her swearing-in date.\n6) Open-seat details (Bowser and Norton not running; Owolewa leaving the shadow representative seat) come from the Green Papers and Wikipedia, plus the fact that Owolewa is on the ballot as an at-large candidate.\n7) Term lengths come from general knowledge of DC law, not from a source I fetched in this request.\n8) The registration deadline date (Oct. 13) is in the calendar, but the line tying it to the registration rule sits on the next page; it matches the stated 21 days before the election.\n9) Mail ballot mailing (Sept. 28) and drop box dates (Oct. 9) are marked TENTATIVE in the calendar."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-robert-white",
+    "name": "Robert White",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed White is the Democratic nominee in the November 3, 2026 race, facing Rosado (R) and Freeman (Statehood Green). Several outlets reported his June primary win, and an October 13 press release lists him in the October debates. I found no sign that he withdrew. The news list is empty: I found no news article about White's own actions dated after 2026-09-08 (the 45-day window). The East of the River overview (Oct 13) covers several races. The National Law Review item (Oct 13) is an EINPresswire press release about the debates. The Defend D.C. coverage (around Aug 24) falls outside the window, so it appears only as a stance source. One WJLA article calls him a 'former' councilmember, but other sources (Ballotpedia, East of the River, WJLA in August) list him as a current at-large councilmember, so I listed him as current. Positions come from his WTOP primary questionnaire answers. I did not open his campaign site (joinrobertwhite.com), and I found no positions from debate coverage.  Comparison topics to check against the other candidates: statehood, public safety, housing, federal workforce."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-denise-rosado",
+    "name": "Denise Rosado",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Her candidacy for the Nov. 3 general election is confirmed by the DC GOP nominee release, WUSA9, WTOP and The Washington Sun. I found no sign that she has withdrawn. I did not check a DC Board of Elections page. On the primary: an older Ballotpedia snapshot listed three Republicans (Sylvia Randolph, Nelson Rimensnyder and Rosado), while WJLA reported in May that Rosado was unopposed, so the others may have left the race before the ballot was set. The summary therefore says only that she won the primary. All positions come from her answers on BallotReady, which link to rosadoforcongress.com; I did not open the campaign site itself. I left out phrases like 'soft-on-crime' and 'failure of leadership' as judgments, except in the education stance, where 'blames city leadership' is attributed to her. All three news items are general election guides that mention her, not stories about her own actions. I did not use a recent WTOP piece about Norton's retirement because it is mostly about Norton. I also left out an Oct. 13 EIN Presswire release about two October debates, since it is a press release; the 'Debates' tab may be worth checking for debate coverage. Her X account mentions a town hall on Oct. 20, 2026, which I could not confirm from news coverage. I did not find a stance from her on D.C. statehood or Home Rule specifically, beyond the federal income tax position."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-united-states-senator-robert-simmons",
+    "name": "Robert Simmons",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed his candidacy through the DCBOE candidate list dated 2026-07-15 (campaign site robert4senate.com). Recent coverage, including FOX 5 DC, shows no sign that he withdrew. Do not confuse him with former Connecticut Rep. Rob Simmons (born 1943), who served in Congress 2001–2007. Nothing I found connects the D.C. candidate to him, so I left out those offices. I could not confirm his occupation or education, so occupation is blank. I didn't fetch his campaign site or find any questionnaire answers, so the positions are based only on Hill Rag's summary of his campaign. Both positions come from that one source, and the 2026 Hill Rag piece is the only news item I could add. The second position is a summary of his campaign's focus areas, not a specific policy. Before publishing, get more detail from robert4senate.com or a questionnaire. Strauss's topic list wasn't provided. The 2024 vote share (6.32%) comes from Wikipedia and should be checked against DCBOE certified results. Also check whether the race has more candidates: The Pour Over lists three for Shadow Senator, including independent Greg Maye. The request names only Strauss."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-united-states-senator-paul-strauss",
+    "name": "Paul Strauss",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed his candidacy in the November 3, 2026 general election through Ballotpedia, BallotReady, and a Yahoo News election guide from this week; Yahoo names him as defending the seat against a Republican. I found no sign that he withdrew. Please check these points: (1) The office is DC's shadow senator seat (non-voting). (2) The claim that Batchelor was denied ballot access and Strauss ran unopposed in the primary comes only from a reporter's post on X (Zach Israel, about 188 days ago). Ballotpedia's search snippet shows Strauss with 96.8% (86,014 votes) in a Democratic primary, but I didn't open the page to confirm the details. Please verify both against DC Board of Elections results. (3) Both positions come from his older Ballotpedia campaign statement, which is from 2020. He has not completed Ballotpedia's 2026 survey, and I found no 2026 issues page or questionnaire. (4) I added no news items. I found no coverage from the last 45 days about his own actions or statements; the only recent item was a general DC election guide. (5) I opened no pages in full. All of this comes from search-result snippets, within the 5-search budget. Robert Simmons's topics weren't provided, so I couldn't match topics for comparison."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-united-states-representative-franklin-garcia",
+    "name": "Franklin Garcia",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Office name: this race is for D.C.'s U.S. Shadow Representative, which is not a voting seat in Congress. It is not the race for the non-voting House Delegate. The D.C. ballot (per WJLA) calls it 'U.S. Representative', but the guide should make clear which office this is. Sources show Garcia (D) and Ciprian Ivanof (R) as the nominees, and none show that Garcia has withdrawn. 2) I couldn't confirm the official primary results. WJLA and BallotReady list him as unopposed, and Wikipedia lists him as the nominee. 3) Positions: the only stance I could find is D.C. statehood, from his BallotReady issue statement, which links to fgarciadc.com/dc-statehood. I didn't open his campaign site. 4) News: I found no coverage from the last 45 days specifically about Garcia's own actions or statements, so the news list is empty. 5) Small source differences: Wikipedia lists his GWU degree as a B.S. in its infobox and a B.A. in its text, and BallotReady just says Bachelor's in Finance. BallotReady also lists his BAE job as 2001–present, which overlaps with his CSC job (2001–2006). Both details may need checking."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-united-states-representative-ciprian-ivanof",
+    "name": "Ciprian Ivanof",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "1) Office name needs fixing: Ivanof is running for U.S. Shadow Representative, not the non-voting Delegate to the U.S. House. Ballotpedia, BallotReady and Wikipedia all list Ivanof (R) vs. Franklin Garcia (D) for the shadow seat on November 3, 2026. I found no sign he has withdrawn. 2) Several stances come from his 2024 materials (his campaign site and Ballotpedia's 2024 survey), because he has not filled out Ballotpedia's 2026 survey. The Hill Rag piece from October 2026 lists his 2026 focus areas as public safety, education, WMATA and city finances. 3) Two pages could not be fully checked. The ivanof4dc.com fetch was blocked, so the campaign-site stance relies on a search snippet of home.ivanof4dc.com. The fetched Hill Rag page did not include the Ivanof passage, so the Hill Rag stance and news item rely on the search-result text. 4) Ballotpedia lists his bachelor's school as 'University of Minnesota Law School'; BallotReady says History at the University of Minnesota. I used BallotReady. 5) I found only one news item from the last 45 days."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-delegate-to-the-house-of-representatives-from-the-district-of-columbia-kymone-freeman",
+    "name": "Kymone Freeman",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The DC Board of Elections general election candidate list (dated July 15, 2026) confirms he is on the ballot, and October 2026 coverage from WTOP and Hill Rag also lists him. I found no sign that he withdrew. Please check: (1) The Eagle's date is an estimate. Search results said '38 days ago,' so I calculated 2026-09-15, but I did not open the article to confirm it. It may also fall just outside the 45-day news window. (2) The National Law Review item is a press release from the Freeman campaign, not independent reporting. The release did not include the debate dates or hosts. (3) The WTOP and Hill Rag articles are mostly about the race in general and mention Freeman only briefly. (4) The tax-resistance and public-safety stances come from a third-party guide (Anti-Racism Daily) that quotes him; I did not open it directly. Those stances are consistent with his BallotReady answers and party page. (5) I could not get his own site (freeman4congress.com) or his City Cast DC questionnaire answers: the City Cast page I fetched did not show the candidates' responses. I found no stated positions from him on federal intervention in D.C., the federal workforce, or education beyond the school-to-prison pipeline, so I left those topics out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-mayor-of-the-district-of-columbia-janeese-lewis-george",
+    "name": "Janeese Lewis George",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Lewis George's place on the ballot is confirmed by news coverage of the June 2026 primary and by recent October articles calling her the Democratic nominee. I did not check this against the DC Board of Elections ballot list. The Wikipedia race page lists only Lewis George and Robert L. Gross (DC Statehood Green). I found nothing on Rhonda Hamilton (Independent), so she may need to be checked against the official candidate list. Fetch budget: I opened only the Street Sense article in full. The other stances come from search-result text. The Reason and PoPville items quote her own posts from Oct. 15, 2026. The immigration stance comes from the Washington Examiner, which used opinionated framing that I left out. That article is about 55 days old, so it is cited as a source but kept out of the news list. Her campaign site was not opened. Its housing plan is at janeesefordc.com, linked from the Street Sense article. No public-safety or education stance from her own materials was confirmed. Several outlets describe Trump's attacks on her, but those are opponents' characterizations and were left out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-chairman-of-the-council-of-the-district-of-columbia-phil-mendelson",
+    "name": "Phil Mendelson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I hit the tool limit before I could search for stances or recent news, so positions and news are empty. Please do another pass. Candidacy is confirmed: the Wikipedia page for the 2026 election shows Mendelson renominated, with 102,720 votes (95.82%) in the June 16 primary, and lists him and Prudent as the November nominees. That page lists Jack Evans as withdrawn. One Wikipedia search snippet, quoting a social media post, says the DC Office of Campaign Finance opened an investigation into whether Mendelson used his government offices to try to remove Evans from the primary ballot. I could not check this against a primary news source, so I left it out of the profile. It should be checked before anything is published. The only stance-like material I found is a 2014 campaign excerpt on Ballotpedia about his Omnibus Crime Bills. It is too old to use as a current position. I did not check the official DC Board of Elections site, and I took the 2022 and 2026 vote figures from Ballotpedia and Wikipedia. Wikipedia says this is his fifth run for the seat; I did not include that in the profile."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-at-large-member-of-the-council-of-the-district-of-columbia-oye-owolewa",
+    "name": "Oye Owolewa",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed his candidacy through WUSA9, which reported him first in interim primary results, and Hill Rag (2026-10-12), which lists him as the Democratic primary winner on the November 3 ballot with Silverman, Green and Moch. I found no sign that he withdrew. All stances came from search-result snippets. I did not fetch any pages, and an earlier search error meant I ran a few more searches than planned. The BallotReady snippet cut off partway through the housing section, so other housing details may be missing. I couldn't confirm which Advisory Neighborhood Commission district he serves; the sources only call him an elected neighborhood official. The only news item from the last 45 days is about how the ballot works for the race, not his own actions. East of the River ran a near-duplicate story on the same day, so I left it out. I didn't check the WTOP questionnaire (June 2026), which may have more stances on issues his opponents address."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-chairman-of-the-council-of-the-district-of-columbia-abi-ananiah-prudent",
+    "name": "Abi-Ananiah Prudent",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed she is on the ballot through the DCBOE general election candidate list dated 2026-07-15, and the DC GOP named her as its nominee after the June 16 primary. I found nothing showing she withdrew. The Hill Rag item says she directs Concerned Women for America, but I couldn't confirm that through another source, and the exact title and chapter are unclear. The Office of Campaign Finance spells her name 'Abi-Abaniah' in its filing; DCBOE uses 'Abi-Ananiah'. I didn't find any education information. I found only one news item from the last 45 days, and it's a race roundup, not coverage focused on her. All of her stated positions come from her campaign website. One search failed because of a parsing error on my end, so I used 3 searches and 3 fetches. Mendelson's topics weren't included in the request, so I couldn't match them."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-at-large-member-of-the-council-of-the-district-of-columbia-darrell-green",
+    "name": "Darrell Green",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: WJLA says he was unopposed in the Republican primary, and Hill Rag (Oct 12–13) and WTOP list him on the November 3 ballot. I didn't check the DC Board of Elections certified list directly. He is not the former Washington football player of the same name, who lives in Virginia. Don't mix up the two in photos or biography. His campaign site has only a general bio and no issues page. I couldn't find any questionnaire answers (VOTE411, Washington Post, etc.) using this request's search budget. So the profile has no stances on health care, housing, arts and culture or D.C. statehood. The public safety and accountability stances are general statements from his own site and from Hill Rag's summary of his campaign. I fetched the Hill Rag Oct 13 article, but the text I extracted didn't include the paragraph about Green. That stance relies on the search-result snippet. Both news items are roundups of the whole race, not coverage mainly about Green. I found no news centered on him in the last 45 days. Education and term dates are not available. Suggest checking VOTE411 and the DCBOE candidate list before publishing."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-attorney-general-for-the-district-of-columbia-manuel-rivera",
+    "name": "Manuel Rivera",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: WJLA reported that Rivera ran uncontested in the June 16 Republican primary and will face Schwalb. FOX5 DC (about Oct 2026) also names him as the Republican challenger. I did not check a DC Board of Elections certified ballot list directly. I found no sign that he withdrew. The Washington Sun article loaded during my fetch, but my extraction picked up only its navigation, not the body text. The positions therefore come from the campaign press release and El Nuevo Día. I didn't get the release's exact date; search showed the page as about 36 days old. The El Nuevo Día body text didn't render, so the Puerto Rico independence stance and his volunteer lobbyist background rely on its headline, meta description and search snippet. The campaign's Issues page (riverafordc.com/issues/) was not fetched because of the budget and could add stances on public safety, home rule and other topics to compare with Schwalb. His education was not found. Only one news item was within 45 days. Ballotpedia's page is out of date (it still lists only the primary)."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-attorney-general-for-the-district-of-columbia-brian-l-schwalb",
+    "name": "Brian L. Schwalb",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Search results from October 2026 (Foley, Fox5 DC) confirm the general-election matchup between Schwalb and Rivera. I found nothing showing a withdrawal. Budget: 5 searches used, 0 fetches. The WTOP questionnaire was only partly visible in search snippets, so stances on parental accountability and Puerto Rico status were not found and are left out. Please check these items before publishing: (1) News dates are estimated from the search engine's page-age data, not read from the articles. The MLex date (Oct 22) shows in its snippet. The City Paper date (~Oct 17) and the OAG statement date (~Oct 14) are approximate. (2) The MLex item is only partly verified. The snippet says Schwalb is seeking up to $1.7B from Meta, but I could not open the full article. (3) Education and pre-2023 career were not checked this session and are left out. Ballotpedia lists his occupation only as 'Attorney.' (4) The 'Worker and tenant protection' and 'Public corruption' stances come from official OAG releases about his actions in office. They are not campaign statements. (5) The campaign site brianfordc.com was cited by East of the River News but not opened."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-at-large-member-of-the-council-of-the-district-of-columbia-elissa-silverman",
+    "name": "Elissa Silverman",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed her candidacy for the November 3 general election through the Hill Rag (Oct 13) and GGWash (Oct 1). I did not open the DC Board of Elections ballot list, so please check it there. I hit the tool limit before I could fully read the Street Sense guide or the Hill Rag article; the housing stance from Street Sense is based only on the search snippet, so please check it against the page. I couldn't open the WTOP questionnaire because fetching it was blocked. As a result, I found no sourced stances on public safety, health care, or arts and culture, and I left those topics out. The statehood stance comes from an undated newsletter from her earlier council term (around 2019), not from her 2026 campaign. The news list has only two items, and one is an endorsement editorial. GGWash is an advocacy group, so it's quoted only for her own words. The Hill Rag article listed may have misspelled McDuffie's first name as 'Kenyon'; check the headline and spelling."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-secretary-of-state-beau-bayh",
+    "name": "Beau Bayh",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed Bayh is the Democratic nominee on the Nov. 3, 2026 ballot. I found no sign that he has withdrawn. 1) Greg Ballard's label: WFYI lists him as Independent, but debate coverage says he runs on the Lincoln Party line, which matches your request. 2) The FOX59 debate page would not open. Both stances that cite it (voter ID and straight-ticket voting) come only from its search-result snippet. That snippet was cut off partway through a third point about citizen-led ballot initiatives, so I left that topic out. Please check these against the debate video. 3) The WFYI page opened, but the text of Bayh's own interview was missing from what came back. The no-donor-contracts pledge comes from the search snippet of that page. 4) I could not find his education (law school or college) in the sources I checked. Wikipedia has a page on him that you could use to fill this in. 5) I didn't find a stated position from Bayh on noncitizen voting. The Oct. 7 coverage only says he called Engling's claims on that issue 'ridiculous', so I left it out. 6) The WFYI voter guide is dated 2026-09-23, which is 30 days before today, so it is inside the 45-day window. 7) One news item is a poll story. I kept it because it is about this candidate, but you may want to swap it for coverage of something he did or said."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-secretary-of-state-max-engling",
+    "name": "Max Engling",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "No signs of withdrawal; Engling is an active candidate who took part in an Oct. 22 debate with Beau Bayh. All stances come from his campaign site, which I opened, and the campaign press page, which I saw only in search results. The citizenship stance's link to AG Rokita comes from the search snippet of the press page, which I did not open. I used all three page fetches, including one wasted on a parsing error, so I could not open the Oct. 22 Capital Chronicle or FOX59 debate stories; their headlines and dates come from search results. The FOX59 date assumes the story ran the night of the Thursday, Oct. 22 debate, so please confirm it. The WFYI voter guide content didn't fully load. Search results said the Libertarian (Shillings) and Lincoln Party (Ballard) candidates did not meet the polling threshold for the debate. WFYI lists Ballard as Independent, while the request lists him as Lincoln. The 'unsafe truck drivers' wording paraphrases the campaign's 'dangerous truck drivers'. I found no stated positions from Engling on mail-in voting, voter ID or redistricting."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-state-comptroller-auditor-of-state-jessica-bailey",
+    "name": "Jessica Bailey",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Several sources confirm she is the Democratic nominee: NWI Times, WFYI, Indiana Capital Chronicle, IDS and the UIndy Reflector. I found no sign that she withdrew. Please check these points: (1) The Capital Chronicle guide calls her 'Portage County Circuit Court clerk.' That looks like an error, since Portage is a city/township inside Porter County and every other source says Porter County Clerk. I used Porter County. (2) The Capital Chronicle shows a 'No' answer on taxes and on redistricting, but the exact questions were not visible in the search snippet. I wrote the stances from her quoted explanations and did not say what the 'No' answered. Please confirm the question wording. (3) Fetching the WFYI page returned only navigation, not the article text. Fetching the Reflector page was blocked (url_not_allowed). So the content from those two pages, and the stances overall, come from search-result snippets. (4) IDS article date is October 2026 but the exact day was not visible, so I listed it under sources rather than news. (5) I found no campaign website or VOTE411 answers within the tool budget. (6) I left the Wikipedia poll numbers out of the summary because it is a horse-race detail."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-state-comptroller-auditor-of-state-elise-nieshalla",
+    "name": "Elise Nieshalla",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "x"
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-treasurer-of-state-coumba-kebe",
+    "name": "Coumba Kebe",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Verified that Kebe is on the ballot: she is the Democratic nominee, chosen at the June 6, 2026 convention, and the race is covered as of Oct 22–23, 2026. I found no sign she has withdrawn. I did not check an official Indiana election office list. All stances come from the Indiana Daily Student interview, which is the only page I fully read. I hit the fetch limit before I could open the Capital Chronicle article and the Current questionnaire, so those are cited only as news and background from search-result text. Education wording differs between sources: the UIndy Reflector says B.S. in Community Health and Preventive Medicine, while FOX59 just says Bachelor of Science; I used the Reflector's version. The Buttigieg endorsement and the campaign's reported $374,904 in fundraising are left out because they are not positions. The Capital Chronicle snippet mentions Kebe asking for more disclosure of costs and risks of an Elliott initiative, but I could not see the full context, so I left it out. Elliott's profile topics were not provided; transparency and investments are the main points of comparison in the coverage."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-treasurer-of-state-daniel-elliott",
+    "name": "Daniel Elliott",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Elliott's candidacy is confirmed: the WFYI voter guide (Oct 1) and the Capital Chronicle (Oct 22) both name him as the Republican nominee, and I found no sign he has withdrawn. Most stances come from one Capital Chronicle interview. I did not open his campaign site (danielelliott.org) or the Ballotpedia themes page because of the tool budget. The Israel item is described as an action by his office; the article reporting it quotes his opponent and says Elliott did not respond to the paper. The IDS publication date (2026-10-19) is estimated from a search result marked '4 days ago', so please confirm it. Sources disagree on two details. The state site calls him the 56th treasurer and Wikipedia says 55th; I left the number out. Wikipedia gives a January 9, 2023 start date, while the state and Ballotpedia say January 1. Earnings figures also differ: the state bio page says $1.24B, while the August report cited by the Chronicle says about $1.785B, so I used neither in the summary. WFYI also reports that he has recently attended religious freedom events; I left this out because I didn't find a specific position statement from him."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mo-state-auditor-scott-fitzpatrick",
+    "name": "Scott Fitzpatrick",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "All of this comes from search-result text only; every page fetch failed (Missouri Independent was not accessible, and the California Democrat copy was not allowed). KY3 (2026-10-19) confirms the general-election field is Fitzpatrick, Wilson and Coffell, and nothing I found suggests a withdrawal. Sources disagree on the primary: Ballotpedia's snapshot named Mike Carter as the primary opponent, but Wikipedia's results show Fitzpatrick beat Gerald (Jerry) Wistrand Jr., 85.5% to 14.5%. I left the opponent's name out of the summary for that reason. The January vs. June date for the budget-warning report is also unclear, so the stance doesn't give a date. I didn't find a campaign issues page or a VOTE411 questionnaire. The Hoodline piece is a rewrite of KCUR and Missouri Independent reporting. Wilson's KY3 coverage can help when comparing topics."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mo-state-auditor-quentin-wilson",
+    "name": "Quentin Wilson",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Wilson's candidacy and nomination are confirmed by AP/KY3 primary coverage, and October 2026 news coverage shows no sign he has withdrawn. I didn't find a campaign website or questionnaire (VOTE411, Ballotpedia) within the tool budget, so the stances come from news interviews. Please check these items: (1) I only read the full KY3 article from Oct. 19. My Missouri Independent and STLPR fetches didn't return the article text, so the stances citing those two URLs rest on search-result excerpts. (2) The Columbia Missourian date (2026-10-20) is my estimate from the search engine's '3 days ago' label. (3) The years he served as Revenue director and where he earned his MBA were not confirmed, so years are left out. (4) The Missouri Independent story was also republished by KCUR, KBIA and Yahoo, so I listed only the original. I found no Missouri Secretary of State page in this search."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-secretary-of-state-michael-howe",
+    "name": "Michael Howe",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by Wikipedia's 2026 race page, NBC News (uncontested primary win for Howe on June 9, 2026) and Wikipedia's list of 2026 secretary of state races. Ballotpedia's 2026 race page still lists no official candidates, so it is out of date. My two attempts to open the North Dakota Monitor / News From the States article both failed, so the election-security stances come from search-result text of the same July 22, 2026 article (republished by ND Monitor, KFGO and News From the States). Please check the wording against the full article. I found no campaign website or candidate questionnaire. The campaign finance stance comes from his 2023 testimony as Secretary of State, not from a campaign statement. Only one news item about him falls within the last 45 days; I left out a Sabato's Crystal Ball race rating because it is horse-race commentary."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-attorney-general-drew-wrigley",
+    "name": "Drew Wrigley",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: several sources show Wrigley as the Republican nominee in a rematch with Tim Lamb (Democratic-NPL). I found no sign that he withdrew. I did not find a campaign issues page or a VOTE411/Ballotpedia questionnaire, so most stances come from one North Dakota Monitor article on AI and policing. That article also says Lamb has criticized Wrigley over North Dakota's share of the 47-state Meta settlement; I left that out because it is an opponent's characterization. The 'stem cell treatment scam' warning is something his office did as AG, not a campaign statement. The Minot Daily News copy of the AI article showed a page age of 22 days in search results, which doesn't match the Monitor's October 22 date, so I used the Monitor's date. One Wikipedia infobox wrongly calls him 'Secretary of State'; I ignored that. Older stories about his office's dispute with the Ethics Commission (2025) fall outside the 45-day news window, so I left them out. Search budget: 4 searches and 1 fetch used."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-agriculture-commissioner-doug-goehring",
+    "name": "Doug Goehring",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://northdakotamonitor.com/2026/09/29/north-dakota-gives-farmers-a-break-on-diesel-as-harvest-ramps-up/",
+      "Dropped news item not seen in this run: https://northdakotamonitor.com/2026/09/28/ag-commissioner-challenger-highlights-data-centers-incumbent-calls-move-grandstanding/"
+    ],
+    "notes": "Coverage from the North Dakota Monitor (Oct. 16 and March 20, 2026) confirms Goehring is the Republican incumbent running for reelection; I found no sign he withdrew. I did not find a campaign issues page or a VOTE411/Ballotpedia questionnaire within the tool budget. All stances come from one news report on the Oct. 13 Plain Talk debate, which I opened in full. Three news items were not opened and come from search results only: the Sept. 28 and Sept. 29 North Dakota Monitor articles (their dates are taken from the URLs) and the Grand Forks Herald piece (date estimated from search metadata showing it was about 10 days old and from the Oct. 12 event it covers). The Grand Forks Herald item covers the opponent's criticism and Goehring's reply that he doesn't record every meeting in his calendar. The Wikipedia page is the only source for Bismarck State College; the Monitor's 'elected four times' matches the 2010–2022 elections listed. To compare with Thompson, use the topics data centers/zoning, tariffs, input costs and role of the commissioner."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-tax-commissioner-brian-kroshus",
+    "name": "Brian Kroshus",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: the ND Monitor 2026 general election voter guide and Prairie Public's midterm page both list Kroshus (R) and Mark Nelson (D) for Tax Commissioner. I found no sign that he has withdrawn. I could not open the ND Monitor voter guide, which may hold questionnaire answers. Please check it for issue stances, especially any that line up with Nelson's topics. The campaign site gives only general priorities, with no detailed issue page. News is left empty because I couldn't confirm any article within the 45-day window with an exact publication date. Two near-misses: (1) an Inforum/Grand Forks Herald editorial endorsing Kroshus, about 37 days old with an unconfirmed exact date (https://www.inforum.com/opinion/editorials/north-dakota-ballot-2026-endorsements-to-goehring-haugen-hoffart-kelsh-and-kroshus). It is an endorsement, not coverage of his own actions. (2) An Inforum/Jamestown Sun story on data center sales tax exemptions that Kroshus outlined, about 56 days old, which is outside the window. Kroshus's stance on the 2024 measure to abolish property taxes was discussed in an older Plain Talk episode but not verified here, so I left it out."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-public-service-commissioner-unexpired-two-year-term-jill-kringstad",
+    "name": "Jill Kringstad",
+    "applied": false,
+    "held": [
+      "Loaded language: extreme"
+    ],
+    "problems": [],
+    "notes": "I used 3 of 5 searches and 1 of 3 fetches. The search tool returned unparsed text the first time, and one search was used up before I could read its results. I only opened the ND Monitor article in full. The Grand Forks Herald and Dickinson Press stances come from search-result snippets. I couldn't find a campaign website, a questionnaire, or official Secretary of State candidate-list confirmation, so her place on the ballot is based on news coverage of the primary and the Oct. 22 debate. The Grand Forks Herald date is estimated from the search result's page age ('0 days ago'). The debate itself was on Oct. 22, so the column may have been published that day; please check. The Inforum primary-results article says 'Kringstad led both Olson and Democratic-NPL candidate Scot Kelsh with 54%,' which reads like a reporting error, since the primary vote shares given are Kringstad 54% and Olson 45%. The Dickinson Press interview (about 136 days old) and the Inforum article are older than 45 days, so they are listed only as sources, not as news. I found no sign that she has withdrawn.",
+    "proposed": {
+      "occupation": "North Dakota Public Service Commissioner (incumbent, appointed January 2025); certified public accountant",
+      "summary": "Jill Kringstad is a Republican who has served on the North Dakota Public Service Commission since Governor Kelly Armstrong appointed her in January 2025 to fill the seat Julie Fedorchak left after being elected to the U.S. House. Before her appointment she worked on the PSC staff starting in 2016. She won the June 2026 Republican primary for the unexpired two-year term against Chris Olson and faces Democratic-NPL candidate Scot Kelsh in the November 3, 2026 general election.",
+      "positions": [
+        {
+          "topic": "Utility rates",
+          "stance": "Says her accounting background lets her check whether costs in utility rate requests are reasonable. She cites the Xcel Energy case, where the PSC approved about a 10% increase after a request of more than 19%.",
+          "source": "https://northdakotamonitor.com/2026/10/22/psc-challenger-seeks-to-advocate-for-landowners-incumbent-calls-herself-uniquely-qualified/"
+        },
+        {
+          "topic": "Data centers and large-load customers",
+          "stance": "Opposes letting power providers pass data center costs on to residential and other existing customers. Says data centers should pay their own way, and wants their benefits to customers, such as bill credits, made easier to see.",
+          "source": "https://northdakotamonitor.com/2026/10/22/psc-challenger-seeks-to-advocate-for-landowners-incumbent-calls-herself-uniquely-qualified/"
+        },
+        {
+          "topic": "Landowner rights and siting hearings",
+          "stance": "Championed a state law that separates technical hearings from local public-testimony hearings. Says the PSC should not cheerlead for developers, and that projects from developers who don't treat landowners with respect should face a harder path.",
+          "source": "https://northdakotamonitor.com/2026/10/22/psc-challenger-seeks-to-advocate-for-landowners-incumbent-calls-herself-uniquely-qualified/"
+        },
+        {
+          "topic": "Grid reliability and energy mix",
+          "stance": "Says baseload coal and natural gas are needed during extreme North Dakota winters, calling reliability in those conditions a safety issue. Says four-hour battery storage is not enough.",
+          "source": "https://www.grandforksherald.com/opinion/columns/plain-talk-public-service-commission-debate-between-jill-kringstad-and-scot-kelsh"
+        },
+        {
+          "topic": "Affordability",
+          "stance": "Says North Dakota has the nation's lowest residential electricity rates and pledges to keep them low while ensuring the state has abundant, reliable power.",
+          "source": "https://www.thedickinsonpress.com/news/local/psc-commissioner-jill-kringstad-seeks-election-discusses-energy-and-utility-issues"
+        }
+      ],
+      "history": [
+        "North Dakota Public Service Commissioner, January 2025–present (appointed by Gov. Kelly Armstrong)",
+        "PSC manager of business operations, 2019–2024",
+        "PSC accounting and budget specialist, starting 2016",
+        "Certified public accountant",
+        "B.A., Minnesota State University Moorhead (economics background)",
+        "Won 2026 Republican primary for the unexpired two-year PSC term"
+      ],
+      "news": [
+        {
+          "date": "2026-10-23",
+          "outlet": "Grand Forks Herald",
+          "headline": "Plain Talk: Public Service Commission debate between Jill Kringstad and Scot Kelsh",
+          "url": "https://www.grandforksherald.com/opinion/columns/plain-talk-public-service-commission-debate-between-jill-kringstad-and-scot-kelsh"
+        },
+        {
+          "date": "2026-10-22",
+          "outlet": "North Dakota Monitor",
+          "headline": "PSC challenger seeks to advocate for landowners; incumbent calls herself 'uniquely qualified'",
+          "url": "https://northdakotamonitor.com/2026/10/22/psc-challenger-seeks-to-advocate-for-landowners-incumbent-calls-herself-uniquely-qualified/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "North Dakota Monitor, Oct. 22, 2026 debate coverage",
+          "url": "https://northdakotamonitor.com/2026/10/22/psc-challenger-seeks-to-advocate-for-landowners-incumbent-calls-herself-uniquely-qualified/"
+        },
+        {
+          "label": "Grand Forks Herald, Plain Talk debate",
+          "url": "https://www.grandforksherald.com/opinion/columns/plain-talk-public-service-commission-debate-between-jill-kringstad-and-scot-kelsh"
+        },
+        {
+          "label": "Dickinson Press candidate interview",
+          "url": "https://www.thedickinsonpress.com/news/local/psc-commissioner-jill-kringstad-seeks-election-discusses-energy-and-utility-issues"
+        },
+        {
+          "label": "Inforum, primary election results",
+          "url": "https://www.inforum.com/news/local/psc-election-results-announced"
+        },
+        {
+          "label": "Wikipedia, Jill Kringstad",
+          "url": "https://en.wikipedia.org/wiki/Jill_Kringstad"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-public-service-commissioner-six-year-term-sheri-haugen-hoffart",
+    "name": "Sheri Haugen-Hoffart",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The candidacy is confirmed: she won the June 2026 GOP primary for the six-year seat (64%) and faces John Pederson in the general election. I found no sign that she withdrew. Pederson's topics weren't provided, so I picked topics both PSC candidates covered in May coverage (affordability, carbon pipelines, data centers). Some content is unconfirmed. (1) Her stances on carbon pipelines and data centers are missing. Both fetch attempts on those May articles failed. The data-center headline describes 'Republican candidate ... calls for moratorium', but I couldn't confirm whether that was Haugen-Hoffart or challenger Deven Styczynski, so I left it out. (2) I didn't open the Dickinson Press article. Its stance rests only on the headline and summary line in search results. (3) I didn't fetch her campaign site sherifornd.com, which is worth checking. (4) Sources conflict on her master's degree: the LinkedIn/UND Alumni text says Master of Management, while Wikipedia's infobox says MBA. I used the LinkedIn wording. (5) The only recent news item (2026-09-16 date estimated from a '37 days ago' age) is an editorial endorsement, not hard news. I found no news from the last 45 days about her own actions. The date and outlet need verifying. I hit the tool budget limit."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-superintendent-of-public-instruction-levi-bachmeier",
+    "name": "Levi Bachmeier",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://northdakotamonitor.com/2026/10/05/annual-bonuses-proposed-for-north-dakota-teachers-to-improve-recruitment-retention/"
+    ],
+    "notes": "Candidacy confirmed: Bachmeier and Foss came first and second in the June 9, 2026 primary and advance to November. I found no sign of withdrawal. I did not find a campaign issues page or a VOTE411 or Ballotpedia questionnaire, so positions come from debate and campaign-launch news coverage. The Oct. 5 news item is a link that appeared inside the fetched Oct. 15 Monitor article. I did not open that page myself, so please verify its headline and date. The Wikipedia education entry (B.A., Concordia College) has not been checked against a primary source. The Dickinson Press also ran a Plain Talk debate piece on Oct. 15; I left it out because the Monitor covers the same event. Foss's profile can be compared on the same topics: teacher pay, funding, and technology."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-mayor-of-the-district-of-columbia-rhonda-hamilton",
+    "name": "Rhonda Hamilton",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I confirmed she is on the ballot from WTOP's October 2026 voter guide, which lists her as the Independent mayoral candidate, and from HU News Service, which says she is one of three candidates on the Nov. 3 ballot. I did not check directly with DCBOE. Education conflict: DC News Now says she studied business management at UDC. HU News Service says she attended UDC from 2002 to 2004 and did not graduate. I used the more detailed HU account. Some outlets call her 'Dr.', but I found no source naming a doctoral degree, so I left that out. I found only one news item from the last 45 days. I did not open her campaign site (rhondahamilton4dc.com). I found no stated positions on homelessness, autonomous vehicles or sanitation/rodent control, so those topics are left out. I used 2 of 5 searches and 1 of 3 fetches."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-mayor-of-the-district-of-columbia-robert-l-gross",
+    "name": "Robert L. Gross",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Gross is confirmed on the general ballot by the WUSA9 voter guide published about 2026-10-21. It lists Hamilton, Lewis George and Gross for mayor, with ranked choice up to 4. The tool limit ran out before I could finish the recent-news search, so no news items are included. None of the results I saw were from the last 45 days. The DC News Now article (about June 2026) could not be opened, so the stances cited to it come from its search-result text. The Anacostia substack is a minor outlet, and its stance comes from search-result text only. I found no stated positions on the other topics in this race: homelessness as a separate topic, federal intervention and home rule, immigration enforcement, autonomous vehicles, or sanitation/rodent control. The campaign site has a 'Homelessness Prevention and Services' category, but I did not open it. The party site lists term limits as a party position, but I left it out because it is not a statement by Gross. I could not confirm his education or age; sources describe him only as the youngest candidate in the race."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-secretary-of-state-lauri-a-shillings",
+    "name": "Lauri A. Shillings",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "I could not confirm her middle initial 'A.' from any source; check it against the official ballot listing. Sources disagree on when she became Hamilton County chair: the Capital Chronicle's March article says 2021, and its October profile says 2020. I could not open the Capital Chronicle and WFYI article pages directly, so the details come from search-result excerpts. I saw the campaign issues page only as a search snippet; it was not fetched. She was not in the FOX59/CBS4 debate on Oct. 22 but did take part in the Indiana Debate Commission debate on Oct. 7. I found no stance from her on voter ID, closed primaries, the audit of the office, or contracts and donors, so those topics are left out. One related point: WISH-TV reports she aims to win at least 10% of the vote so Libertarians could hold primaries. I found no sign that she has withdrawn."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "dc-at-large-member-of-the-council-of-the-district-of-columbia-darryl-moch",
+    "name": "Darryl Moch",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: the DCBOE 2026 general election candidate list includes Darryl Moch (Statehood Green) for At-Large Council, and Hill Rag/East of the River coverage from Oct. 12–13, 2026 lists him in the race. I found no sign that he withdrew. Only one stance is included. The housing position comes from his 2024 campaign (Street Sense guide), not 2026, so please check it against his current site, 4thepeople4achange.wordpress.com, which I could not open within the tool budget. The article fetches returned only page headers, so the article text was not available. I found no 2026 statements from him on public safety, health care, arts, statehood, accountability or transportation, so those topics are left out; I did not infer anything from his party. Both news items are about the race overall rather than his own actions. Ballotpedia and some outlets spell his name 'Darryl! L.C. Moch'."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-secretary-of-state-greg-ballard",
+    "name": "Greg Ballard",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "The starting profile was blank, so everything here is new. Every claim comes from search-result snippets. My fetches of the Capital Chronicle profile and the UIndy Reflector Q&A both failed, and I didn't get to the candidate's own campaign site. The Reflector Q&A probably has more stances, and the campaign site should be checked too.\n\nSources describe him two ways: as an Independent and as the Lincoln Party candidate. Please check how the state ballot lists his party.\n\nThe Oct 5 news item is a candidate Q&A rather than a news story.\n\nThe Debate access stance is really about ballot access for independents, not debate access, so a reviewer may want to retitle it.\n\nThe Indiana GOP criticized his proposed $2.5 million voter guide. I left that out because it comes from an opponent's party.\n\nI couldn't find a stance from him on: voter ID, mail-in voting, the office audit, business filing, or voter data privacy."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "in-state-comptroller-auditor-of-state-john-schick",
+    "name": "John Schick",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: a White County, IN candidate list on in.gov shows Schick filed for State Comptroller (Auditor of State) on 2026-04-08. I found no sign that he withdrew. Most stances come from search-result text, not fully opened pages: the Indiana Capital Chronicle page would not load, and the WFYI page I opened had no Schick text beyond a photo caption. So the WFYI news item rests only on the headline and the caption naming him. Sources conflict on his record: the Capital Chronicle voter guide calls 2026 his 'third' campaign for the office, while other outlets and Ballotpedia (2014, 2018, 2022) point to a fourth. IDS calls him a former state party treasurer; Journal Gazette says state central committee secretary and now 1st District leader. Both are listed in history. The taxes stance is from 2022 because he skipped the 2026 Capital Chronicle survey. I found no position from him on mid-decade redistricting, distributions to local governments, or the State Board of Finance. No campaign website or education details were found. The UIndy Reflector (2026-10-05) says he did not respond to its interview request. That item was left out of news because it has no statements from him."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "mo-state-auditor-dustin-coffell",
+    "name": "Dustin Coffell",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by KCUR/KSMU (unopposed Libertarian primary winner, August 4) and by KOMU and WGEM coverage from October. No sign that he withdrew. Source caveats: (1) A site at coffell4mo.com says it is 'sourced & adapted' from his Facebook page. In August, KSMU reported he had no official campaign website, so I did not cite that site; please check whether it is official. (2) My fetch of the Maryville Forum letter did not return its text. Its headline and date come from search results, and I took no stances from it. (3) The KOMU date (2026-10-18) is estimated from the search result's '5 days ago' and should be checked. (4) Sources disagree on where he lives: Daily Journal says St. Louis, while Three Rivers and the snippet from what may be his campaign site say Lake Saint Louis. I used Lake Saint Louis. (5) I found no stated positions on property assessments, the federal food program or office resources, so I left those topics out. I did not use the 'rational extremism' tag from his social media bio as a stance."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-secretary-of-state-ryan-braunberger",
+    "name": "Ryan Braunberger",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy confirmed: Braunberger (Democratic-NPL) is listed against Michael Howe in an Oct. 19, 2026 county sample ballot notice and in several voter guides. Both page fetches failed (Grand Forks Herald: not allowed; ND Monitor voter guide: not accessible), so every stance comes from search-result excerpts only. The Grand Forks Herald publication date is estimated from the search result's '6 days ago'; the forum it covers was held Oct. 16, 2026. The election-security and data-sharing stances come from a July 22, 2026 article, which is outside the 45-day news window, so it is cited as a source but not listed under news. I found no stated positions on noncitizen voting, campaign finance disclosure or business climate, so those topics are left out. I also did not find a campaign website or a questionnaire such as VOTE411. Mail-in voting and local control of elections are added as topics; check whether Howe's profile can be matched on them."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-attorney-general-tim-lamb",
+    "name": "Tim Lamb",
+    "applied": true,
+    "held": [],
+    "problems": [],
+    "notes": "Candidacy is confirmed by several sources: the ND Monitor (Oct 2026), the Orrick AG preview (Oct 2026), State AG Report, and Ballotpedia, which shows him winning the 2026 Democratic primary with 99.7% and 21,451 votes. I found no sign that he withdrew. All five stances come from one source, the North Dakota Monitor article of 2026-10-22, and it was the only news item about Lamb from the last 45 days that I found. I could not find a campaign website or a VOTE411/questionnaire page within the tool budget. Two items rest on search snippets only, not pages I opened: the 2024 State Auditor endorsement (KFYR) and the primary vote count (Ballotpedia). I did not confirm whether he was actually on the 2024 auditor ballot. A June 2026 Grand Forks Herald piece says he considers Wrigley's criminal justice approach ineffective, but I only saw the snippet, so I left that topic out. The Meta settlement stance is the reporter's paraphrase, not a direct quote from Lamb."
+  },
+  {
+    "date": "2026-10-23",
+    "candidate": "nd-agriculture-commissioner-vern-thompson",
+    "name": "Vern Thompson",
+    "applied": true,
+    "held": [],
+    "problems": [
+      "Dropped news item not seen in this run: https://northdakotamonitor.com/2026/09/28/ag-commissioner-challenger-highlights-data-centers-incumbent-calls-move-grandstanding/"
+    ],
+    "notes": "I did not check the official ND Secretary of State ballot list, and I found no campaign issues page or VOTE411 questionnaire within the tool budget. Candidacy is supported by October 2026 debate coverage, and I saw no sign that he withdrew. The Jamestown Sun date (2026-10-13) is estimated from the search result's '10 days ago' and the Oct. 12 event it describes, so please verify it. Of the news items, I fully opened only the Oct. 16 ND Monitor article; I saw the Sep. 28 headline as an in-article link, and its KVRR repost appeared in search results. The KVRR fetch failed, so that stance comes from the search snippet. The debate date is Oct. 13 in ND Monitor but Oct. 16 in InForum, possibly separate recordings. The 'Future of agriculture' stance comes from his March announcement because the debate article had no forward-looking statement from Thompson. The House-years discrepancy is resolved: all sources agree on House 1989–1990 and Senate 1997–2000."
   }
 ]
