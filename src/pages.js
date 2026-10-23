@@ -51,10 +51,11 @@ footer { border-top: 1px solid var(--line); background: var(--surface); padding:
 `;
 }
 
-// Newsletter signup box, shown only once a beehiiv embed address is set in data/site.json.
-function signupBox(embed) {
-  if (!embed || !/^https:\/\/embeds\.beehiiv\.com\/[\w-]+(\?[\w=&-]*)?$/.test(embed)) return "";
-  return `<section class="signup"><h2>Get ballot reminders by email</h2><p class="muted">Key dates and a short, neutral rundown of your ballot. Free, no ads, unsubscribe anytime.</p><iframe src="${embed}" title="Newsletter signup" loading="lazy" frameborder="0" scrolling="no"></iframe></section>`;
+// Newsletter signup box, shown only once a beehiiv form id is set in data/site.json.
+// beehiiv's loader script draws the form where the script tag sits.
+function signupBox(formId) {
+  if (!formId || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(formId)) return "";
+  return `<section class="signup"><h2>Get ballot reminders by email</h2><p class="muted">Key dates and a short, neutral rundown of your ballot. Free, no ads, unsubscribe anytime. <a href="/privacy/">Privacy</a></p><script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="${formId}"></script></section>`;
 }
 
 function layout({ site, depth, title, description, canonical, body, jsonld, signup = "" }) {
@@ -94,7 +95,7 @@ ${signup}
 function build({ root, data, styles }) {
   const cfg = JSON.parse(fs.readFileSync(path.join(root, "data", "site.json"), "utf8"));
   const site = cfg.url.replace(/\/$/, "");
-  const signup = signupBox(cfg.newsletterEmbed);
+  const signup = signupBox(cfg.newsletterFormId);
   const out = path.join(root, "dist");
   const write = (rel, html) => { fs.mkdirSync(path.join(out, path.dirname(rel)), { recursive: true }); fs.writeFileSync(path.join(out, rel), html); };
   const urls = [{ loc: `${site}/`, priority: "1.0" }];
