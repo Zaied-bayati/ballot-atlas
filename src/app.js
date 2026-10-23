@@ -1,21 +1,55 @@
 (function () {
   "use strict";
 
-  const DATA = window.BALLOT_DATA;
-  const topo = window.US_TOPO;
+  // Data ships as JSON blocks (JSON.parse is much faster than evaluating a large script literal).
+  const json = id => JSON.parse(document.getElementById(id).textContent);
+  const DATA = json("ballot-data");
+  const LITE = json("globe-lite");
   const LEVELS = [["federal", "Federal"], ["state", "State"], ["courts", "State courts"], ["county", "County"]];
 
-  // The 50 states and DC (FIPS codes below 60); territories aren't covered.
-  const inStates = id => id.slice(0, 2) < "60";
-  const states = topojson.feature(topo, topo.objects.states).features.filter(f => inStates(f.id));
-  const counties = topojson.feature(topo, topo.objects.counties).features.filter(f => inStates(f.id));
-  const land = topojson.feature(window.WORLD_LAND, window.WORLD_LAND.objects.land);
+  // Simplified outlines (50 states and DC) draw the globe while zoomed out. The detailed
+  // county topology is parsed only once someone zooms in or picks a state.
+  const states = LITE.states;
   const stateById = new Map(states.map(f => [f.id, f]));
+  let topo = null, detailed = null;
+  const countiesByState = new Map();
+  function loadTopo() {
+    if (!topo) {
+      topo = json("us-topo");
+      detailed = new Map(topojson.feature(topo, topo.objects.states).features.map(f => [f.id, f]));
+    }
+    return topo;
+  }
+  function countiesOf(sid) {
+    if (!countiesByState.has(sid)) {
+      const t = loadTopo();
+      const geometries = t.objects.counties.geometries.filter(g => g.id.slice(0, 2) === sid);
+      countiesByState.set(sid, topojson.feature(t, { type: "GeometryCollection", geometries }).features);
+    }
+    return countiesByState.get(sid);
+  }
 
   // ---------- Globe ----------
   // An orthographic projection: drag rotates it, scroll and pinch change its scale.
-  const projection = d3.geoOrthographic().precision(0.3);
-  const path = d3.geoPath(projection);
+  const projection = d3.geoOrthographic();
+  const path = d3.geoPath(projection).digits(1);
+  // Above this zoom the detailed outlines replace the simplified ones.
+  const DETAIL_K = 3.5;
+
+  // A rough bounding circle per shape, so shapes off screen or on the far side are skipped.
+  const bounds = new WeakMap();
+  function circle(f) {
+    let b = bounds.get(f);
+    if (!b) {
+      const c = d3.geoCentroid(f);
+      let r = 0;
+      d3.geoStream(f, { point(x, y) { r = Math.max(r, d3.geoDistance(c, [x, y])); }, lineStart() {}, lineEnd() {}, polygonStart() {}, polygonEnd() {}, sphere() {} });
+      bounds.set(f, b = { c, r: r + 0.002 });
+    }
+    return b;
+  }
+  let view = { center: [0, 0], radius: Math.PI / 2 };
+  const onScreen = f => { const b = circle(f); return d3.geoDistance(view.center, b.c) - b.r < view.radius; };
   const globe = { rotate: [40, -20, 0], scale: 300 };
   let W = 800, H = 600, base = 300;
   const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -32,14 +66,15 @@
     stops.forEach(([o, c, a]) => g.append("stop").attr("offset", o).attr("stop-color", c).attr("stop-opacity", a ?? 1));
   };
   grad("ocean", [["0%", "#24563f"], ["70%", "#143a2b"], ["100%", "#0a2018"]], { cx: "42%", cy: "38%", r: "65%" });
-  grad("glow", [["86%", "#1d4a37", 0.35], ["93%", "#1d4a37", 0.12], ["100%", "#1d4a37", 0]]);
+  grad("glow", [["85%", "#4f9a75", 0.38], ["91%", "#2f6b4f", 0.14], ["100%", "#1d4a37", 0]]);
   grad("shine", [["0%", "#ffffff", 0.28], ["45%", "#ffffff", 0.06], ["100%", "#ffffff", 0]], { cx: "35%", cy: "28%", r: "70%" });
   grad("shade", [["60%", "#000000", 0], ["100%", "#000000", 0.35]]);
 
   const glow = svg.append("circle").attr("class", "globe-glow").attr("fill", "url(#glow)");
   const spherePath = svg.append("path").attr("class", "globe-sphere").attr("fill", "url(#ocean)").datum({ type: "Sphere" });
   const gratPath = svg.append("path").attr("class", "graticule").datum(d3.geoGraticule10());
-  const landPath = svg.append("path").attr("class", "world-land").datum(land);
+  const landLayer = svg.append("g").attr("class", "world-land");
+  landLayer.selectAll("path").data(LITE.land).join("path");
   const statesLayer = svg.append("g");
   const countiesLayer = svg.append("g").attr("class", "counties");
   const outlineLayer = svg.append("g");
@@ -56,7 +91,7 @@
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const stateData = id => DATA.states[id] || null;
   const countyData = (sid, cid) => stateData(sid)?.counties?.[cid] || null;
-  const countyName = cid => counties.find(c => c.id === cid)?.properties.name || "";
+  const countyName = cid => countiesOf(cid.slice(0, 2)).find(c => c.id === cid)?.properties.name || "";
   const initials = name => name.split(/\s+/).map(p => p[0]).slice(0, 2).join("");
   const lastName = name => name.split(/\s+/).slice(-1)[0];
 
@@ -78,7 +113,7 @@
 
   function showTip(e, text) {
     if (frame.classList.contains("grabbing")) return;
-    const r = frame.getBoundingClientRect();
+    const r = frameRect;
     tip.textContent = text;
     tip.style.left = (e.clientX - r.left) + "px";
     tip.style.top = (e.clientY - r.top) + "px";
@@ -86,23 +121,39 @@
   }
   function hideTip() { tip.hidden = true; }
 
-  // Redraw everything at the current rotation and scale. Paths on the far side come back
-  // null; hiding them also takes them out of the keyboard tab order.
+  // Redraw at the current rotation and scale. Shapes off screen or on the far side are
+  // hidden without being projected; hiding them also takes them out of the keyboard tab order.
+  // While the globe flies to a new state its counties stay hidden until it arrives.
+  let arriving = false;
   function draw() {
     projection.rotate(globe.rotate).scale(globe.scale).translate([W / 2, H / 2]);
     const k = globe.scale / base;
+    const halfDiagonal = Math.hypot(W, H) / 2;
+    view = { center: [-globe.rotate[0], -globe.rotate[1]], radius: halfDiagonal >= globe.scale ? Math.PI / 2 : Math.asin(halfDiagonal / globe.scale) };
     const halo = Math.max(0, Math.min(1, (3 - k) / 2));
-    [glow, shade, shine].forEach(c => c.attr("cx", W / 2).attr("cy", H / 2));
-    glow.attr("r", globe.scale * 1.12).attr("opacity", halo);
-    shade.attr("r", globe.scale).attr("opacity", halo);
-    shine.attr("r", globe.scale).attr("opacity", halo);
+    [glow, shade, shine].forEach(c => c.attr("cx", W / 2).attr("cy", H / 2).attr("opacity", halo));
+    glow.attr("r", globe.scale * 1.14);
+    shade.attr("r", globe.scale);
+    shine.attr("r", globe.scale);
     spherePath.attr("d", path);
-    gratPath.attr("d", path).attr("opacity", halo);
-    landPath.attr("d", path);
-    const put = sel => sel.each(function (d) { const p = path(d); this.setAttribute("d", p || ""); this.style.visibility = p ? "" : "hidden"; });
-    put(statesLayer.selectAll("path"));
-    put(countiesLayer.selectAll("path"));
-    put(outlineLayer.selectAll("path"));
+    gratPath.attr("d", halo ? path : null).attr("opacity", halo);
+    const fine = k >= DETAIL_K;
+    if (fine) loadTopo();
+    const put = (sel, shape = d => d) => sel.each(function (d) {
+      const f = shape(d), p = onScreen(f) ? path(f) : null;
+      this.setAttribute("d", p || "");
+      this.style.visibility = p ? "" : "hidden";
+    });
+    // Neighboring land is coarse (1:110m), so it fades back once the detailed outlines take over.
+    landLayer.attr("opacity", Math.max(0.35, Math.min(1, (DETAIL_K + 0.5 - k) / 1.5)));
+    put(landLayer.selectAll("path"));
+    put(statesLayer.selectAll("path"), d => (fine && detailed.get(d.id)) || d);
+    countiesLayer.attr("display", arriving ? "none" : null);
+    outlineLayer.attr("display", arriving ? "none" : null);
+    if (!arriving) {
+      put(countiesLayer.selectAll("path"));
+      put(outlineLayer.selectAll("path"), d => (fine && detailed.get(d.id)) || d);
+    }
   }
   let queued = false;
   const schedule = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; draw(); }); } };
@@ -157,7 +208,7 @@
   svg.call(zoom).on("dblclick.zoom", null);
 
   // Fly to a view: rotate along the short way round, and pull back mid-flight on long hops.
-  function fly(target, duration = 900) {
+  function fly(target, duration = 900, arrive = false) {
     svg.interrupt("fly");
     const r0 = globe.rotate.slice(), s0 = globe.scale;
     const r1 = target.rotate.slice();
@@ -167,22 +218,57 @@
     const hop = d3.geoDistance([-r0[0], -r0[1]], [-r1[0], -r1[1]]);
     const dip = Math.min(0.55, hop * 0.9) * Math.min(1, Math.min(s0, target.scale) / base / 2);
     if (reduceMotion()) duration = 0;
+    arriving = arrive;
     svg.transition("fly").duration(duration).ease(d3.easeCubicInOut)
       .tween("globe", () => t => {
         globe.rotate = ir(t);
         globe.scale = Math.exp(ls0 + (ls1 - ls0) * t) * (1 - dip * Math.sin(Math.PI * t));
         draw();
+      })
+      .on("end interrupt", () => {
+        if (!arriving) return;
+        arriving = false;
+        countiesLayer.classed("arrive", false);
+        void countiesLayer.node().getBoundingClientRect();
+        countiesLayer.classed("arrive", true);
+        draw();
       });
   }
 
+  // Stars: a fixed field drawn once per resize on three canvases; two of them slowly
+  // fade in and out (a compositor-only CSS animation), which reads as twinkling.
+  const starCanvases = [...frame.querySelectorAll(".stars")];
+  function drawStars() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    let seed = 7;
+    const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    const count = Math.round(W * H / 2600);
+    starCanvases.forEach((cv, layer) => {
+      cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+      const ctx = cv.getContext("2d");
+      ctx.scale(dpr, dpr);
+      for (let i = 0; i < count / (layer ? 6 : 1); i++) {
+        const x = rand() * W, y = rand() * H, big = rand() > (layer ? 0.6 : 0.94);
+        const r = big ? 0.9 + rand() * 0.8 : 0.35 + rand() * 0.5;
+        const tint = rand();
+        ctx.fillStyle = tint > 0.85 ? "#f3e2b4" : tint > 0.7 ? "#cfe6da" : "#ffffff";
+        ctx.globalAlpha = big ? 0.75 + rand() * 0.25 : 0.25 + rand() * 0.45;
+        ctx.beginPath(); ctx.arc(x, y, r, 0, 2 * Math.PI); ctx.fill();
+        if (big && layer) { ctx.globalAlpha = 0.12; ctx.beginPath(); ctx.arc(x, y, r * 3.2, 0, 2 * Math.PI); ctx.fill(); }
+      }
+    });
+  }
+
+  let frameRect = frame.getBoundingClientRect();
   function resize() {
-    const r = frame.getBoundingClientRect();
+    const r = frameRect = frame.getBoundingClientRect();
     if (!r.width || !r.height) return;
     const k = globe.scale / base;
     W = r.width; H = r.height;
     base = Math.min(W, H) * 0.44;
     globe.scale = base * k;
     svg.attr("viewBox", `0 0 ${W} ${H}`);
+    drawStars();
     draw();
   }
   new ResizeObserver(resize).observe(frame);
@@ -211,11 +297,11 @@
     const sv = fit(st, 0.86, base * 120);
     if (!ui.countyId) return sv;
     // Zoom toward the county but keep the surrounding state in view.
-    return fit(counties.find(c => c.id === ui.countyId), 0.4, sv.scale * 2.2);
+    return fit(countiesOf(ui.stateId).find(c => c.id === ui.countyId), 0.4, sv.scale * 2.2);
   }
 
   function drawCounties(sid) {
-    const list = sid ? counties.filter(c => c.id.slice(0, 2) === sid) : [];
+    const list = sid ? countiesOf(sid) : [];
     countiesLayer.selectAll("path")
       .data(list, d => d.id)
       .join("path")
@@ -224,7 +310,6 @@
       .on("mousemove", (e, d) => showTip(e, d.properties.name + " County" + (countyData(sid, d.id) ? " · local races" : "")))
       .on("mouseleave", hideTip);
     outlineLayer.selectAll("path").data(sid ? [stateById.get(sid)] : []).join("path").attr("class", "state-outline");
-    draw();
   }
 
   function paintMap() {
@@ -247,7 +332,7 @@
     const sd = stateData(sid);
     ui.stateId = sid; ui.countyId = null; ui.view = sd && !Object.keys(sd.counties || {}).length ? "state" : "state-choice";
     drawCounties(sid);
-    fly(currentView(), 1100);
+    fly(currentView(), 1100, true);
     render();
   }
   function selectCounty(cid) {
@@ -334,7 +419,7 @@
     const sd = stateData(ui.stateId);
     if (!sd) return viewNoData(name);
     const opts = Object.entries(sd.counties).map(([id, c]) => [id, c.name]);
-    const all = counties.filter(c => c.id.slice(0, 2) === ui.stateId).map(c => c.properties.name).sort();
+    const all = countiesOf(ui.stateId).map(c => c.properties.name).sort();
     return `
       <div>
         <div class="eyebrow">${name}</div>
@@ -518,7 +603,7 @@
     const search = document.getElementById("county-search");
     if (search) search.addEventListener("change", () => {
       const q = search.value.trim().toLowerCase().replace(/ county$/, "");
-      const hit = counties.find(c => c.id.slice(0, 2) === ui.stateId && c.properties.name.toLowerCase() === q);
+      const hit = countiesOf(ui.stateId).find(c => c.properties.name.toLowerCase() === q);
       if (hit) selectCounty(hit.id);
     });
   }
@@ -586,6 +671,8 @@
 
   const fromHash = states.find(f => slugify(f.properties.name) === location.hash.slice(1));
   resize();
+  // Parse the detailed map in idle time so zooming in later doesn't stall.
+  (window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => loadTopo(), { timeout: 4000 });
   if (fromHash) selectState(fromHash.id);
   else { render(); fly(usView(), 1800); }
 })();

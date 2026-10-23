@@ -22,6 +22,9 @@
 <main class="layout">
   <section class="map-wrap" aria-label="Globe">
     <div class="map-frame" id="map-frame">
+      <canvas class="stars" aria-hidden="true"></canvas>
+      <canvas class="stars twinkle" aria-hidden="true"></canvas>
+      <canvas class="stars twinkle" aria-hidden="true"></canvas>
       <svg id="map" role="img" tabindex="0" aria-label="Globe centered on the United States. Select a state." aria-describedby="map-hint"></svg>
       <div class="map-tip" id="tip" hidden></div>
       <button class="map-back" id="map-back" type="button" hidden>
@@ -49,11 +52,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
-<script>window.US_TOPO = /*TOPO*/;</script>
-<script>window.WORLD_LAND = /*LAND*/;</script>
-<script>
-/*DATA*/
-</script>
+<script type="application/json" id="globe-lite">/*LITE*/</script>
+<script type="application/json" id="us-topo">/*TOPO*/</script>
+<script type="application/json" id="ballot-data">/*DATA*/</script>
 <script>
 /*APP*/
 </script>
