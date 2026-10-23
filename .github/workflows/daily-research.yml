@@ -1,8 +1,9 @@
 name: Daily candidate research
 
 on:
-  schedule:
-    - cron: "0 11 * * *"   # 6 a.m. Central every day
+  # Paused while the first-layer fill uses the $100 budget (see data/budget.json).
+  # schedule:
+  #   - cron: "0 11 * * *"   # 6 a.m. Central every day
   workflow_dispatch:
     inputs:
       max:
@@ -14,6 +15,12 @@ on:
       effort:
         description: "Research effort: low, medium or high"
         default: "low"
+      searches:
+        description: "Web searches per profile"
+        default: "8"
+      fetches:
+        description: "Page fetches per profile"
+        default: "5"
 
 permissions:
   contents: write
@@ -27,7 +34,7 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -42,9 +49,12 @@ jobs:
           RESEARCH_MAX: ${{ github.event.inputs.max || '20' }}
           RESEARCH_EFFORT: ${{ github.event.inputs.effort || 'low' }}
           RESEARCH_ONLY: ${{ github.event.inputs.only || '' }}
+          RESEARCH_SEARCHES: ${{ github.event.inputs.searches || '8' }}
+          RESEARCH_FETCHES: ${{ github.event.inputs.fetches || '5' }}
         run: node agent/research.mjs
       - run: node build.js
       - name: Save updates
+        if: always()
         run: |
           git config user.name "ballot-atlas-research"
           git config user.email "ballot-atlas-research@users.noreply.github.com"

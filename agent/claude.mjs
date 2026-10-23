@@ -1,5 +1,6 @@
 // Shared Claude call used by both agents: web search + fetch, structured JSON output.
 
+import fs from "node:fs";
 import { MODEL } from "./prompt.mjs";
 
 // Rough cost from usage, in USD (Claude Opus 5.5 list prices; web search billed per search).
@@ -57,4 +58,19 @@ export async function pool(items, n, fn) {
   let next = 0;
   const worker = async () => { while (next < items.length) { const i = next++; await fn(items[i], i); } };
   await Promise.all(Array.from({ length: Math.min(n, items.length) }, worker));
+}
+
+// Hard spending cap shared by every agent run, kept in data/budget.json ({ capUSD, spentUSD }).
+// A job starts only if what's spent, plus a worst-case allowance for every job in flight,
+// stays under the cap. Spend is saved after each job, so a run that dies midway still counts.
+export function openBudget(file) {
+  let b;
+  try { b = JSON.parse(fs.readFileSync(file, "utf8")); } catch { return null; }
+  let held = 0;
+  const save = () => fs.writeFileSync(file, JSON.stringify({ ...b, spentUSD: +b.spentUSD.toFixed(2) }, null, 2) + "\n");
+  return {
+    left: () => b.capUSD - b.spentUSD,
+    reserve(est) { if (b.spentUSD + held + est > b.capUSD) return false; held += est; return true; },
+    settle(est, actual) { held -= est; b.spentUSD += actual; save(); }
+  };
 }

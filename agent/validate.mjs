@@ -121,7 +121,9 @@ export function pickCandidates(data, max, today, onlyStates = null, onlyIds = nu
     const stale = c.lastResearched ? daysBetween(c.lastResearched, today) : 999;
     if (onlyIds ? !onlyIds.includes(id) : stale < REFRESH_DAYS) continue;
     const unprofiled = !c.summary && !c.positions.length;
-    jobs.push({ id, race: r, place, score: (unprofiled ? 1000 : 0) + stale * (RACE_WEIGHT[r.level] || 1) });
+    // When money is short, profile incumbents and major-party nominees before minor-party candidates.
+    const major = c.status === "Incumbent" || /^(Democratic|Republican)$/.test(c.party);
+    jobs.push({ id, race: r, place, score: (unprofiled ? 1000 + (major ? 500 : 0) : 0) + stale * (RACE_WEIGHT[r.level] || 1) });
   }
   return jobs.sort((a, b) => b.score - a.score).slice(0, max);
 }

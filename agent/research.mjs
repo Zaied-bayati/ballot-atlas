@@ -12,12 +12,15 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { MODEL, SYSTEM_PROMPT, PROFILE_SCHEMA, userPrompt } from "./prompt.mjs";
 import { checkProfile, mergeProfile, pickCandidates, seenUrls } from "./validate.mjs";
-import { askClaude, activity, cost, pool } from "./claude.mjs";
+import { askClaude, activity, cost, pool, openBudget } from "./claude.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(here, "..");
 const DATA = path.join(root, "data", "ballot.json");
 const QUEUE = path.join(root, "data", "review-queue.json");
+const BUDGET = path.join(root, "data", "budget.json");
+// Worst case for one profile, including the rate-limit retry; used to hold room under the spending cap.
+const MAX_JOB_USD = 1.2;
 
 const args = process.argv.slice(2);
 const flag = name => args.includes(name);
@@ -26,7 +29,7 @@ const DRY = flag("--dry-run");
 const MAX = Number(opt("--max", process.env.RESEARCH_MAX || 20));
 const ONLY = opt("--only", process.env.RESEARCH_ONLY || "").split(",").map(s => s.trim()).filter(Boolean);
 const EFFORT = process.env.RESEARCH_EFFORT || "low";
-const SEARCHES = 8, FETCHES = 5, PAGE_TOKENS = 6000;
+const SEARCHES = Number(process.env.RESEARCH_SEARCHES || 8), FETCHES = Number(process.env.RESEARCH_FETCHES || 5), PAGE_TOKENS = 6000;
 // More than 2 at once trips the search tool's rate limit ("too_many_requests") and leaves profiles thin.
 const CONCURRENCY = Number(process.env.RESEARCH_CONCURRENCY || 2);
 // Optional: only research candidates in these states (two-letter codes), e.g. right after adding them.
@@ -50,9 +53,16 @@ async function main() {
     const { default: Anthropic } = await import("@anthropic-ai/sdk");
     client = new Anthropic();
   }
+  const budget = DRY ? null : openBudget(BUDGET);
+  if (budget) console.log(`Spending cap: $${budget.left().toFixed(2)} left`);
+  let capped = 0;
 
   const log = { date: today, model: MODEL, effort: EFFORT, concurrency: CONCURRENCY, limits: { searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS }, dryRun: DRY, results: [], costUSD: 0 };
   await pool(jobs, CONCURRENCY, async job => {
+    if (budget && !budget.reserve(MAX_JOB_USD)) { capped++; return; }
+    try { await research(job); } finally { if (budget) budget.settle(MAX_JOB_USD, job.spent || 0); }
+  });
+  async function research(job) {
     const c = data.candidates[job.id];
     const opponents = job.race.candidates.filter(x => x !== job.id).map(x => data.candidates[x]);
     const prompt = userPrompt({ candidate: c, race: job.race, place: job.place, opponents, today, searches: SEARCHES, fetches: FETCHES });
@@ -72,7 +82,7 @@ async function main() {
         res = again;
       }
     } catch (e) { res = { error: `API error: ${e.message}` }; }
-    const spent = res.usage ? cost(res.usage) : 0;
+    const spent = job.spent = res.usage ? cost(res.usage) : 0;
     log.costUSD += spent;
     const detail = { costUSD: +spent.toFixed(3), usage: res.usage, retried: !!res.retried, ...activity(res.blocks || []) };
 
@@ -94,7 +104,8 @@ async function main() {
       queue.push({ date: today, candidate: job.id, name: c.name, applied: check.ok, held: check.held, problems: check.problems, notes: check.notes, proposed: check.ok ? undefined : check.profile });
     }
     log.results.push({ id: job.id, status: check.ok ? "updated" : "held", problems: check.problems.length, stances: check.profile.positions.length, news: check.profile.news.length, sources: check.profile.sources.length, ...detail });
-  });
+  }
+  if (capped) { log.stoppedAtCap = capped; console.log(`Spending cap reached: ${capped} candidates not researched.`); }
 
   data.meta.lastResearchRun = new Date().toISOString();
   writeJson(DRY ? path.join(root, "data", "ballot.preview.json") : DATA, data);

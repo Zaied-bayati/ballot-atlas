@@ -20,6 +20,9 @@ const description = "See what's on your 2026 ballot: election dates, every race,
 // Plain links under the map so crawlers (and people without JavaScript) can reach every state page.
 const footer = `<footer class="site-footer"><nav aria-label="States"><strong>Ballots by state:</strong> ${pages.states.map(s => `<a href="states/${s.slug}/">${esc(s.name)}</a>`).join(" · ")} · <a href="states/">All states</a> · <a href="about/">How this works</a> · <a href="privacy/">Privacy</a></nav>${pages.signup.replace('<section class="signup">', '<section class="signup site-signup">')}</footer>`;
 
+// Ballot-box mark, used as the favicon (it shows next to the site in search results) and the logo.
+fs.writeFileSync(__dirname + "/dist/favicon.svg", `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1f3a5f"/><rect x="14" y="30" width="36" height="22" rx="3" fill="#fff"/><rect x="22" y="28" width="20" height="4" rx="2" fill="#1f3a5f"/><path d="M26 12h12v18H26z" fill="#f2b134"/><path d="M29 20l2.5 2.5L36 18" stroke="#1f3a5f" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>\n`);
+
 // Standalone page for GitHub Pages: the same content inside a full HTML document.
 const page = `<!doctype html>
 <html lang="en">
@@ -34,7 +37,12 @@ const page = `<!doctype html>
 <meta property="og:description" content="${description}">
 <meta property="og:url" content="${site}/">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", name: "Ballot Atlas", url: site + "/", description })}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": [
+  { "@type": "WebSite", "@id": site + "/#website", name: "Ballot Atlas", alternateName: ["BallotAtlas", "ballotatlas.org"], url: site + "/", description, publisher: { "@id": site + "/#org" } },
+  // Add the site's social profile URLs to sameAs as they're created; it helps search engines tie them to the name.
+  { "@type": "Organization", "@id": site + "/#org", name: "Ballot Atlas", url: site + "/", logo: site + "/favicon.svg", description: "A nonpartisan, sourced guide to what's on the 2026 ballot in each state.", sameAs: JSON.parse(fs.readFileSync(__dirname + "/data/site.json", "utf8")).sameAs || [] }
+] })}</script>
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>

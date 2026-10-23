@@ -11,8 +11,14 @@ on:
         description: "top = U.S. Senate and governor only; all = every statewide race and measure"
         default: "top"
       profiles:
-        description: "Most candidates to profile in this run"
+        description: "Most candidates to profile in this run (0 = ballots only)"
         default: "60"
+      searches:
+        description: "Web searches per profile (5 = quick first pass, 8 = full)"
+        default: "5"
+      fetches:
+        description: "Page fetches per profile (3 = quick first pass, 5 = full)"
+        default: "3"
 
 permissions:
   contents: write
@@ -26,7 +32,7 @@ concurrency:
 jobs:
   add:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -44,6 +50,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEARCH_MAX: ${{ github.event.inputs.profiles }}
           RESEARCH_STATES: ${{ github.event.inputs.states }}
+          RESEARCH_SEARCHES: ${{ github.event.inputs.searches }}
+          RESEARCH_FETCHES: ${{ github.event.inputs.fetches }}
         run: node agent/research.mjs
       - run: node build.js
       - name: Save updates

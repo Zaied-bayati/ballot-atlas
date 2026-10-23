@@ -67,6 +67,7 @@ function layout({ site, depth, title, description, canonical, body, jsonld, sign
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
+<link rel="icon" href="${up}favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="${esc(canonical)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ballot Atlas">

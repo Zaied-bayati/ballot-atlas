@@ -104,3 +104,19 @@ test("research can be limited to some states", () => {
   assert.equal(pickCandidates(data, 1e6, today, ["99"]).length, 0);
   assert.ok(pickCandidates(data, 1e6, today, ["48"]).length > 0);
 });
+
+test("spending cap holds room for jobs in flight and stops at the cap", async () => {
+  const { openBudget } = await import("./claude.mjs");
+  const os = await import("node:os"), path = await import("node:path");
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "budget-")), "budget.json");
+  fs.writeFileSync(file, JSON.stringify({ capUSD: 3, spentUSD: 0.5 }));
+  const b = openBudget(file);
+  assert.equal(b.reserve(1.2), true);
+  assert.equal(b.reserve(1.2), true);
+  assert.equal(b.reserve(1.2), false);   // 0.5 + 2.4 + 1.2 > 3
+  b.settle(1.2, 0.3);                    // spent 0.8, one job still in flight
+  assert.equal(b.reserve(1.2), false);   // 0.8 + 1.2 + 1.2 > 3
+  b.settle(1.2, 0.3);                    // spent 1.1, nothing in flight
+  assert.equal(b.reserve(1.2), true);
+  assert.equal(JSON.parse(fs.readFileSync(file, "utf8")).spentUSD, 1.1);
+});

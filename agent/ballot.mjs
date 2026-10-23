@@ -12,12 +12,14 @@ import { fileURLToPath } from "node:url";
 import { MODEL } from "./prompt.mjs";
 import { BALLOT_SYSTEM_PROMPT, BALLOT_SCHEMA, ballotPrompt } from "./ballot-prompt.mjs";
 import { checkBallot, seenUrls } from "./validate.mjs";
-import { askClaude, activity, cost, pool } from "./claude.mjs";
+import { askClaude, activity, cost, pool, openBudget } from "./claude.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(here, "..");
 const DATA = path.join(root, "data", "ballot.json");
 const QUEUE = path.join(root, "data", "review-queue.json");
+const BUDGET = path.join(root, "data", "budget.json");
+const MAX_JOB_USD = 1.5;
 
 const args = process.argv.slice(2);
 const opt = (name, dflt) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : dflt; };
@@ -54,13 +56,20 @@ async function main() {
   for (const s of STATES.filter(s => !todo.includes(s))) console.log(`- ${s}: already on the site, skipped (use --force to rebuild)`);
 
   const log = { date: today, kind: "ballot", model: MODEL, effort: EFFORT, scope: SCOPE, limits: { searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS }, results: [], costUSD: 0 };
+  const budget = openBudget(BUDGET);
+  if (budget) console.log(`Spending cap: $${budget.left().toFixed(2)} left`);
   await pool(todo, 5, async abbr => {
+    if (budget && !budget.reserve(MAX_JOB_USD)) { console.log(`- ${abbr}: skipped, spending cap reached`); log.results.push({ state: abbr, status: "capped" }); return; }
+    const j = { spent: 0 };
+    try { await build(abbr, j); } finally { if (budget) budget.settle(MAX_JOB_USD, j.spent); }
+  });
+  async function build(abbr, j) {
     const fips = ABBR[abbr], name = names[fips];
     let res;
     try {
       res = await askClaude(client, { system: BALLOT_SYSTEM_PROMPT, schema: BALLOT_SCHEMA, prompt: ballotPrompt({ name, today, searches: SEARCHES, fetches: FETCHES, scope: SCOPE }), effort: EFFORT, searches: SEARCHES, fetches: FETCHES, pageTokens: PAGE_TOKENS });
     } catch (e) { res = { error: `API error: ${e.message}` }; }
-    const spent = res.usage ? cost(res.usage) : 0;
+    const spent = j.spent = res.usage ? cost(res.usage) : 0;
     log.costUSD += spent;
     const detail = { costUSD: +spent.toFixed(3), usage: res.usage, ...activity(res.blocks || []) };
 
@@ -86,7 +95,7 @@ async function main() {
       races: check.state ? check.state.races.map(r => ({ office: r.office, candidates: r.candidates.map(id => `${check.candidates[id].name} (${check.candidates[id].party})`), verify: r.verify || "" })) : [],
       problems: check.problems, ...detail
     });
-  });
+  }
 
   data.meta.lastResearchRun = new Date().toISOString();
   writeJson(DATA, data);
