@@ -1,0 +1,2689 @@
+{
+  "date": "2026-10-23",
+  "model": "claude-opus-5-5",
+  "effort": "low",
+  "concurrency": 2,
+  "limits": {
+    "searches": 5,
+    "fetches": 3,
+    "pageTokens": 6000
+  },
+  "dryRun": false,
+  "results": [
+    {
+      "id": "h33-patrick-david-gillespie",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.24,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3327,
+        "cache_creation_input_tokens": 23830,
+        "cache_read_input_tokens": 70803,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "h36-rhonda-hart",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.33,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4390,
+        "cache_creation_input_tokens": 32637,
+        "cache_read_input_tokens": 194629,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ne-united-states-senator-mike-marvin",
+      "status": "held",
+      "problems": 1,
+      "stances": 1,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.094,
+      "usage": {
+        "input_tokens": 8,
+        "output_tokens": 1460,
+        "cache_creation_input_tokens": 10271,
+        "cache_read_input_tokens": 15699,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "co-united-states-senator-mark-baisley",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.291,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4847,
+        "cache_creation_input_tokens": 25856,
+        "cache_read_input_tokens": 125099,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "tn-united-states-senate-andrew-gerena",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.146,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2307,
+        "cache_creation_input_tokens": 15772,
+        "cache_read_input_tokens": 52747,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "ne-governor-and-lt-governor-jim-pillen",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.233,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3815,
+        "cache_creation_input_tokens": 18775,
+        "cache_read_input_tokens": 62434,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "nh-governor-cinde-warmington",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.248,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3989,
+        "cache_creation_input_tokens": 20844,
+        "cache_read_input_tokens": 71102,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-governor-and-lieutenant-governor-jermaine-johnson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.238,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3563,
+        "cache_creation_input_tokens": 24855,
+        "cache_read_input_tokens": 61206,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "sc-governor-and-lieutenant-governor-alan-wilson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.259,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4093,
+        "cache_creation_input_tokens": 22171,
+        "cache_read_input_tokens": 129831,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "sd-governor-and-lieutenant-governor-dan-ahlers",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.262,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4026,
+        "cache_creation_input_tokens": 25637,
+        "cache_read_input_tokens": 166557,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "sd-governor-and-lieutenant-governor-larry-rhoden",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.237,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3280,
+        "cache_creation_input_tokens": 19403,
+        "cache_read_input_tokens": 123894,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-marsha-blackburn",
+      "status": "updated",
+      "problems": 1,
+      "stances": 2,
+      "news": 0,
+      "sources": 3,
+      "costUSD": 0.15,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 1967,
+        "cache_creation_input_tokens": 10449,
+        "cache_read_input_tokens": 43648,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-jerri-green",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.209,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3771,
+        "cache_creation_input_tokens": 18547,
+        "cache_read_input_tokens": 52608,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "buckingham",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 3,
+      "costUSD": 0.153,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 1731,
+        "cache_creation_input_tokens": 11861,
+        "cache_read_input_tokens": 46333,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "eckhardt",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.181,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3165,
+        "cache_creation_input_tokens": 15576,
+        "cache_read_input_tokens": 48874,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "sheets",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.246,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 4146,
+        "cache_creation_input_tokens": 19172,
+        "cache_read_input_tokens": 85164,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "flores-b",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.257,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 4392,
+        "cache_creation_input_tokens": 21856,
+        "cache_read_input_tokens": 148874,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tucker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.262,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3527,
+        "cache_creation_input_tokens": 28691,
+        "cache_read_input_tokens": 137361,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "french",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.219,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3940,
+        "cache_creation_input_tokens": 21229,
+        "cache_read_input_tokens": 69745,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "rosenthal",
+      "status": "updated",
+      "problems": 1,
+      "stances": 0,
+      "news": 2,
+      "sources": 4,
+      "costUSD": 0.211,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2657,
+        "cache_creation_input_tokens": 18065,
+        "cache_read_input_tokens": 88154,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "vt-governor-phil-scott",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.179,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2640,
+        "cache_creation_input_tokens": 12961,
+        "cache_read_input_tokens": 56931,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "wi-governor-lieutenant-governor-tom-tiffany",
+      "status": "held",
+      "problems": 0,
+      "stances": 2,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.174,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2788,
+        "cache_creation_input_tokens": 15527,
+        "cache_read_input_tokens": 53155,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "wi-governor-lieutenant-governor-david-crowley",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.358,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 4654,
+        "cache_creation_input_tokens": 35392,
+        "cache_read_input_tokens": 241082,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "wy-governor-eric-barlow",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 3,
+      "costUSD": 0.164,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2672,
+        "cache_creation_input_tokens": 16545,
+        "cache_read_input_tokens": 38117,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "wy-governor-kenneth-r-casner",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.181,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2442,
+        "cache_creation_input_tokens": 20114,
+        "cache_read_input_tokens": 56150,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "az-governor-and-lieutenant-governor-katie-hobbs",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.247,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3806,
+        "cache_creation_input_tokens": 23039,
+        "cache_read_input_tokens": 78179,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "az-governor-and-lieutenant-governor-andy-biggs",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.179,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3585,
+        "cache_creation_input_tokens": 17281,
+        "cache_read_input_tokens": 52453,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ar-governor-sarah-huckabee-sanders",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 7,
+      "costUSD": 0.259,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3907,
+        "cache_creation_input_tokens": 20927,
+        "cache_read_input_tokens": 128839,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ar-governor-fred-love",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 8,
+      "costUSD": 0.213,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3626,
+        "cache_creation_input_tokens": 15418,
+        "cache_read_input_tokens": 68618,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "al-governor-tommy-tuberville",
+      "status": "held",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 4,
+      "costUSD": 0.136,
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 2272,
+        "cache_creation_input_tokens": 13089,
+        "cache_read_input_tokens": 24568,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "al-governor-doug-jones",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.219,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3740,
+        "cache_creation_input_tokens": 18857,
+        "cache_read_input_tokens": 99049,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ca-governor-xavier-becerra",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 3,
+      "costUSD": 0.196,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3124,
+        "cache_creation_input_tokens": 19019,
+        "cache_read_input_tokens": 94123,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ca-governor-steve-hilton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.222,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3501,
+        "cache_creation_input_tokens": 20743,
+        "cache_read_input_tokens": 91248,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-victor-marx",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.243,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3791,
+        "cache_creation_input_tokens": 18573,
+        "cache_read_input_tokens": 120683,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-phil-weiser",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.226,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3445,
+        "cache_creation_input_tokens": 21068,
+        "cache_read_input_tokens": 59724,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ct-governor-and-lieutenant-governor-ned-lamont",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 0,
+      "sources": 2,
+      "costUSD": 0.168,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2223,
+        "cache_creation_input_tokens": 12620,
+        "cache_read_input_tokens": 53137,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "id-governor-paul-sand",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.176,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2728,
+        "cache_creation_input_tokens": 16667,
+        "cache_read_input_tokens": 39848,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "id-governor-pro-life",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.205,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 2950,
+        "cache_creation_input_tokens": 18496,
+        "cache_read_input_tokens": 118159,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "id-governor-john-r-stegner",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.335,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4819,
+        "cache_creation_input_tokens": 33151,
+        "cache_read_input_tokens": 166262,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "me-governor-richard-a-bennett",
+      "status": "held",
+      "problems": 0,
+      "stances": 6,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.27,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4557,
+        "cache_creation_input_tokens": 21225,
+        "cache_read_input_tokens": 112312,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "md-governor-lt-governor-cathy-white",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.169,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2558,
+        "cache_creation_input_tokens": 17038,
+        "cache_read_input_tokens": 63507,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "md-governor-lt-governor-andy-ellis",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 8,
+      "costUSD": 0.265,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3757,
+        "cache_creation_input_tokens": 22787,
+        "cache_read_input_tokens": 130432,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "mn-governor-lieutenant-governor-amy-klobuchar",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 1,
+      "sources": 2,
+      "costUSD": 0.132,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 1487,
+        "cache_creation_input_tokens": 9097,
+        "cache_read_input_tokens": 33180,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "ma-governor-lieutenant-governor-andrea-james",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 8,
+      "costUSD": 0.275,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3859,
+        "cache_creation_input_tokens": 25312,
+        "cache_read_input_tokens": 103918,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ne-governor-and-lt-governor-rick-beard",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.214,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3539,
+        "cache_creation_input_tokens": 21098,
+        "cache_read_input_tokens": 87467,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "mn-governor-lieutenant-governor-steven-young",
+      "status": "updated",
+      "problems": 0,
+      "stances": 8,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.258,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3762,
+        "cache_creation_input_tokens": 26048,
+        "cache_read_input_tokens": 110924,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ne-governor-and-lt-governor-brett-lindstrom",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.268,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 4113,
+        "cache_creation_input_tokens": 23807,
+        "cache_read_input_tokens": 83505,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "nv-governor-danielle-ford",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 4,
+      "costUSD": 0.224,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3559,
+        "cache_creation_input_tokens": 21000,
+        "cache_read_input_tokens": 88445,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "nh-governor-stephen-villee",
+      "status": "held",
+      "problems": 1,
+      "stances": 8,
+      "news": 0,
+      "sources": 9,
+      "costUSD": 0.274,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3315,
+        "cache_creation_input_tokens": 27887,
+        "cache_read_input_tokens": 89994,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ny-governor-and-lt-governor-bruce-a-blakeman",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.25,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3997,
+        "cache_creation_input_tokens": 20371,
+        "cache_read_input_tokens": 91377,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ok-governor-orlando-lynn-bush",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.187,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 1734,
+        "cache_creation_input_tokens": 18870,
+        "cache_read_input_tokens": 41486,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "ok-governor-robert-e-brooks-sr",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.265,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3911,
+        "cache_creation_input_tokens": 23443,
+        "cache_read_input_tokens": 146965,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_in_prior_context"
+      ]
+    },
+    {
+      "id": "ok-governor-jerry-griffin",
+      "status": "held",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 7,
+      "costUSD": 0.216,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2693,
+        "cache_creation_input_tokens": 20361,
+        "cache_read_input_tokens": 51396,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "or-governor-brett-smith",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.29,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4215,
+        "cache_creation_input_tokens": 28402,
+        "cache_read_input_tokens": 120228,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "or-governor-christine-drazan",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.32,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4841,
+        "cache_creation_input_tokens": 26740,
+        "cache_read_input_tokens": 198281,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "pa-governor-and-lieutenant-governor-ken-krawchuk",
+      "status": "updated",
+      "problems": 2,
+      "stances": 7,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.198,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3590,
+        "cache_creation_input_tokens": 18028,
+        "cache_read_input_tokens": 80323,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ri-governor-ken-block",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 4,
+      "costUSD": 0.27,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4412,
+        "cache_creation_input_tokens": 25745,
+        "cache_read_input_tokens": 113166,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-governor-and-lieutenant-governor-walid-hakim",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 2,
+      "sources": 8,
+      "costUSD": 0.279,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 3981,
+        "cache_creation_input_tokens": 29934,
+        "cache_read_input_tokens": 147670,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-governor-and-lieutenant-governor-michael-addison",
+      "status": "updated",
+      "problems": 1,
+      "stances": 5,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.21,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3146,
+        "cache_creation_input_tokens": 19935,
+        "cache_read_input_tokens": 85286,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-misam-abidi",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.24,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4103,
+        "cache_creation_input_tokens": 20853,
+        "cache_read_input_tokens": 117572,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "tn-governor-dean-brewer",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.2,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 2591,
+        "cache_creation_input_tokens": 19658,
+        "cache_read_input_tokens": 97612,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-ray-brown",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 1,
+      "sources": 8,
+      "costUSD": 0.221,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2501,
+        "cache_creation_input_tokens": 23196,
+        "cache_read_input_tokens": 75791,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-wendell-jackson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.199,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 2737,
+        "cache_creation_input_tokens": 20791,
+        "cache_read_input_tokens": 103086,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-david-hatley",
+      "status": "held",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.333,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 5042,
+        "cache_creation_input_tokens": 32491,
+        "cache_read_input_tokens": 198771,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-eddie-lee-murphy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 2,
+      "costUSD": 0.09,
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 756,
+        "cache_creation_input_tokens": 9966,
+        "cache_read_input_tokens": 25465,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-charles-van-morgan",
+      "status": "held",
+      "problems": 0,
+      "stances": 7,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.225,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3629,
+        "cache_creation_input_tokens": 21449,
+        "cache_read_input_tokens": 122936,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-lauren-pinkston",
+      "status": "updated",
+      "problems": 5,
+      "stances": 5,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.313,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 4674,
+        "cache_creation_input_tokens": 29603,
+        "cache_read_input_tokens": 155172,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "tn-governor-victor-l-scoggin",
+      "status": "held",
+      "problems": 0,
+      "stances": 2,
+      "news": 0,
+      "sources": 8,
+      "costUSD": 0.227,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3062,
+        "cache_creation_input_tokens": 19274,
+        "cache_read_input_tokens": 97076,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-karl-knox-smithson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.108,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 1267,
+        "cache_creation_input_tokens": 11063,
+        "cache_read_input_tokens": 36009,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-dave-seeman",
+      "status": "held",
+      "problems": 0,
+      "stances": 9,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.182,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3499,
+        "cache_creation_input_tokens": 16474,
+        "cache_read_input_tokens": 48890,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "tn-governor-l-webb-taylor",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 0,
+      "sources": 6,
+      "costUSD": 0.17,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2146,
+        "cache_creation_input_tokens": 16170,
+        "cache_read_input_tokens": 81097,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "tn-governor-robert-c-vick",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 4,
+      "costUSD": 0.104,
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 1756,
+        "cache_creation_input_tokens": 10768,
+        "cache_read_input_tokens": 25422,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "echavarria",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 1,
+      "sources": 5,
+      "costUSD": 0.119,
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 1711,
+        "cache_creation_input_tokens": 11890,
+        "cache_read_input_tokens": 24960,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "faizi",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 1,
+      "sources": 6,
+      "costUSD": 0.14,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2491,
+        "cache_creation_input_tokens": 12620,
+        "cache_read_input_tokens": 34813,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "snider",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.16,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2413,
+        "cache_creation_input_tokens": 17759,
+        "cache_read_input_tokens": 63988,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "kelly-a",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.204,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3138,
+        "cache_creation_input_tokens": 19976,
+        "cache_read_input_tokens": 107234,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "vt-governor-june-goodband",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.155,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2451,
+        "cache_creation_input_tokens": 14662,
+        "cache_read_input_tokens": 61458,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "dibianca",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.184,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3091,
+        "cache_creation_input_tokens": 17663,
+        "cache_read_input_tokens": 68468,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "vt-governor-brian-judd",
+      "status": "updated",
+      "problems": 2,
+      "stances": 5,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.239,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3465,
+        "cache_creation_input_tokens": 23652,
+        "cache_read_input_tokens": 106567,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "vt-governor-amanda-janoo",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 10,
+      "costUSD": 0.293,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4369,
+        "cache_creation_input_tokens": 25359,
+        "cache_read_input_tokens": 143681,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "wy-governor-rebecca-bextel",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.241,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3994,
+        "cache_creation_input_tokens": 22015,
+        "cache_read_input_tokens": 105940,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "vt-governor-dean-roy",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 0,
+      "sources": 5,
+      "costUSD": 0.245,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 3526,
+        "cache_creation_input_tokens": 18557,
+        "cache_read_input_tokens": 157448,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "ak-governor-lieutenant-governor-jonathan-s-jkt-kreiss-tomkins",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.195,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3581,
+        "cache_creation_input_tokens": 16488,
+        "cache_read_input_tokens": 53854,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ak-governor-lieutenant-governor-dave-bronson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.322,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4523,
+        "cache_creation_input_tokens": 28704,
+        "cache_read_input_tokens": 189901,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "ak-governor-lieutenant-governor-treg-taylor",
+      "status": "held",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.239,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4228,
+        "cache_creation_input_tokens": 20804,
+        "cache_read_input_tokens": 103759,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "ak-governor-lieutenant-governor-bernadette-m-wilson",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 5,
+      "sources": 9,
+      "costUSD": 0.282,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 4716,
+        "cache_creation_input_tokens": 25156,
+        "cache_read_input_tokens": 160192,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "az-governor-and-lieutenant-governor-risa-lombardo",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.185,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2962,
+        "cache_creation_input_tokens": 14603,
+        "cache_read_input_tokens": 62728,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "az-governor-and-lieutenant-governor-teri-ann-hourihan",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 7,
+      "costUSD": 0.196,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3009,
+        "cache_creation_input_tokens": 20169,
+        "cache_read_input_tokens": 74090,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "ar-governor-colt-shelby",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 4,
+      "sources": 10,
+      "costUSD": 0.244,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 4567,
+        "cache_creation_input_tokens": 22383,
+        "cache_read_input_tokens": 55356,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-eric-mulder",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.198,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3517,
+        "cache_creation_input_tokens": 18353,
+        "cache_read_input_tokens": 81120,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-stephen-t-hamilton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.23,
+      "usage": {
+        "input_tokens": 32,
+        "output_tokens": 4053,
+        "cache_creation_input_tokens": 18505,
+        "cache_read_input_tokens": 179586,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-jeff-peckman",
+      "status": "held",
+      "problems": 0,
+      "stances": 6,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.13,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2599,
+        "cache_creation_input_tokens": 11870,
+        "cache_read_input_tokens": 45267,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-erik-underwood",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.19,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3370,
+        "cache_creation_input_tokens": 16446,
+        "cache_read_input_tokens": 53974,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "ct-governor-and-lieutenant-governor-ryan-fazio",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 0,
+      "sources": 2,
+      "costUSD": 0.156,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 2159,
+        "cache_creation_input_tokens": 10797,
+        "cache_read_input_tokens": 43860,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "co-governor-and-lieutenant-governor-greg-lopez",
+      "status": "updated",
+      "problems": 0,
+      "stances": 7,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.351,
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 5028,
+        "cache_creation_input_tokens": 34608,
+        "cache_read_input_tokens": 184040,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "talarico",
+      "status": "updated",
+      "problems": 0,
+      "stances": 9,
+      "news": 5,
+      "sources": 9,
+      "costUSD": 0.268,
+      "usage": {
+        "input_tokens": 22,
+        "output_tokens": 4758,
+        "cache_creation_input_tokens": 21644,
+        "cache_read_input_tokens": 122330,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "paxton",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 5,
+      "sources": 6,
+      "costUSD": 0.328,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 5801,
+        "cache_creation_input_tokens": 24678,
+        "cache_read_input_tokens": 190628,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-chief-jimmy-blacklock",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.245,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3848,
+        "cache_creation_input_tokens": 19577,
+        "cache_read_input_tokens": 101325,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "ted-brown",
+      "status": "updated",
+      "problems": 0,
+      "stances": 10,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.303,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 4322,
+        "cache_creation_input_tokens": 30570,
+        "cache_read_input_tokens": 118048,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-chief-maggie-ellis",
+      "status": "held",
+      "problems": 0,
+      "stances": 3,
+      "news": 4,
+      "sources": 7,
+      "costUSD": 0.237,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3831,
+        "cache_creation_input_tokens": 22187,
+        "cache_read_input_tokens": 98605,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-2-james-p-sullivan",
+      "status": "updated",
+      "problems": 0,
+      "stances": 1,
+      "news": 1,
+      "sources": 7,
+      "costUSD": 0.27,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3658,
+        "cache_creation_input_tokens": 23631,
+        "cache_read_input_tokens": 141333,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-7-kyle-hawkins",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 3,
+      "sources": 6,
+      "costUSD": 0.191,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3180,
+        "cache_creation_input_tokens": 16937,
+        "cache_read_input_tokens": 65309,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-2-chari-kelly",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 5,
+      "sources": 5,
+      "costUSD": 0.189,
+      "usage": {
+        "input_tokens": 14,
+        "output_tokens": 3304,
+        "cache_creation_input_tokens": 16419,
+        "cache_read_input_tokens": 52884,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "sc-7-kristen-hawkins",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 5,
+      "costUSD": 0.231,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3254,
+        "cache_creation_input_tokens": 23212,
+        "cache_read_input_tokens": 97111,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-8-brett-busby",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 5,
+      "sources": 7,
+      "costUSD": 0.36,
+      "usage": {
+        "input_tokens": 32,
+        "output_tokens": 4537,
+        "cache_creation_input_tokens": 36711,
+        "cache_read_input_tokens": 228517,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "sc-8-gisela-d-triana",
+      "status": "updated",
+      "problems": 0,
+      "stances": 0,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.23,
+      "usage": {
+        "input_tokens": 28,
+        "output_tokens": 3298,
+        "cache_creation_input_tokens": 20128,
+        "cache_read_input_tokens": 168844,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "cca-3-thomas-smith",
+      "status": "held",
+      "problems": 0,
+      "stances": 6,
+      "news": 1,
+      "sources": 7,
+      "costUSD": 0.18,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 2809,
+        "cache_creation_input_tokens": 17551,
+        "cache_read_input_tokens": 81767,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "cca-3-okey-anyiam",
+      "status": "updated",
+      "problems": 0,
+      "stances": 6,
+      "news": 2,
+      "sources": 4,
+      "costUSD": 0.129,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2131,
+        "cache_creation_input_tokens": 13907,
+        "cache_read_input_tokens": 36191,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "cca-4-kevin-patrick-yeary",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 4,
+      "sources": 8,
+      "costUSD": 0.222,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 3462,
+        "cache_creation_input_tokens": 19677,
+        "cache_read_input_tokens": 71287,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_accessible"
+      ]
+    },
+    {
+      "id": "cca-4-audra-riley",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 3,
+      "sources": 7,
+      "costUSD": 0.228,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3192,
+        "cache_creation_input_tokens": 19546,
+        "cache_read_input_tokens": 80374,
+        "server_tool_use": {
+          "web_search_requests": 5
+        }
+      },
+      "retried": false,
+      "searches": 5,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "cca-9-john-messinger",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 2,
+      "sources": 7,
+      "costUSD": 0.245,
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 3575,
+        "cache_creation_input_tokens": 24760,
+        "cache_read_input_tokens": 96726,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_accessible",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "cca-9-holly-taylor",
+      "status": "updated",
+      "problems": 0,
+      "stances": 5,
+      "news": 2,
+      "sources": 5,
+      "costUSD": 0.225,
+      "usage": {
+        "input_tokens": 20,
+        "output_tokens": 3648,
+        "cache_creation_input_tokens": 20622,
+        "cache_read_input_tokens": 95489,
+        "server_tool_use": {
+          "web_search_requests": 3
+        }
+      },
+      "retried": false,
+      "searches": 3,
+      "fetches": 3,
+      "toolErrors": [
+        "web_fetch: url_not_allowed",
+        "web_fetch: url_not_allowed"
+      ]
+    },
+    {
+      "id": "coa15-chief-scott-brister",
+      "status": "updated",
+      "problems": 0,
+      "stances": 3,
+      "news": 4,
+      "sources": 6,
+      "costUSD": 0.165,
+      "usage": {
+        "input_tokens": 16,
+        "output_tokens": 2697,
+        "cache_creation_input_tokens": 15714,
+        "cache_read_input_tokens": 61734,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 1,
+      "toolErrors": []
+    },
+    {
+      "id": "coa15-chief-jerry-zimmerer",
+      "status": "updated",
+      "problems": 0,
+      "stances": 4,
+      "news": 3,
+      "sources": 5,
+      "costUSD": 0.129,
+      "usage": {
+        "input_tokens": 12,
+        "output_tokens": 2540,
+        "cache_creation_input_tokens": 12210,
+        "cache_read_input_tokens": 34686,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      },
+      "retried": false,
+      "searches": 1,
+      "fetches": 0,
+      "toolErrors": []
+    },
+    {
+      "id": "coa15-2-scott-k-field",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 1,
+      "sources": 4,
+      "costUSD": 0.204,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 2691,
+        "cache_creation_input_tokens": 20606,
+        "cache_read_input_tokens": 137206,
+        "server_tool_use": {
+          "web_search_requests": 2
+        }
+      },
+      "retried": false,
+      "searches": 2,
+      "fetches": 2,
+      "toolErrors": []
+    },
+    {
+      "id": "coa15-2-tom-baker",
+      "status": "updated",
+      "problems": 0,
+      "stances": 2,
+      "news": 2,
+      "sources": 6,
+      "costUSD": 0.231,
+      "usage": {
+        "input_tokens": 24,
+        "output_tokens": 3452,
+        "cache_creation_input_tokens": 18981,
+        "cache_read_input_tokens": 133317,
+        "server_tool_use": {
+          "web_search_requests": 4
+        }
+      },
+      "retried": false,
+      "searches": 4,
+      "fetches": 2,
+      "toolErrors": [
+        "web_fetch: url_not_allowed"
+      ]
+    }
+  ],
+  "costUSD": 25.7
+}
