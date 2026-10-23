@@ -8,6 +8,11 @@
 </style>
 
 <div class="app">
+<div class="space" id="space" aria-hidden="true">
+  <canvas class="stars"></canvas>
+  <canvas class="stars twinkle"></canvas>
+  <canvas class="stars twinkle"></canvas>
+</div>
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="#" id="brand-home" aria-label="Ballot Atlas, back to the globe">
@@ -22,9 +27,6 @@
 <main class="layout">
   <section class="map-wrap" aria-label="Globe">
     <div class="map-frame" id="map-frame">
-      <canvas class="stars" aria-hidden="true"></canvas>
-      <canvas class="stars twinkle" aria-hidden="true"></canvas>
-      <canvas class="stars twinkle" aria-hidden="true"></canvas>
       <svg id="map" role="img" tabindex="0" aria-label="Globe centered on the United States. Select a state." aria-describedby="map-hint"></svg>
       <div class="map-tip" id="tip" hidden></div>
       <button class="map-back" id="map-back" type="button" hidden>

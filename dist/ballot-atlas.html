@@ -60,11 +60,11 @@ a { color: var(--accent); }
 path:focus { outline: none; }
 
 /* The app fills the screen; only the panel (and the candidate drawer) scroll. */
-.app { height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; min-height: 480px; }
+.app { position: relative; isolation: isolate; height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; min-height: 480px; }
 
 /* Top bar */
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--forest-deep); }
-.topbar { flex: none; background: linear-gradient(180deg, var(--forest) 0%, var(--forest-deep) 100%); color: #eeeadf; box-shadow: 0 1px 0 rgb(255 255 255 / .06) inset, 0 6px 20px -10px rgb(0 0 0 / .5); position: relative; z-index: 3; }
+.topbar { flex: none; background: linear-gradient(180deg, rgb(19 54 42 / .55) 0%, rgb(11 34 25 / .2) 100%); border-bottom: 1px solid rgb(238 234 223 / .07); color: #eeeadf; box-shadow: 0 1px 0 rgb(255 255 255 / .06) inset, 0 6px 20px -10px rgb(0 0 0 / .5); position: relative; z-index: 3; }
 .topbar-inner { display: flex; align-items: center; gap: 18px; padding: 10px max(18px, env(safe-area-inset-right, 0px)) 10px max(18px, env(safe-area-inset-left, 0px)); min-height: 56px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: #f6f3ea; font-family: var(--font-display); font-weight: 700; font-size: 20px; letter-spacing: .01em; flex: none; }
 .brand svg { width: 28px; height: 28px; }
@@ -88,7 +88,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 @media (max-width: 900px) { .layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 44fr) minmax(0, 56fr); } }
 
 /* Deep space behind the globe: a dark forest-black gradient with a field of stars drawn once per resize. */
-.map-wrap { position: relative; min-height: 0; min-width: 0; background: radial-gradient(ellipse at 45% 45%, #0f241c 0%, #07120e 55%, #030806 100%); }
+.space { position: absolute; inset: 0; z-index: -1; overflow: hidden; background: radial-gradient(ellipse at 35% 50%, #10271e 0%, #07120e 50%, #030806 100%); }
+.map-wrap { position: relative; min-height: 0; min-width: 0; }
 .stars { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .stars.twinkle { animation: twinkle 5s ease-in-out infinite alternate; }
 .stars.twinkle + .stars.twinkle { animation-duration: 7s; animation-delay: -3s; }
@@ -141,13 +142,13 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
 /* Panel: a polished card that scrolls independently of the page and the globe. */
 .panel-shell { min-height: 0; padding: 16px 16px 16px 0; display: flex; }
+.panel { box-shadow: 0 0 0 1px rgb(255 255 255 / .04), 0 24px 60px -20px rgb(0 0 0 / .8), 0 0 40px -10px rgb(79 154 117 / .25); }
 .panel { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; scrollbar-color: var(--line) transparent; background: var(--surface-glass); border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); padding: 26px 24px 28px; display: flex; flex-direction: column; gap: 22px; min-width: 0; scroll-padding-top: 16px; }
 .panel::-webkit-scrollbar { width: 10px; }
 .panel::-webkit-scrollbar-thumb { background: var(--line); border-radius: 10px; border: 3px solid transparent; background-clip: padding-box; }
 @media (max-width: 900px) {
-  .panel-shell { padding: 0; }
-  .panel { border-radius: 20px 20px 0 0; border-bottom: 0; padding: 22px max(18px, env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px)); box-shadow: 0 -10px 30px -14px rgb(20 33 27 / .35); }
-  .panel::before { content: ""; align-self: center; width: 40px; height: 4px; border-radius: 4px; background: var(--line); margin: -10px 0 -8px; flex: none; }
+  .panel-shell { padding: 0 10px calc(10px + env(safe-area-inset-bottom, 0px)); }
+  .panel { border-radius: 20px; padding: 22px 18px 26px; }
 }
 .eyebrow { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mark); font-weight: 700; margin-bottom: 4px; }
 .panel h1 { font-size: 30px; letter-spacing: -.01em; }
@@ -278,6 +279,11 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 </style>
 
 <div class="app">
+<div class="space" id="space" aria-hidden="true">
+  <canvas class="stars"></canvas>
+  <canvas class="stars twinkle"></canvas>
+  <canvas class="stars twinkle"></canvas>
+</div>
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="#" id="brand-home" aria-label="Ballot Atlas, back to the globe">
@@ -292,9 +298,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 <main class="layout">
   <section class="map-wrap" aria-label="Globe">
     <div class="map-frame" id="map-frame">
-      <canvas class="stars" aria-hidden="true"></canvas>
-      <canvas class="stars twinkle" aria-hidden="true"></canvas>
-      <canvas class="stars twinkle" aria-hidden="true"></canvas>
       <svg id="map" role="img" tabindex="0" aria-label="Globe centered on the United States. Select a state." aria-describedby="map-hint"></svg>
       <div class="map-tip" id="tip" hidden></div>
       <button class="map-back" id="map-back" type="button" hidden>
@@ -565,8 +568,12 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
   // Stars: a fixed field drawn once per resize on three canvases; two of them slowly
   // fade in and out (a compositor-only CSS animation), which reads as twinkling.
-  const starCanvases = [...frame.querySelectorAll(".stars")];
+  // The star field spans the whole app, so the globe and the text panel float on one sky.
+  const space = document.getElementById("space");
+  const starCanvases = [...space.querySelectorAll(".stars")];
   function drawStars() {
+    const { width: W, height: H } = space.getBoundingClientRect();
+    if (!W || !H) return;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     let seed = 7;
     const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
@@ -596,10 +603,10 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
     base = Math.min(W, H) * 0.44;
     globe.scale = base * k;
     svg.attr("viewBox", `0 0 ${W} ${H}`);
-    drawStars();
     draw();
   }
   new ResizeObserver(resize).observe(frame);
+  new ResizeObserver(drawStars).observe(space);
 
   function zoomBy(f) { hint.classList.add("gone"); svg.interrupt("fly"); svg.transition().duration(reduceMotion() ? 0 : 350).call(zoom.scaleBy, f); }
   document.getElementById("zoom-in").addEventListener("click", () => zoomBy(1.8));

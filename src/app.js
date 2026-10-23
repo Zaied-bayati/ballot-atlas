@@ -237,8 +237,12 @@
 
   // Stars: a fixed field drawn once per resize on three canvases; two of them slowly
   // fade in and out (a compositor-only CSS animation), which reads as twinkling.
-  const starCanvases = [...frame.querySelectorAll(".stars")];
+  // The star field spans the whole app, so the globe and the text panel float on one sky.
+  const space = document.getElementById("space");
+  const starCanvases = [...space.querySelectorAll(".stars")];
   function drawStars() {
+    const { width: W, height: H } = space.getBoundingClientRect();
+    if (!W || !H) return;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     let seed = 7;
     const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
@@ -268,10 +272,10 @@
     base = Math.min(W, H) * 0.44;
     globe.scale = base * k;
     svg.attr("viewBox", `0 0 ${W} ${H}`);
-    drawStars();
     draw();
   }
   new ResizeObserver(resize).observe(frame);
+  new ResizeObserver(drawStars).observe(space);
 
   function zoomBy(f) { hint.classList.add("gone"); svg.interrupt("fly"); svg.transition().duration(reduceMotion() ? 0 : 350).call(zoom.scaleBy, f); }
   document.getElementById("zoom-in").addEventListener("click", () => zoomBy(1.8));
